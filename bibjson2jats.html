@@ -1,0 +1,952 @@
+<html>
+<head>
+<script src="xmlwriter.js"></script>
+</head>
+<body>
+
+<textarea id="parsed-xml" rows="40" cols="80"></textarea>
+
+
+
+<script>
+var doc = {
+   "_id": "http://dx.doi.org/10.3897/zookeys.195.2342#B71",
+   "_rev": "2-121c01b9d3ff9acbec91296f0fa6ef5f",
+   "message-format": "application/json",
+   "cluster_id": "http://dx.doi.org/10.3897/zookeys.195.2342#B71",
+   "message-timestamp": "2017-01-13T16:36:28+00:00",
+   "message-modified": "2017-01-13T16:36:28+00:00",
+   "message": {
+  "citation_string": "Philippe J R Kok (2013) Two new charismatic Pristimantis species (Anura: Craugastoridae) from the tepuis of 'The Lost World' (Pantepui region, South America). European Journal of Taxonomy, 60: 1--24",
+  "title": "Two new charismatic Pristimantis species (Anura: Craugastoridae) from the tepuis of 'The Lost World' (Pantepui region, South America)",
+  "journal": {
+    "name": "European Journal of Taxonomy",
+    "volume": "60",
+    "pages": "1--24",
+    "identifier": [
+      {
+        "id": "2118-9773",
+        "type": "issn"
+      }
+    ]
+  },
+  "year": "2013",
+  "identifier": [
+    {
+      "type": "doi",
+      "id": "10.5852\/ejt.2013.60"
+    }
+  ],
+  "link": [
+    {
+      "url": "http:\/\/www.europeanjournaloftaxonomy.eu\/index.php\/ejt\/article\/download\/181\/263",
+      "anchor": "PDF"
+    }
+  ],
+  "file": {
+    "sha1": "61f62037dcb486a6162a7f8dc3876e915cc22e94",
+    "url": "http:\/\/www.europeanjournaloftaxonomy.eu\/index.php\/ejt\/article\/download\/181\/263"
+  },
+  "thumbnail": "data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAACNCAYAAABBqd8eAAAABGdBTUEAALGPC\/xhBQAAAAFzUkdC\r\nAK7OHOkAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAZiS0dE\r\nAP8A\/wD\/oL2nkwAAAAlwSFlzAAAsSwAALEsBpT2WqQAAPZhJREFUeNrtvWmwZttd3vdbe9773e\/8\r\nnrHn2311J10hCSNdFQgL7GA7sVwQUBVQTnBSRfIpBSS2v7iSD0mgyiZVVOKqVBwH48QFtgtISFVs\r\nJ0IgCIMEErq6utIV6rlPn\/mcdx72vFY+rL337RZCPt3qiyCcf9Wp7j79DnvvNf3X83+eZ8F5nMd5\r\nnMd5nMd5\/PkKpdTbP1Lx5f9DcfKW4gv\/QvFz\/+if87f+1o+QZdnjr1OKLMv4xV\/6Jcbjcf27xWLB\r\nvfv3UUrxkz\/5k3zoQx\/i9ddf\/yPvrX5u3rzJL\/zCL7C\/v8\/dO3d46623+OVf\/uU\/9vXv1M+v\/Mr\/\r\nyUc\/+lF++Id+mP\/wb\/5N\/sE\/+Pv8zM\/8DL\/5m7\/JrVu3UErx+uuv873f+70AfPg7voPbt29z7969\r\nMz9ncdYX3j\/5aQzhvziLP\/PjWRa5P\/c\/vqD+30+s8\/LLPf7u33k\/cTRhbW0NIQR5XuA4NkmS0Gw2\r\nmU6nGKaJZVnkWQZAlmU0Wy1OT05I05Rmq0Wr2STPc6SU+jV5zqA\/IIpW7D7c5fLVK6AUwjA4PDjA\r\n831efvnlP7FOube3x5tvfAHLtjGE4Oq1a2RZShTF5HlGUUgajYDRaERRFAaI\/cV8\/vcN05j+9Y9+\r\n9EzfYZ31Yn77Nxq4jr95b2f9P2h1JkG3v+DCFZfv+mtz1tY\/xPC0wXA4xHFdJuMxzWaLKFoB4DgO\r\n0+mULMuwbd1Q3W6X1XJFfzDAtm2Ojo4Yj8cURUFRFAghKIoCz3XxPI9Wu4XrugCkSUKr1cKyznz5\r\nzySCIODCxQv6wVkWQeAjpYvjuhR5Tp7nhGFIr9fDsm1Wq9VXTk9O\/gfTNKdn\/Y4z39HvfHITxw44\r\nHh\/zbd++4OZbHXy\/4Or1OUHDxBTr2LaN57nkeU4cx3i+jxCCJElY39jAMAxkUYAQxHGMUgpDCMbj\r\nCb1uF4Sg2+kglcIwDKaTCcIwsCyLre1tlJQUUrK+sYFpmghx5gFeR1Eo0rwA9PRgGAIpFVIBSqEA\r\nQwiUUhRSYRgCQ+jXOF7I9qUbmKbBKs4JGw6GAaqcaIT+CGzbQClohF0G6xdQ6uzXd+YGEQKEUIBA\r\nCJBS\/yhlMJ8vuPWHtwHF1tYW6xsb7Ozs4JcNMpvNaLVamKbFeDyi2Wph2zZFnuN6Hnt7uzSbTUzT\r\nJIljhsMh\/cGAOIoAcD0P27KYz+eYpkmn03nq0TFfptzZGQMCQ4Btm0RxznKVYdsGUZzjOiZZLpFS\r\n4XsWeSHr+84yieuYFFKiJLiuhZSSolAgdIOs9XzyXDKaxm3bMnpFoQ6feYM0whzHzvHjnGhloRQE\r\njRzDkJimyTJa4ns+93ce8Luf\/hTj0Zg0TUniWLcmIMqR0W63+ZEf+RE2NzdRSnHlyhWUUkgpMYRg\r\nc2sLz3VBCEzTLEeSge6\/YJrmUzUGQCOwuX65W\/9boZBSgdLXl2YFlmUAIKUewcKA5WJJlucYhoEh\r\nBGEYUkjJfD4j8EPyPMN1PSaTCa4rKaycdsNr9HqdVlGuic+0Qb79u\/ZwXZ8794fcudniW\/7CjL\/w\r\noUM2NrdIkoz9w302BhvMF3M+9XufIlklvPHGG3zpS196bGqRUvLKK6\/wsY99DMMwvuZ3tWz7qR\/4\r\nvy1sy6DTcp\/4fcvpMeOTY3zfJwgCmo02Sgru395h4boslwteeullosUphmqwWCxwXZcrl9bIykTm\r\nmTbI7\/\/OJo5tPczy3j9836u+89qHj1XQuIFjbcrxofFyv9v\/a2tra6LVbvGhD36I0XDEu971Lj72\r\nsY9R5AXCEBiGgVKKVquF4zgURUGWZQghsCwLqfQ0aJlCz+noOT7PJYYh6pRQCFDoHp1lOgGQUmGa\r\non4PisemGqv8v3KNiA1D\/BJwxBkzzbDZJGw2y0a1sG0bpRRXr14lSRL6\/T6u53H12jXyPKfb6wml\r\nVBxF0YF6gkXkyVfFr4ovvPEGQdD4vuVy8T8XRWH0+32iKCZNE2zbwfc9iqJgtVrV+bwQAs\/ziKKI\r\nLMswTZPBYEAmbdLCIUpy8lzP1Y5tYhiCLJMsI73PsS0DqaDddFmuMpIsLxfispdZBs2GDYj6+6I4\r\nJy8kUioReOb44mbje4E3W83gG30EzzS+4bxxfX0d13U\/GYaNvxxFkWi32wRBQJKmCCEwDQPDNBHC\r\ngHINEEIQBA1MSy+Ipmni+z7psuD+3ow4yVFK4blW+Rl6JMRpgZQKy9Ij7XSse2ma6nm\/kIqi0KPJ\r\ncy1cxwQFcZITJTlK6UW32bDyMBB3vuHeeB7ncR7n8ec7\/lRPoz\/3s\/8EwzA2VqvV9\/21f+\/fdcMw\r\nRJS76HrfUuJatuPw\/PPPMxwOUVKyXK3I85xOp8OD+\/dXwJeFML4gZTH7wAc\/+M2+tT82\/mTBoCcM\r\nwxCYprlWFMV\/dP\/evVYYNlUcR9i2Xe\/+DcMkilbkecH29javf+5zdLvdGqAcDYcCKMbj8akhjB+z\r\nbOuNb\/Z9fb34U90ghZRYFl\/pdDp\/\/eTkRCipSJKEOInZ39vn5VdeQSlJkiQIIVgtl9y6eYv3f+v7\r\nAYjjmMV8wdr6Gov5HBBjx3G+2bd1Hn+W4pmvIUUhOR6taAbOt+aFvAHI03FEI7CZzVP6XQ\/XsSgK\r\nyd7RggsbIYtlBigGvYAoznFsvadI04LhJKLT8tg9nLN3uGBjLcB3LZZRRit0GY4jkrTgXde63Hs4\r\nZWs9JIozLMtgvR9wPFwRJzm+Z9NuuhyfrqDcuTcCm9NRhALStMA0BUWhEEJvOiezhLWe3jhOFwmO\r\nbRL4lmFbxr3nLnV+H3gqxPnrxTOfsqRUbK39F\/z2Z\/\/LH1VK\/aeuYxWWKTg4XmpUVEqm8wQURHHO\r\nyXBFmku6LZfpImU4jmg2HNKsYBnlmIYgzSS2bbIxCJCFwrZM2qHBdJFiWQZ5oRhPEwqpGE0jAk9j\r\nYYcnK5I0J80KorhAQxiKPFdIKbBTiRAaknFsE6kUrmOQpAXTeYppGswWCa5jIgQsVxlFIU0p1f\/6\r\n3KXOZ+KkeAJg\/ZvUIMsoA77AfJn+MyHEZ7NcSsMQxIl+IMfDFWla1D1rGWcYQjCZJSyWGbNFwsOD\r\nObZtEHg2rmMyX6Z1wygUs0WCYQjStCAraxtRkml4PJecjiMs0yDwLdKsQCkwTX0NWVaQZAW2VT7k\r\nKMMyjbKzKP1aQ2CaECcFnmuSLiWOY2KagjSThpTy5mKRqkV0dtDwPM7jPM7jPM7jPP6cxRMn0T\/7\r\nj\/8x1557znjj82+8vLGx0fv+j\/2Aqhggj+JMoHN0wzD47Gc+w8bmJpcuXaIoCm7dusXVq1dxHEfX\r\nyw2D0XDI\/v4+L7zwAovlkp\/72Z\/lr3\/0oyRJwtVr19jf38e2LK7fuFHThJRS3Lp1C8uyuHHjBsBj\r\n\/\/fg\/n16vR6dbpcsyzg4OGA8GvGuF17Add36dRUmBvB7n\/o0cRzzgdc+iOd59e+llPX9jMdjfN\/H\r\ndV12dnYYjUYI4L3vex+r1Urcu3vv8JV3v3KzegbvSIOUD7kF\/ARw4bd\/67c+cnx0dNFxXdnpdGg2\r\nWwghePDgPq1Wi\/l8zrVr1zBNky+++UUAur0uhmGwXC6xbZsoinBL3tV0MqEoJJevXGYwGPBrn\/g1\r\nBmsDDMPAsR0WiwWGYehqo+9hmqauOKYZzWaTF196kTt37pCmKbZlgxAURU6e5TiOw3PXn2M+n\/Pg\r\n\/n3anS6L+RzLtnBdD6Ukpmnx\/PM3+OxnPst73\/de7t+\/T5IkNSYmhIFS+u+r5YowDLFsizRNOT05\r\nodFo4Pk+nucZWZbd\/M6\/+Bc\/7TjOQ+C\/BxZnbZgnbZBN4DeAF\/b39pjOZkSrFZZlYdsOpmWy8+AB\r\n\/X4fIQS9fp84jplNp8znc6SUdLtvN0qSJDWDxLEdsjyj2+3S6XYp8pw0TZnP50RRrPlRhkmaJsRx\r\nTBiGJfHOwfNcLl68yJtvvsl0OmVrawshBLZts1gsCIKA9fV1prMZpmEyHo+QUpLnOc1WC6Nkw7zw\r\n4oucnpzQ7XY5HQ6ZjMfkWc4qWjEej+n3+1SIs1HyxTzf5\/DgAN8PWC4XtNttXNfl1fe8B9M03wS+\r\nGzh95g2SJAlFUWzOZ7Pf6HS7L9i2\/dhwXK1WSCkJw7CeBh6l61S83wrcm06n9TS3Wmo4o9Vq4fs+\r\nWZoxX8zpdrv1tJLnOZPxGKWg1W7heR55nrNarSiKgmi1Imw2ieOYLMvo9\/t4nqcJb0WBaZrkeY5t\r\n2zVd9VGgMUkSTMPAKskLAPPZDNfTo3G1WuE4DmmS0mq3iCKNOluWVdftpZTEUYTtOFiWRZIkb5qm\r\n+d2maZ6elbp05p365\/7gcxzs7zMej7hy9SqO4xKtVmRZxvu\/9f383qd\/j+VyweUrV7h85Qpffuut\r\n+qFZlh7aRVHw7ne\/yv7BPnu7u7z8yiuslkuODg+RSrFcLrl06RLr6xvcunWTGzdusLu7S57lrK2v\r\ns\/vwIQ8e3Ofdr76KaZikWcrBwQGWafHCiy9QSMmd23f4wy+\/xbXnnsOyLLIsQxaSoNEgz7PqQfHc\r\n9euMhiNWqyWg6ammZWEYBq7r8v5v\/VZ+67d+C8MwCMOQNE2JVitOTk75K3\/1r3D79m1QumM1m01s\r\nx647SLfbLTlpCZ\/85K\/T6\/XP+pjP3iCDQR\/TNGS\/3x83muEojiKJ0GNMCIONjQ0mU5c0TfE8j0bQ\r\nYLlaMhqO2NzarEdHXuTIQrK9vc3VK1fxfI+3vvQlpJTs7u6SpRmNRkCn02E61ZRYy7IImyHvff\/7\r\n2NzaxLIsptMpvV6PoiiwbYd3v\/oqi8UCy7L44Ic+RJokjIYj3Ys9iySJOT05ZWt7C6WUnm48lzRN\r\neHD\/AY1Gg3anrUfGfM7h4SHPv+tdHOzvI0vYv93pYjsOSZKwsbnJ3u4uwhC609lWvY7meUEURUaR\r\nF2PLsqT5x\/DPvlacecqShQSBBTwnhHCllEo8wkishnk1fIUQ7O3u8uW3vsxf\/p5\/p\/49vJ2xVP9+\r\nlLf06PBH8Rif69HXV9nZo38vioLDw0O2trbq\/6uu7+DggDff+ALf81f\/ymOflec5n\/j4r7K1vcW3\r\nvPe9WkKRZiRpQhiGj13THwmlalbmo5malBKllNh58CDudLt3wzAsKqL4eZzHeZzHeZzHOxV\/qmlA\r\nw+GQXq\/H519\/3XFd19rc3GIynXDp0qVaHzKfz0mShCRJaDQa2JbN4eEB88UCx7axbYc0TTg6Ospe\r\nfPGlbPvC9jMvuz7L+FPNOmm1WgDsPHjwY1mefzTPiyKOY7KSN+y4br3ROzk+xjAMti9c4ODggCAI\r\n2Dk4oN1uc+XKFdO27Z8Pm+E\/yvP8m31bXzeeqkHKdLIHDN7h61OAuPbccx9Qig9nWYplmRwcHADQ\r\narVZ31jHdVza7bbeD5gmjuPgeh6DwQAQtNptev3+VzzP+wRgPok84CljCAyfZiQ+1dgtb+g\/A\/4e\r\ncHZ50NNHGwiqPUeaJCAEj+b2j+6Fqmt8dJ8ELIDZ097zE4QJ\/HfATz9NgzzVCFnMFyRpEq5Wqw3T\r\nNGmGIQq9yQJqMYuSEsd1mU6n9capeojRakXQaKCUwix7dRzHTCYTBoMBpmmyWCzIsow8y\/B9X8uR\r\nS8QXpZhNp\/i+T1yClIZhvI2VTSZIpXBK0NO2rFAqFSZxQp5neL5fY23Vn5ZpYpQ6R9OyWK1W5FlG\r\nEATkeY5pWVjl7+Mooj8YcHh4yGAwIIoi0iSpcLym+ZQayKd6l2VbIIiODg\/HJycnhZQyNAzDq3bH\r\nlmVhGGYp0GyzXC7Z2Nxk9+FDiqJASoksJKZlEkUxnufS6XRptVrs7+0xHA7xXJfZbE6\/3+Pw8LBu\r\nMM\/zSJKEy5evcHCwj2GYSFkgC4lUkvX1dUDXRcJmk\/29PRaLBbZt1z+NRsju7q7WFKYptu1gGIKg\r\n0aDTbvPgwQN832dra4vd3T1m0ymOqwHDCrSczxe4rjc\/PDhI8jwnTRKWyxVSFlaeF6tOp\/NUDfJU\r\nw7esEayfnp5upmmqXNf9r8Iw\/IEa0dRi3ceyGdM0KYriMRUVgJKqvooKeijyHEqI2zCMsgELdh4+\r\npNvtEgQBpmkipSRarWiEIbPpFITQcjPHwRAGpmU+BmkIqD+3KAotY\/6qe3sUjqmUwkUJ9VT3UV5\/\r\nkabp35lOJv9Pu9MxsyyrvkcAR4vF4mhra+tPZoSUX3yslDoufzU605edcRh\/9etM00RZFvPZjMP9\r\ng3LqEqXGMOPy5cssl0uOjo5q\/bpl2cRxxNraGi+\/8sof+Y4zw+G2\/cc+JN\/3H\/i+\/9azTKOfqEEe\r\nWTRt4FEI8+l1ymXkZUGq0rZLKcmyDNd1yQuJUnDt+vOYhkDKonyPZjRKCd1en43NbaTMWS6WtNqt\r\nEnS0yh5PCWi+\/Z1ZLjFNbQzwlGGjs7av9RwlkMGTlXGf6ErKBvGA\/xb4FqAo\/+sV4OI30iCj0Yjd\r\nhw9xXZflclkv9peuvotb96cYpgGKWkPeabnEcQ5CMwxboUOSFshSc2hbRkkFTWk3HZQqUVjAsbSQ\r\nNC8kaVbw\/NUuDf+JpdgKeAM4\/BrP0QR+B\/hvgOJJGuSJRoiUEimlKYT4NiHEdz4KN1cNVmVB2t2g\r\n0BmXlCAEAlFfegXBV+9xXZetrW0MoxTlFwVBowEIfN\/GKZW380Ws1w5HYJkmWV5ot4VcIgQUWY4h\r\nqrQXPEfUFUPD0AWcQioUSvN5paLIC4rCeGwak1KXe\/KiqNeyR+8REEVRvLe610f\/v1xjItM0jUc6\r\n7bNvkNVyyXw+V7ZtMxqP64ZYLZd1YabdaZOXTj\/TyYRev890MtFpo2nilGmv57oYpsnDhw+5fv06\r\n08mE2WxGo9EoPytnNpvjuA4NUz\/UXrsD6QSUYjna18KcKCIIQwzTZH19neOjGcvVEhOTwGnQsCR5\r\nkZeFrwaFlGRZSp7kyNzEAY4PJ5ycHDMYDBCGgQDSLGNjY4Pbt25j2xZB0CBNEwxDN6zneRWpgZ0H\r\nO4RhA4UmQGRZRiELtfPgARcuXHiSR\/xkDWI7DhsbG8lytfpnjUbjfYv5vBlFEYZh4Pu+7iElecBx\r\nHLpdbWHhOA6ytFVS5chwXJfVconneuRZTiMMkVIync5wHBvHcTBMgyLPUYaJYWh\/kUajQVBScAB8\r\n39eVRSFot1r0+n1M02Q6nZJnOe12i9UqosglwjAo0hQhjDJdltiOQ6PRQEpNys7TVN+r7ZS2H5dZ\r\nLBa6Hu84KCmJ4hjHcerR3+v3dKovDBpBgGGazGezex\/4wAeyT\/zqrz5RgzzxalauIy+g2Sebj1bl\r\nnja+upr4tSw3lFLcunkTy7ZphmFdqasUUsfHxzXlx\/O92tnHc126vd43fF1P8Zq\/B\/zUkz6XpwUX\r\nc2AfyIW2CPoj18kTzJ2PXrTxderPSZIwPD1l\/9F9gWFQyAKU4vj4qGZ+VAyU9Y2Np26Qr\/MwBWVm\r\n+ce8xgTmT\/WdT\/qGckTYwBZfu0ElcBn4vvJ1TxxxHHPz5k3NdMxzhBCcnJxy8dIlZivFKkrJc0m7\r\n6WLbJqaAZZQT+DbD8RLLyHG9Bs3QYb5IEYZBq+GggOE4otNyaTaccpF\/qme2C\/zvQPp1nuEImLxj\r\nzMWzRtlgHwH+NeA\/bYPcunUL27IYnp6WNk0Gz914mbfuzmujmTyX5IXSDWMZpFlBkhZ0Wx6FlDi2\r\nycloRRg4FFLi2m\/7YL3vlQ1tvfF08dvAXwWWfyYkbZQNrZRW0kpZMkmUqv1H0qwoZc8GaVrgumaN\r\nYziOw7ve9QJ5odjcvoxtCwQGaQ7b67oxXMckSQuyTG\/uTEPgupb2REkKLMvGd00GXZ+8kGSZJE5z\r\nep6NZWmjskJqLzjLMmpXIXj72izL0MlA6aNlGEKrrZTi+HSFaZ2d3vNNa5Df\/8IhlimKvJDSEIJm\r\n6DCdJ9ryzteQR5IWxEn+aANyaavJ6Vg7yHVaHocnyxoZCHybZsMhTrVL0CrKCHwbKfXC7domyyhj\r\n0PVZxTnLVVpb8zVDh8kswXPfZhgSw87+DM8xMU2DMLAZTWMAbd8XZRSFwvN0AzcCm+VKS+bCwEEp\r\n1V9G+cAwWP6pb5DRJEIIbivF3\/Ncy8lyWVsjpeVOulK65rkkyyW2bfDwcE6SFBydLtlca7BYZTi2\r\n1vUlaVHuH\/TrlVKlY5AeikmSkxeK2SItN6+lJaEpWK60DlB7bunXgtYRJmlBXuhGllJpf62sIE5z\r\nbMusnYXiJCfLJZ5jkmYFRaGyZsOW73yd6zy+6XHmFSnPc5IkCW9+5eaNLMuMl15+SSVJQiMIQAii\r\nKGI8HnPv7l0+\/J3f+UeghAqW2H34kGazRa\/f487t2xRFgeM4XLx0qZ6iFouFJizYNifHxxwfHyOl\r\n5MrVqwRBQJrqkXB0dMSVK1dI05SD\/X2uXL3KYrHA930cx+GLb77JhYsX6Xa79XR16+ZNkjSl1Wxy\r\n+coVQNdOQCPAaZryqd\/9Xd796quEjQZJkuJ5LpZtI6VktVrhuR62Y2tIxjC4d+8em1tb+L5PtFpx\r\n8+ZNXnr5ZXFwcJC\/+YUv3JKFjP79H\/j+Z9sgBwcHoNR3vPH5N\/5lFEWBH\/hKFpJG2CBaRbQ7bW7c\r\neJ47d+\/gex6u55GWbBDbtllbX2c8GjOZjOvGSVOdNfZ6WlCzXC71rrmsNg7W1jg5PiYIAo4Ojwga\r\ngd7BGwamZXFyfMzG5iayKJhOp3XNpZJCLJdLlNRIsed5NBoBp6dDLMtiPBpx9do14jiqne0sy2J9\r\nfZ3RaFSLidI0JS\/dU7Nyl9\/tdkmzlOHpKdvb2+zt7eG6HpalayXj8ZgwDEUcx6PZdPa9eZG\/+f0\/\r\n8APPtkFOT08xTfMj0Sr6VwoVGGXWpKTSJVHPp91p65JruXeoPBU910UYBkmS1FZ8WZbVvaxCePMs\r\n15U500KhtMtckuA4Dsvlsqb+G6ap1440JQgCXYUsCuZlZTDPtSNdv9cjLwpGwyFBo0HYCClkUcsL\r\nbMtmNB4RNhpQAp1hGGoOeVnEetR5qCjxOM\/3SZKELE3xg4ColEQUUhL4\/tvlbKVGCPGXUOrz22fE\r\ntM68qN+7exfHcVSe57TbbeI4ZnNzk\/39fYRh0O50ODw8JI5irTQqb7DVahGVvabVaukRY1k0W63a\r\nSuk4igGF5\/mkaYLn+8RxzGg00paspafvbDYjSVNk2dC+HzCfzTFNg\/5gQJ5lHB0e4nkeFy9dYjQe\r\nk2cZQhjMZzNtzFwaZnq+RzMMsS2r9BaeE0UrPM\/j+OgIwzSRJdKrFITNkCROmM9naG2MgW1bjCcT\r\ngiDAsiwODw4IwyZSSRzbQRjCMA3DfkdsYrV5sZ0qVCGlxDBNEIJWq8VyuawY36U8zNSGlEJX\/5SU\r\ndEplUVESIQzDQCAQhkkQ+KyiCKm04McQgjiKEMLAcZ3au7Eoa\/GGaeJbNob5NtRvCA2Rt9tt7JLo\r\nYJomeZahlCzdHPSUZlkmlCPNsiwQgjBs1PfQ6\/WYzWZI9NbIsnQVsj\/oY9va0NkwDVarla5QAo1G\r\ng\/X1dfJytJZVz0YjbGxmJWD5TBuk2+thGIaqoHZZFKRJQrvd1vqJkoDgOA6O42CaJg93drCXNr7v\r\nMV8s3h7WQcDx8TEC7adeIcGXL1\/m8OCQtMjY3Nqq6i\/Y5VQVhiFWx6LZbBJFEUmSYJkmpqWnuG6v\r\np6c410UWBb7v1z+LxYJOp6NFRiUaHQSBFvMEPodHR\/T7vdJeVvvP9\/p94ijCNLXwJ44iXM+jEYac\r\nnpxw6fJlTNMkjmOWiyWe79dW6q1Wi5OTEzGbzcwqaXimDXLzK1\/Btu24KOTdCxe2w+FwyPHxCVev\r\nXWWxmLO\/vwfAahURBD5Xrl4liiLm83mtoNrc2mI2nWrU1rJ0VhJFNYVHMxW15mJ4ekpeFGRpqjeA\r\nZWHI971aaJkkaTmne6VOMKnLvq7rkKQptmXR6XT54ptv8p5veQ\/j8Zj5fE6v12Nra5v9\/X063Q57\r\nu7ucOA6GYeI4NsvFkpOTU3zfo9vrMRoOy4XfZn1jnf39fbIsx\/c9dnd3gbfpT1UmODw9zS9cvLjM\r\nn8BI+Yk0hnmeX999+PBvt1ptH5RK0pQoilhfWyNOknoqKvKc4WjE+toahZR4nsfhwSG6dqKnmEYY\r\nslouKQpJr9et\/eCX5UjqdLrESUwcx\/jlyHM9beU9m800WwXF+sYGSZKwmM9xXY+wGdanMEgpdU0+\r\nz5nP5zSbTVzHYblakcQxWZ7TarZQSnJwcECj0cBxHGazOaAYDAbkZbXx6OiIS5cuAXrBztKsnC51\r\n73dcl6PDQ6aTKdsXtnE9T9i2Pe12uz+d5\/luEJzNH\/jMDbK\/t4dhmq8dHR5+fDweN30\/YFGa4\/cG\r\nfVbLJdEqwnZsut1uefoBrFZLtra39eIoJZZlYdk2cRxrWyTHpShyxuMJlm2RpSlZltFudxiNRkhZ\r\nlEdDBDRbLe7cvo3rugwGA9qdDsvFgvF4XNOCfN+v\/zw6OmYw6COlZLFYaIVvp8P+\/j55nhNFMY6j\r\nhZtxnFAUef1dlUtdHMf0+wOOjg7p9fqYpsFkMinXMr1uBY0GohwhRVEwm81RSrG2trYXho2P5Hlx\r\n+8rVK8+2QSbjCYZpvGaa5sfjOG56nveYmH65WLCKIgTQ7nRwHAeBBheTJMH3fQzDqPN9WTbOaDgk\r\nbDZJyvTWesRcOU3TWn4cR9porFL\/Vmlo0GjUztlVL6zkckmS1M7ZFcEujuP6\/JKKAVmUpL1qJnhU\r\nXVuP+jIFrtLqir+VJinCEPX9mpZVp+Fplu3NptOPALevXL16pud85jXkD\/7gs7iOi2Hqh2oYBtvb\r\n24zHY7rdLkUhmc2mhKH2Rx+Px3WZ9ejoiMHaGmmSMCnTRIAXX3yR27dv1w9vY2ODQkqGp6c0GiGm\r\nqR\/E2to6p6cntV35oDwE5sGDB1y9epU8z9nZ2aHdbtd9zPc91tbW2N3dZX1jg7hcz+bzeV1yNk2z\r\nHglVwwkhWFtfJ4ljVssVSZrUNf4wDNnc2uJg\/wClJEWh6\/O609hE0Yqt7W1sy2JnZwellBXHsSWL\r\ns6e9Zx4hs9kMwzBeS9P049EqavqBX8\/PFX3UNM2a2VedCKCU0mlgOZwf1Yg7jnZocByn\/l1S9uDq\r\nMBilFK7jkGZZnQB4nodlWkRxVBsEVKb+j\/Z6x3Vq2CbLsreZJHmB7bxdO6s2ftWG0CmVtnmWk2Up\r\njuvWUJBtWZqJIoQ+Q6SChZQqucQ2eXmfpmkeG4bxXcBburM8wxFy\/949DVmUU0klyK\/qHEEQIIRg\r\nPpvV87lS0GyGNBoNdnd3a9gjLXe4zWZTe+7aNs1mkzhOkFLLnIsipyhT0kYjZDKZlO9NUMDW5iZH\r\nR8cs5nP8wMf3A5R6m1w3n89rvXgl+vc8j2azxa1bN9nc3EII3dH09FshDl6dvi6XS0zLIk3SMlGw\r\nyEriRBTFLJcaN+t2u7qzlFNrZRnS7\/e5cPEiT5L2nnmE3L1zF+Bbgkbwa0rKflquBXme4zoOwjBA\r\nKZIkJYqjmuZjlUc7jMdjnJK9Xs2\/bjmvZ5l+EKvlEj8I3u6xZcHIdVykkriOQxRF5HmOHwTMpjMs\r\nW1+D5+nU9\/jkRPv5CoNG2KiByGreD8OQ5XJZd4xqVKclg16hmSzVaMnzXLNOspxG2NDsE8siKpOS\r\nIAhwXbd0qoA0S2u5tGVZB4ZhfEQWxc1nDp1o5qDKJpNJgVI4jstisUAAre1t7QtSWldUDgquYeI6\r\nLlEc1fSgpNy4VUchNcKQ+WxGEie4rkOWZvW+YlqaJe\/t7WrSQjldVJYZcRKjIkWn2yl39oK1wYBO\r\nt8uslEDEcUwSJ8RxhOO4JHFMmmVYpoUwBEEQkGUZaZrRavscHR4S+0HJHTaQSrNgmmU6PZ1McF2P\r\n\/qDPZDxmPl\/Uo2w8meA6DtUxGZ7nyvWNDfkkqq0zN8hkPAFUnR2FzSYITZJLkoTZbIbjuHVvBErg\r\n0CHPcxolgDebzx+TLARBQJamJEnCwcGQZqulF1dDkGcZpmEQBEFNtut0OkjbJk1T4ijGcZ3aZEaW\r\nmVCFhZmljUaapuV0qeUHSZoiPAGFqk9Xa4QNZFFovli0winXPNOyNGzjOJp4bdkkiR4dRSEpiryk\r\nqa6wSmgmz3Nc162JhI59dvPmM09Zx8fHFEXx6nw2+\/VmqzUoSg8Tx3XJs5wkTcjSjFa7VdcxwrCJ\r\nQuneMx4T+D4IUaO4w+GIjc0NJuMxhmHg+X4pExBYtlVauAqEITg6OsL3fBzXwTQMTU0VAtuyEYbO\r\nkigXWD0CzHoDOpvNGJ4OWd9Y1wYyaVpPn9U5J1U6HUVRjb8ppWoYJi1FQ9Eq0tNklrFaRdi27tOW\r\nZWM7dt0IR0dH9Hq9vX6\/\/5E8z283Go1nO0K+\/NZbAKZpmsZ8Picve1ZWXqhe7DOGw1N6vR7j8ZjT\r\n01OkVKytDerhHkUxg7UBqxKQHA6HnBwfo6SiEYY0myHD4RBRStYU4DoOruNwcnJMXLIGkyTBsiwG\r\na2sUpenLcrHEMI364TqOQ78\/IGgEtaHZ2to60+kUy7bwPY\/hcIjrujoVF4KdBw9olahBluW0Who3\r\ni+OE9Y11To6PawOban9VoQLLxZJmq1mXHVCKszbEE4+Q6XSKIcR786L4NZTqSaWIowjLtgnDUC+0\r\nvl9nYPP5XE8vUjKdTAgajVpME8dx2Uv1RjAv9KK8Wq00VOL7ZGlaS94qFLaaCsajEUUhuXDxAnEc\r\ns1ouaTRCVis9fW5ubRHHMRXN1bZt0iQhCII64zLKEVQ9xGqKWS4WNWU0SVPa7baW1qU6\/aU00SmK\r\ngqyUUDQaDeIoIisXfN8PEAIm0+neeDT+iBDcfvU973m2I+SLb36xFslUu+oqO7py9SoP7t\/nytWr\r\n7O3usVjMMYTBtevPMRoOOT05xbQser0ua2trvPmFNzEtixvP3+Dw4IAsy3ju+nXu3rlDkiQMBgOW\r\nyyVxHGvIviQbVFPLbDYjCAI63Q6HBweMx+N6z2LbNs1Wi4c7OyyXK6JoVUP9L7z0IqPRiKNSF+gH\r\nAQ\/u36fRaHDlyhXyvODBgwcIAVevXuX27duljdOwTrurjlHJ46opDqr33CHPNZYWx4lV5LlVyHcg\r\n7V2tVgDvVUr9mhCiV4GIcZLQDEPyUnqQpmlZ89BTTiGLEnAsSqZJrmspgG3ZpJle0APfZzKd0mq1\r\ndOJgmgxHI10fKWVtVVm1GjVVtlX9JHEMCMKmljNU1+K4bp3iuo5LlmukwTQMsjLz832\/3uyZ5dpS\r\nQfsV4lxZMSXlaKt29rIoEOVIRCnyMrlIkmS0Wq3+klLq85cvX362I+Tzn3sdo9yFdzodOt0OR4eH\r\nzOcLHEdzpG48f4MH9x8wn8\/qRVpJxfPP3+DmzVskiQbqPF9X5bSQMyGKVrTb7RqlBV0Dn83mPP\/8\r\nDQ4PD2vIQ\/+YtU\/i1vYW0WrF6ekpSimtQZw1OD4+ZvvCNnfv3Hnss46OjspMqMAswUGtH9EL9daF\r\nbXq9Hq9\/7nP64LKyEHX16jVG4xHLxRLTNLj23HPsPnxYq3KVUriuy43nn2c0GvHg\/n2klCRxQpa\/\r\nA+cYXrh0ESHEqYD\/xff9hmEY+IE2GqsaSs\/DhX7onovn+1iWhet5bG5uIMsik21ZuGURazQas729\r\nhe04ZGnKyckpSmnZgVKKNMtYX18naDRYzBflKExwHJ9Ot0szDHFdV2\/wLIuwoXUa\/aJHs9mssa52\r\nu00jDAnmc7q9HqcnJ4Cu9FUb2AoGMU2Ta9euYdtOacK\/otXWZy+uWtpjstFosLG5qSGcaEVU+kBW\r\nBbXt7W1s214ahnHyjpxj+Lk\/+BxCiJcdx\/75KIo6cZyoSgHreW59kcPhEMMwmM1mXL9+ncViyXyu\r\n6wtVb6x2yxW4Z5om\/X6fLM+ZTacsFgueu34dIQT37tyl2+vS7nQ4PjrG9VxNelgs2NreZjab1b1W\r\nZ2YeQmiflCrD6ff7HB4ekqYZruvQ7fYwDMFoNEbKQsusr1xhPBrpac11CcMmOzs7NQUoTbShWVVM\r\nk1Iyn8\/JshzDEEzL6daybKI4YjAYiNFwdNpqtX5IKXn73a+++mxHSKMRIIRwHMe53Gq1emmJjlZ7\r\nAsu0sGyLRiNECJjOZvUIEYJS4OKQ51qIHzQaZGmqa\/W2jed6uK5Dp9PR9ZBWS5dLgwZJmtButWmG\r\nTUzLrME8ANMw9bqjHe90eXe1qrlZ1b4HIcjSDCkLwrCBZdu02m1QilUU0Wg0ys2qoaEgIWg0GjoF\r\nLtkxTrkxVCjyLKtr9xXtyC43u1Lp9c00jMD3fedJKI5nbpDRaFSe0OlrV86VZmhg29j1jjipoZG4\r\ndDZotlqsra8TrVYa7ypRhCAIUJ4ux1aevFUdZJUuGZcOpJZlkuU5y+UCt8S7QNdctEup0qVa2wal\r\nwcI0TWvyhWVZ2kHUstjY2ODu3bucnJywubWlF\/4koZCSw8NDPNfVukYhODk9pdVuaZdRW+\/Wx+MJ\r\nUhY0whAlpU7dS9\/ht9NyEyUVi8UCz\/OEZdviSaasMzdIq9WuDuliWVpe6Bp2WmI9TX3muOPUpylX\r\nUrY4iolLTtZisWA4HLK+saF5TpZFmmUsyhLrYrFgb2+37LFvn8\/uOA5GlukavW3TyHMtVSsKpCy0\r\ncFMWFOV+KEkSppMJaapHcrPVpN3p0O\/3GQ6HLMokYTKZ6AdRNtyjdhuGEMSlmbIQAsM0yfOM+WxO\r\n2AzpdntIJXWjlhvlNMtAadJ2LgzTspX9JAeqn3kNKXfPOu2FnlH64FLBC+VFSynJs0zTbWxbF6nK\r\nWkFSXniVIpqmyWw6ZW19nTRJauJdlr99YLFRIq5VWiul0vhVWVmsep\/repyUpzn3ej1WqxVRFOnv\r\nKhu92WzW1h6VQ0OzPIa7KDlYlXq4Smftcvqq\/l1xrFT5ZyMMiaOYPM9qQ5yKKChgpJT6Swjx+X7\/\r\nbFaxZ2ed3LyJVTL+KmhblrYY\/V6f0WiIYZq1l5VhmCyXC8IwJAgCoihGCEouk6UhhhLysGyb05OT\r\n2vK1cp5uNpt0Ol329\/cpirw+ZXp4b1gWkuyyI+i\/z+dzWq1W6UJ6SFHkNdfXdV32dncxDKPerWsO\r\nVl\/3+vkc07RK\/16zBkh9P6Db7TCbz1nM53Xj6M2gYDDos7e3BwjW1gacng5ZrZbKNM1JGIbH3W73\r\niQy6ngg6sSzrlclk8knXddfccsGsKoSVFt0wDGQhEYYo2SGSdqeDaRjMZnNc16ndo23LQpR7i0eV\r\nSFUtvZo+HvMrKUfhVyuXKjJ1UZLUHrWtrSKKoscM9uuH8FXWTo9+3lf9shabPvbeSodfloKzLIuy\r\nNP1REJ8Kw8aeVCrxPO\/ZjpDP\/P7vYxiGtCw7MwxRxFEsg0ZAvz9gNBphWjpd7LTbmlIax\/UUEIYh\r\nrXabo8NDHEcDedPphIsXL9YM9Efjqy\/+q31Jvp4w9Ot5mDTL89CfeTxyPa7rCtd1U+ABcPcdU+Fe\r\nu3YNBbuu6\/7HSRx7x8cnavvCNmEjJGyGmIaB47r1vB\/Hcb2xMk0T1\/Pwyg2cbTu0Wk2drZxBevxn\r\nMArgy9\/siziPZxBn7pr\/9J\/8HIUsWq1W64OvfehDju\/7qgL8ZCG5f\/8e3W6XS5cvc\/vWLTY3NzVH\r\nKc8JgoB79+6R5wWbmxtVvRnTMHn99c9hmibXr99gNBqSpinrGxvcu3uPV9\/zqh5p5WbMNAym0ylh\r\ns0kQBNy\/d4\/T01Nefc97asakUTJMLMvCdV0+\/alPs31huz5Co2KlmJYlHMe5f+f2nS+99PJLf2pG\r\n6ZmnLM0OV9eWi+U\/u33zVs+yLVWBgXHJYRqNRppNuFzypS+9hSy1GOsbGwghWCzm\/OEfTsoMRoOU\r\nvh8wGg65ffs2RaFR4q2SaP3g\/n3G4zGWqdNWTedJaTZbtNster0ek8mEL775Jo7jslotcUoiRKvV\r\n4rnr19ne3mZ4esrw9LTmXpWkOmswWPuHL7\/y8o8rpZ5o8\/aEoWXJz\/r8kInWVnxblmW\/KqVsC9B0\r\nmZKhXt1QReWs2B5VBuWWVT75CKPEMk0syybLs9oDRUqF73skSQriMXedx7hThjDwfI8kjvW+oTLs\r\nh7LGXdS+ilWC8aiQSKMO3leCIPjMkzyHJwgBTICfAvbeqRN2XgM+DrxD6cr\/7+IY+C7gzK5zZ56y\r\nTo6PdcWuJJwpKfU0YhjkpXATqGmm1U\/FmXr0wLAK9X10z1DN70WeP0bGtktWY8UhropTj+41gMc\/\r\nNy+wbUtbP1ZmACXe9eiDqT632r1XDMosTXEfKX5laYrn+Zrp\/lU+knGs9e0VJ9hz3Vp\/Ut3jk8SZ\r\nG+TWrVu1vq5ibDiui23ZzBdzLQ9znNpR1HU9GmGDo6MjUBAEPpPJpMSVWjXPt+JxJUlaSxU6nS6W\r\nbRHHMXmW1afz2LZdM0r6gwHjUrLmeV5teOY4DrPpjDzX1NEgCOj1+yzmc1ZRRJampGla844rcncU\r\nRQRBQKvVZjab1qhD2GxyenJCfzAgLcnaRmlr22w2WS4WbF+4wHQyqWV7rufqY5vmc8txHVfJdwDL\r\n2t3dxTSM14pCfjxoBM2qN1qm9rKKYn1DVZHn0WP0KmrM285uGr6oyAdWWfpUZa8TJQLwqDNdkiT1\r\nUXfVg1wu9SKepal2Ii03aNVaIUuOlFNyqqrPqtS+FXtEl3NNCqlLr4YQmLZLluUliiwpZCmfVjnC\r\nsLAtE9u2kFLX8ZdRgqo8t0pjBEMwNwzje6RSn+53zzbLn3mElA9X7e\/vpb7vZ1JJJQvJteeeYzaf\r\nMRoOyYvCKPLCME0DBYSNkCDwOT4+AXRF0bZt1jc22H24i2Vps+R+v4\/rugyHQwCMqs6CLi6Zpsnh\r\n4aFmEko9DTiu7oUXL17k+PiozqAqcluv16uLRgcHh2VH0TpFJSXHSnHx4kVOTk4Iw5Bev69PhIsj\r\nUIru4AK3HiwAGHR9CqmYzRP6XZ\/xNMKxDXzPYjpLMEyB61hYpkAB40lMI7CFZRoybNgUTzBCztwg\r\nGxubACdB2P4XeV74i2WiDANyZWM7DXprvijy5I4pijuTyUS4nker2cT1PEajEWmaMlhbI880Vebi\r\npYvkWUa706mF+NpxTmmthoK80D3UcV3W1tcxTZPxaIQoOboCcFyH9Y2Nmp2YpWk9pcRRRLvdLsVC\r\n+nOrdWG5WBI0GmyXmhTHccoyrY3rueQSikIxnWnhkVvaapwMV2S5JE0FUZwzmcWs4pzL2636WZmm\r\nYBVlQkHmOuYt+U40yOtvHWOaRr8o5Pc2Q7eVZdq4bJnEmIZgscpM0zD\/6yhW\/\/K19737zBdwHo\/H\r\nmRskyyVSqXuTWfKfZ7m09d5C+08ZQqCkEhji80\/SG87jPM7jPM7jz3SceR\/yy7\/4SywWc39re\/v6\r\nd333d1tRFKnKp\/31z32Od7\/6Ko7jsPPgAQq4du2aUEqNhRAP4Buzkf3zFGd+Sv\/6\/\/pXJEnyapIm\r\nv9Jut3tKKdVoNCjygsOjQ7qdLs1WU6OzloVl2VYUrX7xo3\/jb\/zoarmUjfLUzPP4+vEEWVYGqIPF\r\nfPFTJ8cnnu97qj8YsL+3R5pm7O3ulSfjGPq0mTQ1ZrPZzQ9\/+DtVRbU5j397nLlBfu0TnyAIgmGa\r\nZv\/bD\/7QD\/JtH\/jA13xdkiTs7+1z9blroJRx9+5dv9\/rf01iAsD+\/j4A6+vrNa2\/gu6r2vqstFa6\r\nVDLI0zRlZ2eH6yXdtIpKGrB6lLlYxsOdHbq9Xn2+7f3SBc7zPE5PTlDA2toaAHdu36bd6dBqtfjU\r\n7\/wuH\/zQa7iuy907d9i+cIHhqfYQhreP2XjUOmM0GrG\/t8\/a+pra2NiIAfXM0d4f+4mfIMuylw72\r\n9386jpPG7u6u0sdXT2qNOGgEdTabMZvN6HY7LOZzppOJNtkvd8yVH2yaZkynEy0STVNMy2Ix14bQ\r\nCpBFQb\/fZzQaMZ1OWZZORL7vs3P\/AWaJ\/kZxrCUBQtTeVaPhENPSjPY4jpnN5hRSsvvwYS04TZIE\r\n1\/OIViuWy6VGAYTg8PCI09NTLl+5gm3b3LlzB1kUHB8f02hoZv1oNMJ2nFqVC5Q8ryb7+3ssl0sR\r\nx9HJZDz58SxL9575CLl06RJ5nreazeaHJ+Nxsyjp\/EVRHmQvhH6opkm326MockajEf1+n1mJtKZJ\r\nQqvVYjqdaoJZrPXcvh9o+Lt0nYvjhE6njRJGbRRQnf9hWRpK6Q8GFIXEdR3tPSIVbumtZZgmSYno\r\n5mVnabdbtf7QEIJms1kX2JzywVZGM5UEzzRNtra3iaKolOataW+XXq+2m3JsGxDlyQn6zBLHcQk1\r\ngWMvL3LfMM9u2HzmRf3k5AQhxGtSyo87jtOskFNVsg0NU9tVVC4ORVGQpZnGj6QG9vRpOQWTyYQk\r\njmm12viBX\/OZ4iiqj4OwHQff92stYwXBV7WVCnw0TLNas8qRltHrdRmPx3XFUKO0elQ6rsvJ8QlB\r\nI6DX67FcLolWK+wS04qjiHZJ+C5K14nqVIbqEDHTNGuZtzAMrd51nBrwFEbNHdsLw\/AjwO0zH\/d0\r\n1gapPK70fNkgSeJaapaXBaF+f0Ahi5L7m2NZJnmuHaGjKKr5vFp9ZHF8fFQ3YEUbskp2+2Kx4FJp\r\n07dcLDANLZWufRcNg35pdDkcDgnDJmGop5O0lFnfu3evPpKvInILIVitVjRbLSzTZG9vjzwv6nq8\r\n7wccHR0jpYbp3dJWo9VqYZgmo+GwkquVvLMCfeiMR7fbYzwe1VI3z\/PY2t7mHfHLWi4WIMRrQoi3\r\nS7glZ1dJqW0l4ljTNG2HoBE8VlOPoqg++6\/q0dV8XxRF7XkyGY9r8xc\/CDCEICpFooYQZHmO57q1\r\n\/0hlKVtL3qTU1\/SI9A30KQqGYbBYLmm1WvpU0DIBEAj8wK819lWNxvO82rFUlATyxWJROzfoepCF\r\n73t1LSdLU5bLFQpFGIZ7eZ5\/RCl1u3fGExrO7nVy\/z6GYag4jtMkSTLbtlWltq0qc0VeEDZDVqvV\r\nYxpuKSWtVktLo0vXg4faLYdut4vruhweHnLp8mV2Hz4suby67rG1tVULe1arFd1ej+ViwWQywfcD\r\nTk6OtRlN6Rx3enpalmA16TnPcvprA6aTiZayZTk3nr\/BdDYjWkV1Z7t46SLz+by2hdUeiwN9eGUQ\r\ncHhwwNbWFqvVqlYat9sdxmN9QJ1lWoTNsC6InRyfGK7nZqZpqT96ON8zGCGl6PNilqb\/SZwkQTXH\r\nVmTpSpwZ+D5ZnpfeJg6raIUsCtqlRHq5WGivXSk52D+gP+iT5zn7e3vceP55BLCzs1PKG2R99odW\r\n4xa1sWWcJLhl3Xo8nhDHMRcuXqgF\/aB9HNPyFGnLtmv2faNUcDWbTb1+levCdDrD9VyGp6dsbm7W\r\n4hzL0iTsyp42L+v2SapLulUqvVgs6PV69aiXUi5s2\/6fhBCHZx0hZ26QT\/76rwO80Gg0fgVYn8\/n\r\nqpojD8vDgqv6eBzHNRWosiWqnEsrLpcmD2Rcv3GdVrvNl9\/6MkpJrly5ouf1LNenKZTWHKZpsrGx\r\nUaerpqnXp3a7RZ4XRNEKgBdfeonJeMy4rNcbQnB6OqTZDGm32xwfH9PpdLl\/7x4XtW6S+XxOUZox\r\nDwYDPM8jjhMt1nFsTNMqTS2PyfOcS5cvMxmPcUtLWd8PWFtfYzwakWU5QkCSpMJ1nblhGD+Q5\/ln\r\nv\/07vuPZNsjdO3cA8bJlWZ+0bGud0q8kbDaJS4eerJR5VfNzlmWYhonnuczmc5I4odlq1nO0EILA\r\n97UZcRQRx3Ft81RR\/5MkJY6j0uWhyWq1YjqZ0Gw2satzoMo6\/uHhYdmzNWMyK\/XklYK30Whoq3BP\r\n87kMw9D6wVJC8Sj7RfsqpvUR4dXosmy7NqyxLKs2+WyWJ\/pkaYZCVfZVcyHE9wCfvnjxbKcKnnkN\r\n2dnZQQhRgCg0O6PJfD7H8\/zaK9EwDE33N02mkylpltaHEHvllLO3u0ueF1y\/cZ3ZdFa7JHQ6HWaz\r\nGUVeMJmMsW2HMAyZTqcoJZlOp2xsbjIZT0rv3AVJqvXtOsvTi\/DB\/j5xHGNZFp7nEQSBFoAGmiEZ\r\nRdoVSJPArZJdaeEH2oVCu1RL3ePHY1zXqzNBx9UlYsdxcVyHIi\/Y3X1IfzDg9PSUMNTeYLX9U5Is\r\nr1y9OntHzjG8cuUKCFEUeS4rFVGzqWvQURxrmVkJH5ilK3RR5FobUsrDlFLYjkMYOmUGVKBKGRxQ\r\n86h0aqtFnGHYqJ3nTMOg1+uSZhmykHpKMk0sIbQws5zafD8AUcoWhKDVbGmtYqZTbqNMfw0hKAoD\r\ny7Zqwxmn3ak3rFtbW7VDqVWeq1v5MwqhM7MLFy6QF0Ut8wYtp0jTlEYYRkqpefYEae+ZG8TzPNIs\r\nIykKUZ1n3uv1sC1tddHudLT8C00xtW2bdqejF9UwZH9\/v7QZt2t7v8q40rZtpFKlUabQtkey0A6i\r\nq1WdElcmZLZlYfk2q1JaHYZaDrG3v08zDAkCnWEVhWaYaHOYAsM08Dy3PpEhjhOaTa1zPzk5wXFd\r\net029sque3kQ+Liex8nxCX75d9dx8XyvtC43aIYBorR+ilYrjSooLZvb39t7Z0Sfs9mM5XI5zbLs\r\nnxqG2QFkkiRbwEtJmoqdnR16vR55ufGzTJNVFNVrROXJ6HtevfNWCk5PhyUJTl9KtbfwPI+TkxNs\r\ny2I6mfLw4UN8PyjNYWwGgwGGYXC8s0O3260d6WbTqRYOdbscHR5iGiZOKbc+Pjoq70Zoc4JQp+iu\r\n67JYLok0GsG9u3dZLBYEQcBgsEan22E0GhLtRcXx8fEb7XZ7vLa2Lt760hexbJsbN26wu7tbW\/sp\r\nqbAdW0RRdDoZj+dPwjJ46qrRzoMdpJLe+vp6q3I\/qOn+j8TXkqNNJhNapVEZVEaZeiqoFsvDw0ME\r\nsLa+Xr9fSsmXvvhFrl67Vqes1edXFt\/1ca+lJ2RlSFPfcCVMLae38gI0BFJ+1t7uLnfv3OXGu55n\r\na2ur\/v5bN2+q\/\/vf\/JtJmmbZ3\/67f+dpH915nMd5PHX8mS90\/\/Of\/3kaYWj7vi+Gp6fpD\/7wD3+z\r\nL+kbimd\/EN+fcDiOi+d5rwlhfNg0n\/mhc3\/i8Wf+DparJaZlPhAIc7FcfLMv5zzO4zzO4zzO4zzO\r\n4zzO4zzO4zzO4xuL\/w\/y9zEyH9dSeQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNC0wNC0wOVQxMDoy\r\nODo0OSswMTowMG0R+\/wAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTQtMDQtMDlUMTA6Mjg6NDkrMDE6\r\nMDAcTENAAAAAHXRFWHRTb2Z0d2FyZQBHUEwgR2hvc3RzY3JpcHQgOS4wNmqmDDUAAAAASUVORK5C\r\nYII=\r\n",
+  "author": [
+    {
+      "firstname": "Philippe J R",
+      "lastname": "Kok",
+      "name": "Philippe J R Kok"
+    }
+  ],
+  "publisher": "Museum National D'Histoire Naturelle",
+  "status": 200,
+  "names": [
+    {
+      "namestring": "Pristimantis",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-1",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-5",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-7",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-8",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-10",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-11",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-19",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "Anura",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-1",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-5",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "Craugastoridae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-1",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-5",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "Pristimantis imthurni",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-1",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-10",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-16",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-19"
+      ]
+    },
+    {
+      "namestring": "Ptaritepui",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-1",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-16"
+      ]
+    },
+    {
+      "namestring": "Pristimantis aureoventris",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Roraima",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-16"
+      ]
+    },
+    {
+      "namestring": "Pristimantis yuruaniensis",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "P. muchimuk",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "P. abakapa",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "P. auricarens",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis pulvinatus",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Apradatepui",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-2"
+      ]
+    },
+    {
+      "namestring": "Amphibia",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-5",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "Pristimantinae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-5"
+      ]
+    },
+    {
+      "namestring": "Eleutherodactylinae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-5"
+      ]
+    },
+    {
+      "namestring": "Eleutherodactylus",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-5",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "Pristimantis avius",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis cantitans",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "P. dendrobatoides",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis guaiquinimensis",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis marahuaka",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis marmoratus",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis memorans",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis pruinatus",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "P. saltissimus",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "P. sarisarinama",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis vilarsi",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis yaviensis",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Pristimantis zeuctotylus",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-13",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "P. jamescameroni sp",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-17"
+      ]
+    },
+    {
+      "namestring": "Strabomantidae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "(Strabomantidae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22"
+      ]
+    },
+    {
+      "namestring": "Leptodactylidae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22",
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "Naturales",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22"
+      ]
+    },
+    {
+      "namestring": "Hylidae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22"
+      ]
+    },
+    {
+      "namestring": "Osteocephalus",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22"
+      ]
+    },
+    {
+      "namestring": "Pristimantis tepuiensis",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22"
+      ]
+    },
+    {
+      "namestring": "P. stegolepis",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-22"
+      ]
+    },
+    {
+      "namestring": "Anomaloglossus roraima",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "Aromobatidae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "Anomaloglossinae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    },
+    {
+      "namestring": "Brachycephalidae",
+      "pages": [
+        "61f62037dcb486a6162a7f8dc3876e915cc22e94-23"
+      ]
+    }
+  ]
+}
+};
+/*
+doc={
+"message":{
+  "_id": "biostor\/127534",
+  "_rev": "3-0ddb4452f0bf33119a57a8cd29c329da",
+  "author": [
+    {
+      "firstname": "W M ",
+      "lastname": "Baker",
+      "name": "W M  Baker"
+    }
+  ],
+  "type": "article",
+  "title": "Australian species of the Isopod family Sphaeromidae (cont.)",
+  "journal": {
+    "name": "Transactions of The Royal Society of South Australia",
+    "volume": "52",
+    "pages": "49--61",
+    "identifier": [
+      {
+        "type": "issn",
+        "id": "0372-1426"
+      }
+    ]
+  },
+  "year": "1928",
+  "link": [
+    {
+      "anchor": "LINK",
+      "url": "http:\/\/direct.biostor.org\/reference\/127534"
+    },
+    {
+      "anchor": "LINK",
+      "url": "http:\/\/www.biodiversitylibrary.org\/page\/41570428"
+    }
+  ],
+  "identifier": [
+    {
+      "type": "biostor",
+      "id": 127534
+    },
+    {
+      "type": "bhl",
+      "id": 41570428
+    }
+  ],
+  "bhl_pages": {
+    "Page 49": 41570428,
+    "Page 50": 41570429,
+    "Page 51": 41570430,
+    "Page 52": 41570431,
+    "Page 53": 41570432,
+    "Page 54": 41570433,
+    "Page 55": 41570434,
+    "Page 56": 41570435,
+    "Page 57": 41570436,
+    "Page 58": 41570437,
+    "Page 59": 41570438,
+    "Page 60": 41570439,
+    "Page 61": 41570440,
+    "Plate (Illustration) I": 41570655,
+    "Plate (Illustration) II": 41570656,
+    "Plate (Illustration) III": 41570657,
+    "Plate (Illustration) IV": 41570658,
+    "Plate (Illustration) V": 41570659,
+    "Plate (Illustration) VI": 41570660
+  },
+  "citation": "W M  Baker (1928) Australian species of the Isopod family Sphaeromidae (cont.). Transactions of The Royal Society of South Australia, 52: 49--61",
+  "thumbnail": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a\r\nHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL\/wAALCACtAIMBAREA\/8QAHwAAAQUBAQEB\r\nAQEAAAAAAAAAAAECAwQFBgcICQoL\/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1Fh\r\nByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZ\r\nWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG\r\nx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6\/9oACAEBAAA\/APf6KKKKKKKKKKKKKKKK\r\nKKKKKKKKKKKKKKKKKKKKKKKKKigt0t\/M2GQ+Y5c75GfngcZJwOOg4\/OpaKKKKKKKKKrXpvhGpsVt\r\n2fd8wnZgCNp6EA4OdvbpmqTf8JBuG3+zCu45z5gO0OMfiU3D2OD8w4qSBtaa7i8+OwS2+bzBHI7P\r\n324yAOOAfXrx0qKL\/hIsr5v9l4ON23zPl65A9f4eeOp44yXj+3Tbw7jpyzbmEpAcqFz8pUcEnGcg\r\n9+4pl3fXlndv513pkVuXDKJWZXEQ2biTnGc+Zz05T3qjLrl0rTAanoCgO4QtOSQM\/IGGeuOvpjIz\r\n0Gmf7a+ynH2D7RubGd+zbtO33zuxn296ITrWV88aeBvyShc\/Lu6c99uefUdMHhGOuCYMq6c0W98o\r\nS4Yrk7PmwcHGM8duOvEI\/wCEm8oZ\/snzOMkeZj+HP\/s5\/wC+R6mp4Trf2hPPXT\/I3fNsZ9wX5umR\r\njP3PphuuRjSooooooooqOaXyYmcRvJj+FBkn6VCJkluIgbaTBQSLKycLnjHqG59Kj+0xSRKzWU4D\r\nsUKtDkjnqR6Hj\/OcS2t2Lglfs88JCg4lj29e31FWaKKKKKKKKKKKKrXLXYkiFskRXOZDISPlx0GO\r\n+cdsdfYGHdquciOyI5+TzG\/urj5tv97d26Y96lU3xkG9bcJ5nOCSdm3+e79PeoE\/tdWUy\/Y2XbGG\r\nEYbO7cN55PTbnHfj8K0aKKKKKKKKKjjuIZYxJHNG8ZOAysCD+NOSRJFVkdWVhlSpyCPalJApu5ZE\r\nba3HIyp6EcGqps3A2LqFyuF4GUJXknPKnPXHOeg98yC36f6TMVBfI3DnJJxnGRjoMEYqSBBHEo81\r\n5c\/xO2Sfen70yBuHJwOeppQwIOCDjjimrNE6RssiMsn3CGBDcZ49eOaXzEwDuGDjnPHPSnUUUUVk\r\nahPd\/aHS1llBVc7UiSTtnpuDenX6Dkg1BcwyAs0VmBHPhXQWiMyqmQActg5yCOuACMZIxDFYJceZ\r\nb3FoI2mOfMezjVQQoCjhic5+cH6jIxgQtA0ty9z9nMl0F2uBbIShILEEGTqcIBngY44Y1dvIDaEP\r\ntgZJElaQi2QMzEqTyWAyVBznrtz2pkVtFLm2fT41feX3vZKqnKAcfNyxXcM5yMYPGMx+Q2Cxs4ZJ\r\nVyGRbNN4I2sGxvxtYxcc8Ntz93ieGA\/aG+1WfmOR5BmNovzjA5JDH5cE5HA68Cmmz8orKLWJ9kxj\r\nOLNBkfNhx82QF3YPrhsD5qbPBJGCnkqy+VvTNiu2PduBByw6A\/MOpGeecCSOAOjW8lmUhZgCPsa7\r\nWPQMeTwF2jkcbfwps1tILZgbZZD80My\/YQRNlclgpf7uQB1OcY9CN1MbFwMDA4IxinUUUViakrNd\r\ns5tZJkXgf6Kkn8Lcqcg9yOc9x3qu0AWCeBrQHYsZLR6eArkMR8o3HIPPHULnnkGmCFy1vttApdv+\r\ngZhQCTtJ+fgDaCe\/K5xkiniFTcQRJY7VXCBm0\/5U2oMEHdwMAgehx04yscZfbbwWogSU7Jt2nkKT\r\n5ZGcbsYI2rzkYUjuMX10kCGZH+yOZXVifsoGQG3fMM8nJJB7E5waaNJlRAUks\/PG4ea9mD8uflXA\r\nYcBSV9\/5sXQkijjjhSyRI1GAbXdkjGDktn+FPf5evpIulyRKgie1GAM5tR98EncMMMfeb8TnjnI2\r\nkK0+4x2Pl7w5X7J8x59d3XGOcdvwDToq7SoWz2mR3Kta5B3AAnG7g8HJGAc9KSbRRLFs2acf3Rj\/\r\nAHlluBySW43D5SSPl+vJzxrKAqgAYA4FLRRRSMyrjJAycDJ6mqcepRP1huUb0a3fr6ZAI\/z6c0HV\r\nIdiMsN22\/GB9lkBAOeTlRjG09een95cpcXwCbUjuhuBw6QM20jHUYz39Ox9s1ftt0VTbJIWDJ5gN\r\ng4IB6nBI44PTOCRnocuW8uERRLM5ZirK62EmCucngE4JHHOCMZwaabu8EUcplcAqcoNPct97nPzc\r\nYAx79RnIFEk13JOTDdSxIXCqHsWIBIcYPQ4ztOeOnX5qkg1CdbN554LiU4WRY0tirqrYwpBPLDJz\r\ng8Y5xVv7bF5oj2T7icA+Q+388YA+tNOoRBEby7jD42\/uHzz6jGRjvn+hpJdShhiWQxXLhs4CQOx4\r\nGeRjj8auAgjIORRRRRWddNbJM4ksZpS5Ql0hLbjnaOfbOfbk+tUgr25DNAZHwsqy\/YfmBIy\/3T94\r\n49scdeM6UIvXBdriIqQdq\/Z2Ug8Yzluec+mcjkY5akeqGNDJc2qycbwsDEdOQDuHfv6dqlCXmYs3\r\nEBAJ8zEJG7kYx83GBkHrk4PGMEWO7E3zXETRfNx5R3c9Od2OOe3PHpzEkGoqoDX0LkEctb9R3zhh\r\nz9MfQ05Yb0mTfeR4ZQEKQ42HueSc5\/w9yQxX7woPtUSSq2WZYiVcYIwQTkc4PB9vemtDqJ8xBeQh\r\nWR9sgh+aNiBt4zggHcefYeppWh1AZ2XUHQgb4Ce\/GcMOcdf5U6WG9LFormJMx7QrxblD8\/NwQfTI\r\nz27dat0UUUVVlS9ZpRHLbhGx5YeMnHTOcMM\/xenUelUF0q6EysXtgqsCF\/ekADBHG\/H3lU9OxHer\r\nUWlweQkcoZirBuJXwSBgdWzjHY5GeevNRzafaWVtJcpDdSNCPN2RzOzyFQvHzNhiQijmqQm0q3MW\r\ny31DerCJU8uftx34IG7Jxnhc87Rh4uNLCNMIdRQNvc\/6PcqeHDNgYyPmIPHXnGRmnTy6ZEJYHh1B\r\ngh3Nst7hv4T0IBzwvQZ5I7sMvh\/s+VyBFeDysEO\/mgndheM8kfIM9uh75qeG2sbgtEjXB+ykQsGl\r\nlGCF46n5jhs557HPAxL\/AGbb8czYAYY89+c45JznPyj9fWnw2FvbyCSMSbtu3LSs2R75PJ46nmoj\r\npNoWJxMFOSVEzhST14z7\/SrwGBiiiiiq8t7FC7o\/mZRN5xGxGM464561nJqd4bVJNluzb1Q8SqHJ\r\nQkgfISPmxzgjGeh4p0eqyzR5j8klTtkIWQ4Zv9WMbehypJzx+ohOun7HFPvtArtL95pFyqZHQrkH\r\nOM57etOfXHjg8xvsQYk7czuFwu4MS2zoGXGcdOfQFltPazXssyC3E6lWcpM4bCgZyNvUCRh+Wcfw\r\nwWk8E9vHbwC2dJF4T7XKwKsmTtJXgYPGOMcjGMVet9UaQnbNZSRLbrJuR2GflJJ6H5TgYPpnrxQm\r\ntqeGazDMQIwLhiGyobn5OONx+g+uHLqU7vFzZquxZpAZGJERB5Hyjv6+h6Z4WHVd6GR5LMRgDdtl\r\nY45552jONr9h93Bxzhp1SfyywjtEKxmRw9wfkUHgnCnjh+fYDucaqklQSQTjnHSlooorDvmtjf3J\r\nkeNHRYjuaaTqCWXcoGMDk8Hn2qIbLq33oRJHFEFmH2+YheGzxj5+wyeTz3XBhnlhltkRrsIjtvEn\r\n26X5kBHmDp\/dIwPcnjbmrBdDDuuJgIFVpyyX0u7BIPGACRuyOvAwAMHAgmCoPtAuE\/dA7z9ulClg\r\nXwC2057r+J4+VQZJvLNvK00wSOOBwoOpSjcAcZbK5HJwW5I4601pRmci7U72KFTfyKF+ct8p2n5v\r\nlkyB90KFHHNPVkmljWO63ttwwW\/lX028YOcqmexznruNJJKklzKUuUYh92DqDjBPzAbdvHROPRj1\r\n\/ic0gw9wJ1MYKxAjUHI+4e2372CD6nOc8DLWmWC38xbtZImZDC5v2BdVwSTkYwFyxx1HGD1qJpo0\r\niVft0ShRzv1R93CcDp3GCScnqcd66ZRhQASceppaKKKxL64S31El5UBJXav2mRT2HQAjligx6cnP\r\nSoZ5oZUiLXO1WDOrrdyD5t3zKTt4XLKvsDgAbRUYvY3SEeeudiKuL+UZG7GSSvPJIz346Z4e80Hk\r\nwB7xCjL5yP8AbJFLh85IOM7QSApyeD24ysFzgo\/2iMXGF2xPfMwyzAFTxg8kAHB+8OOBl8t2hdrm\r\nK8tgXxs\/0lgrAhNwwMgnByCO5Xjk5RJ1L\/ZpLgqbox+WReNkghmyOMrnbjsD6g8U37StwET7dGJA\r\nREgivGGSGxz8v3iN3B6kY7ZDVmQK5mv2j2kpI4vGKq4DMRkoBjG7PQDHTgASajc\/uZI5bi3gmjQq\r\np+2GM5wzZJ2fLwmc4PBbjjlZQXuGlW72wCTYiwXe3JAB27NvB+XpnGCTxTJJoxY3Bj1DdBLhfOa+\r\n2spIJGw7cDI2ng9z6c9CKKKKKwNQuViv5g85VV5+S4lXbhCcFVUgHOPqD0JUZjmvy1o8SS2+Lcsz\r\nM13ISEVirEsEyDj64JzyBySyRpGJBdBoiUWJhfyjehPlkkBT3K888nOV6lgvI32A3kDIpRldbyQE\r\nuRtxnB4JYYGTnqc54kMkkCT+ZcGPyARK73buEiJzuHy\/e2huvIx3B5GLxy\/v7pUmUKCi3jAcISeq\r\nZ\/gJ5J43HPYyIs1mUjlnmjJKlGe6MgZgp4JK9Dz6ZwvcnECz+RLE0t+gaIs0oa\/ZlTDAOp+QA4XJ\r\nGcYOcYAyH+aY4HVb\/cIQ0sjvenKAfKednKgKzc9GGOnRbaRheDFzG3lMROpvixUcN\/dH3SR1I+U+\r\n9RwSzMbUrP8AvWjE4jkv25XAYk\/JgjoPTB7ZouJYFgka31klkUlhJe7BnaCPm2nAwwOcHt710g6d\r\naWikorFvJ3S7m4OA4Rf38yjmP0Ube5\/LOc9GC8ijtt\/nNHcPuiZHkmdFKgsRyAQcH0B7dqgmultF\r\nlKviQIwk8y6nKo2Gzzt6DnDYHCnGMcSrKqWMsgkKxSkwRn7ZMSW+7jlcoflPI6Hmq3263abdFP5q\r\nuwkjK3sq5VlCqT8uDwkh46Y4yWzUk00Mcq5nO4BriQC9fy1yS6kYBJzgnb0AyP7uXuzLbtELkJIZ\r\nHELNdynMhbaFY4GBkr8vvx0FPaeSQysHjjiaVVlK3TgrztIX5QFbf2789CaaZyYXVZv3TuVDG7ky\r\nCHCjJ2ZXOV4zj5j1AzSi4iugsa3eJdwWLZduBIDnJyByR83\/AHz24Iel7BJcSO95ErOBGqreOQR\/\r\nFgYGCNpwRnJz6VBPNHvESXaiRQqIDqLruB2Y3fKeTlOeT8\/+1XRjgACilpKKyZ5N97LEiymRpQv+\r\ntmUbQqnIwNo5YDjjqckgiqsVwbeNJN4EUsS5YtPgElt5wRwc4AGQTk5OcVJDOYpwzeUrMzRHbPK+\r\nZMKpXleBkDn8e5pNPuo2uoxJJjpsAuJnJyvQhwMjqc\/T0qKO+eQyp9oidYnMqNHJNuEQBU7lx8xB\r\nHQH34xy62u5hDb4mjzA5iffPK5dwV384GR9\/GQf4emSKbDOJ4GaOfM0QJOb6Xb03ZJC47ocY6N2z\r\ngzS3aywwQi5i2oPnP2iRH5IQHIGW+9yD\/ERyDzSC6dkAR4SylpGBvXA8wBspnBOBgZBHQ5A4xTpr\r\nqJ1YwXifJshizcvhjgOc4\/iK8g85znnuyG4kWOJVmikWUOFY3TbSSwCgHBOcbeuBluAc8RvdiCSe\r\nOO5hMciLgy3siyA7TyMqcdD\/AN885zgdF2opaSismffJqEsDxlkkf7wMwKqqqeoGAcnsRnPqDVYy\r\nrBESVlW2ifeSz3I242k5GOVwzfL0+XHY7SOLzftMFrHsWJAiKbidflUYT5MDP8QODyAOTxiEsjrJ\r\nE6O6yxujrNNMx2kgSLgoeAFODxnj+8TVgyCMR+duMDfMSrTs4Ykq3IGTzsABxjJ9BST7vP8ALnOZ\r\n24VTcTBTIV2Bchccgt0AwRux1wye4iQGGWaWM4ZY83E6FlOcktt4PT1xg46GptQeKNiRduGgUvMn\r\nnSjjOcjb\/veh7CmSXEUbh7mdI0cyHP22QgjhW6rjgsQB04XHXiKeaO3PN7GglAxuupCShZcEHHUg\r\nMPy6gVNIwWfyFmxIcui\/bZRlRuI6LwDs5+h6961xf2jsbhbwbSgmX\/S5QMqyk8Benz4wOowOh+Xp\r\nuozRS0lFYtysp1UuU3qsi7cLNlR8vTHyE5B54A4z3qCC5ZW8x8qP+WgVpzIGZcjCEcHrgfQU9FPn\r\nASrIYSHP+suCxCkHkEYOeOD1+bGQSAkTzStA3lbgnlhd0txg4PGQV643Ek55C5PQhJ3SNHiiEsew\r\n7UVXuEAQAADhcfw447HjlskCyySeUGkjVT5p2TzEYXL7R8uAD5iZGTwSAPkGGfaCtoxD7Y5Nyuxu\r\nZz8wwcLkbl6t06YA6niUTwxXmYkYRg5BMs45Zt5JXbjGXHfHOD0xRcSS6fJuZg0TLLJn7RM52BSS\r\neARn7pH4gdqQ3UaQzRmQK8bYVRcTtkrlCC2MjkY4B5+bk0q3NsqIGlkCAv8AdnmI2Bm\/2euVIx2A\r\nwDimT3cEMZgd3DkkSkXM5KsAMhWC5+6pPGOe3Oa6GilpKKzp9NaW4llBjG+RGzukBKgAEHDAZ+9j\r\nsDg4zzUb6dcFtyyZJdiwa4lwATk7cHg9QPTtgcUiWF2ojUiJUXPypcSqFGFCgDPoP0P94kENheJP\r\nuYRKpJyEnkxgjGdp7gKvTH8R70DT7rCuyxNLFjys3Mp6Ky5yehww55PJPJxSy2N0WzHGu1fuf6ZK\r\nDx0PTj7q5+rdcncLYXCh\/kRi\/wB4tdSEjb\/q+cZ68nGO\/XnLY9Ou\/tNlLJ5P7hCHxNJgHgAqucHg\r\nyDkE8rz1p62VyI8NDEzEqxD3cj4K4xgkcdOcD1POTkfTpjI7Bn7bD9rkXjgYwPYZyc8k+tMXT7pd\r\n5WNF3new+2yks+AM7sZxjPHfC9MU6WxuDMqRx\/uRyD9ulX+Ikggex4HTtwFFao4GKKWkoooooooo\r\nooooooopa\/\/Z\r\n",
+  "date": [
+    1928
+  ],
+  "names": [
+    
+  ],
+  "classification": [
+    
+  ],
+  "status": 200
+}
+};
+*/
+doc = {
+"message":{
+  "_id": "biostor\/206729",
+  "_rev": "1-913f9b0bc58fcfcc8fab0add5f306ad4",
+  "author": [
+    {
+      "firstname": "Morgan",
+      "lastname": "Hebard",
+      "name": "Morgan Hebard"
+    }
+  ],
+  "type": "article",
+  "title": "A new species of myrmecophilous Blattidae (Orthoptera; Blattidae; Corydiinae)",
+  "journal": {
+    "name": "Entomological News",
+    "volume": "28",
+    "pages": "360--363",
+    "identifier": [
+      {
+        "type": "issn",
+        "id": "0013-872X"
+      }
+    ]
+  },
+  "year": "1917",
+  "link": [
+    {
+      "anchor": "LINK",
+      "url": "http:\/\/direct.biostor.org\/reference\/206729"
+    },
+    {
+      "anchor": "LINK",
+      "url": "http:\/\/www.biodiversitylibrary.org\/page\/2568129"
+    }
+  ],
+  "identifier": [
+    {
+      "type": "biostor",
+      "id": 206729
+    },
+    {
+      "type": "bhl",
+      "id": 2568129
+    }
+  ],
+  "bhl_pages": {
+    "Page 360": 2568129,
+    "Page 361": 2568130,
+    "Page 362": 2568131,
+    "Page 363": 2568132
+  },
+  "citation": "Morgan Hebard (1917) A new species of myrmecophilous Blattidae (Orthoptera; Blattidae; Corydiinae). Entomological News, 28: 360--363",
+  "thumbnail": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a\r\nHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL\/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy\r\nMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL\/wAARCADPAHoDASIA\r\nAhEBAxEB\/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL\/8QAtRAAAgEDAwIEAwUFBAQA\r\nAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3\r\nODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm\r\np6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6\/8QAHwEA\r\nAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL\/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx\r\nBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK\r\nU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3\r\nuLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6\/9oADAMBAAIRAxEAPwD2zFLt\r\npwFKBXDY6rjdtG2pMUYp8oXI9vNG2pMUmKOULjNtN21LikxRyhcj20hWpMUYpco7ke2k21LijFHK\r\nFyLbSbalxSbaOULkW2k2D0qbFJg0rBclAok3hD5YBfsD0pwqO4ExgcW5VZSMKzDIHvjvjrWiIY6P\r\nft\/ebc\/7NOqq7X2U2JAAVG7cScHvj1HT\/PFRzHURFE8Yi8wZMiA\/KfQDPP8AL+ooReqOTzcjYEx3\r\n3Z\/z61VL6l08q3z\/ALx9f8\/54pzPdq6s\/kpEEy5yfvY9+2aVgH5u+Plh9+TSg3OeVix9TWbaS6oI\r\nmZ5rWUHkOTxgBRjjHX5ifT6VYjl1Rgcx2hxxlS3UEg9\/849+CwFsGfY2Vj3Z45OMf5zSIbnd+8WL\r\nbx90nPTn9az0m1V5dp+yq+QxjDcgd\/Xr\/nrxM0moFJo2FtHK0T+SVc539B1HTJFFh3L9I+7Y2372\r\nDj61mp\/a6rtb7Mfm4Zic4x0wAMfr+NTL\/aJtGDeStwWbaQcqBzjt9P1pWC5OPtG4ZEZXv1z3\/wDr\r\nfrTh5vmkNt8vnB79v\/r\/AKVQxrCkbTbFQ7HD5yV7AkcfkO3fvZtGvWL\/AGtIUAOFCZ5GBz1+v+eo\r\nFyzSYpaKkZIKKQUjuEXJz1xwKpCHUh4GapiYF2Iu+CdwBXoD0FCTbSZDc+Yg6gJ0z0qhDLqKG8iD\r\nzW0jlMrt5zyOn8qFgtwkkQhn2NkNkHnJJPP1Y1IXkDrG1z8z\/d+Qe9MW42uA91wGwQY8ZxjIoArN\r\np1mCn+iTMGUDJZvl6+\/H\/wBelSyskcMttcqWVhk7iFBznqcD7x\/WrccofdtuATnPKdADz\/OojdAs\r\n5+1qF7YToDjn9aAGXcEM0kgmtZnVzztY7ScYzgd8d6ge0smYsbKfqQOCM556fXj8BV5pQVeP7X86\r\n5LEJyABzTJbpAzFbxVA527AeMdKBEUFpaxO8kVvOsgxwxb1A4ycdh09K0I38xN21l5xhhg1W8zaq\r\nr9r5RirEpkk84H6GmrcL5QH21S24fNsHp0xQMu0VSWbMIIvgeWO7yxyABnj261LDKHmbbOJFI3Bc\r\ndPxpAT0UUVJSHio7hykJIdVI7t0qUVFcBjH8uzOer9BweaaERCUkjFxCckAADqfzpGmGGYXMYDcL\r\nx0PvQhIUhjbZJ+Tb60Et8o\/0Xpzn156fpVCBpXXapmi3ZySVOMUJMTuDXEJ44xxz+dIxZtnNuTt5\r\n3eo7j8xQN2MstqGB4OO3\/wCvFMQbpFfyjPF5g\/vL1P8A+qkaVj8v2mFT14H\/ANejMuQcWoIOMmhF\r\nkbeW+zHKnBA784z+YpALHKTlmuISmOcDGM9P51GGlCH\/AEu3OOrEf\/XpxDCFwDar8wzgcYx39+lK\r\nNyxDAtuT83PGSeP1JoAWaVWRQlwsTEbsn0IOOvvimCR\/KKpPb5RsMcYCrjp1+lJmYkgrZ8cDPpUs\r\nSlWYSLbKhA4Tjn3oAjin+Zt91bleRwMH+dPt5S74aaJ\/lJwg+g9f8\/hTFh2XOT9mKHjoA2OTxx6f\r\n1p9rlssRb59YqTGixRR3pakocKZMpZAAivz0Y8U+myRpKu113D0poRUwUcFbe2DbuPm5z+XuPz\/N\r\n8cR3gPbQgY6r1H4YqX7JBtUeUMKcj26f4Ck+x2\/\/ADxWqERGJhIEEMJiyQAeCBgf\/X\/KmbSWwtrB\r\nkE4BYZ9j0qybWBmLGNSxOSaqpJpqsJFeMEHg5PByP6kfnQBI8CN963h+Ydc45PUdPrTPLYDb9lgy\r\nRlgD1\/SjzdNdAoeMrnIwT7\/4H8j6Upk0+VXBeMhFy4yeAAev4ZoEDR4kMa2sBXOR8wz9cY9qeITt\r\nZfs0Sq23gc55JPp\/nNRH+zdxDFAenJI7gfTqw\/MVZTyIcxoyrg8gt\/jQBXMDb8\/YoO\/Jb2+nrT0h\r\nLSZktogAcDBzgcnP5k1aBDAFTkHoRS0hlBYpl2H7NAWA5wcdu361LbxFHYmGKP02d+nf8\/0qzRSA\r\nSiiikUhwooHSloQiAyzZO1I2APHz9eaC0\/mNgRlO2Tz+NONtCTkxqc+1MMULcJCrD16D\/PJqhDle\r\nYkgpHuHOA\/b8vaovKk2bfs9uR1x2J\/L2qULG0iuyYccAk5\/X8aDaW56wqe\/SgRA0DeYSttbMvG3I\r\nAP8AL1pPJU7VNtaiTqVwD9Mcf0pzwqkn7u3BI5B34\/T8KCjSks9qN2zBJfOSCMD+tMBPILFQ1nbm\r\nPGCuBx+nsPyodXeRiEgb5jyQCenH9R\/nFLFAvmYNmEVuS28Hn6UzyBn\/AI8RnjJ8zA7Z\/wA+1AFj\r\nc6KwWIKoKheQM5xn+dKkhC\/vtqHOB83XjP8AjUKwiUqJbMKANud+cAdP8+9NjjZlSOW1Cxg5OG6H\r\nH1pDLlIDnpVFImhYOlmA2eqv2x9fWprThSPsxh\/HOTSAsGig0VLKQ4UtIKWmhMjlPRB35P0\/zinI\r\nMDNROx89uCcKoH65\/pSkvsJ34IUkYFUIkYA9sg9aIySCDyQcfX\/Ipp3DPzZ9iKbGx81sggEDr6jr\r\n\/MUCEngRiZthaRV4G4jOO1Mt4gHJMboVJAJckHt60lwoM+SLjOMAxnimRImWXFyCwAJPbv1oAl+0\r\nTbgPsr47kEUq3LGRUa3lXd0JAwOM84NRHACyEXWAQu0E88DkimeWsrOS14AQTgnGOnFAFl7hldlW\r\nCV9vdQMH8zSxys7MGidAO7Y5qmZEIaPF4xJB56jBHIP409hvG8G8XBCgAn0HOKAJmnkUkfZ5Dyem\r\nOgNPjkZzgxOn+9iqiKojzi8AUgBep6dantsb3wsw6cyZ5\/zikMsGkpTSVLKQ4UtJS00IryN5cpyC\r\nQ3IwOnAFNaVWjZVJLEED5SR\/KnXUZYIwGSp\/Q\/5FVRNuJ4PXHzZH88n9BVIRbMynJwwPfKkfzohY\r\nu5O0jaMc4Oc\/\/qqp54VwoUknps\/yKuW6kIzMMFmJ\/p6e1MRHOf3hBknXPHyDjsfT\/PNRq2beVzJO\r\nOQOR8wPtT5pMTFftBiwBxszSGQPAGW5K7OGfb16dvxpDIlYED\/Sbr5iByn\/1qnZWgUs00zhuOgO3\r\nPfpUYuVjjffdbiQSvycimtKIH2yXrfK3IKduDj\/PrQIbHIi7SJ7ogE4DIf14\/wA5qRgGQzC5nC7u\r\ny9M+2KWSUGfYt2VZiMJsz1xj\/PvSmddisLrhW2sdmcnPA9qAIlO+F8TXIMQLZI5PH05qa2cZIDyt\r\nxn51x3+lQCYy73hvSFU5KlBwOvWrFvMs8jsk25R\/Dtxjp\/8AXpDJzRSUYqSh4paBQc4OOtNCCoXt\r\noWyWQZznOefzpXd1ABABPGc5pu3LZIJJ9aoQsMMSxhli2lsMQ3JBqaoQu0\/L8vP4flTl8x1VshQe\r\neBk0AQzzFZiouIo8DOGFRtI8W0teR4+9yoyQalmY+Yy7oV+XI3dfxpm+U7txtivRTzjPp+VADpGL\r\nIsqXMaJjkkZBqPzlSP8A4+4dxfO7gDGPTNKzSMjbJbbAAz7H3\/GnMy7NiywiViMDjHbP9fzoAZDP\r\nuic\/a4nO3IIX7oHUkZqMNKUYi9jIXAJAHfpn0pWEqjHm2qyKApbv79u9S\/vdvJtyW2lcdDz+tADP\r\nO850EN3FvxgjGcn25+tOtJWkPzXEUhxkiMdKYjyAvmS1DDIX65H\/ANcVNCJBK4d4iMcKo5FICY0Z\r\npaSpKJBS0ChmVVyxAHqaaJIZYnk\/jCgHK4HekjkCriQhH7gn+XrUvmJ\/fX86Y8uY28po2fHALcVQ\r\nCFhKcRtn1YdB\/wDXp6IUGAfkAwB6UebH\/wA9E\/76FLvTIG5cnpzQBXlR2lYiCFsdGY8n9KhVZXXA\r\nitmQHOAeBx9PQ\/rUs8ReRitvG7Y+8zdeDSKjRuVS0GHUbju4+n60AEYBhkQxQbv7icg9ev4jH4Ui\r\nxOsgJggVAQSVPIx07VEYFLgpZwsCMnDgEHv\/AEqaPekbRmCNVxhV3cH2oAa6tJMzRx2zrwMnk56n\r\ntT\/LfyUJjg8xTwOyj2\/SoHgctu+woSMcmTPTpUiwFYGjFqgUuDsDcEDnP5igCJkkY5MFr5mdyncc\r\n9evT3FWIQ3nMWSEHHJQ\/Mfrx7fpVZrcMpIsIdyjj5xx6f59qnthiRv3CR5AyVbOfT+tJgizSUppt\r\nQyyYc1HOSIvlQPz0IzT1NOOccD86tEMz2QsC\/IJUEKBwP0pAWchVTa3QMAR179P1pzxwvKSzYZiO\r\nCo4zj\/ZqRjBFIA0abwM7tv8A9amIijYAYZACnIO04P14561Kku6Vd0QBIByEPHHfimsLRSpMUXzf\r\nMDtz\/SnL9n88YijEgOAdvPT1xQMSWNfPMgt2ZhzuDYz09\/8AOKi8pX3O1q4bceN\/XvnrT2ENwWYy\r\nMMjkbyBjHpQxiMZ\/esFBDEhjnpgdqAI0gjBB+xuv\/A+3T1\/zipZS0mUa1Z1GSDuHPGP6mkjgjlTc\r\njS4J7yMKlaDdjJfgY4kNAFb7PH8zG0bOcAB+oGPf\/OKVIgInQWbBGxkeZ1\/WpktVjyVLcgjlz35\/\r\nqfzpPsi5zuk\/7+GkBXVCA+2xYb\/vfOOR+fWp4IlimfbAUGAA27Oad5GIygZgD\/tknt3\/AAp0UQiB\r\nALY93J\/nQMkpKWm1BRJQz7APlZsnHyjNFL0qkSVzuV1YNORgfLtz\/SjDtj95ON3I+QfL+lWQaWqJ\r\nKsSySxNmWdTngsAD9elPWF1cEzyEc8HGP5VNRQMh8l\/L2meTOc7sDP06UiQuigefI3JJJwScj6fj\r\nU9FICq1tIx\/4+ph9Nv8AhTjA5TaLiQHOd3Gfp0qekoGVxBIGB+0ynGOCFwf0oa3cuzC5mG45wMYH\r\n6VYxSUAV3t3Ygi5mXAAOCOffpToYmhUhpnk9C+KloNJjENNp3am1IyUUUUU7kijilpuaAadwsOop\r\nM0madwFzRSZoJouAtJSZozSuMKQ0ZpM0rhYKCaQmmk81NyrDs0mabmjNK47H\/9k=\r\n",
+  "date": [
+    1917,
+    10
+  ],
+  "names": [
+    {
+      "namestring": "Myrmecoblatta",
+      "identifiers": {
+        "namebankID": 4250591
+      },
+      "pages": [
+        2568129
+      ]
+    },
+    {
+      "namestring": "Compsodes",
+      "identifiers": {
+        "namebankID": 4122997
+      },
+      "pages": [
+        2568129
+      ]
+    },
+    {
+      "namestring": "Blattinae",
+      "identifiers": {
+        "namebankID": 4807464
+      },
+      "pages": [
+        2568129,
+        2568130
+      ]
+    },
+    {
+      "namestring": "Blattidae",
+      "identifiers": {
+        "namebankID": 354567
+      },
+      "pages": [
+        2568129,
+        2568130,
+        2568131
+      ]
+    },
+    {
+      "namestring": "Latindia",
+      "identifiers": {
+        "namebankID": 4215015
+      },
+      "pages": [
+        2568130
+      ]
+    },
+    {
+      "namestring": "Holocompsa",
+      "identifiers": {
+        "namebankID": 4196654
+      },
+      "pages": [
+        2568130
+      ]
+    },
+    {
+      "namestring": "Solola",
+      "identifiers": {
+        "namebankID": 4445256
+      },
+      "pages": [
+        2568130
+      ]
+    },
+    {
+      "namestring": "Myrmecoblatta wheeleri",
+      "identifiers": {
+        "namebankID": 4807516
+      },
+      "pages": [
+        2568130
+      ]
+    },
+    {
+      "namestring": "Solenopsis",
+      "identifiers": {
+        "namebankID": 3867907
+      },
+      "pages": [
+        2568132
+      ]
+    },
+    {
+      "namestring": "Cresson punctipennis",
+      "identifiers": {
+        "namebankID": 0
+      },
+      "pages": [
+        2568132
+      ]
+    }
+  ],
+  "classification": [
+    "Animalia",
+    "Arthropoda",
+    "Insecta",
+    "Blattodea",
+    "Polyphagidae"
+  ],
+  "status": 200
+}
+};
+
+
+doc = {
+"message":
+{
+  "_id": "biostor\/134772",
+  "_rev": "4-f3074144531eacbe2eae0a266b33679a",
+  "author": [
+    {
+      "firstname": "Quang Truong",
+      "lastname": "Nguyen",
+      "name": "Quang Truong Nguyen"
+    },
+    {
+      "firstname": "Patrick",
+      "lastname": "David",
+      "name": "Patrick David"
+    },
+    {
+      "firstname": "Thanh Tung",
+      "lastname": "Tran",
+      "name": "Thanh Tung Tran"
+    },
+    {
+      "firstname": "Quang Vinh",
+      "lastname": "Luu",
+      "name": "Quang Vinh Luu"
+    },
+    {
+      "firstname": "Khac Quyet",
+      "lastname": "Le",
+      "name": "Khac Quyet Le"
+    },
+    {
+      "firstname": "Thomas",
+      "lastname": "Ziegler",
+      "name": "Thomas Ziegler"
+    }
+  ],
+  "type": "article",
+  "title": "Amphiesmoides ornaticeps (Werner, 1924), an addition to the snake fauna of Vietnam, with a redescription and comments on the genus Amphiesmoides Malnate, 1961 (Squamata: Natricidae)",
+  "journal": {
+    "name": "Revue Suisse De Zoologie",
+    "volume": "117",
+    "pages": "45--56",
+    "identifier": [
+      {
+        "type": "issn",
+        "id": "0035-418X"
+      }
+    ]
+  },
+  "year": "2010",
+  "link": [
+    {
+      "anchor": "LINK",
+      "url": "http:\/\/direct.biostor.org\/reference\/134772"
+    },
+    {
+      "anchor": "LINK",
+      "url": "http:\/\/www.biodiversitylibrary.org\/page\/43718686"
+    }
+  ],
+  "identifier": [
+    {
+      "type": "biostor",
+      "id": 134772
+    },
+    {
+      "type": "bhl",
+      "id": 43718686
+    },
+    {
+      "type": "doi",
+      "id": "10.5962\/bhl.part.117587"
+    }
+  ],
+  "bhl_pages": {
+    "Page 45": 43718686,
+    "Page 46": 43718687,
+    "Page 47": 43718688,
+    "Page 48": 43718689,
+    "Page 49": 43718690,
+    "Page 50": 43718691,
+    "Page 51": 43718692,
+    "Page 52": 43718693,
+    "Page 53": 43718694,
+    "Page 54": 43718695,
+    "Page 55": 43718696,
+    "Page 56": 43718697
+  },
+  "citation": "Quang Truong Nguyen, Patrick David, Thanh Tung Tran, Quang Vinh Luu, Khac Quyet Le, Thomas Ziegler (2010) Amphiesmoides ornaticeps (Werner, 1924), an addition to the snake fauna of Vietnam, with a redescription and comments on the genus Amphiesmoides Malnate, 1961 (Squamata: Natricidae). Revue Suisse De Zoologie, 117: 45--56",
+  "thumbnail": "data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a\r\nHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL\/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy\r\nMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL\/wAARCACLAFgDASIA\r\nAhEBAxEB\/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL\/8QAtRAAAgEDAwIEAwUFBAQA\r\nAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3\r\nODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm\r\np6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6\/8QAHwEA\r\nAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL\/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx\r\nBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK\r\nU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3\r\nuLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6\/9oADAMBAAIRAxEAPwD01RlR\r\n9KeBUTRRzRBJVDLwcE9xTfsluRjYMdep\/wAfasbG5YxS4qv9jtiMGMdu57cDv704WdsDnyx0x1Pt\r\n\/gKLATjFOFVzaW7AgxKQeopDY2p6xDqTwSOT1p2As0tQx20EchkSNQ5zlu5qbigAxS0ZHrRkUgCi\r\nlFFAGXfSSxWW6ESF8r\/q4w56+mRn0\/Gs2GbUnbHmXW4sFw1mqgZJ+b73TA5rVu1ia0xNCZYyRlQM\r\n\/SqEdjpQUlNMPJKkeUc+vT05piIUvdQjk3TC8IC5Ki0THbnO\/wDzzT\/tOo+ZFsluXRtuSLRPlzkH\r\nPzdiD+Xep0tNOiIli0ts8rkRYIx9aammaU8pUaSoOcZKDHH4+9AEUl3ejyUL3vmDBYpbR45GcEFs\r\n9cChLy\/JZCL9wwGGW0jG3n\/e68Ef5FXDbaebpGfTiJVYBZGi6YIAIPpwPyqubHSnfJ0glnwOUHv7\r\n+9MBq3F\/GrR+Ze5YDEslqmEOM4+8Mnt9TUc11qLzMVkv416BRZx4\/Mv9fyq+ljp8UjwpphCuQrER\r\nZVhnqf8APaozp2mGJh\/Y5JUZ2eTyfp2PU0AMM+omA83pcxseLWMEHsPvdf50yS51ErGqPehggLEW\r\nSHnJ\/wBrg8DgZ\/WtOAxWsDJDZyxxp0VU69uBUgugVJFvccEZBjIPf8+lICa3Lm3jL7t5Ubty7TnH\r\ncdqKfG2+NW2suRnDDBH1opAULlA9oQcZAyMgHnHoazVRZCRJCrKobA+zYGcZ67vYfkK07jmzccZK\r\n4GQDz+PFZnkOJDsii3AllxbryfUfN\/nNMGPNvl3ZIcnGSxtsg8Y7NSvGZEANuwXaCg+ygnJxuPLf\r\n5yKZ9nV1BNvluc7bdMn8CT3\/AJU422X+WFTtCjBtkJHHP8Xt09+KAHx2gaSNHhQLnILWuMHqf4vS\r\nrMNg0DB45LYN03eRg4Hb73aqjW+YkUxAKcnYbZPvY6gbvQ+vajyQAu2LbyQcWqYHUc\/Nxwcdf50w\r\nNRknIwLlFbbj\/V55z1xn04pNl3yv2qHdkEfuug54I3fSskW6npa\/vM5wLWM8cdt+fX9atw2Ec6bp\r\nREecKDAoIA445PBoAvFJxtJuUAxhv3ff1HPHb1pDHdEptuYwQMMDFnJ9evFV10tRyPs4PqLcdPzq\r\nePT7ZQC8ELSDksIwKQFpAQihiC2OSBjNFCKscaoihVAwABgCigZn3JP2N8Ln5cduPz4rOEALMPs4\r\nHVlBt4+Dnr978K0LnBtCC2Mjpxzx054rMjjy0g8ofMCT+5i5OcjkN6jHTrQIPKJYOyDcCDn7NHx6\r\nfx1I9ux25tlbbkErbxnIz\/vccf57UixJE7HyVKqNx\/cRfNz7N7e3Sm+VsYbYBsJwd0MIPrz831\/K\r\nmIkFq+0fuN0Z5KC0j4PH+17DmpPJmVnY25bGEINunzj1zu9gcewqOBngbCboydu7EMQ4+obmrsTz\r\nSRsWvDHtODvRM9PY0DIYoPL8tzZFgpOFECKR6Y+bjk9vQ1ajtrWcl2sFjYH\/AJaRrk\/lmmgujgtq\r\nUeOMqVX0Hv8A5zS4kYjy9SXOem1T\/n\/69AF7NLmqQSVsEX4P0RcYoKTfJjUFyPlP7tfmOfr17UgL\r\nw6UU1AQihm3MBycYzRQMz7g4s3OAfl749Pfj86yCAciRRhc8+VBgAevPH\/1q2nj82DZuxkegP6Gs\r\n65WG1wLjUIog4OPMijGemeo9\/wBaBESRlAGEYAIwP3MGR146+1WLfylVlOnGQ53cRxDA\/BvrVRZd\r\nNMQA1S0AJ3Z8uIFuB14+v51fgu9Kt4Y5luLRd68SjYm7p6Y9R+lMQ8rEV50knAwAUj6eg5p4cKzb\r\nNMcHb1AjGcDgfe\/CnR6rYS\/6u7hc7S2FcE4HtSRaxp0rIqXsBZ+FXeAT+B57igYBl3H\/AIlrggEg\r\n7U5I49ePxpmULBjpL7h0O2P\/AOKqWPVbGScwrcx+YM\/Kcjp160yTW9LiWNnvrcLIMod4O4ZxkY9+\r\nKAEEULBCdJUEtg5WPK+\/WrhtbYuHMERcHIbYMg9etQRarYTKrR3cDhjgEOOTjOPrjmmHWtMWBJjf\r\nW4jcEqxkHOOuKQGiOlFNjkSWNZI2VkYZVlOQRRQMrL9wfSsrWCwkh2TMhII2i68rdyOxU571rKPk\r\nH0qhqLFZYgJdnBJImMZwME9jngUCM1JZpkK+arPsGSuoEFdoOT9z3yc+1Kj3AEaw3ZlnkVkaJr7I\r\nGQMEHZ1zmplnJGwXOTtJGLtuccn+H0pftTuFTzkyoJyt4eg5yfk9KYiG3mZY50e52SHlc32\/k4GM\r\n7BgDHGM9T60jJciyDG7kMuQ7KL\/ACnkYYp3ORyOn6WkuzHId9yPLG1H3XJymfqvJ4Pp3pqXDKVd7\r\nhdpJDYvGIHB6fL\/nFAFaKS4nUQLO5G7JK6hl8Y7fu\/xp08sr3beVenYW+TF9s4J4G0offv6VYS5Z\r\nc7roZAAfN2Tjd0I+X0OR9KWO4Yuyfac\/LjP2zJ9c\/d\/WgYlm8ioxu7l4xC53EXm\/JIxtPyD0PHrU\r\nSl2IgjvpWEasQReDcwHOSdh6AfqetSGdn3BbhgyoGx9qbJ6HP3PQjmnS3W8yOlyDHu6pdkbcnjja\r\ncUAbVoc2kR3bvkHJbdn8cDNFLaENaRENuBUfNu3Z\/HvRSGRL9wfSs3VWCzRKXK7lb\/lu0Yxx6A5r\r\nRU\/IPpWfqVwkNzAPPjjfBIV7kxbgCvYDBoEQNcCWVyLpSGAAxcuMEkYxhcDofr+JpsN4Y1gJuFbG\r\nTlrp+TnkcryMAcfX1qOG4SWRY4r+F5CjEKmoO3bsMcjp3p8V2ocM17Dt+6T9vZuPxHpTASVxER\/p\r\nZCqT8rXbjuR1x\/nJ9Kel2iuSL0MpXKh7lgQccj7vbPX2HfoglkCDfeQ5cNtIvnwSAMjkepHfoalk\r\naaRGlS4QxKSPMS8cYzgdgfb86AIxcDG03mHGTg3jHHHH8I9afNd\/Nh5NhOGLC6cdQOAdvTp+fvSQ\r\n4kmiWK\/VhxuUXrE8dcfhmrTfYI\/3b6k6NGWBDXRBBzznn2oArR3OJiyXQdFOSWvGPGcDI2\/SmpOp\r\n2lrs7d20sLxif\/QRV8raLEk5vpdgwBJ9pODz3OfWmq1k5RE1OQ7idoF0cknHvz7D3oA0LVt1rE27\r\ndlQc7t2fx70U+MBY1UMWwMZJyT+NFIZQeZYIA7ByOBhFLH8hVKe7guCpLXsZXP3IWHT14Ppx+lWL\r\ni4NvaCTAOCBzn+gJrPlvDLIhLRB0LcLNIvHvheelAFiMRSTCJbi\/Dcrkrxx77cfjVtrINEqC4mUr\r\n\/ECMn68Vl+cqFSlyWO7KhrqTkcj+7\/n9aaLjZhXmbkNktcyYweODt5PX6YoEay2CjaDcTsoP3WKk\r\nH68VcAAGMD8q58zSKA5lbJ7C6kIx\/wB8fSnSXShHUXOCpwC104yDzz8vuKYG6FQHIUA+wpSiE5Kr\r\nn1xWELr5CzXGELAbhcuccc\/w+nPv7UwXBkhZhcHeHydtxIV5OeMLQB0OFxjAx9KAqZztH5VgPPgA\r\nCfkYb5rmRT0I\/u+oPHPrSi4LRp+9B5PW6k68d9vv0\/yEB0QPFFQWpzaxc5+Uc7if1NFAyBBmMDJH\r\nHY1FLDcMymG4CAdQ6F8\/+PCpE+4PpT6AIBHe5ObmHH\/XE\/8AxVKsV71a6izn+GEjj\/vr6VYpR0oA\r\nhjiuRNue4Ro8fcEeDn65qxg460UCgBRn1o59aKKAF59aOfWkpwoAUUUUUgP\/2Q==\r\n",
+  "date": [
+    2010
+  ],
+  "names": [
+    
+  ],
+  "classification": [
+    
+  ],
+  "status": 200
+}
+};
+
+
+var xw = new XMLWriter('UTF-8');
+		xw.formatting = 'indented';//add indentation and newlines
+		xw.indentChar = ' ';//indent with spaces
+		xw.indentation = 2;//add 2 spaces per level
+		
+		xw.writeStartDocument( );
+		xw.writeDocType('PUBLIC "SYSTEM" "jats-archiving-dtd-1.0/JATS-archivearticle1.dtd"');
+
+		xw.writeStartElement('article' );
+			xw.writeAttributeString('xmlns:xlink', 'http://www.w3.org/1999/xlink');
+          	xw.writeStartElement('front');
+          	if (doc.message.journal) {
+				xw.writeStartElement('journal-meta');
+					xw.writeStartElement('journal-title-group');
+						if (doc.message.journal.name) {
+							xw.writeElementString('journal-title', doc.message.journal.name);
+						}
+					xw.writeEndElement();
+					
+					if (doc.message.journal.identifier) {
+						for (var i in doc.message.journal.identifier) {
+						   if (doc.message.journal.identifier[i].type == 'issn') {
+						   	xw.writeElementString('issn', doc.message.journal.identifier[i].id);
+						   }
+						}
+					}
+					
+				xw.writeEndElement();
+          	}
+ 
+ 			xw.writeStartElement('article-meta');
+ 			
+ 			// identifiers
+			if (doc.message.identifier) {
+				for (var i in doc.message.identifier) {
+					switch (doc.message.identifier[i].type) {
+
+						case 'biostor':
+							xw.writeStartElement('article-id');
+							xw.writeAttributeString('pub-id-type', 'biostor');
+							xw.writeString(String(doc.message.identifier[i].id));
+							xw.writeEndElement();
+							break;
+					
+						
+						case 'doi':
+							xw.writeStartElement('article-id');
+							xw.writeAttributeString('pub-id-type', 'doi');
+							xw.writeString(doc.message.identifier[i].id);
+							xw.writeEndElement();
+							break;
+							
+						case 'pmc':
+							xw.writeStartElement('article-id');
+							xw.writeAttributeString('pub-id-type', 'pmc');
+							xw.writeString(String(doc.message.identifier[i].id));
+							xw.writeEndElement();
+							break;
+
+						case 'pmid':
+							xw.writeStartElement('article-id');
+							xw.writeAttributeString('pub-id-type', 'pmid');
+							xw.writeString(String(doc.message.identifier[i].id));
+							xw.writeEndElement();
+							break;
+							
+						default:
+							break;
+					}				   
+				}
+			}
+	
+ 			// title		
+ 			xw.writeStartElement('title-group');
+			if (doc.message.title) {
+				xw.writeElementString('article-title', doc.message.title);
+			}
+			xw.writeEndElement();
+			
+			// authors
+			if (doc.message.author) {
+				xw.writeStartElement('contrib-group');
+				for (var i in doc.message.author) {
+					xw.writeStartElement('contrib');
+					xw.writeAttributeString('contrib-type', 'author');
+					xw.writeStartElement('name');
+					xw.writeElementString('surname', doc.message.author[i].lastname);
+					if (doc.message.author[i].firstname) {
+						xw.writeElementString('given-names', doc.message.author[i].firstname);
+					}
+					xw.writeEndElement();
+					xw.writeEndElement();
+				}
+				xw.writeEndElement();
+			}
+	
+			
+			// date
+			if (doc.message.date) {
+				if (Array.isArray(doc.message.date)) {
+					xw.writeStartElement('pub-date');
+					xw.writeAttributeString('pub-type', 'ppub');
+					
+					if (doc.message.date.length >= 1) {
+						xw.writeElementString('year', String(doc.message.date[0]));
+					}
+
+					if (doc.message.date.length >= 2) {
+						xw.writeElementString('month', String(doc.message.date[1]).replace(/^0/, ''));
+					}
+
+					if (doc.message.date.length == 3) {
+						xw.writeElementString('day', String(doc.message.date[2]).replace(/^0/, ''));
+					}
+					xw.writeEndElement();
+				
+				} else {
+					var regexp = /([0-9]{4})-(\d+)-(\d+)/;			
+					var parts = [];doc.message.date.match(regexp);
+					if (parts) {
+						xw.writeStartElement('pub-date');
+						xw.writeAttributeString('pub-type', 'ppub');
+					
+						if (parts[3] != '00') {
+							xw.writeElementString('day', parts[3].replace(/^0/, ''));
+						}
+						if (parts[2] != '00') {
+							xw.writeElementString('month', parts[3].replace(/^0/, ''));
+						}
+						xw.writeElementString('year', parts[1]);
+				
+						xw.writeEndElement();
+					}
+				}
+			} else {
+				if (doc.message.year) {
+					xw.writeStartElement('pub-date');
+					xw.writeAttributeString('pub-type', 'ppub');
+					xw.writeElementString('year', doc.message.year);
+					xw.writeEndElement();
+				}
+			}
+			
+			// location in journal
+          	if (doc.message.journal) {
+          		if (doc.message.journal.volume) {
+          			xw.writeElementString('volume', doc.message.journal.volume);
+          		}
+          		if (doc.message.journal.issue) {
+          			xw.writeElementString('issue', doc.message.journal.issue);
+          		}
+          		
+          		if (doc.message.journal.pages) {
+					var delimiter = doc.message.journal.pages.indexOf('-');
+              		if (delimiter != -1) {
+                		spage = doc.message.journal.pages.substring(0, delimiter);
+                		xw.writeElementString('fpage', spage);
+                		epage = doc.message.journal.pages.substring(delimiter+2)
+                		xw.writeElementString('lpage', epage);
+                	} else {
+                 		xw.writeElementString('fpage', doc.message.journal.pages);
+                	}          		
+          		}
+			}			
+			
+			// abstract
+			if (doc.message.abstract) {
+				xw.writeStartElement('abstract');
+				xw.writeElementString('p', doc.message.abstract);
+				xw.writeEndElement();
+			}
+ 			 			
+ 			xw.writeEndElement(); // article-meta
+ 			
+			xw.writeEndElement(); // front
+			
+			xw.writeStartElement('body');
+			
+			// OCR text
+			/*
+			if (count($reference->text) > 0)
+			{
+				foreach ($reference->text as $text)
+				{
+					$preformat = $body->appendChild($doc->createElement('preformat'));
+					$preformat->appendChild($doc->createTextNode($text));
+				}
+			}
+			*/			
+			
+			// OCR scans 
+			if (doc.message.bhl_pages) {
+				xw.writeStartElement('supplementary-material');
+				xw.writeAttributeString('content-type', 'scanned-pages');
+				
+				for (var i in doc.message.bhl_pages) {
+					xw.writeStartElement('graphic');
+					xw.writeAttributeString('xlink:href', 'http://biostor.org/page/image/' + doc.message.bhl_pages[i] + '-small.jpg');
+					xw.writeAttributeString('xlink:role', doc.message.bhl_pages[i]);
+					xw.writeAttributeString('xlink:title', i);
+					xw.writeEndElement();
+				}
+				xw.writeEndElement();
+			}
+			
+			
+			
+			xw.writeEndElement(); // body
+			
+		xw.writeEndElement(); // article
+		xw.writeEndDocument();
+		
+		var xml = xw.flush(); //generate the xml string
+		xw.close();//clean the writer
+		xw = undefined;//don't let visitors use it, it's closed
+		//set the xml
+		
+		//alert(xml);
+		document.getElementById('parsed-xml').value = xml;
+		
+
+
+</script>
+
+</body>
+</html>
+
