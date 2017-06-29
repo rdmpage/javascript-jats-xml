@@ -2,6 +2,7 @@
 <xsl:stylesheet xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 	<xsl:output encoding="utf-8" indent="yes" method="html" version="1.0"/>
 	<xsl:template match="/">
+	<!--
 		<html>
 			<head>
 				<meta charset="utf-8"/>
@@ -35,7 +36,7 @@ tbody{
                 </style>
 				
 			</head>
-			<body>
+			<body> -->
 				<div>
 					<p style="font-size:80%">
 						<xsl:value-of select="//journal-meta/journal-title-group/journal-title"/>
@@ -119,7 +120,10 @@ tbody{
 						<xsl:value-of select="//abstract"/>
 					</xsl:if>
 					
-					<!-- this is BioStor specific 
+					<!-- this is BioStor specific -->
+					
+					<xsl:if test="//supplementary-material/graphic">
+					<!--
 					<h2>Full text</h2>
 					<p>
 						<xsl:text>
@@ -144,9 +148,11 @@ tbody{
 							<xsl:text>.</xsl:text>
 						</xsl:if>
 					</p>
+					-->
 					<div>
 						<xsl:apply-templates select="//supplementary-material/graphic"/>
 					</div>
+					<!--
 					<div style="clear:both;"/>
 					<xsl:if test="//floats-group">
 						<h2>Images in this article</h2>
@@ -158,15 +164,13 @@ tbody{
 					</xsl:if>
 					
 					-->
-					
-					<xsl:if test="//back">
-						<h2 id="reference-sec">Selected references</h2>
-						<xsl:apply-templates select="//back"/>
 					</xsl:if>
 					
-				</div>
-			</body>
-		</html>
+					<xsl:apply-templates select="//back"/>
+					
+			</div>
+			<!-- </body>
+		</html> -->
 	</xsl:template>
 	
 <xsl:template match="article-id">
@@ -278,16 +282,20 @@ tbody{
 	<xsl:template match="back">
 		<xsl:apply-templates select="ref-list"/>
 	</xsl:template>
+	
 	<xsl:template match="ref-list">
-		<ul>
+		<h2 id="reference-sec">Selected references</h2>	
+		<ol>
 			<xsl:apply-templates select="ref"/>
-		</ul>
+		</ol>
 	</xsl:template>
+	
 	<xsl:template match="ref">
 		<li>
-			<xsl:apply-templates select="mixed-citation"/>
+			<xsl:apply-templates select="mixed-citation"/> 
 		</li>
 	</xsl:template>
+	
 	<xsl:template match="mixed-citation">
 		<xsl:value-of select="."/>
 		<xsl:apply-templates select="ext-link"/>
