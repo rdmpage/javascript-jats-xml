@@ -1,0 +1,748 @@
+<html>
+<head>
+<script src="xmlwriter.js"></script>
+</head>
+<body>
+
+<textarea id="parsed-xml" rows="40" cols="80"></textarea>
+
+
+
+<script>
+var doc = {
+	"status": "ok",
+	"message-type": "work",
+	"message-version": "1.0.0",
+	"message": {
+		"indexed": {
+			"date-parts": [
+				[2017, 6, 23]
+			],
+			"date-time": "2017-06-23T10:02:36Z",
+			"timestamp": 1498212156683
+		},
+		"reference-count": 57,
+		"publisher": "Springer Nature",
+		"issue": "5",
+		"content-domain": {
+			"domain": ["link.springer.com"],
+			"crossmark-restriction": false
+		},
+		"short-container-title": ["Mycol Progress"],
+		"published-print": {
+			"date-parts": [
+				[2015, 5]
+			]
+		},
+		"DOI": "10.1007\/s11557-015-1047-x",
+		"type": "journal-article",
+		"created": {
+			"date-parts": [
+				[2015, 4, 10]
+			],
+			"date-time": "2015-04-10T06:43:34Z",
+			"timestamp": 1428648214000
+		},
+		"update-policy": "http:\/\/dx.doi.org\/10.1007\/springer_crossmark_policy",
+		"source": "Crossref",
+		"is-referenced-by-count": 0,
+		"title": ["Molecular phylogenetics and taxonomy in Psathyrellaceae (Agaricales) with focus on psathyrelloid species: introduction of three new genera and 18 new species"],
+		"prefix": "10.1007",
+		"volume": "14",
+		"author": [{
+			"given": "Leif",
+			"family": "\u00d6rstadius",
+			"affiliation": []
+		}, {
+			"given": "Martin",
+			"family": "Ryberg",
+			"affiliation": []
+		}, {
+			"given": "Ellen",
+			"family": "Larsson",
+			"affiliation": []
+		}],
+		"member": "297",
+		"published-online": {
+			"date-parts": [
+				[2015, 4, 11]
+			]
+		},
+		"reference": [{
+			"key": "1047_CR1",
+			"first-page": "1",
+			"volume": "26",
+			"author": "E Arnolds",
+			"year": "2003",
+			"unstructured": "Arnolds E (2003) Rare and interesting species of Psathyrella. Fungi Non Delineati 26:1\u201376",
+			"journal-title": "Fungi Non Delineati"
+		}, {
+			"key": "1047_CR2",
+			"first-page": "660",
+			"DOI": "10.1093\/sysbio\/syt029",
+			"volume": "62",
+			"author": "J Bergsten",
+			"year": "2013",
+			"unstructured": "Bergsten J, Nilsson AN, Ronquist F (2013) Bayesian tests of topology hypotheses with an example from diving beetles. Syst Biol 62:660\u2013673",
+			"journal-title": "Syst Biol"
+		}, {
+			"key": "1047_CR3",
+			"first-page": "23",
+			"volume": "7",
+			"author": "Z Bi",
+			"year": "1987",
+			"unstructured": "Bi Z, Li T, Zheng G (1987) A preliminary study on the genus Psathyrella from Guangdong province of China. Guihaia 7:23\u201327",
+			"journal-title": "Guihaia"
+		}, {
+			"key": "1047_CR4",
+			"unstructured": "Bogart van de F (1975) The Genus Coprinus in Washington and Adjacent Western States. Dissertation. University of Washington"
+		}, {
+			"key": "1047_CR5",
+			"first-page": "147",
+			"volume": "27",
+			"author": "M Britzelmayr",
+			"year": "1883",
+			"unstructured": "Britzelmayr M (1883) Dermini und Melanospori aus S\u00fcdbayern. Bericht des Naturhistorischen Vereins Augsburg 27:147\u2013196",
+			"journal-title": "Bericht des Naturhistorischen Vereins Augsburg"
+		}, {
+			"key": "1047_CR6",
+			"first-page": "1",
+			"volume": "199",
+			"author": "H Cl\u00e9men\u00e7on",
+			"year": "2004",
+			"unstructured": "Cl\u00e9men\u00e7on H, Emmett V, Emmett EE (2004) Cytology and plectology of the hymenomycetes. Bibl Mycol 199:1\u2013488",
+			"journal-title": "Bibl Mycol"
+		}, {
+			"key": "1047_CR7",
+			"unstructured": "Cooke WB (1953) The genera of the Homobasidiomycetes. Spec Publ Div Myc Dis Surv US Department of Agriculture 3: 100pp"
+		}, {
+			"key": "1047_CR8",
+			"first-page": "1",
+			"volume": "5",
+			"author": "MA Donk",
+			"year": "1962",
+			"unstructured": "Donk MA (1962) The generic names proposed for Agaricaceae. Beihefte zur Nova Hedwigia 5:1\u2013320",
+			"journal-title": "Beihefte zur Nova Hedwigia"
+		}, {
+			"key": "1047_CR9",
+			"first-page": "141",
+			"volume": "36",
+			"author": "MC Galland",
+			"year": "1972",
+			"unstructured": "Galland MC (1972) Caract\u00e8res myc\u00e9liens des Psathyrella (Fr.) Qu\u00e9l. (Agaricales). Rev de Mycologie 36:141\u2013174",
+			"journal-title": "Rev de Mycologie"
+		}, {
+			"key": "1047_CR10",
+			"first-page": "791",
+			"DOI": "10.2307\/1555039",
+			"volume": "51",
+			"author": "W Gams",
+			"year": "2002",
+			"unstructured": "Gams W (2002) Report of the committee for fungi: 10. Taxon 51:791\u2013792",
+			"journal-title": "Taxon"
+		}, {
+			"key": "1047_CR11",
+			"first-page": "113",
+			"DOI": "10.1111\/j.1365-294X.1993.tb00005.x",
+			"volume": "2",
+			"author": "M Gardes",
+			"year": "1993",
+			"unstructured": "Gardes M, Bruns TD (1993) ITS primers with enhanced specificity for basidiomycetes-application to the identification of mycorrhizas and rusts. Mol Ecol 2:113\u2013118",
+			"journal-title": "Mol Ecol"
+		}, {
+			"key": "1047_CR12",
+			"unstructured": "Grgurinovic C (1997) Larger Fungi of South Australia. Botanic Gardens of Adelaide and State Herbarium"
+		}, {
+			"key": "1047_CR13",
+			"first-page": "385",
+			"DOI": "10.1007\/S10267-008-0437-1",
+			"volume": "49",
+			"author": "Y Hoashi",
+			"year": "2008",
+			"unstructured": "Hoashi Y (2008) Psathyrella turcosomarginata, a new species with cheilocystidia possessing mucoid deposits staining bluish green in ammonia solution. Mycoscience 49:385\u2013387",
+			"journal-title": "Mycoscience"
+		}, {
+			"key": "1047_CR14",
+			"first-page": "1",
+			"DOI": "10.1006\/mpev.1999.0634",
+			"volume": "13",
+			"author": "JS Hopple Jr",
+			"year": "1999",
+			"unstructured": "Hopple JS Jr, Vilgalys R (1999) Phylogenetic relationships in the mushroom genus Coprinus and dark spored allies based on sequence data from the nuclear gene coding for the large ribosomal subunit RNA: divergent domains, outgroups, and monophyly. Mol Phylogenet Evol 13:1\u201319",
+			"journal-title": "Mol Phylogenet Evol"
+		}, {
+			"key": "1047_CR15",
+			"first-page": "1",
+			"volume": "13",
+			"author": "E Horak",
+			"year": "1968",
+			"unstructured": "Horak E (1968) Synopsis generum Agaricalium (Die Gattungstypen der Agaricales). Beitr\u00e4ge zur Kryptogamenflora der Schweiz 13:1\u2013741",
+			"journal-title": "Beitr\u00e4ge zur Kryptogamenflora der Schweiz"
+		}, {
+			"key": "1047_CR16",
+			"first-page": "64",
+			"volume": "33",
+			"author": "E Horak",
+			"year": "1980",
+			"unstructured": "Horak E (1980) Taxonomy and distribution of two little known, monotypic genera of Agaricales: Amparoina, Cystoagaricus. Sydowia 33:64\u201370",
+			"journal-title": "Sydowia"
+		}, {
+			"key": "1047_CR17",
+			"first-page": "575",
+			"DOI": "10.1099\/00221287-72-3-575",
+			"volume": "72",
+			"author": "M Jurand",
+			"year": "1972",
+			"unstructured": "Jurand M, Kemp RFO (1972) Surface ultrastructure of Oidia in the Basidiomycete Psathyrella coprophila. J Gen Microbiol 72:575\u2013579",
+			"journal-title": "J Gen Microbiol"
+		}, {
+			"key": "1047_CR18",
+			"author": "K Katoh",
+			"year": "2013",
+			"unstructured": "Katoh K, Standley DM (2013) MAFFT multiple sequence alignment software version 7: improvements in performance and usability. Mol Biol Evol. doi: 10.1093\/molbev\/mst010 , Online January 16",
+			"journal-title": "Mol Biol Evol"
+		}, {
+			"key": "1047_CR19",
+			"first-page": "33",
+			"volume": "15",
+			"author": "MR Keirle",
+			"year": "2004",
+			"unstructured": "Keirle MR, Hemmes DE, Desjardin DE (2004) Agaricales of the Hawaiian Islands. 8. Agaricaceae:Coprinus and Podaxis; Psathyrellaceae: Coprinopsis, Coprinellus and Parasola. Fungal Divers 15:33\u2013124",
+			"journal-title": "Fungal Divers"
+		}, {
+			"key": "1047_CR20",
+			"author": "PJ Keizer",
+			"first-page": "290",
+			"year": "1993",
+			"unstructured": "Keizer PJ (1993) Ecology of Macromycetes in roadside verges planted with trees. CIP -Gegevens Koninklijke Bibliotheek, Den Haag, p 290",
+			"volume-title": "Ecology of Macromycetes in roadside verges planted with trees"
+		}, {
+			"key": "1047_CR21",
+			"first-page": "1",
+			"volume": "2",
+			"author": "E Kits van Waveren",
+			"year": "1985",
+			"unstructured": "Kits van Waveren E (1985) The Dutch, French and British species of Psathyrella. Persoonia Suppl 2:1\u2013300",
+			"journal-title": "Persoonia Suppl"
+		}, {
+			"key": "1047_CR22",
+			"first-page": "781",
+			"DOI": "10.1017\/S0953756204000310",
+			"volume": "108",
+			"author": "E Larsson",
+			"year": "2004",
+			"unstructured": "Larsson E, Jacobsson S (2004) The controversy over Hygrophorus cossus settled using ITS sequence data from 200-year-old type material. Mycol Res 108:781\u2013786",
+			"journal-title": "Mycol Res"
+		}, {
+			"key": "1047_CR23",
+			"first-page": "1165",
+			"DOI": "10.1016\/j.mycres.2008.04.003",
+			"volume": "112",
+			"author": "E Larsson",
+			"year": "2008",
+			"unstructured": "Larsson E, \u00d6rstadius L (2008) Fourteen coprophilous species of Psathyrella identified in the Nordic countries using morphology and nuclear rDNA sequence data. Mycol Res 112:1165\u20131185",
+			"journal-title": "Mycol Res"
+		}, {
+			"key": "1047_CR24",
+			"first-page": "982",
+			"DOI": "10.3852\/mycologia.98.6.982",
+			"volume": "98",
+			"author": "PB Matheny",
+			"year": "2006",
+			"unstructured": "Matheny PB, Curtis JM, Hofstetter V, Aime MC, Moncalvo JM, Ge ZW, Yang ZL, Slot JC, Ammirati JF, Baroni TJ, Bougher NL, Hughes KW, Lodge DJ, Kerrigan RW, Seidl MT, Aanen DK, DeNitis M, Daniele GM, Desjardin DE, Kropp BR, Norvell LL, Parker A, Vellinga EC, Vilgalys R, Hibbett DS (2006) Major clades of Agaricales: a multilocus phylogenetic overview. Mycologia 98:982\u2013995",
+			"journal-title": "Mycologia"
+		}, {
+			"key": "1047_CR25",
+			"first-page": "357",
+			"DOI": "10.1016\/S1055-7903(02)00027-1",
+			"volume": "23",
+			"author": "JM Moncalvo",
+			"year": "2002",
+			"unstructured": "Moncalvo JM, Vilgalys R, Redhead SA, Johnson JE, James TY, Aime CM, Hofsetter V, Verduin SJ, Larsson E, Baroni TJ, Thorn GR, Jacobsson S, Cl\u00e9mencon H, Miller OK (2002) One hundred and seventeen clades of euagarics. Mol Phylogenet Evol 23:357\u2013400",
+			"journal-title": "Mol Phylogenet Evol"
+		}, {
+			"key": "1047_CR26",
+			"author": "Munsell",
+			"year": "1975",
+			"unstructured": "Munsell (1975) Munsell soil color charts. Macbeth, Baltimore",
+			"volume-title": "Munsell soil color charts"
+		}, {
+			"key": "1047_CR27",
+			"first-page": "107",
+			"volume": "7",
+			"author": "WA Murrill",
+			"year": "1945",
+			"unstructured": "Murrill WA (1945) New Florida fungi. Proc Florida Acad Sci 7:107\u2013127",
+			"journal-title": "Proc Florida Acad Sci"
+		}, {
+			"key": "1047_CR28",
+			"first-page": "28",
+			"DOI": "10.3767\/003158509X422434",
+			"volume": "22",
+			"author": "LG Nagy",
+			"year": "2009",
+			"unstructured": "Nagy LG, Kocsub\u00e9 S, Papp T, V\u00e1gv\u00f6lgyi C (2009) Phylogeny and character evolution of the coprinoid mushroom genus Parasola as inferred from LSU and ITS nrDNA sequence data. Persoonia 22:28\u201337",
+			"journal-title": "Persoonia"
+		}, {
+			"key": "1047_CR29",
+			"first-page": "1037",
+			"DOI": "10.1016\/j.ympev.2010.08.022",
+			"volume": "57",
+			"author": "LG Nagy",
+			"year": "2010",
+			"unstructured": "Nagy LG, Urban A, \u00d6rstadius L, Papp T, Larsson E, V\u00e1gv\u00f6lgyi C (2010) The evolution of autodigestion in the mushroom family Psathyrellaceae (Agaricales) inferred from Maximum Likelihood and bayesian methods. Mol Phylogenet Evol 57:1037\u20131048",
+			"journal-title": "Mol Phylogenet Evol"
+		}, {
+			"key": "1047_CR30",
+			"first-page": "303",
+			"DOI": "10.1093\/sysbio\/syr005",
+			"volume": "60",
+			"author": "LG Nagy",
+			"year": "2011",
+			"unstructured": "Nagy LG, Walther G, H\u00e1zi J, V\u00e1gv\u00f6lgyi C, Papp T (2011) Understanding the evolutionary processes of fungal fruiting bodies: correlated evolution and divergence time in the Psathyrellaceae. Syst Biol 60:303\u2013317",
+			"journal-title": "Syst Biol"
+		}, {
+			"key": "1047_CR31",
+			"first-page": "254",
+			"DOI": "10.3852\/11-149",
+			"volume": "104",
+			"author": "LG Nagy",
+			"year": "2012",
+			"unstructured": "Nagy LG, H\u00e1zi J, V\u00e1gv\u00f6lgyi C, Papp T (2012) Phylogeny and species delimitation in the genus Coprinellus with specieal emphasis on the haired species. Mycologia 104:254\u2013275",
+			"journal-title": "Mycologia"
+		}, {
+			"key": "1047_CR32",
+			"first-page": "112",
+			"DOI": "10.3852\/12-136",
+			"volume": "105",
+			"author": "LG Nagy",
+			"year": "2013",
+			"unstructured": "Nagy LG, Desjardin ED, V\u00e1gv\u00f6lgyi C, Kemp R, Papp T (2013a) Phylogenetic analyses of Coprinopsis section Lanatuli and Atramentarii identify multiple species within morphologically defined taxa. Mycologia 105:112\u2013114",
+			"journal-title": "Mycologia"
+		}, {
+			"key": "1047_CR33",
+			"first-page": "505",
+			"DOI": "10.1007\/s11557-012-0857-3",
+			"volume": "12",
+			"author": "LG Nagy",
+			"year": "2013",
+			"unstructured": "Nagy LG, V\u00e1gv\u00f6lgyi C, Papp T (2013b) Morphological characterization of clades of the Psathyrellaceae (Agaricales) inferred from a multigene phylogeny. Mycol Prog 12:505\u2013517",
+			"journal-title": "Mycol Prog"
+		}, {
+			"key": "1047_CR34",
+			"first-page": "581",
+			"DOI": "10.1093\/bioinformatics\/btm388",
+			"volume": "24",
+			"author": "JAA Nylander",
+			"year": "2008",
+			"unstructured": "Nylander JAA, Wilgenbusch JC, Warren DL, Swofford DL (2008) AWTY (are we there yet?): a system for graphical exploration of MCMC convergence in Bayesian phylogenetics. Bioinformatics 24:581\u2013583",
+			"journal-title": "Bioinformatics"
+		}, {
+			"key": "1047_CR35",
+			"author": "L \u00d6rstadius",
+			"first-page": "692",
+			"year": "2012",
+			"unstructured": "\u00d6rstadius L, Knudsen H (2012) Psathyrella (Fr.) Qu\u00e9l. In: Knudsen H, Vesterholt J (eds) Funga Nordica. Agaricoid, boletoid, cyphelloid and gasteroid genera. Nordsvamp, Copenhagen, pp 692\u2013728",
+			"volume-title": "Funga Nordica. Agaricoid, boletoid, cyphelloid and gasteroid genera"
+		}, {
+			"key": "1047_CR36",
+			"first-page": "159",
+			"DOI": "10.1016\/S0007-1536(60)80065-4",
+			"volume": "43",
+			"author": "PD Orton",
+			"year": "1960",
+			"unstructured": "Orton PD (1960) New check-list of British Agarics and Boleti. Part 3: notes on genera and species in the list. Trans British Mycol Soc Suppl 43:159\u2013439",
+			"journal-title": "Trans British Mycol Soc Suppl"
+		}, {
+			"key": "1047_CR37",
+			"first-page": "415",
+			"DOI": "10.1016\/j.ympev.2007.11.004",
+			"volume": "46",
+			"author": "M Padamsee",
+			"year": "2008",
+			"unstructured": "Padamsee M, Matheny PB, Dentinger BT, McLaughlin DJ (2008) The mushroom family Psathyrellaceae: evidence for a large-scale phylogeny of the genus Psathyrella. Mol Phylogenet Evol 46:415\u2013429",
+			"journal-title": "Mol Phylogenet Evol"
+		}, {
+			"key": "1047_CR38",
+			"first-page": "1",
+			"volume": "6",
+			"author": "DN Pegler",
+			"year": "1977",
+			"unstructured": "Pegler DN (1977) A preliminary agaric flora of East Africa. Kew Bull Addit Ser 6:1\u2013615",
+			"journal-title": "Kew Bull Addit Ser"
+		}, {
+			"key": "1047_CR39",
+			"first-page": "1",
+			"volume": "9",
+			"author": "DN Pegler",
+			"year": "1983",
+			"unstructured": "Pegler DN (1983) Agaric flora of the Lesser Antilles. Kew Bull Addit Ser 9:1\u2013668",
+			"journal-title": "Kew Bull Addit Ser"
+		}, {
+			"key": "1047_CR40",
+			"unstructured": "Rambaut A, Drummond AJ (2007) Tracer v1.4, Available from http:\/\/beast.bio.ed.ac.uk\/Tracer"
+		}, {
+			"key": "1047_CR41",
+			"first-page": "203",
+			"DOI": "10.2307\/1224525",
+			"volume": "50",
+			"author": "SA Redhead",
+			"year": "2001",
+			"unstructured": "Redhead SA, Vilgalys R, Moncalvo JM, Johnson J, Hopple JS Jr (2001a) Coprinus Pers. and the disposition of Coprinus species sensu lato. Taxon 50:203\u2013241",
+			"journal-title": "Taxon"
+		}, {
+			"key": "1047_CR42",
+			"first-page": "275",
+			"DOI": "10.2307\/1224529",
+			"volume": "50",
+			"author": "SA Redhead",
+			"year": "2001",
+			"unstructured": "Redhead SA, Vilgalys R, Moncalvo JM, Johnson J, Hopple JS Jr (2001b) Proposals to conserve the name Psathyrella (Fr.) Quel. with a conserved type and to reject the name Pselliophora P. Karst. (Basidiomycetes: Psathyrellaceae). Taxon 50:275\u2013278",
+			"journal-title": "Taxon"
+		}, {
+			"key": "1047_CR43",
+			"first-page": "5",
+			"volume": "98",
+			"author": "H Romagnesi",
+			"year": "1982",
+			"unstructured": "Romagnesi H (1982) \u00c9tudes compl\u00e9mentaires de quelques esp\u00e8ces de Psathyrella ss. lato (Drosophila Qu\u00e9let). Bull. Trim de la Soc Mycol de France 98:5\u201368",
+			"journal-title": "Trim de la Soc Mycol de France"
+		}, {
+			"key": "1047_CR44",
+			"first-page": "1",
+			"DOI": "10.4161\/psb.5.1.10306",
+			"volume": "5",
+			"author": "M-A Selosse",
+			"year": "2010",
+			"unstructured": "Selosse M-A, Martos F, Perry BA, Padamsee M, Roy M, Pailler T (2010) Saprotrophic fungal mycorrhizal symbionts in achlorophyllus orchids. Plant Signal Behav 5:1\u20135",
+			"journal-title": "Plant Signal Behav"
+		}, {
+			"key": "1047_CR45",
+			"first-page": "77",
+			"DOI": "10.2307\/3755289",
+			"volume": "39",
+			"author": "R Singer",
+			"year": "1947",
+			"unstructured": "Singer R (1947) New genera of fungi. III. Mycologia 39:77\u201389",
+			"journal-title": "Mycologia"
+		}, {
+			"key": "1047_CR46",
+			"first-page": "1",
+			"volume": "22",
+			"author": "R Singer",
+			"year": "1951",
+			"unstructured": "Singer R (1951) The \u201cAgaricales\u201d (Mushrooms) in modern taxonomy. Lilloa 22:1\u2013830",
+			"journal-title": "Lilloa"
+		}, {
+			"key": "1047_CR47",
+			"first-page": "1",
+			"volume": "29",
+			"author": "R Singer",
+			"year": "1969",
+			"unstructured": "Singer R (1969) Mycoflora australis. Nova Hedwigia Beihefte 29:1\u2013405",
+			"journal-title": "Nova Hedwigia Beihefte"
+		}, {
+			"key": "1047_CR48",
+			"first-page": "1",
+			"volume": "19",
+			"author": "R Singer",
+			"year": "1978",
+			"unstructured": "Singer R (1978) Interesting and new species of basidiomycetes from Ecuador II. Nova Hedwigia 19:1\u201398",
+			"journal-title": "Nova Hedwigia"
+		}, {
+			"key": "1047_CR49",
+			"author": "R Singer",
+			"year": "1986",
+			"edition": "4",
+			"unstructured": "Singer R (1986) The Agaricales in modern taxonomy, 4th edn. Koeltz Scientific Books, Koenigstein",
+			"volume-title": "The Agaricales in modern taxonomy"
+		}, {
+			"key": "1047_CR50",
+			"first-page": "1",
+			"volume": "24",
+			"author": "AH Smith",
+			"year": "1972",
+			"unstructured": "Smith AH (1972) The North American species of Psathyrella. Mem N Y Bot Gard 24:1\u2013633",
+			"journal-title": "Mem N Y Bot Gard"
+		}, {
+			"key": "1047_CR51",
+			"first-page": "2688",
+			"DOI": "10.1093\/bioinformatics\/btl446",
+			"volume": "22",
+			"author": "A Stamatakis",
+			"year": "2006",
+			"unstructured": "Stamatakis A (2006) RAxML-VI-HPC: maximum likelihood-based phylogenetic analyses with thousands of taxa and mixed models. Bioinformatics 22:2688\u20132690",
+			"journal-title": "Bioinformatics"
+		}, {
+			"key": "1047_CR52",
+			"author": "DL Swofford",
+			"year": "2003",
+			"unstructured": "Swofford DL (2003) PAUP*. Phylogenetic analysis using parsimony (* and other methods). Version 4. Sinauer, Sunderland",
+			"volume-title": "PAUP*. Phylogenetic analysis using parsimony (* and other methods). Version 4"
+		}, {
+			"key": "1047_CR53",
+			"author": "CB Ulj\u00e9",
+			"year": "2005",
+			"unstructured": "Ulj\u00e9 CB (2005) Coprinus. In: Noordeloos ME, Kuyper TW, Vellinga EC (eds) Flora Agaricina Neerlandica 6:22\u2013109. CRC press, Boca Raton",
+			"volume-title": "Flora Agaricina Neerlandica 6:22\u2013109"
+		}, {
+			"key": "1047_CR54",
+			"first-page": "1153",
+			"DOI": "10.1016\/j.mycres.2008.04.005",
+			"volume": "112",
+			"author": "M Va\u0161utov\u00e1",
+			"year": "2008",
+			"unstructured": "Va\u0161utov\u00e1 M, Antonin V, Urban A (2008) Phylogenetic studies in Psathyrella focusing on section Pennatae and Spadiceae \u2013new evidence for the paraphyly of the genus. Mycol Res 112:1153\u20131164",
+			"journal-title": "Mycol Res"
+		}, {
+			"key": "1047_CR55",
+			"unstructured": "Vellinga EC (1988) Glossary. Pp. 54\u201364. In: Bas C, Kuyper THW, Noordeloos ME, Vellinga EC. Flora Agaricina Neerlandica, vol 1. Critical monographs on families of Agarics and Boleti occurring in the Netherlands. AA Balkema, Rotterdam\/Brookfield"
+		}, {
+			"key": "1047_CR56",
+			"first-page": "354",
+			"DOI": "10.1017\/S0953756204009700",
+			"volume": "108",
+			"author": "EC Vellinga",
+			"year": "2004",
+			"unstructured": "Vellinga EC (2004) Genera in the Agaricaceae \u2013 evidence from nrITS and nrLSU sequences. Mycol Res 108:354\u2013377",
+			"journal-title": "Mycol Res"
+		}, {
+			"key": "1047_CR57",
+			"author": "TJ White",
+			"first-page": "315",
+			"year": "1990",
+			"unstructured": "White TJ, Bruns T, Lee L, Taylor JW (1990) Amplification and direct sequencing of fungal ribosomal RNA genes for phylogenetics. In: Innis MA, Gelfand DH, Sininski JJ, White TJ (eds) PCR protocols, a guide to methods and applications. Academic Press, New York, pp 315\u2013322",
+			"volume-title": "PCR protocols, a guide to methods and applications",
+			"DOI": "10.1016\/B978-0-12-372180-8.50042-1"
+		}],
+		"container-title": ["Mycological Progress"],
+		"original-title": [],
+		"deposited": {
+			"date-parts": [
+				[2017, 6, 23]
+			],
+			"date-time": "2017-06-23T09:05:05Z",
+			"timestamp": 1498208705000
+		},
+		"score": 1.0,
+		"subtitle": [],
+		"short-title": [],
+		"issued": {
+			"date-parts": [
+				[2015, 4, 11]
+			]
+		},
+		"references-count": 57,
+		"alternative-id": ["1047"],
+		"URL": "http:\/\/dx.doi.org\/10.1007\/s11557-015-1047-x",
+		"relation": {
+			"cites": []
+		},
+		"ISSN": ["1617-416X", "1861-8952"],
+		"issn-type": [{
+			"value": "1617-416X",
+			"type": "print"
+		}, {
+			"value": "1861-8952",
+			"type": "electronic"
+		}],
+		"subject": ["Plant Science"],
+		"article-number": "25"
+	}
+};
+
+doc = {"message": {"id":"ITEM-1","title":"\u6ec7\u4e1c\u5357\u9ec4\u8fde\u5c71\u79cb\u6d77\u68e0\u5c5e\u4e00\u65b0\u79cd","abstract":"\u7bc7\u9996\uff1a \u6811\u751f\u79cb\u6d77\u68e0\u65b0\u79cd (\u79cb\u6d77\u68e0\u7ec4) \u56fe1Begonia arboreta Y.M.Shui,sp.nov.[Sect.Diploclium(Wight)A.D C.]Fig.1Habitu B.garretii Craib.similis,sed planta acaulis,folio 1 basali,capsulis obovoideis,alis obovatis differt.Herba perennis,decidua,basi tuberifera,tuberibus subglobosis,1cm diam.Stipulae caducae.Folium 1 basale;lamina glabra et chartacea,late cordata,14-15cm longa ,14-17cm lata,3-5-fida,basi oblique cordata,lobis longo-acuminatis,margine I rregulariter serratis,nervis palmatis,basilaribus 3-5;petioli 12-14cm longi,gl abri.Cymae terminales,3-4-florae,pedunculo 10-12cm longo;bracteae ovatae,0.6 cm longae,0.2cm latae,caducae.Flores ignoti;pedicelli 3.0-3.3cm longi,p enduli.Ovarium anguste obovoideum,triloculare;styli 3,distincti,1.5mm longi,s tigmatibus lunatis papillosis;laminae placentarum ovariorum superiores mediaeque bifidae,inferiores simplices.Capsulae obovoideae,2.0-2.4cm longae,1.2-1.4 cm latae,subaequaliter trialatae;alae horizontales et obovatae,apice obtusae,r eticulatae,1.8-2.0cm longae,0.5-0.6cm latae.Yunnan(\u4e91\u5357):Luchun county(\u7eff\u6625\u53bf),Mt.Huanglianshan(\u9ec4\u8fde\u5c71),Hydrologic Station( \u6c34\u6587\u7ad9),1700-1900m,on trees of the evergreen broad-leaved forest,18 Oct 1995, S.G.Wu(\u6b66\u7d20\u529f),Y.M.Shui(\u7a0e\u7389\u6c11),Y.P.Yang(\u6768\u6c38\u5e73),L.H.Liu(\u5218\u4f26\u8f89),J.H.He(\u4f55\u7586\u6d77), J.Murata,H.Nagamasu,T.Sugawara,X.Chen(\u6210\u6653),N.Murakami 144(Holotype:KUN 0773200) .","multi":{"_key":{"title":{"zh":"\u6ec7\u4e1c\u5357\u9ec4\u8fde\u5c71\u79cb\u6d77\u68e0\u5c5e\u4e00\u65b0\u79cd"},"abstract":{"zh":"\u7bc7\u9996\uff1a \u6811\u751f\u79cb\u6d77\u68e0\u65b0\u79cd (\u79cb\u6d77\u68e0\u7ec4) \u56fe1Begonia arboreta Y.M.Shui,sp.nov.[Sect.Diploclium(Wight)A.D C.]Fig.1Habitu B.garretii Craib.similis,sed planta acaulis,folio 1 basali,capsulis obovoideis,alis obovatis differt.Herba perennis,decidua,basi tuberifera,tuberibus subglobosis,1cm diam.Stipulae caducae.Folium 1 basale;lamina glabra et chartacea,late cordata,14-15cm longa ,14-17cm lata,3-5-fida,basi oblique cordata,lobis longo-acuminatis,margine I rregulariter serratis,nervis palmatis,basilaribus 3-5;petioli 12-14cm longi,gl abri.Cymae terminales,3-4-florae,pedunculo 10-12cm longo;bracteae ovatae,0.6 cm longae,0.2cm latae,caducae.Flores ignoti;pedicelli 3.0-3.3cm longi,p enduli.Ovarium anguste obovoideum,triloculare;styli 3,distincti,1.5mm longi,s tigmatibus lunatis papillosis;laminae placentarum ovariorum superiores mediaeque bifidae,inferiores simplices.Capsulae obovoideae,2.0-2.4cm longae,1.2-1.4 cm latae,subaequaliter trialatae;alae horizontales et obovatae,apice obtusae,r eticulatae,1.8-2.0cm longae,0.5-0.6cm latae.Yunnan(\u4e91\u5357):Luchun county(\u7eff\u6625\u53bf),Mt.Huanglianshan(\u9ec4\u8fde\u5c71),Hydrologic Station( \u6c34\u6587\u7ad9),1700-1900m,on trees of the evergreen broad-leaved forest,18 Oct 1995, S.G.Wu(\u6b66\u7d20\u529f),Y.M.Shui(\u7a0e\u7389\u6c11),Y.P.Yang(\u6768\u6c38\u5e73),L.H.Liu(\u5218\u4f26\u8f89),J.H.He(\u4f55\u7586\u6d77), J.Murata,H.Nagamasu,T.Sugawara,X.Chen(\u6210\u6653),N.Murakami 144(Holotype:KUN 0773200) ."},"container-title":{"zh":"\u4e91\u5357\u690d\u7269\u7814\u7a76","en":"ACTA BOTANICA YUNNANICA"}}},"type":"article-journal","issued":{"date-parts":[["2002"]]},"author":[{"literal":"\u7a0e\u7389\u6c11","multi":{"_key":{"name":{"zh":"\u7a0e\u7389\u6c11"}}}}],"container-title":"ACTA BOTANICA YUNNANICA","volume":"24","issue":"3","page":"307-308","ISSN":["0253-2700"],"DOI":"10.3969\/j.issn.2095-0845.2002.03.017","URL":"http:\/\/med.wanfangdata.com.cn\/Paper\/Detail?id=PeriodicalPaper_ynzwyj200203017"} };
+
+
+
+var xw = new XMLWriter('UTF-8');
+		xw.formatting = 'indented';//add indentation and newlines
+		xw.indentChar = ' ';//indent with spaces
+		xw.indentation = 2;//add 2 spaces per level
+		
+		xw.writeStartDocument( );
+		xw.writeDocType('PUBLIC "SYSTEM" "jats-archiving-dtd-1.0/JATS-archivearticle1.dtd"');
+
+		xw.writeStartElement('article' );
+			xw.writeAttributeString('xmlns:xlink', 'http://www.w3.org/1999/xlink');
+          	xw.writeStartElement('front');
+          	if (doc.message['container-title']) {
+				xw.writeStartElement('journal-meta');
+					xw.writeStartElement('journal-title-group');
+					
+						if (Array.isArray(doc.message['container-title'])) {		
+							xw.writeElementString('journal-title', doc.message['container-title'][0]);	
+						} else {
+							xw.writeElementString('journal-title', doc.message['container-title']);				
+						}	
+					xw.writeEndElement();
+					
+					if (doc.message.ISSN) {
+						for (var i in doc.message.ISSN) {
+						   	xw.writeElementString('issn', doc.message.ISSN[i]);
+						}
+					}
+					
+				xw.writeEndElement();
+          	}
+ 
+ 			xw.writeStartElement('article-meta');
+ 			
+ 			if (doc.message.DOI) {
+				xw.writeStartElement('article-id');
+				xw.writeAttributeString('pub-id-type', 'doi');
+				xw.writeString(doc.message.DOI);
+				xw.writeEndElement(); 			
+ 			}
+
+ 			if (doc.message.PMID) {
+				xw.writeStartElement('article-id');
+				xw.writeAttributeString('pub-id-type', 'pmid');
+				xw.writeString(String(doc.message.PMID));
+				xw.writeEndElement(); 			
+ 			}
+
+ 			if (doc.message.PMC) {
+				xw.writeStartElement('article-id');
+				xw.writeAttributeString('pub-id-type', 'pmc');
+				xw.writeString(doc.message.PMC);
+				xw.writeEndElement(); 			
+ 			}
+ 			
+ 			// title		
+ 			xw.writeStartElement('title-group');
+			if (doc.message.title) {
+			
+				if (Array.isArray(doc.message.title)) {		
+					xw.writeElementString('article-title', doc.message.title[0]);	
+				} else {
+					xw.writeElementString('article-title', doc.message.title);				
+				}	
+				
+			}
+			xw.writeEndElement();
+			
+			// authors
+			if (doc.message.author) {
+				xw.writeStartElement('contrib-group');
+				for (var i in doc.message.author) {
+					xw.writeStartElement('contrib');
+					xw.writeAttributeString('contrib-type', 'author');
+					
+						xw.writeStartElement('name');
+							if (doc.message.author[i].literal) {
+								xw.writeElementString('string-name', doc.message.author[i].literal);
+						    }												
+							if (doc.message.author[i].family) {
+								xw.writeElementString('surname', doc.message.author[i].family);
+						    }						
+							if (doc.message.author[i].given) {
+								xw.writeElementString('given-names', doc.message.author[i].given);
+						    }
+						xw.writeEndElement();
+						
+					xw.writeEndElement();
+				}
+				xw.writeEndElement();
+			}
+				
+			// date
+			if (doc.message.issued) {
+				var dateparts = doc.message.issued['date-parts'][0];
+				xw.writeStartElement('pub-date');
+				
+				if (dateparts.length >= 1) {
+					xw.writeElementString('year', String(dateparts[0]));
+				}
+				if (dateparts.length >= 2) {
+					xw.writeElementString('month', String(dateparts[1]));
+				}
+				if (dateparts.length == 3) {
+					xw.writeElementString('day', String(dateparts[2]));
+				}
+				xw.writeEndElement();
+			}
+
+			if (doc.message.volume) {
+				xw.writeElementString('volume', doc.message.volume);
+			}
+			if (doc.message.issue) {
+				xw.writeElementString('issue', doc.message.issue);
+			}
+			
+			if (doc.message.page) {
+				var delimiter = doc.message.page.indexOf('-');
+				if (delimiter != -1) {
+					spage = doc.message.page.substring(0, delimiter);
+					xw.writeElementString('fpage', spage);
+					epage = doc.message.page.substring(delimiter+2)
+					xw.writeElementString('lpage', epage);
+				} else {
+					xw.writeElementString('fpage', doc.message.page);
+				}          		
+			}
+				
+			
+			// abstract
+			if (doc.message.abstract) {
+				xw.writeStartElement('abstract');
+				xw.writeElementString('p', doc.message.abstract);
+				xw.writeEndElement();
+			}
+ 			 			
+ 			xw.writeEndElement(); // article-meta
+ 			
+			xw.writeEndElement(); // front
+			
+			xw.writeStartElement('body');
+			
+			// OCR text
+			/*
+			if (count($reference->text) > 0)
+			{
+				foreach ($reference->text as $text)
+				{
+					$preformat = $body->appendChild($doc->createElement('preformat'));
+					$preformat->appendChild($doc->createTextNode($text));
+				}
+			}
+			*/			
+			
+			/*
+			// OCR scans 
+			if (doc.message.bhl_pages) {
+				xw.writeStartElement('supplementary-material');
+				xw.writeAttributeString('content-type', 'scanned-pages');
+				
+				for (var i in doc.message.bhl_pages) {
+					xw.writeStartElement('graphic');
+					xw.writeAttributeString('xlink:href', 'http://biostor.org/page/image/' + doc.message.bhl_pages[i] + '-small.jpg');
+					xw.writeAttributeString('xlink:role', doc.message.bhl_pages[i]);
+					xw.writeAttributeString('xlink:title', i);
+					xw.writeEndElement();
+				}
+				xw.writeEndElement();
+			}
+			*/
+			
+			
+			xw.writeEndElement(); // body
+			
+		xw.writeEndElement(); // article
+		xw.writeEndDocument();
+		
+		var xml = xw.flush(); //generate the xml string
+		xw.close();//clean the writer
+		xw = undefined;//don't let visitors use it, it's closed
+		//set the xml
+		
+		//alert(xml);
+		document.getElementById('parsed-xml').value = xml;
+		
+
+
+</script>
+
+</body>
+</html>
+
