@@ -18,6 +18,11 @@ h1 {
 	line-height:1.5em;
 	font-weight:normal;
 }
+h2 {
+	line-height:1.5em;
+	font-weight:normal;
+	font-family: Helvetica,sans-serif;
+}
 p{
 	margin:0px;
 	padding:0px 0px;
@@ -113,6 +118,7 @@ tbody{
 						<h2>Abstract</h2>
 						<xsl:value-of select="//abstract"/>
 					</xsl:if>
+					
 					<h2>Full text</h2>
 					<p>
 						<xsl:text>
@@ -191,9 +197,9 @@ tbody{
 
 <!-- authors -->
 <xsl:template match="//contrib-group">
-	<div>
+	<h2>
 		<xsl:apply-templates select="contrib"/>
-	</div>
+	</h2>
 </xsl:template>
 
     <xsl:template match="contrib">
@@ -204,7 +210,7 @@ tbody{
         
     </xsl:template>
 	
-	
+	<!-- person's name -->
 	<xsl:template match="name">
 		<xsl:if test="string-name">
 			<xsl:value-of select="string-name" />
@@ -283,13 +289,13 @@ tbody{
 	</xsl:template>
 	<xsl:template match="ext-link">
 		<xsl:variable name="uri" select="@xlink:href"/>
-		<xsl:if test="contains($uri, 'http://dx.doi.org/')">
+		<xsl:if test="contains($uri, 'doi.org/')">
 			<xsl:text> DOI: </xsl:text>
 			<a>
 				<xsl:attribute name="href">
 					<xsl:value-of select="$uri"/>
 				</xsl:attribute>
-				<xsl:value-of select="substring-after($uri, 'http://dx.doi.org/')"/>
+				<xsl:value-of select="substring-after($uri, 'doi.org/')"/>
 			</a>
 		</xsl:if>
 	</xsl:template>
