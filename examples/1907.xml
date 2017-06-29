@@ -1,0 +1,446 @@
+﻿<!DOCTYPE article PUBLIC "-//TaxonX//DTD Taxonomic Treatment Publishing DTD v0 20100105//EN" "tax-treatment-NS0.dtd"><article article-type="research-article" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tp="http://www.plazi.org/taxpub">
+    <front>
+        <journal-meta>
+            <journal-id journal-id-type="publisher-id">International Journal of Myriapodology</journal-id>
+            <journal-title-group>
+                <journal-title xml:lang="en">International Journal of Myriapodology</journal-title>
+                <abbrev-journal-title xml:lang="en">IJM</abbrev-journal-title>
+            </journal-title-group>
+            <issn pub-type="ppub">1875-2535</issn>
+            <issn pub-type="epub">1875-2543</issn>
+            <publisher>
+                <publisher-name>Pensoft Publishers</publisher-name>
+            </publisher>
+        </journal-meta>
+        <article-meta>
+            <article-id pub-id-type="doi">10.3897/ijm.5.1649</article-id>
+            <title-group>
+                <article-title>A review of the centipede genus <italic>Tidops</italic> Chamberlin (Scolopendromorpha, Scolopocryptopidae, Newportiinae)
+                </article-title>
+            </title-group>
+            <contrib-group>
+                <contrib contrib-type="author" xlink:type="simple">
+                    <name name-style="western">
+                        <surname>Chagas-Júnior</surname>
+                        <given-names>Amazonas</given-names>
+                    </name>
+                    <xref ref-type="aff" rid="A1">1</xref>
+                    <xref ref-type="aff" rid="A2">2</xref>
+                    <uri content-type="lsid" xlink:type="simple">urn:lsid:zoobank.org:author:C3384432-B2C7-4B4A-821C-44CB101BB075</uri>
+                </contrib>
+            </contrib-group>
+            <aff id="A1">
+                <label>1</label>Departamento de Invertebrados, Museu Nacional/UFRJ, Quinta da Boa Vista, s/nº, São Cristóvão, CEP-20940-040. Rio de Janeiro, RJ, Brasil
+            </aff>
+            <aff id="A2">
+                <label>2</label>Present address: Laboratório de Artrópodes, Instituto Butantan, Avenida Vital Brasil, 1500, 05503-900, São Paulo, SP, Brasil
+            </aff>
+            <author-notes>
+                <fn fn-type="corresp">
+                    <p>Corresponding author: Amazonas Chagas-Júnior (<email xlink:type="simple">amazonaschagas@gmail.com</email>)</p>
+                </fn>
+                <fn fn-type="edited-by">
+                    <p>Academic editor: Pavel Stoev</p>
+                </fn>
+            </author-notes>
+            <pub-date pub-type="collection">
+                <year>2011</year>
+            </pub-date>
+            <pub-date pub-type="epub">
+                <day>11</day>
+                <month>10</month>
+                <year>2011</year>
+            </pub-date>
+            <issue>5</issue>
+            <fpage>63</fpage>
+            <lpage>82</lpage>
+            <history>
+                <date date-type="received">
+                    <day>1</day>
+                    <month>6</month>
+                    <year>2011</year>
+                </date>
+                <date date-type="accepted">
+                    <day>4</day>
+                    <month>8</month>
+                    <year>2011</year>
+                </date>
+            </history>
+            <permissions>
+                <copyright-statement>Amazonas Chagas-Júnior</copyright-statement>
+                <license license-type="creative-commons-attribution" xlink:href="http://creativecommons.org/licenses/by/3.0" xlink:type="simple">
+                    <license-p>This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+                </license>
+            </permissions>
+            <self-uri content-type="lsid" xlink:type="simple">urn:lsid:zoobank.org:pub:ABB372AB-8B64-462F-AF42-5536DC2FC293</self-uri>
+            <abstract>
+                <label>Abstract</label>
+                <p>The neotropical genus <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> Chamberlin, 1915 is reviewed and its geographical distribution is extended. The genus is now composed of four species – <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> Chamberlin, 1915, <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> (Kraepelin, 1915), <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> (Silvestri, 1895), and a new species described from the state of Bahia, in Brazil, named as <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic>. An amended diagnosis for each species is given. The monotypic genus <italic><tp:taxon-name>Kartops</tp:taxon-name></italic> Archey, 1923 was examined for the first time and the species <italic><tp:taxon-name>Kartops guianae</tp:taxon-name></italic> Archey, 1923 shown to be conspecific with <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>, and is therefore a junior synonym of <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>. The type species, <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic>, which was only known from Grenada, Lesser Antilles, is recorded for the first time from Brazil, <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> from Bolivia and <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> from Venezuela, respectively.</p>
+            </abstract>
+            <kwd-group>
+                <label>Keywords</label>
+                <kwd>Chilopoda</kwd>
+                <kwd><italic>Newportia</italic></kwd>
+                <kwd><italic>Kartops</italic></kwd>
+                <kwd>Taxonomy</kwd>
+                <kwd>Neotropical</kwd>
+                <kwd>Brazil<!--PageBreak--></kwd>
+            </kwd-group>
+        </article-meta>
+    </front>
+    <body>
+        <sec sec-type="Introduction"><title>Introduction</title>
+            <p><italic><tp:taxon-name>Tidops</tp:taxon-name></italic> is a Neotropical genus of scolopendromorph centipedes described by <xref ref-type="bibr" rid="B9">Chamberlin (1915)</xref> for <italic><tp:taxon-name>Newportia</tp:taxon-name></italic>-like species with short tarsungula and coxosternal dentiform tooth plates. They are small scolopendromorphs between 19 to 35 millimeters long with light to pale orange body color and cephalic plate and ultimate legs reddish orange. Three species have been recognized by <xref ref-type="bibr" rid="B17">Schileyko and Minelli (1999)</xref>: <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> Chamberlin, 1915, <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> (Kraepelin, 1903) and <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> (Silvestri, 1895). The first species is known only from Grenada, Lesser Antilles, <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> was recorded from Guyana, Brazil and Paraguay, and <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> from Brazil and Paraguay (<xref ref-type="bibr" rid="B19">Schileyko and Stagl 2004</xref>). The similar conformation of the ultimate pair of legs shared by species of <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> and <italic><tp:taxon-name>Newportia</tp:taxon-name></italic> Gervais, 1847, led some authors in the past to describe some species of <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> under <italic><tp:taxon-name>Newportia</tp:taxon-name></italic>. However, <xref ref-type="bibr" rid="B17">Schileyko and Minelli (1999)</xref> noted for the first time that the structure of the forcipular coxosternum was different in those genera. Because of this, two species, <italic><tp:taxon-name>Newportia collaris</tp:taxon-name></italic> and <italic><tp:taxon-name>Newportia balzanii</tp:taxon-name></italic> were transferred to <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> and <italic><tp:taxon-name>Newportia bicegoi</tp:taxon-name></italic> Brölemann, 1905 and <italic><tp:taxon-name>Tidops echinopus</tp:taxon-name></italic> Chamberlin, 1921 were synonymized under <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>. <xref ref-type="bibr" rid="B17">Schileyko and Minnelli’s (1999)</xref> study was restricted to some synonymical notes. Therefore in this paper the species of <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> and a related and enigmatic genus <italic><tp:taxon-name>Kartops</tp:taxon-name></italic> Archey, 1923 are revised.</p>
+            <p>Repository acronyms are as follows: AMNH—American Museum of Natural History, New York, New York, USA; BMNH—Natural History Museum, London, England; IBSP—Instituto Butantan, São Paulo, São Paulo, Brazil, MCZ—Museum of Comparative Zoology, Harvard University, Cambridge, Massachusetts, USA; MNRJ—Museu Nacional, Universidade Federal do Rio de Janeiro, Rio de Janeiro, Brazil; MNHN—Muséum National d´Histoire Naturelle, Paris, France; MPEG—Museu Paraense Emilio Goeldi, Belém, Pará, Brazil; NMNH—National Museum of Natural History, Smithsonian Institution, Washington, D. C., USA; ZMH—Zoologisches Museum Hamburg, Hamburg, Germany; ZMUC—Natural History Museum of Denmark (Zoologisk Museum), Copenhagen, Denmark and CMNZ—Canterbury Museum, Christchurch, New Zealand.</p>
+            <p>Descriptive terminology follows <xref ref-type="bibr" rid="B15">Lewis et al. (2005)</xref> and <xref ref-type="bibr" rid="B3">Bonato et al. (2010)</xref>.</p>
+        </sec>
+        <sec sec-type="Results"><title>Results</title>
+            <sec sec-type="Taxonomy. Family Scolopocryptopidae Pocock, 1896"><title>Taxonomy. Family <tp:taxon-name>Scolopocryptopidae</tp:taxon-name> Pocock, 1896</title>
+                <tp:taxon-treatment>
+                    <tp:nomenclature>
+                        <label>Subfamily</label>
+                        <tp:taxon-name>
+                            <tp:taxon-name-part taxon-name-part-type="genus">Newportiinae</tp:taxon-name-part>
+                        </tp:taxon-name>
+                        <tp:taxon-authority>Pocock, 1896</tp:taxon-authority>
+                    </tp:nomenclature>
+                    <tp:treatment-sec sec-type="Diagnosis"><title>Diagnosis.</title>
+                        <p> Median-sized to small scolopocryptopids, general body color brown, dark or pale yellow, cephalic plate reddish brown and legs yellow. Cephalic plate, te<!--PageBreak-->rgites and sternites normally smooth, with or without short incomplete sutures starting on the posterior border of the cephalic plate; with or without a pair of spiracles on the seventh pedal segment, last tergite always margined, sternites usually longer than wide, with coxopleural processes, ultimate legs elongated and relatively slender, prefemora of the ultimate legs with three or more and femur and tibia with or without spinous processes. Second tarsus divided in “pseudoarticles”.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Included genera"><title>Included genera.</title>
+                        <p> <italic><tp:taxon-name>Newportia</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops</tp:taxon-name></italic>.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Distribution"><title>Distribution.</title>
+                        <p> Neotropical.</p>
+                    </tp:treatment-sec>
+                </tp:taxon-treatment>
+                <tp:taxon-treatment>
+                    <tp:nomenclature>
+                        <tp:taxon-name>
+                            <tp:taxon-name-part taxon-name-part-type="genus">Tidops</tp:taxon-name-part>
+                        <object-id xlink:type="simple">http://species-id.net/wiki/Tidops</object-id>
+                        </tp:taxon-name>
+                        <tp:taxon-authority>Chamberlin, 1915</tp:taxon-authority>
+                        <tp:nomenclature-citation-list>
+                            <tp:nomenclature-citation><tp:taxon-name>Tidops</tp:taxon-name><comment> Chamberlin, 1915: 495. Attems, 1930: 284. Bücherl, 1941a: 341. Schileyko &amp; Minelli, 1999: 293. Schileyko, 2002: 483. Schileyko &amp; Stagl, 2004: 125.</comment></tp:nomenclature-citation>
+                            <tp:nomenclature-citation><tp:taxon-name>Kartops</tp:taxon-name><comment> Archey, 1923: 113.</comment></tp:nomenclature-citation>
+                        </tp:nomenclature-citation-list>
+                    </tp:nomenclature>
+                    <tp:treatment-sec sec-type="Type species"><title>Type species.</title>
+                        <p> <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> Chamberlin, 1915 (by monotypy).</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Diagnosis"><title>Diagnosis.</title>
+                        <p> Small <tp:taxon-name>Newportiinae</tp:taxon-name>, cephalic plate with two short incomplete sutures at the posterior border; forcipular coxosternum with short tarsungula, only the apices overlap in closed position; coxosternal tooth plates dentiform; 7th pedal segments without spiracles; first tergite with anterior transverse sulcus giving rise to paired furcate sutures extending posteriorly in a “W-shaped” configuration, with two paired sutures arising from base of former, angling slightly laterally to posterior margin; tibia of the ultimate legs without spines or spinous process, very much thicker than the tarsus 1, somewhat clavately widening distad and at ventral corner of distal end bearing a cylindric process; tarsus 1 with or without a distal ventral expansion.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Included species"><title>Included species.</title>
+                        <p><italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic>, <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>, <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Distribution"><title>Distribution.</title>
+                        <p> Grenada, Guyana, Venezuela (new record), Brazil, Bolivia (new record) and Paraguay.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Remarks"><title>Remarks.</title>
+                        <p> The presence or absence of a pair of spiracles on the seventh pedal segment is traditionally used in the diagnosis of some genera of Scolopendromorpha. <xref ref-type="bibr" rid="B11">Di et al. (2010)</xref> presented arguments for why the taxonomic value of this character is exaggerated, and concluded that the segment 7 spiracle is a reliable character to the species level, but probably not at the generic level. <xref ref-type="bibr" rid="B9">Chamberlin (1915)</xref>, in the description of the genus <italic><tp:taxon-name>Tidops</tp:taxon-name></italic>, quoted eleven pairs of elliptical spiracles, a pair on the seventh pedal segment, the same condition as in the sister group <italic><tp:taxon-name>Newportia</tp:taxon-name></italic>. <xref ref-type="bibr" rid="B19">Schileyko and Stagl (2004)</xref> noted that, in a large number of specimens of <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>, spiracles are absent on the seventh pedal segment. I was not able to check this character in the holotype of <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> because the specimen was mounted on a slide, however, according to all specimens examined in this study, no spiracles are present on the seventh pedal segment. <xref ref-type="bibr" rid="B9">Chamberlin (1915)</xref> also described “a conspicuous cylindric process at ventroectal corner of distal end of the tibia of the ultimate legs” in <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> (<italic>cf</italic>. <!--PageBreak--><xref ref-type="bibr" rid="B9">Chamberlin (1915)</xref> plate 1, fig. 6). This cylindric process was also observed in a specimen from Brazil identified in this study as <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic>, and for the first time in some specimens of <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic>. In addition, the tarsus of the ultimate legs of <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> are strongly clavate. In <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> and in <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> the cylindric process on the tibia was not present, but in <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> there is a small expansion on the ventral end of the tarsus 1 in a few specimens. This distal cylindrical process on the tibia and the ventral expansion of the distal portion of the tarsus 1 in <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> may be a character of the males of these species, though more specimens are needed to confirm this hypothesis.</p>
+                    </tp:treatment-sec>
+                </tp:taxon-treatment>
+                <tp:taxon-treatment>
+                    <tp:nomenclature>
+                        <tp:taxon-name>
+                            <tp:taxon-name-part taxon-name-part-type="genus">Tidops</tp:taxon-name-part>
+                            <tp:taxon-name-part taxon-name-part-type="species">simus</tp:taxon-name-part>
+                        <object-id xlink:type="simple">http://species-id.net/wiki/Tidops_simus</object-id>
+                        </tp:taxon-name>
+                        <tp:taxon-authority>Chamberlin, 1915</tp:taxon-authority>
+                        <tp:nomenclature-citation-list>
+                            <tp:nomenclature-citation><tp:taxon-name>Tidops simus</tp:taxon-name><comment> Chamberlin, 1915: 496. Attems, 1930: 285. Schileyko &amp; Minelli, 1999: 296. Schileyko &amp; Stagl, 2004: 125.</comment></tp:nomenclature-citation>
+                        </tp:nomenclature-citation-list>
+                    </tp:nomenclature>
+                    <tp:treatment-sec sec-type="Type material"><title>Type material:</title>
+                        <p> Holotype (MCZ 14550, examined) GRENADA: Richmond Hill, 1910, coll. G. M. Allen and C. T. Brues.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Additional material"><title>Additional material:</title>
+                        <p> (ZMUC) 1 specimen, BRAZIL: “Brasilien”, Pará, Santarém, Taperinha, 9-XI-1970, Ove Jensen.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Diagnosis"><title>Diagnosis.</title>
+                        <p> Prefemur of the ultimate legs with three ventral spinal processes, and femur with two. With a cylindric process at ventral corner of distal end of the tibia of the ultimate legs. Tarsus 1 of the ultimate legs clavate. (<italic>cf</italic>. <xref ref-type="bibr" rid="B9">Chamberlin (1915)</xref> plate 1, fig. 6). Femur and tibia of equal length; second tarsus divided into 9-11 “pseudoarticles”. Tooth plates dentiform longer than wide. Coxopleural process medium to short.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Remarks"><title>Remarks.</title>
+                        <p>The holotype of <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> is mounted on a slide and almost all pieces are broken. The specimen has been mounted ventrally and it is not possible to examine characters of the dorsal part and the legs, which are missing. The only relevant character which could be observed was the forcipular coxosternum. I have found a specimen of <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> from Brazil that was assigned as <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> mainly on the characters of the ultimate legs and the tooth plates (i.e., their diagnostic length/width ratio). The prefemur of the ultimate legs has a series of three ventral spinous processes and the femur one or two. The tibia has a cylindric process at ventral corner of distal end and tarsus 1 clavate as described to the holotype of <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> by <xref ref-type="bibr" rid="B9">Chamberlin (1915)</xref>. Different from the holotype, the specimen from Brazil showed a very short expansion at ventral corner of distal end of the femur. Tarsus 2 is divided into 11 articles in one leg and 9 in the other. The tooth plates are longer than wide.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Type locality"><title>Type locality.</title>
+                        <p>Richmond Hill, Grenada.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Distribution"><title>Distribution.</title>
+                        <p>Grenada and Brazil (new record).<!--PageBreak--></p>
+                    </tp:treatment-sec>
+                </tp:taxon-treatment>
+                <tp:taxon-treatment>
+                    <tp:nomenclature>
+                        <tp:taxon-name>
+                            <tp:taxon-name-part taxon-name-part-type="genus">Tidops</tp:taxon-name-part>
+                            <tp:taxon-name-part taxon-name-part-type="species">balzanii</tp:taxon-name-part>
+                        <object-id xlink:type="simple">http://species-id.net/wiki/Tidops_balzanii</object-id>
+                        </tp:taxon-name>
+                        <tp:taxon-authority>(Silvestri, 1895)</tp:taxon-authority>
+                        <xref ref-type="fig" rid="F1">Figures 1–4</xref>
+                        <tp:nomenclature-citation-list>
+                            <tp:nomenclature-citation><tp:taxon-name>Newportia balzanii</tp:taxon-name><comment> Silvestri, 1895a: 767. Silvestri, 1895b: 2. Kraepelin, 1903: 92. Attems, 1930: 277. Bücherl, 1941a: 337.</comment></tp:nomenclature-citation>
+                            <tp:nomenclature-citation><tp:taxon-name>Tidops balzanii</tp:taxon-name><comment> Schileyko &amp; Minelli, 1999: 293. Schileyko, 2002: 499.</comment></tp:nomenclature-citation>
+                        </tp:nomenclature-citation-list>
+                    </tp:nomenclature>
+                    <tp:treatment-sec sec-type="Material examined"><title>Material examined.</title>
+                        <p> (BMNH) 1 specimen, Guyana-Brazil: 19-VII-1937, H. E. Hinton; (IBSP 1546) 1 specimen, BRAZIL: Tocantins, Palmas, UHE. Luis Eduardo Magalhães, Margem direita TO-10, Km1.5, 03-IX-2001, I. Knysak, R. Martins &amp; G. Puorto; (IBSP 1559) 1 specimen, Tocantins, Palmas, UHE. Luis Eduardo Magalhães, 30-XI-2000, I. Knysak, R. Martins &amp; G. Puorto; (IBSP 2783) 2 specimens, Tocantins, Porto Nacional, I. Knysak, R. Martins &amp; G. Puorto; (IBSP 751) 1 specimen, Goiás, Aragarças, 18-III-1953, H. Sick; (MNRJ 15303) 10 specimens, Goiás, Jandaia, Fazenda Sr. João Batista Ferreira, 04-VI-2007, A. Chagas, A. Giupponi, A. Kury &amp; A. Pérez; (MNRJ 15356) 3 specimens, Goiás, Paraúna, 30-XII-2006, Chagas-Jr, A., Segal, B. &amp; Chagas, C. S.; (IBSP 710) 1 specimen, São Paulo, Pirassununga, 10-VI-1952, O. Schubart; (IBSP 704) 1 specimen, São Paulo, Pirassununga (Baguassu), 10-VI-1952, O. Schubart; (IBSP 93) 1 specimen, São Paulo, Corumbataí, 02-X-1933, S. Burian; (IBSP 180) 1 specimen, São Paulo, Amparo, 10-VI-1944, A. das Neves; (NMNH) 2 specimens, Rio Grande do Sul, Jaguarão, 28-I-1963, C. S. Carbonell leg.; (NMNH) 3 specimens, BOLIVIA: Huachi, W. M. Mann; (ZMH) 1 specimen, PARAGUAY, Puerto Max, Paraguay river, 9-III-1905.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Diagnosis"><title>Diagnosis.</title>
+                        <p> Prefemur of the ultimate pair of legs with three ventral spinous processes (<xref ref-type="fig" rid="F1">Figure 1</xref>); femur and tibia each without ventral spinous process (<xref ref-type="fig" rid="F1">Figure 2</xref>); femur and tibia each with a small cylindric process at ventral corner of distal end and tarsus 1 clavate (<xref ref-type="fig" rid="F1">Figure 3</xref>). Tarsus 2 with 11 or 12 “pseudoarticles”. Tibia longer than or equal to femur. Tooth plates short, dentiform wider than long (<xref ref-type="fig" rid="F1">Figure 4</xref>). Coxopleural process medium to short.</p>
+                        <fig id="F1" position="float" orientation="portrait">
+                            <label>Figures 1–4.</label>
+                            <caption><p> <bold>1</bold> <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> (IBSP 1559). Prefemur and femur of the ultimate leg showing ventral spinous processes of the prefemur. Lateral view <bold>2</bold> <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> (IBSP 1559). Ultimate legs. Lateral view <bold>3</bold> <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> (IBSP 1559). Ultimate legs. Ventral view <bold>4</bold> <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> (IBSP 1559). Forcipules. Ventral view. Scale bar 1 mm.</p></caption>
+                            <graphic xlink:href="IJM-005-063-g001.jpg" position="float" orientation="portrait" xlink:type="simple"></graphic>
+                        </fig>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Remarks"><title>Remarks.</title>
+                        <p>The legs of <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> are hirsute; articles of the ultimate legs are usually shorter than in the other three species of the genus.</p>
+                        <p>A specimen at the Zoologisches Museum Hamburg, Hamburg, Germany is labeled as “Type Mus. Turin, Argentina: Rio Apa, (C-VI-1903)” and was identified as <italic><tp:taxon-name>Newportia balzanii</tp:taxon-name></italic>. I am not sure if this specimen corresponds to the holotype of <italic><tp:taxon-name>Newportia balzanii</tp:taxon-name></italic>.</p>
+                        <p><bold>Type locality.</bold> Rio Apa, Paraguay.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Distribution"><title>Distribution.</title>
+                        <p>Brazil (Tocantins, Goiás, São Paulo and Rio Grande do Sul), Bolivia (new record) and Paraguay.</p>
+                    </tp:treatment-sec>
+                </tp:taxon-treatment>
+                <tp:taxon-treatment>
+                    <tp:nomenclature>
+                        <tp:taxon-name>
+                            <tp:taxon-name-part taxon-name-part-type="genus">Tidops</tp:taxon-name-part>
+                            <tp:taxon-name-part taxon-name-part-type="species">collaris</tp:taxon-name-part>
+                        <object-id xlink:type="simple">http://species-id.net/wiki/Tidops_collaris</object-id>
+                        </tp:taxon-name>
+                        <tp:taxon-authority>(Kraepelin, 1903)</tp:taxon-authority>
+                        <xref ref-type="fig" rid="F2">Figures 5–7</xref>
+                        <tp:nomenclature-citation-list>
+                            <tp:nomenclature-citation><tp:taxon-name>Newportia collaris</tp:taxon-name><comment> Kraepelin, 1903: 90.</comment></tp:nomenclature-citation>
+                            <tp:nomenclature-citation><tp:taxon-name>Newportia bicegoi</tp:taxon-name><comment> Brölemann, 1905: 67. Kraepelin, 1903: 93. Attems, 1930: 278. Bücherl, 1939: 298. Bücherl, 1941a: 337. Bücherl, 1974: 124. Schileyko &amp; Minelli, 1999: 293.</comment></tp:nomenclature-citation>
+                            <tp:nomenclature-citation><tp:taxon-name>Newportia bicegoi bicegoi</tp:taxon-name><comment> Brölemann, 1905: 67. Attems, 1930: 278. Bücherl, 1939: 298. Bücherl, 1941a: 337. Bücherl, 1974: 124.</comment></tp:nomenclature-citation>
+                            <tp:nomenclature-citation><tp:taxon-name>Newportia bicegoi collaris</tp:taxon-name><comment> Brölemann, 1905: 67. Attems, 1930: 279. Bücherl, 1941b: 134. Bücherl, 1941a: 337. Bücherl, 1974: 124.</comment></tp:nomenclature-citation>
+                            <tp:nomenclature-citation><tp:taxon-name>Tidops echinopus</tp:taxon-name><comment> Chamberlin, 1921: 4. Attems, 1930:286. Bücherl, 1941a: 341. Schileyko &amp; Minelli, 1999: 296.</comment></tp:nomenclature-citation>
+                            <tp:nomenclature-citation><tp:taxon-name>Tidops collaris</tp:taxon-name><comment> Schileyko &amp; Minelli, 1999: 296. Schileyko, 2002: 499. Schileyko and Stagl, 2004: 125. Edgecombe &amp; Koch, 2009: fig. 1C, D, fig. 2A-E.</comment></tp:nomenclature-citation>
+                            <tp:nomenclature-citation><tp:taxon-name>Kartops guianae</tp:taxon-name><comment> Archey, 1923: 114. Attems, 1930: 266. Bücherl, 1941a: 333. Bücherl, 1974: 128. New synonymy.</comment></tp:nomenclature-citation>
+                        </tp:nomenclature-citation-list>
+                    </tp:nomenclature>
+                    <tp:treatment-sec sec-type="Type material"><title>Type material.</title>
+                        <p> Holotype (ZMH, examined) 1 specimen, Bas Carsevenne, (Mus. Paris, C 26-VII-03); paratypes (MNHN, examined) 4 specimens, Bas Carsevenne, 1889, F. Geay.</p>
+                        <p>Types of junior subjective synonyms: <italic><tp:taxon-name>Tidops echinopus</tp:taxon-name></italic>, holotype (MCZ 14320, examined), GUYANA: Sand Hill Forest, 2nd Mourie, 19.VIII, 1914, coll. F. M. Gaige; paratypes (MCZ, examined) 3 vials; <italic><tp:taxon-name>Newportia bicegoi</tp:taxon-name></italic>, types (MNHN DCCCIXXI, DCCCLXXI, examined) 3 specimens, BRAZIL: Amazonas, &quot;Manaos&quot;, Bicego leg.; <italic><tp:taxon-name>Kartops guyanae</tp:taxon-name></italic>, holotype (CMNZ, examined), GUYANA, Kartabo, Bartica District, 1920.</p>
+                        <p>Additional material: (NMNH 31269) 4 specimens, GUYANA: Kartabo, Bartica District, 1922 and 17-IV-1924; (NMNH 31975) 6 specimens, Kartabo, Bartica District, 1922 and 8-V-1924; (MNRJ 15355) 2 specimens, VENEZUELA: Edo. Amazonas, Tobogan de La Selva, XII-2002, Pérez-González, A., Giupponi, APL. &amp; Manzanilla, O.; (AMNH) 1 specimen, BRAZIL: Amazonas, Manaus, T. Gilliard; (ZMUC) 3 specimens, Pará, Santarém, Taperinha, 9-11-1970, Ove Jensen; (MCZ 31123) 3 specimens, Pará.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Diagnosis"><title>Diagnosis.</title>
+                        <p> Prefemur of the ultimate legs with four larger ventral spinous processes (<xref ref-type="fig" rid="F2">Figure 5</xref>). Femur with two ventral and one medial spinous process, and tibia without (<xref ref-type="fig" rid="F2">Figure 6</xref>). Femur and tibia without cylindric process at ventral corner of distal end; Femur equal to or a little longer than the tibia. Tarsus 1 not clavate. Tarsus 2 with 21 “pseudoarticles”. The tooth plates short (<xref ref-type="fig" rid="F2">Figure 7</xref>), with the lateral side higher than the medial side, but differing from <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> in being wider than long. Coxopleural process median to long<!--PageBreak-->.</p>
+                        <fig id="F2" position="float" orientation="portrait">
+                            <label>Figures 5–7.</label>
+                            <caption><p> <bold>5</bold> <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> (MCZ 31123). Ultimate legs showing the ventral spinous processes of the prefemur and the 2 ventral and 1 median spinous processes of the femur. Ventral view <bold>6</bold> <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> (MCZ 31123). Ultimate legs. Ventral view <bold>7</bold> <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> (MCZ 31123). Forcipules Ventral view. Scale bar 1 mm.</p></caption>
+                            <graphic xlink:href="IJM-005-063-g002.jpg" position="float" orientation="portrait" xlink:type="simple"></graphic>
+                        </fig>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Remarks"><title>Remarks.</title>
+                        <p> The obscure and monotypic genus <italic><tp:taxon-name>Kartops</tp:taxon-name></italic>, that appears in a clade with <italic><tp:taxon-name>Newportia</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> in Schileyko and Pavlinov (1997), was here examined for the first time since its description. <italic><tp:taxon-name>Kartops</tp:taxon-name></italic> was proposed by <xref ref-type="bibr" rid="B1">Archey (1923)</xref> for a scolopendromorph that clearly resembled <italic><tp:taxon-name>Tidops</tp:taxon-name></italic>, but according to him differed by three characters: (1) the number of spiracles, (2) presence of a “socketed spine tibialis” (i.e., a tibial spur), and (3) the anterior armor of the prosterum (<xref ref-type="bibr" rid="B1">Archey 1923</xref>). Schileyko (2002) disputed the distinction between the two genera and placed <italic><tp:taxon-name>Kartops</tp:taxon-name></italic> in subjective synonymy with <italic><tp:taxon-name>Tidops</tp:taxon-name></italic>. The type species of <italic><tp:taxon-name>Kartops</tp:taxon-name></italic>, <italic><tp:taxon-name>Kartops guyanae</tp:taxon-name></italic>, is mounted on a slide, which is housed in the Canterbury Museum in New Zealand. The slide is in poor <!--PageBreak-->condition and it is only possible to verify the shape of the forcipula, which resembles that of all species of <italic><tp:taxon-name>Tidops</tp:taxon-name></italic>. Although the holotype does not allow the observation of many details described by <xref ref-type="bibr" rid="B1">Archey (1923)</xref>, ten specimens from Kartabo, the type locality of <italic><tp:taxon-name>Kartops guyanae</tp:taxon-name></italic>, here identified as <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>, were examined and compared to the type material and the original description of <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>. The main characters used by <xref ref-type="bibr" rid="B1">Archey (1923)</xref> to diagnose <italic><tp:taxon-name>Kartops</tp:taxon-name></italic>, namely the number of spiracles, presence of a spur on the tibia and blunt processes on the anterior margin of the forcipular coxosternum are present in all species of <italic><tp:taxon-name>Tidops</tp:taxon-name></italic>. There are no details of the characters of the ultimate pair of legs that were lost when collected and so were not described. All other characters of <italic><tp:taxon-name>Kartops guyane</tp:taxon-name></italic> agree with those of the specimens from Kartabo. Therefore, <italic><tp:taxon-name>Kartops guyane</tp:taxon-name></italic> should be considered synonymous under <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Type locality"><title>Type locality.</title>
+                        <p>Bas Carsevenne, French Guyana (this locality now belongs to Amapá State, in Brazil).</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Distribution"><title>Distribution.</title>
+                        <p>French Guyana (<xref ref-type="bibr" rid="B14">Kraepelin 1903</xref>, <xref ref-type="bibr" rid="B2">Attems 1930</xref>; <xref ref-type="bibr" rid="B6">Bücherl 1941a</xref>, <xref ref-type="bibr" rid="B7">b</xref>, <xref ref-type="bibr" rid="B8">1974</xref>, <xref ref-type="bibr" rid="B17">Schileyko and Minelli 1999</xref>), Guyana, Venezuela (new record), Brazil and Paraguay (<xref ref-type="bibr" rid="B19">Schileyko and Stagl 2004</xref>).</p>
+                    </tp:treatment-sec>
+                </tp:taxon-treatment>
+                <tp:taxon-treatment>
+                    <tp:nomenclature>
+                        <tp:taxon-name>
+                            <tp:taxon-name-part taxon-name-part-type="genus">Tidops</tp:taxon-name-part>
+                            <tp:taxon-name-part taxon-name-part-type="species">nisargani</tp:taxon-name-part>
+                        <object-id xlink:type="simple">urn:lsid:zoobank.org:act:88B52F91-B1EC-49E3-A475-4712D4BE7010</object-id>
+                        <object-id xlink:type="simple">http://species-id.net/wiki/Tidops_nisargani</object-id>
+                        </tp:taxon-name>
+                        <tp:taxon-status xlink:type="simple">sp. n.</tp:taxon-status>
+                        <xref ref-type="fig" rid="F3">Figures 8</xref>
+                        <xref ref-type="fig" rid="F4"></xref>
+                        <xref ref-type="fig" rid="F5"></xref>
+                        <xref ref-type="fig" rid="F6">23</xref>
+                    </tp:nomenclature>
+                    <tp:treatment-sec sec-type="Type specimens"><title>Type specimens.</title>
+                        <p> Holotype (MNRJ 15350), BRAZIL, Bahia, Porto Seguro, Arraial d’Ajuda, 2006 (without specific day and month of collect), Chagas-Jr, A.; Paratypes (MNRJ 15351) 4 specimens, Bahia, Porto Seguro, Arraial d’Ajuda, 2005, Chagas-Jr, A. &amp; Segal, B.; (MNRJ 15499) 7 specimens, Bahia, Porto Seguro, Arraial d’Ajuda, 24-27-ii-2005, Expedição Arachné; (MNRJ 15349) 6 specimens, Bahia, Porto Seguro, Trancoso, 19-vi-2005, Chagas-Jr, A., Segal, B. &amp; Vasconcelos, E.</p>
+                        <p>Additional material. BRAZIL: (MNRJ 15353) 1 specimen, Amazonas, Manaus, i-2001, Pedroso, D.; (MPEG) 6 specimens, Pará, Marabá, Benfica, 15-iii-2003/25-iv-2003, J. Mathieuz &amp; M. Martins; (MNRJ 15352) 11 specimens, Bahia, Alcobaça, Fazenda Santa Bahia, 27-28-II-2005, Expedição Arachné; (MNRJ 15354) 9 specimens, Bahia, Porto Seguro, Arraial D’Ajuda, 24-27-II-2005, Expedição Arachné; (MNRJ 15509) 3 specimens, Bahia, Una, REBIO de Una, 08-10-vi-2009, Chagas-Jr, A., Kury, A., Pedroso, D., Giupponi, A. &amp; Dill, V.; (MNRJ 15510) 1specimen, Bahia, Jequié, Brejo Novo, 06-07-vi-2009, Chagas-Jr, A., Kury, A., Pedroso, D., Giupponi, A. &amp; Dill, V.; (MNRJ 15511) 3 specimens, Bahia, Camacan, RPPN Serra Bonita, 11-13-vi-2009, Chagas-Jr, A., Kury, A., Pedroso, D., Giupponi, A. &amp; Dill, V.; (MNRJ 15512) 3 specimens, Bahia, Una, REBIO de Una, 08-10.vi.2009, Chagas-Jr, A., Kury, A., Pedroso, D., Giupponi, A. &amp; Dill, V.; (MNRJ 15513) 3 specimens, Bahia, Porto Seguro, Parque Nacional do Pau Brasil, 14-17-vi-2009, Chagas-Jr, A., Kury, A., Pedroso, D., Giupponi, A. &amp; Dill, V.; (MNRJ 15514) 3 specimens, Bahia, Porto Seguro,<!--PageBreak--><!--PageBreak--><!--PageBreak--> Parque Nacional do Pau Brasil, 14-17-vi-2009, Chagas-Jr, A., Kury, A., Pedroso, D., Giupponi, A. &amp; Dill, V.; (MNRJ 15515) 8 specimens, Bahia, Camacan, RPPN Serra Bonita, 11-13-vi-2009, Chagas-Jr, A., Kury, A., Pedroso, D., Giupponi, A. &amp; Dill, V.; (MNRJ 15516) 1 specimen, Bahia, Camacan, RPPN Serra Bonita, 11-13-vi-2009, Chagas-Jr, A., Kury, A., Pedroso, D., Giupponi, A. &amp; Dill, V.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Etymology"><title>Etymology.</title>
+                        <p>The specific epithet refers to the “Sítio Nisargan” in Arraial d’Ajuda, Bahia, where the new species was collected and where I lived from 2004 to 2006.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Diagnosis"><title>Diagnosis.</title>
+                        <p> Prefemur of the ultimate legs with four larger spinous processes, femur and tibia without ventral and medial spinous processes; femur and tibia without cylindric process at ventral corner of distal end, but tarsus 1 with a small expansion at ventral corner of distal end; tibia shorter than femur; tarsus 2 with 9 to 15 “pseudoarticles”. The tooth plates longer than wide. The anterior margin of the tooth plates is straight with the lateral sides longer than the medial sides; the inner face of each dentiform tooth plate is concave like a longitudinal section of a cylinder. Coxopleural process moderately long</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Description"><title>Description.</title>
+                        <p>Body length: 22 to 28 mm (without ultimate legs); body in general yellowish (<xref ref-type="fig" rid="F3">Figure 8</xref>). Cephalic plate and forcipular coxosternum brownish; antennae and legs yellowish. Cephalic plate smooth, with a short median suture on the anterior margin and a paired of short paramedian short sutures arising from posterior margin which overlies the first tergite (<xref ref-type="fig" rid="F3">Figure 9</xref>).</p>
+                        <p>Antennae composed of seventeen articles, first three (or four) articles glabrous, but with some long bristles, the succeeding ones becoming more densely clothed with fine short hairs (<xref ref-type="fig" rid="F3">Figure 10</xref>).</p>
+                        <p>Anterior margin of the forcipular coxosternum straight and narrow. The sides of the dentiform tooth plates are straight with the lateral sides longer than the medial sides; the anterior margins are concave (<xref ref-type="fig" rid="F3">Figure 12</xref>). Forcipular coxosternum without sutures; none of the articles of forcipula armed; Tarsungula short and stout, apices alone overlapping in closed position (<xref ref-type="fig" rid="F3">Figure 11</xref>).</p>
+                        <fig id="F3" position="float" orientation="portrait">
+                            <label>Figures 8–12.</label>
+                            <caption><p> <bold>8</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Habitus <bold>9</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ 15350). Cephalic plate and the first three tergites. Dorsal view. Scale bar 1 mm <bold>10</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. (MNRJ). Cephalic plate showing the pilosity of the antennae. Dorsal view. Scale bar 50 um <bold>11</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. (MNRJ). Forcipules, showing the coxosternal tooth plates. Ventral view. Scale bar 500 um <bold>12</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. (MNRJ). Detail of the tooth plates. Ventral view. Scale bar 50 um.</p></caption>
+                            <graphic xlink:href="IJM-005-063-g003.jpg" position="float" orientation="portrait" xlink:type="simple"></graphic>
+                        </fig>
+                        <p>Tergites smooth; first tergite with a very distinct anterior transverse sulcus which strongly bends back in an angle at middle, to which is attached a median W-shape sulcus, from each of the posterior apices of which a pair of longitudinal sutures continue to the posterior margin of the tergite (<xref ref-type="fig" rid="F3">Figure 9</xref>). There is a shallow depression in the middle of the anterior transverse sulcus and in the median W-shape. Tergites 2-22 with complete paramedian sutures and tergites 3-19 with lateral longitudinal sutures on the anterior two-thirds of each tergite (<xref ref-type="fig" rid="F4">Figure 13</xref>). Only the 23rd tergite marginated. Margin of tergite 23 truncated medially and concave on each side, without a median sulcus, but with a shallow median depression (<xref ref-type="fig" rid="F4">Figure 14</xref>).</p>
+                        <p>Sternites smooth, longer than wide. With a large endosternite, well marked off by a transverse sulcus from the sternites 3-15, extending backwards under the sternites for one-third the length of the later (<xref ref-type="fig" rid="F4">Figure 15</xref>). Sternites 3-21 with a median longitudinal sulcus; sternites 2-21 with two very distinct incomplete longitudinal lateral sutures separating off a narrow area at each side of the anterior portion of the sternites (<xref ref-type="fig" rid="F4">Figure 15</xref>). Sternite 23 shorter than preceding, without sulci, lateral margin slightly convex and converging posteriorly; posterior margin straight, with corners rounded (<xref ref-type="fig" rid="F5">Figure 16</xref>).</p>
+                        <fig id="F4" position="float" orientation="portrait">
+                            <label>Figures 13–15.</label>
+                            <caption><p> <bold>13</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ 15350). Tergites 5 to 8 showing the paramedian and anterior lateral sutures. Dorsal view <bold>14</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ 15350). 23<sup>rd </sup>tergite <bold>15</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ 15350). Sternites 3 to 6. Scale bar 1 mm.</p></caption>
+                            <graphic xlink:href="IJM-005-063-g004.jpg" position="float" orientation="portrait" xlink:type="simple"></graphic>
+                        </fig>
+                        <fig id="F5" position="float" orientation="portrait">
+                            <label>Figures 16–19.</label>
+                            <caption><p> <bold>16</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ 15350). Segments 22 and 23 showing 23<sup>rd </sup>sternite, ventral view <bold>17</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ 15350). Coxopleuron. Lateral view. Scale bar 1 mm <bold>18</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. (MNRJ). 8thlocomotory leg. Lateral view. Scale bar 200 um <bold>19</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. (MNRJ). Detail of the tarsus 1 of the 8thlocomotory leg. Lateral view. Scale bar 100 um.</p></caption>
+                            <graphic xlink:href="IJM-005-063-g005.jpg" position="float" orientation="portrait" xlink:type="simple"></graphic>
+                        </fig>
+                        <p>Coxopleural process moderately long, with an acute apex (<xref ref-type="fig" rid="F5">Figure 17</xref>). No lateral spines; dorsal and ventral surface of the coxopleuron bearing two long setae. Pores numerous, moderate-sized, evenly covering most of the surface of the coxopleuron (<xref ref-type="fig" rid="F5">Figure 17</xref>).</p>
+                        <p>Legs 1 to 21 with tarsi undivided (<xref ref-type="fig" rid="F5">Figures 18 and 19</xref>), 22nd and 23rd divided. Tibia of the locomotory legs 3 to 20 with lateral distal spurs (holotype) (<xref ref-type="fig" rid="F6">Figure 20</xref>), some specimen without. In all specimens from Amazonas and Pará the tibia of the locomotory legs lack a tibial spur. Ultimate legs slender and with many setae, article<!--PageBreak--><!--PageBreak-->s usually longer than the articles of the ultimate legs of <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> (<xref ref-type="fig" rid="F6">Figure 21</xref>); prefemur of the ultimate legs with a series of four large ventral processes (<xref ref-type="fig" rid="F5">Figures 17</xref> and <xref ref-type="fig" rid="F6">22</xref>) and a series of six or seven setae dorsomedially; femur and tibia without ventral or medial processes or spines, only with fine setae; tibia shorter than femur; femur and tibia without cylindric process at ventral corner of distal end; tarsus 1 short with a small expansion on the ventral corner of distal end (<xref ref-type="fig" rid="F6">Figure 23</xref>); tarsus 2 divided into 9 to 15 distinct tarsomeres or “pseudoarticles”.</p>
+                        <fig id="F6" position="float" orientation="portrait">
+                            <label>Figures 20–23.</label>
+                            <caption><p> <bold>20</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ). Detail of the tibial spine in the 8thlocomotory leg. Lateral view. Scale bar 10 um <bold>21</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ). Ultimate leg. Lateral view. Scale bar 1 mm <bold>22</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ). Detail of the prefemur of the ultimate leg showing the ventral spinous processes. Lateral view. Scale bar 10 um <bold>23</bold> <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. Holotype (MNRJ). Detail of tarsus 1 of the ultimate leg showing the distal expansion. Lateral view. Scale bar 200 um.</p></caption>
+                            <graphic xlink:href="IJM-005-063-g006.jpg" position="float" orientation="portrait" xlink:type="simple"></graphic>
+                        </fig>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Type locality"><title>Type locality.</title>
+                        <p> Sítio Nisargan, Arraial d’Ajuda, Porto Seguro, state of Bahia, Brazil.</p>
+                    </tp:treatment-sec>
+                    <tp:treatment-sec sec-type="Distribution"><title>Distribution.</title>
+                        <p> Brazil (Amazonas, Pará and Bahia).</p>
+                    </tp:treatment-sec>
+                </tp:taxon-treatment>
+            </sec>
+        </sec>
+        <sec sec-type="Discussion"><title>Discussion</title>
+            <p>Due to the similar structure of the ultimate legs of species of <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> and <italic><tp:taxon-name>Newportia</tp:taxon-name></italic> these genera have been nearly always placed in a monophyletic clade, the <tp:taxon-name>Newportiinae</tp:taxon-name>. <xref ref-type="bibr" rid="B18">Schileyko and Pavilnov (1997)</xref> carried out the first phylogenetic analysis of the thirty-four valid genera of the order Scolopendromorpha. They evaluated the relationships based on 17 morphological characters using ordered or unordered, weighted or unweighted modes. All resulting trees show <italic><tp:taxon-name>Newportia</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> closely related and forming a monophyletic group that in some trees included also <italic><tp:taxon-name>Kartops</tp:taxon-name></italic>, a poorly known genus of uncertain taxonomic position. Later, Schileyko (2002) reassigned <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> from the <tp:taxon-name>Newportiinae</tp:taxon-name> to the <tp:taxon-name>Scolopocryptopinae</tp:taxon-name>, but the arguments in support of this reassignment were not given.</p>
+          <p><xref ref-type="bibr" rid="B20">Shelley and Mercurio (2005)</xref> considered the division of the 2nd tarsus of the ultimate legs into “pseudosegments” as a synapomorphy of <tp:taxon-name>Newportiinae</tp:taxon-name>, and suggested that <tp:taxon-name>Ectonocryptopinae</tp:taxon-name> is sister group of (<italic><tp:taxon-name>Newportia</tp:taxon-name></italic> + <italic><tp:taxon-name>Tidops</tp:taxon-name></italic>). Recently, in a study of the systematic position of blind scolopendromorph genera (<tp:taxon-name>Cryptopidae</tp:taxon-name> and <tp:taxon-name>Scolopocryptopidae</tp:taxon-name>), <xref ref-type="bibr" rid="B13">Koch et al. (2010)</xref> showed new insights on the relationships of <tp:taxon-name>Newportiinae</tp:taxon-name>. <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> appeared in a basal position relative to <italic><tp:taxon-name>Newportia</tp:taxon-name></italic> and <italic><tp:taxon-name>Ectonocryptoides</tp:taxon-name></italic>, with <tp:taxon-name>Ectonocryptopinae</tp:taxon-name> (<italic><tp:taxon-name>Ectonocryptoides quadrimeropus</tp:taxon-name></italic> Shelley and Mercurio, 2005) arising within <tp:taxon-name>Newportiinae</tp:taxon-name>, and indeed within <italic><tp:taxon-name>Newportia</tp:taxon-name></italic>. Although the clade <tp:taxon-name>Newportiinae</tp:taxon-name> + <tp:taxon-name>Ectonocryptopinae</tp:taxon-name> is well supported by a number of synapomorphies (see <xref ref-type="bibr" rid="B20">Shelley and Mercurio 2005</xref> and <xref ref-type="bibr" rid="B13">Koch et al. 2010</xref>), the internal relationships of <tp:taxon-name>Newportiinae</tp:taxon-name>, with <italic><tp:taxon-name>Ectonocryptoides</tp:taxon-name></italic> within the diverse genus <italic><tp:taxon-name>Newportia</tp:taxon-name></italic>, still needs to be evaluated more cautiously due the weak support for this branch.</p>
+            <p><xref ref-type="bibr" rid="B17">Schileyko and Minelli (1999)</xref> recognized three species of <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> – <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic>, <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> – however, <xref ref-type="bibr" rid="B19">Schileyko and Stagl (2004)</xref> thought that if the genus was revised it would probably be reduced to a single species, <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>. They believed that, being known only from the type locality, <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops balzanni</tp:taxon-name></italic>, were probably not valid species. In this study, I examined one additional specimen of <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> and several new specimens of <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> from several localities in Brazil, and concluded that the genus is more diverse than <xref ref-type="bibr" rid="B19">Schileyko and Stagl (2004)</xref> stated. After the description of <!--PageBreak-->the new species, <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic>, the genus is composed of four species and their characteristics are summarized in <xref ref-type="table" rid="T1">Table 1</xref>.</p>
+            <table-wrap id="T1" position="float" orientation="portrait">
+                <label>Table 1.</label>
+                <caption><p> Comparative data for <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic>, <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic>, <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n.</p></caption>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th rowspan="1" colspan="1"><bold>Characters</bold></th>
+                            <th rowspan="1" colspan="4"><bold>Species</bold></th>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1"></td>
+                            <td rowspan="1" colspan="1"><italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic></td>
+                            <td rowspan="1" colspan="1"><italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic></td>
+                            <td rowspan="1" colspan="1"><italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic></td>
+                            <td rowspan="1" colspan="1"><italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1">Tooth plate</td>
+                            <td rowspan="1" colspan="1">Longer than wide</td>
+                            <td rowspan="1" colspan="1">Wider than long</td>
+                            <td rowspan="1" colspan="1">Wider than long</td>
+                            <td rowspan="1" colspan="1">Longer than wide</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1">Distal margin of the tooth plate</td>
+                            <td rowspan="1" colspan="1">Rounded</td>
+                            <td rowspan="1" colspan="1">Rounded</td>
+                            <td rowspan="1" colspan="1">Straight </td>
+                            <td rowspan="1" colspan="1">Straight </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1">Tibial lateral spurs</td>
+                            <td rowspan="1" colspan="1">Present</td>
+                            <td rowspan="1" colspan="1">Present</td>
+                            <td rowspan="1" colspan="1">Present</td>
+                            <td rowspan="1" colspan="1">Present or absent</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1">Coxopleural process</td>
+                            <td rowspan="1" colspan="1">Short</td>
+                            <td rowspan="1" colspan="1">Short to medium </td>
+                            <td rowspan="1" colspan="1">Medium to long</td>
+                            <td rowspan="1" colspan="1">Medium to long</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1">Prefemur of the ultimate legs</td>
+                            <td rowspan="1" colspan="1">3 ventral spinous processes</td>
+                            <td rowspan="1" colspan="1">3 ventral spinous processes</td>
+                            <td rowspan="1" colspan="1">4 ventral spinous processes</td>
+                            <td rowspan="1" colspan="1">4 (3) ventral spinous processes</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1">Femur of the ultimate legs</td>
+                            <td rowspan="1" colspan="1">1 or 2 ventral spinous processes</td>
+                            <td rowspan="1" colspan="1">without spinous processes</td>
+                            <td rowspan="1" colspan="1">2 ventral and 1 median spinous process</td>
+                            <td rowspan="1" colspan="1">without spinous processes</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1">Number of tarsomeres in tarsus 2 of the ultimate legs</td>
+                            <td rowspan="1" colspan="1">9 to 11</td>
+                            <td rowspan="1" colspan="1">11 to 13</td>
+                            <td rowspan="1" colspan="1">19 to 21</td>
+                            <td rowspan="1" colspan="1">9 to 15</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1">Ventral cylindric process of the ultimate legs</td>
+                            <td rowspan="1" colspan="1">On the femur, tibia and tarsus 1</td>
+                            <td rowspan="1" colspan="1">On the femur, tibia and tarsus 1</td>
+                            <td rowspan="1" colspan="1">Absent</td>
+                            <td rowspan="1" colspan="1">Small distal expansion on tarsus 1</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="1" colspan="1">Distribution</td>
+                            <td rowspan="1" colspan="1">Grenada and Brazil</td>
+                            <td rowspan="1" colspan="1">Brazil, Bolivia and Paraguay</td>
+                            <td rowspan="1" colspan="1">Guyana, Venezuela, Brazil and Paraguay</td>
+                            <td rowspan="1" colspan="1">Brazil</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </table-wrap>
+            <p>The new species, <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic>, closely resembles <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> in the number of spinous ventral processes of the pre-femur of the ultimate pair of legs, but differs in the character of the femur. In the new species and in <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>, the pre-femur of the ultimate legs is armed with four large ventral spinous processes, but the new species differs from <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> in the absence of two small ventral and median single spinous process on the femur.</p>
+            <p>Specimens of <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> from Amazonas and Pará also resemble <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic>. The pre-femur of the ultimate pair of legs is armed with three ventral spinous processes, the same number as seen in <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic>, however, these specimens differ from <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> in the length of the tibia, the length of the coxopleural process and by the pilosity of the body and legs. In the new species the tibia is shorter than the femur, the coxopleural process is long to medium, and the body and legs are not very pilose whereas in <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> the tibia is longer than or equal to the femur, the coxopleural process is medium to short, and the body and legs are more pilose than in the new species.</p>
+            <p>The genus <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> occurs almost exclusively in South America, distributed from the northernmost country (Venezuela) to the extreme south of Brazil (Jaguarão, state of Rio Grande do Sul) (<xref ref-type="fig" rid="F7">Figure 24</xref>). There is a single record of <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> in the Lesser Antilles and no occurrence of the genus in Central America. The remaining species – <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic>, <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> – occur further north in South America. <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic>, formerly known only from Grenada, but is here recorded from Santarém, state of Pará, Brazil<italic>. Tidops collaris</italic> is widely distributed in northern South America (Venezuela, Guyana and northern Brazil), except for one record of four specimens from San Lois in Paraguay published by <xref ref-type="bibr" rid="B19">Schileyko and Stagl (2004)</xref>. This species occurs almost exclusively in the Amazon rainforest, sympatrically with <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> in Manaus, state of Amazonas and with <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> in Taperinha, Santarém, state of Pará. <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> is also a species with a wide distribution, occurring in open areas such as the Brazilian “Cerrado”, open areas of Bolivia and the Paraguayan Chaco. The northern distribution limit for <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> is Palmas, state of Tocantins and its southernmost distribution is Jaguarão in Rio Grande do Sul, bordering on Uruguay. <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> is endemic from Brazil. It is distributed mainly in the Atlantic Forest of northeastern Brazil in the state of Bahia, but was also reported from the Amazonian rainforest in Manaus, state of Amazonas and in Marabá, state of Pará. Its disjunct distribution is similar to the biogeographic patterns of other groups of terrestrial arthropods such as Schizomida (<italic><tp:taxon-name>Rowlandius linsduarteae</tp:taxon-name></italic> Santos et al. 2008), and also centipedes such as <italic><tp:taxon-name>Otostigmus goeldii</tp:taxon-name></italic> Brölemann, 1898 and the Brazilian genus <italic><tp:taxon-name>Scolopendropsis</tp:taxon-name></italic> Brandt, 1841, both occurring in the Atlantic forest of northeastern Brazil and in the Amazonian Forest.</p>
+            <fig id="F7" position="float" orientation="portrait">
+                <label>Figure 24.</label>
+                <caption><p> Map showing the distribution of the species of <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> in the Neotropical Region.</p></caption>
+                <graphic xlink:href="IJM-005-063-g007.jpg" position="float" orientation="portrait" xlink:type="simple"></graphic>
+            </fig>
+            <p>Some historical records for <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic> such as Carsevenne “Contesté Franco Brésilien” are now Brazil, state of Amapá. I found a specimen of <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> from Rio Apa, Argentina. This specimen was probably collected by Capitano G. Bove or by L. Balzan in their travels to Argentina and Paraguay, respectively, or by Alfredo Borelli in his travels to Argentina and Paraguay. According <xref ref-type="bibr" rid="B21">Silvestri (1895a</xref>, <xref ref-type="bibr" rid="B22">b</xref>), I believed this specimen is from Paraguay rather than from Argentina as it was transcribed in the label of the specimen examined, because he always cited Rio Apa as belonging to Paraguay rather than to Argentina.<!--PageBreak--></p>
+        </sec>
+        <sec sec-type="Conclusions"><title>Conclusions</title>
+            <p>The genus <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> is now composed of four species: <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic>, <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>, <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> and <italic><tp:taxon-name>Tidops nisargani</tp:taxon-name></italic> sp. n. No specimens studied had a pair of spiracles on the seventh trunk segment. The ventral distal cylindric process present in the tibia of the ultimate pair of legs described for <italic><tp:taxon-name>Tidops simus</tp:taxon-name></italic> was also observed in <italic><tp:taxon-name>Tidops balzanii</tp:taxon-name></italic> as well as the distal enlargement of tarsus 1 of these species.</p>
+            <p><italic><tp:taxon-name>Kartops guianae</tp:taxon-name></italic>, the only one species of the genus <italic><tp:taxon-name>Kartops</tp:taxon-name></italic>, was synonymized under <italic><tp:taxon-name>Tidops collaris</tp:taxon-name></italic>. <italic><tp:taxon-name>Tidops</tp:taxon-name></italic> is a genus typically from South America, with only one record for the Lesser Antilles. The four species of the genus occur in Brazil.</p>
+        </sec>
+    </body>
+    <back>
+        <ack>
+            <title>Acknowledgements</title>
+            <p>I am grateful to Hieronymus Dastych (ZMH), Jean-Jacques Geoffroy (MNHN), Janet Beccaloni (BMNH), Henrik Enghoff (ZMUC) and Gonzalo Giribet (MZC) for the facilities during my visit to these museums. To Greg Edgecombe (BMNH) to examine and take photos of the holotype of <italic><tp:taxon-name>Kartops guianae</tp:taxon-name></italic> and making available this essential key material for this study. To Elivaldo de Lima for SEM operation at the Center for Scanning Electron Microscopy of Museu Nacional, UFRJ. The establishment of this Center was made possible by a grant from Cenpes/Petrobras, and is part of the company’s Thematic Network for Marine Environmental Monitoring. This research was supported in part by Fundação de Amparo à Pesquisa do Estado de São Paulo (process 2010/10388-<!--PageBreak-->8). It was also supported in part by a “Mini-PEET” grant from the Society for Systematic Biology, an Ernst Mayr Grant, and a Collections Study Grant which funded travel by the author to the North Carolina Museum of Natural Sciences, Museum of Comparative Zoology and American Museum of Natural History, respectively. This research is also part of the Project “Aracnídeos e Miriápodes da Mata Atlântica” (AMMA), of the ARACNOLAB (Laboratory of arachnids of the Museu Nacional/UFRJ).</p>
+        </ack>
+        <ref-list>
+            <title>References</title>
+            <ref id="B1"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Archey</surname><given-names>G</given-names></name></person-group> (<year>1923</year>)<article-title> A new genus of Chilopoda from British Guiana, and a new species of <italic>Wailamyctes</italic> from Auckland Island.</article-title> <source>Records of the Canterbury Museum </source> <volume>2</volume> (<issue>3</issue>): <fpage>113</fpage>-<lpage>117</lpage>.</mixed-citation></ref>
+            <ref id="B2"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Attems</surname><given-names>C</given-names></name></person-group> (<year>1930</year>)<article-title> Myriapoda 2. Scolopendromorpha.</article-title> In: <person-group><name name-style="western"><surname>Schulze</surname><given-names>FE</given-names></name><name name-style="western"><surname>Kükenthal</surname><given-names>W</given-names></name></person-group> (<role>Eds</role>). <issue-title>Das Tierreich 54.</issue-title> <source>Walter de Gruyter, Berlin</source>: <fpage>1</fpage>-<lpage>308</lpage>.</mixed-citation></ref>
+            <ref id="B3"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bonato</surname><given-names>L</given-names></name><name name-style="western"><surname>Edgecombe</surname><given-names>GD</given-names></name><name name-style="western"><surname>Lewis</surname><given-names>JGE</given-names></name><name name-style="western"><surname>Minelli</surname><given-names>A</given-names></name><name name-style="western"><surname>Pereira</surname><given-names>LA</given-names></name><name name-style="western"><surname>Shelley</surname><given-names>RM</given-names></name><name name-style="western"><surname>Zapparoli</surname><given-names>M</given-names></name></person-group> (<year>2010</year>)<article-title> A common terminology for the external anatomy of centipedes (Chilopoda).</article-title> <source>ZooKeys </source> <volume>69</volume>: <fpage>17</fpage>-<lpage>51</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3897/zookeys.69.737" xlink:type="simple">doi: 10.3897/zookeys.69.737</ext-link></mixed-citation></ref>
+            <ref id="B4"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Brölemann</surname><given-names>HW</given-names></name></person-group> (<year>1905</year>)<article-title> Myriapodes du Museu Paulista IIº mémorie: Manaus.</article-title> <source>Revista do Museu Paulista </source> <volume>6</volume>: <fpage>63</fpage>-<lpage>96</lpage>.</mixed-citation></ref>
+            <ref id="B5"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bücherl</surname><given-names>W</given-names></name></person-group> (<year>1939</year>)<article-title> Os quilopodos do Brasil.</article-title> <source>Memorias do Instituto Butantan </source> <volume>13</volume>: <fpage>43</fpage>-<lpage>362</lpage>.</mixed-citation></ref>
+            <ref id="B6"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bücherl</surname><given-names>W</given-names></name></person-group> (<year>1941a</year>)<article-title> Quilópodos novos da coleção do Museu Nacional do Rio de Janeiro.</article-title> <source>Memórias do Instituto Butantan </source> <volume>15</volume>: <fpage>119</fpage>-<lpage>146</lpage>.</mixed-citation></ref>
+            <ref id="B7"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bücherl</surname><given-names>W</given-names></name></person-group> (<year>1941b</year>)<article-title> Catálogo dos Quilópodos da zona neotrópica.</article-title> <source>Memórias do Instituto Butantan </source> <volume>15</volume>: <fpage>251</fpage>-<lpage>372</lpage>.</mixed-citation></ref>
+            <ref id="B8"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Bücherl</surname><given-names>W</given-names></name></person-group> (<year>1974</year>)<article-title> Die Scolopendromorpha der Neotropischen Region.</article-title> <source>Symposia of the Zoological Society of London </source> <volume>32</volume>: <fpage>99</fpage>-<lpage>133</lpage>.</mixed-citation></ref>
+            <ref id="B9"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Chamberlin</surname><given-names>RV</given-names></name></person-group> (<year>1915</year>)<article-title> New chilopods from Mexico and the West Indies.</article-title> <source>Bulletin of the Museum of comparative Zoology </source> <volume>59</volume> (<issue>8</issue>): <fpage>495</fpage>-<lpage>541</lpage>.</mixed-citation></ref>
+            <ref id="B10"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Chamberlin</surname><given-names>RV</given-names></name></person-group> (<year>1921</year>)<article-title> Results of the Bryant Walker Expeditions of the University of the Michigan to Colombia, 1913, and Britsh Guiana, 1914.</article-title> <source>Occasional Papers of the Museum of Zoology </source> <volume>97</volume>: <fpage>1</fpage>-<lpage>28</lpage>.</mixed-citation></ref>
+            <ref id="B11"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Di</surname><given-names>Z-Y</given-names></name><name name-style="western"><surname>Cao</surname><given-names>Z-J</given-names></name><name name-style="western"><surname>Wu</surname><given-names>Y-L</given-names></name><name name-style="western"><surname>Yin</surname><given-names>S-J</given-names></name><name name-style="western"><surname>Edgecombe</surname><given-names>GD</given-names></name><name name-style="western"><surname>Li</surname><given-names>W-X</given-names></name></person-group> (<year>2010</year>)<article-title> Discovery of the centipede familyPlutoniumidae (Chilopoda) in Asia: a new species of <italic>Theatops</italic> from China, and the taxonomic value of spiracle distributions in Scolopendromorpha.</article-title> <source>Zootaxa </source> <volume>2667</volume>: <fpage>51</fpage>-<lpage>63</lpage>.</mixed-citation></ref>
+            <ref id="B12"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Edgecombe</surname><given-names>GD</given-names></name><name name-style="western"><surname>Koch</surname><given-names>M</given-names></name></person-group> (<year>2009</year>)<article-title> The contribution of preoral chamber and foregut morphology to the phylogenetics of Scolopendromorpha (Chilopoda).</article-title> <source>Soil Organisms </source> <volume>81</volume>: <fpage>295</fpage>-<lpage>318</lpage>.</mixed-citation></ref>
+            <ref id="B13"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Koch</surname><given-names>M</given-names></name><name name-style="western"><surname>Edgecombe</surname><given-names>GD</given-names></name><name name-style="western"><surname>Shelley</surname><given-names>RM</given-names></name></person-group> (<year>2010</year>)<article-title> Anatomy of <italic>Ectonocryptoides</italic> (Scolopocryptopidae: Ectonocryptopinae) and the phylogeny of blind Scolopendromorpha (Chilopoda).</article-title> <source>International Journal of Myriapodology </source> <volume>1</volume>: <fpage>51</fpage>-<lpage>81</lpage>. <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1163/187525410X12578602960344" xlink:type="simple">doi: 10.1163/187525410X12578602960344</ext-link></mixed-citation></ref>
+            <ref id="B14"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Kraepelin</surname><given-names>K</given-names></name></person-group> (<year>1903</year>)<article-title> Revision der Scolopendriden.</article-title> <source>Mitteilungen aus dem naturhistorischen Museum in Hamburg </source> <volume>20</volume>: <fpage>1</fpage>-<lpage>276</lpage>.<!--PageBreak--></mixed-citation></ref>
+            <ref id="B15"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Lewis</surname><given-names>JGE</given-names></name><name name-style="western"><surname>Edgecombe</surname><given-names>GD</given-names></name><name name-style="western"><surname>Shelley</surname><given-names>RM</given-names></name></person-group> (<year>2005</year>)<article-title> A proposed standardised terminology for the external taxonomic characters of the Scolopendromorpha (Chilopoda).</article-title> <source>Fragmenta Faunistica </source> <volume>48</volume> (<issue>1</issue>): <fpage>1</fpage>-<lpage>8</lpage>.</mixed-citation></ref>
+            <ref id="B16"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Schileyko</surname><given-names>AA</given-names></name></person-group> (<year>2002</year>)<article-title> Scolopendromorpha.</article-title> In: <person-group><name name-style="western"><surname>Adis</surname><given-names>J</given-names></name></person-group> (<role>Ed</role>). <issue-title>Amazonian Arachnida and Myriapoda.</issue-title> <source>Pensoft, Sofia, Moscow</source>: <fpage>479</fpage>-<lpage>500</lpage>.</mixed-citation></ref>
+            <ref id="B17"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Schileyko</surname><given-names>AA</given-names></name><name name-style="western"><surname>Minelli</surname><given-names>A</given-names></name></person-group> (<year>1999</year>)<article-title> On the genus <italic>Newportia</italic> Gervais, 1847 (Chilopoda, Scolopendromorpha, Newportiidae).</article-title> <source>Arthropoda Selecta </source> <volume>7</volume> (<issue>4</issue>): <fpage>265</fpage>-<lpage>299</lpage>.</mixed-citation></ref>
+            <ref id="B18"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Schileyko</surname><given-names>AA</given-names></name><name name-style="western"><surname>Pavilnov</surname><given-names>IJ</given-names></name></person-group> (<year>1997</year>)<source> A cladistic analysis of the order Scolopendromorpha (Chilopoda). Entomologia Scandinavica 51 (Supplement): 33–40.</source></mixed-citation></ref>
+            <ref id="B19"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Schileyko</surname><given-names>AA</given-names></name><name name-style="western"><surname>Stagl</surname><given-names>V</given-names></name></person-group> (<year>2004</year>)<source> The collection of scolopendromorph centipedes (Chilopoda) in the Natural History Museum in Vienna: a critical re-evaluation of former taxonomic identifications. Annalen des Naturhistorische Museums in Wien 105(B): 67–137.</source></mixed-citation></ref>
+            <ref id="B20"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Shelley</surname><given-names>R</given-names></name><name name-style="western"><surname>Mercurio</surname><given-names>R</given-names></name></person-group> (<year>2005</year>)<article-title> <italic>Ectonocryptoides quadrimeropus</italic>, a new centipede genus and species from Jalisco, Mexico; proposal of Ectonocryptopinae, analysis of subfamilial relationships, and a key to subfamilies and genera of the Scolopocryptopidae (Scolopendromorpha).</article-title> <source>Zootaxa, </source> <volume>1094</volume>: <fpage>25</fpage>-<lpage>40</lpage>.</mixed-citation></ref>
+            <ref id="B21"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Silvestri</surname><given-names>F</given-names></name></person-group> (<year>1895a</year>)<article-title> Chilopodi e diplopodi raccolti dal Capitano G. Bove e dal Prof. L. Balzan nell’America Meridionale.</article-title> <source>Annali del Museo Civico di Storia Naturale di Genova </source> <volume>34</volume>: <fpage>764</fpage>-<lpage>783</lpage>.</mixed-citation></ref>
+            <ref id="B22"><mixed-citation xlink:type="simple"><person-group><name name-style="western"><surname>Silvestri</surname><given-names>F</given-names></name></person-group> (<year>1895b</year>)<article-title> Viaggio deo dottor Alfredo Borelli nella Republica Argentina e nel Paraguay XIV. Chilopodi e Diplopodi.</article-title> <source>Bolletino dei Musei di Zoologia ed Anatomia Comparata </source> <volume>10</volume> (<issue>203</issue>): <fpage>1</fpage>-<lpage>12</lpage>.</mixed-citation></ref>
+        </ref-list>
+    </back>
+</article>
