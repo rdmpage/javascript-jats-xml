@@ -199,24 +199,24 @@ tbody{
     <xsl:template match="contrib">
         <xsl:if test="@contrib-type='author'">
             <xsl:if test="position() != 1"><xsl:text>, </xsl:text></xsl:if>
-            <xsl:value-of select="name/given-names" />
-            <xsl:text> </xsl:text>
-            <xsl:value-of select="name/surname" />
+				<xsl:apply-templates select="name"/>
         </xsl:if>
         
     </xsl:template>
 	
 	
-	<!-- 
 	<xsl:template match="name">
-		<xsl:if test="position() != 1">
-			<xsl:text>, </xsl:text>
+		<xsl:if test="string-name">
+			<xsl:value-of select="string-name" />
 		</xsl:if>
-		<xsl:value-of select="given-names"/>
-		<xsl:text> </xsl:text>
-		<xsl:value-of select="surname"/>
+		<xsl:if test="given-names">
+			<xsl:value-of select="given-names" />
+			<xsl:text> </xsl:text>
+		</xsl:if>
+		<xsl:if test="surname">
+			<xsl:value-of select="surname" />
+		</xsl:if>
 	</xsl:template>
-	-->
 	
 	<!-- scanned page -->
 	<xsl:template match="//supplementary-material/graphic">
