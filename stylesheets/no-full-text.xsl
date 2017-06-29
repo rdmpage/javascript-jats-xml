@@ -108,10 +108,10 @@ tbody{
 					</div>
 					-->
 					
-	<ul>
-		<xsl:apply-templates select="//article-id"/>
-		<xsl:apply-templates select="//self-uri[@content-type='lsid']"/>
-	</ul>
+					<ul>
+						<xsl:apply-templates select="//article-id"/>
+						<xsl:apply-templates select="//self-uri[@content-type='lsid']"/>
+					</ul>
 					
 					
 					<xsl:if test="//abstract">
@@ -119,6 +119,7 @@ tbody{
 						<xsl:value-of select="//abstract"/>
 					</xsl:if>
 					
+					<!-- this is BioStor specific 
 					<h2>Full text</h2>
 					<p>
 						<xsl:text>
@@ -155,10 +156,14 @@ tbody{
 						</div>
 						<div style="clear:both;"/>
 					</xsl:if>
+					
+					-->
+					
 					<xsl:if test="//back">
 						<h2 id="reference-sec">Selected references</h2>
 						<xsl:apply-templates select="//back"/>
 					</xsl:if>
+					
 				</div>
 			</body>
 		</html>
