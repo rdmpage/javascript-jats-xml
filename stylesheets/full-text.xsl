@@ -13,28 +13,26 @@
 body {
 	margin: 10;
 	padding: 10;	
-	/*font-family: Verdana;
-	font-size: 11px!important;*/
+	font-family: Verdana;
+	font-size: 11px!important;
 	
 	line-height:1.5em;
 }
 h1 {
-	line-height:1.2em;
+	line-height:1.5em;
 	font-weight:normal;
-	font-family: Helvetica,sans-serif;
 }
 h2 {
 	line-height:1.5em;
 	font-weight:normal;
 	font-family: Helvetica,sans-serif;
 }
-/*
+
 p{
 	margin:0px;
 	padding:0px 0px;
 	margin-top:10px;
 }
-*/
 tbody{
 	font-family: Verdana;
 	font-size: 11px!important;
