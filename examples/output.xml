@@ -4,110 +4,270 @@
   <front>
     <journal-meta>
       <journal-title-group>
-        <journal-title>Kew Bulletin</journal-title>
+        <journal-title>PhytoKeys</journal-title>
       </journal-title-group>
-      <issn>0075-5974</issn>
-      <issn>1874-933X</issn>
+      <issn>1314-2003</issn>
+      <issn>1314-2011</issn>
     </journal-meta>
     <article-meta>
-      <article-id pub-id-type="doi">10.1007/s12225-013-9478-5</article-id>
+      <article-id pub-id-type="doi">10.3897/phytokeys.61.7295</article-id>
       <title-group>
-        <article-title>Two new species of Afrothismia (Thismiaceae) from southern Cameroon</article-title>
+        <article-title>Rafflesia consueloae (Rafflesiaceae), the smallest among giants; a new species from Luzon Island, Philippines</article-title>
       </title-group>
       <contrib-group>
         <contrib contrib-type="author">
           <name>
-            <surname>Sainge</surname>
-            <given-names>Moses N.</given-names>
+            <surname>Fernando</surname>
+            <given-names>Edwino S.</given-names>
           </name>
         </contrib>
         <contrib contrib-type="author">
           <name>
-            <surname>Kenfack</surname>
-            <given-names>David</given-names>
+            <surname>Galindon</surname>
+            <given-names>John Michael M.</given-names>
           </name>
         </contrib>
         <contrib contrib-type="author">
           <name>
-            <surname>Chuyong</surname>
-            <given-names>George B.</given-names>
+            <surname>Ong</surname>
+            <given-names>Perry S.</given-names>
           </name>
         </contrib>
       </contrib-group>
       <pub-date>
-        <year>2013</year>
-        <month>12</month>
+        <year>2016</year>
+        <month>2</month>
+        <day>25</day>
       </pub-date>
-      <volume>68</volume>
-      <issue>4</issue>
-      <fpage>591</fpage>
-      <lpage>97</lpage>
+      <volume>61</volume>
+      <fpage>37</fpage>
+      <lpage>46</lpage>
     </article-meta>
   </front>
   <body />
   <back>
     <ref-list>
-      <ref id="9478_CR1">
-        <mixed-citation>Abe, C. &amp; Akasawa, Y. (1989). A new species of Oxygyne (Burmanniaceae) found in Shikoku, Japan. J. Jap. Bot. 64 (6): 161 – 164.</mixed-citation>
-      </ref>
-      <ref id="9478_CR2">
-        <mixed-citation>Achoundong, G. (1996). Mountain forests in the Cameroon flora of the hills of Yaounde. Bois Forets Trop. 247- 1er trimestre.</mixed-citation>
-      </ref>
-      <ref id="9478_CR3">
-        <mixed-citation>Cheek, M. (2009). Burmanniaceae. In: J. R. Timberlake &amp; E. S. Martins (eds), Flora Zambesiaca 12 (2): 141 – 148. Royal Botanic Gardens, Kew.</mixed-citation>
-      </ref>
-      <ref id="9478_CR4">
-        <mixed-citation>Cowley, E. J. (1988). Burmanniaceae. In: R. M. Polhill (ed.), Flora of Tropical East Africa: 6 – 8. Balkema, Rotterdam.</mixed-citation>
-      </ref>
-      <ref id="9478_CR5">
-        <mixed-citation>Franke, T. (2007). Miscellaneous Contributions to the Taxonomy and Mycorrhiza of AMF-exploiting Myco-heterotrophic Plants. Unpublished thesis, Ludwig-Maximilians-University, Münich.</mixed-citation>
-      </ref>
-      <ref id="9478_CR6">
-        <mixed-citation>IUCN (2001). IUCN Red List Categories and Criteria: Version 3.1. IUCN Species Survival Commission. IUCN, Gland &amp; Cambridge.</mixed-citation>
-      </ref>
-      <ref id="9478_CR7">
-        <mixed-citation>Merckx, V. S. F. T. (2008). Myco-heterotrophy in Dioscoreales: Systematics and Evolution. Unpublished Ph.D. dissertation, Catholic University of Leuven, Leuven.</mixed-citation>
-      </ref>
-      <ref id="9478_CR8">
+      <ref id="7295_B1">
         <mixed-citation>
-          ____, Freudenstein, J. V., Kissling, J., Christenhusz, M. J. M., Stotler, R. E., Crandall-Stotler, B., Wickett, N., Rudall, P. J., de Kamer, H. M. &amp; Maas, P. J. M. (2013). Taxonomy and classification. In: V. S. F. T. Merckx (ed.), Mycoheterotrophy: The Biology of Plants Living on Fungi, pp. 19 – 101. DOI 10.1007/978-1-4614-5209-6_2 , Springer Science+Business Media, New York.
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/978-1-4614-5209-6_2" xlink:type="simple">doi:10.1007/978-1-4614-5209-6_2</ext-link>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11646/phytotaxa.10.1.8" xlink:type="simple">doi:10.11646/phytotaxa.10.1.8</ext-link>
         </mixed-citation>
       </ref>
-      <ref id="9478_CR9">
+      <ref id="7295_B2">
         <mixed-citation>
-          ____, Schols, P., Maas-Van De Kamer, H., Maas, P. J. M., Huysmans, S. &amp; Smets, E. (2006). Phylogeny and Evolution of Burmanniaceae (Dioscoreales) based on nuclear and mitochondrial data. Amer. J. Bot. 93: 1684 – 1698.
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3732/ajb.93.11.1684" xlink:type="simple">doi:10.3732/ajb.93.11.1684</ext-link>
+          <person-group>
+            <string-name>Barcelona</string-name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Rafflesia baletei, another new Rafflesia (Rafflesiaceae) from the Philippines.</article-title>
+          <source>Kew Bulletin</source>
+          <volume>61</volume>
+          <fpage>231</fpage>
         </mixed-citation>
       </ref>
-      <ref id="9478_CR10">
+      <ref id="7295_B3">
         <mixed-citation>
-          Sainge, M. N. &amp; Franke, T. (2005). A new species of Afrothismia (Burmanniaceae) from Cameroon. Nordic J. Bot. 23: 299 – 303.
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1756-1051.2003.tb00398.x" xlink:type="simple">doi:10.1111/j.1756-1051.2003.tb00398.x</ext-link>
+          <person-group>
+            <string-name>Barcelona</string-name>
+          </person-group>
+          <year>2009a</year>
+          <article-title>Rafflesia aurantia (Rafflesiaceae): a new species from northern Luzon, Philippines.</article-title>
+          <source>Gardens’ Bulletin Singapore</source>
+          <volume>61</volume>
+          <fpage>17</fpage>
         </mixed-citation>
       </ref>
-      <ref id="9478_CR11">
+      <ref id="7295_B4">
         <mixed-citation>
-          ____, ____ &amp; Agerer, R. (2005). A new species of Afrothismia (Burmanniaceae, tribe Thismieae) from Korup National Park, Cameroon. Willdenowia 35: 287 – 291.
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3372/wi.35.35209" xlink:type="simple">doi:10.3372/wi.35.35209</ext-link>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/4110994" xlink:type="simple">doi:10.2307/4110994</ext-link>
         </mixed-citation>
       </ref>
-      <ref id="9478_CR12">
-        <mixed-citation>____, ____, Merckx, V. &amp; Onana, J.-M. (2010). Distribution of myco-heterotrophic (saprophytic) plants of Cameroon. In: X. van der Burgt, J. van der Maesen &amp; J.-M. Onana (eds), Systematics and conservation of African plants, pp. 279 – 286. Royal Botanic Gardens, Kew.</mixed-citation>
-      </ref>
-      <ref id="9478_CR13">
-        <mixed-citation>Schlechter, R. (1906). Burmanniaceae africanae. Bot. Jahrb. Syst. 38: 137 – 143.</mixed-citation>
-      </ref>
-      <ref id="9478_CR14">
-        <mixed-citation>Suchel, J. B. (1972). La répartition des pluies et les régimes pluviométriques du Cameroun. Travaux et Documents de Géographie Tropicale, Centre d’Etude de Géographie Tropicale. Centre National de la Recherche Scientifique 5: 1 – 287.</mixed-citation>
-      </ref>
-      <ref id="9478_CR15">
-        <mixed-citation>Tan, K. H. (2005). Soil sampling, preparation and analysis. 2nd Ed. CRC Press, Taylor &amp; Francis, New York.</mixed-citation>
-      </ref>
-      <ref id="9478_CR16">
+      <ref id="7295_B5">
         <mixed-citation>
-          Yokoyama, J., Koizumi, Y., Yokota, M. &amp; Tsukaya, H. (2008). Phylogenetic position of Oxygyne shinzatoi (Burmanniaceae) inferred from 18S rDNA sequences. J. Pl. Res. 121: 27 – 32.
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s10265-007-0136-6" xlink:type="simple">doi:10.1007/s10265-007-0136-6</ext-link>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11646/phytotaxa.24.1.2" xlink:type="simple">doi:10.11646/phytotaxa.24.1.2</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B6">
+        <mixed-citation>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11646/phytotaxa.174.5.3" xlink:type="simple">doi:10.11646/phytotaxa.174.5.3</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B7">
+        <mixed-citation>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3767/000651909x474122" xlink:type="simple">doi:10.3767/000651909x474122</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B8">
+        <mixed-citation>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3767/000651908x608197" xlink:type="simple">doi:10.3767/000651908x608197</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B9">
+        <mixed-citation>
+          <person-group>
+            <string-name>Barcelona</string-name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Rafflesia banahaw (Rafflesiaceae), a new species from Luzon, Philippines.</article-title>
+          <source>Blumea</source>
+          <volume>52</volume>
+          <fpage>345</fpage>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3767/000651907X609089" xlink:type="simple">doi:10.3767/000651907X609089</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B10">
+        <mixed-citation>
+          <person-group>
+            <string-name>Barcelona</string-name>
+          </person-group>
+          <year>2008b</year>
+          <article-title>The rediscovery of Rafflesia schadenbergiana Göpp. ex Hieron.</article-title>
+          <source>Flora Malesiana Bulletin</source>
+          <volume>14</volume>
+          <fpage>162</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B11">
+        <mixed-citation>
+          <person-group>
+            <string-name>Blanco</string-name>
+          </person-group>
+          <year>1845</year>
+          <source>Flora de Filipinas</source>
+          <fpage>1</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B12">
+        <mixed-citation>
+          <person-group>
+            <string-name>David</string-name>
+          </person-group>
+          <year>2011</year>
+          <source>Rafflesia of the Philippines: A Story of Adventure, Appetite and Affinity</source>
+          <fpage>1</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B13">
+        <mixed-citation>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/2388307" xlink:type="simple">doi:10.2307/2388307</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B14">
+        <mixed-citation>
+          <person-group>
+            <string-name>Fernando</string-name>
+          </person-group>
+          <year>2005</year>
+          <article-title>The genus Rafflesia R.Br. (Rafflesiaceae) in the Philippines.</article-title>
+          <source>Asia Life Sciences</source>
+          <volume>14</volume>
+          <fpage>263</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B15">
+        <mixed-citation>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/4110994" xlink:type="simple">doi:10.2307/4110994</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B16">
+        <mixed-citation>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1744-7429.2000.tb00487.x" xlink:type="simple">doi:10.1111/j.1744-7429.2000.tb00487.x</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B17">
+        <mixed-citation>
+          <person-group>
+            <string-name>Hieronymus</string-name>
+          </person-group>
+          <year>1885</year>
+          <article-title>Über Rafflesia schadenbergiana (Göppert). Ein Beitrag zur Kenntnis der Cytinaceen. Breslau. In: Bulletin du Congrès International de Botanique et D’horticulture de St. Pétersbourg,﻿ 35–36. Also as: Über eine neue, von Dr. A. Schadenberg und O. Koch auf Süd-Mindanao entdeckte Art der Gattung Rafflesia.</article-title>
+          <source>Gartenflora</source>
+          <volume>34</volume>
+          <issue>1885</issue>
+          <fpage>3</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B18">
+        <mixed-citation>
+          <year>2012</year>
+          <source>IUCN Red List Categories and Criteria</source>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B19">
+        <mixed-citation>
+          <person-group>
+            <string-name>Kuijt</string-name>
+          </person-group>
+          <year>1969</year>
+          <source>The Biology of Parasitic Flowering Plants</source>
+          <fpage>1</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B20">
+        <mixed-citation>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3860/psci.v43i0.370" xlink:type="simple">doi:10.3860/psci.v43i0.370</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B21">
+        <mixed-citation>
+          <person-group>
+            <string-name>Meijer</string-name>
+          </person-group>
+          <year>1985</year>
+          <article-title>Saving the world’s largest flower.</article-title>
+          <source>National Geographic</source>
+          <volume>186</volume>
+          <issue>1</issue>
+          <fpage>136</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B22">
+        <mixed-citation>
+          <person-group>
+            <string-name>Meijer</string-name>
+          </person-group>
+          <year>1997</year>
+          <source>Flora Malesiana</source>
+          <volume>Vol. 13</volume>
+          <fpage>1</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B23">
+        <mixed-citation>
+          <person-group>
+            <string-name>Nais</string-name>
+          </person-group>
+          <year>2001</year>
+          <source>Rafflesia of the World</source>
+          <fpage>1</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B24">
+        <mixed-citation>
+          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11646/phytotaxa.131.1.6" xlink:type="simple">doi:10.11646/phytotaxa.131.1.6</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B25">
+        <mixed-citation>
+          <person-group>
+            <string-name>Teijsmann</string-name>
+          </person-group>
+          <year>1850</year>
+          <article-title>Lands Plantentuin te Buitenzorg.</article-title>
+          <source>Natuurkundig Tijdschrift voor Nederlands Indië</source>
+          <volume>1</volume>
+          <fpage>430</fpage>
+        </mixed-citation>
+      </ref>
+      <ref id="7295_B26">
+        <mixed-citation>
+          <person-group>
+            <string-name>Teschemacher</string-name>
+          </person-group>
+          <year>1842</year>
+          <article-title>On a new species of Rafflesia from Manila.</article-title>
+          <source>Boston Journal of Natural History</source>
+          <volume>4</volume>
+          <fpage>63</fpage>
         </mixed-citation>
       </ref>
     </ref-list>
