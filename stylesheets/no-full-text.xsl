@@ -256,7 +256,7 @@ tbody{
 				</img>
 			</a>
 			<!-- Page name -->
-			<div style="text-align:center">
+			<div style="text-align:center;width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
 				<xsl:value-of select="@xlink:title"/>
 			</div>
 		</div>
@@ -297,9 +297,60 @@ tbody{
 	</xsl:template>
 	
 	<xsl:template match="mixed-citation">
-		<xsl:value-of select="."/>
+		<!-- may be just unstructured text or full of tags -->
+		
+		<xsl:choose>
+			<xsl:when test="article-title and volume">
+				<xsl:value-of select="person-group/string-name" />
+				<xsl:text> (</xsl:text>
+				<xsl:value-of select="year" />
+				<xsl:text>) </xsl:text>
+				<b><xsl:value-of select="article-title" /></b>
+				<xsl:text> </xsl:text>							
+				<xsl:value-of select="source" />
+				<xsl:text> </xsl:text>
+				<xsl:value-of select="volume" />
+				<xsl:text>:</xsl:text>
+				<xsl:value-of select="fpage" />
+				<!-- <xsl:text>-</xsl:text>
+				<xsl:value-of select="lpage" /> -->
+			</xsl:when>
+			
+			<xsl:when test="source and publisher-name and publisher-loc">
+				<b><xsl:value-of select="source" /></b>
+				<xsl:text>, </xsl:text>
+				<xsl:value-of select="publisher-name" />
+				<xsl:text>, </xsl:text>
+				<xsl:value-of select="publisher-loc" />
+			</xsl:when>
+
+			<xsl:when test="chapter-title and source and size">
+				<b><xsl:value-of select="chapter-title" /></b>
+				<xsl:value-of select="source" />
+				<xsl:text>, </xsl:text>
+				<xsl:value-of select="size" />
+			</xsl:when>
+			
+			<xsl:otherwise>
+				<xsl:value-of select="."/>
+			</xsl:otherwise>
+
+			
+		</xsl:choose>
+		
+		
+
+		
+
+
+
+
 		<xsl:apply-templates select="ext-link"/>
 	</xsl:template>
+	
+	
+	
+	
 	<xsl:template match="ext-link">
 		<xsl:variable name="uri" select="@xlink:href"/>
 		<xsl:if test="contains($uri, 'doi.org/')">
