@@ -121,7 +121,7 @@ function csl_to_jats(doc) {
 	  if (delimiter != -1) {
 		spage = doc.message.page.substring(0, delimiter);
 		xw.writeElementString('fpage', spage);
-		epage = doc.message.page.substring(delimiter + 2)
+		epage = doc.message.page.substring(delimiter + 1)
 		xw.writeElementString('lpage', epage);
 	  } else {
 		xw.writeElementString('fpage', doc.message.page);
@@ -176,6 +176,7 @@ function csl_to_jats(doc) {
 
 	xw.writeStartElement('back');
 
+	// References in CrossRef CSL
 	if (doc.message.reference) {
 	  xw.writeStartElement('ref-list');
 
@@ -188,6 +189,47 @@ function csl_to_jats(doc) {
 		if (doc.message.reference[i].unstructured) {
 		  // Note use of CDATA to avoid issues with ampersands
 		  xw.writeString('<![CDATA[' + doc.message.reference[i].unstructured + ']]>');
+		} else {
+		  // some structure
+		  
+		  // {"key":"7295_B26","first-page":"63","article-title":"On a new species of Rafflesia from Manila.","volume":"4","author":"Teschemacher","year":"1842","journal-title":"Boston Journal of Natural History"}
+		  
+		  var keys = ['author', 'year', 'article-title', 'journal-title', 'volume', 'issue', 'first-page'];
+		  
+		  for (var j in keys) {
+		    if (doc.message.reference[i][keys[j]]) {
+				switch (keys[j]) {
+					// keys that map directly to JATS
+					case 'article-title':
+					case 'volume':
+					case 'issue':
+					case 'year':
+						xw.writeElementString(keys[j], doc.message.reference[i][keys[j]]);
+						break;
+					
+					// keys that we need to map 
+					case 'author':
+						xw.writeStartElement('person-group');
+							xw.writeElementString('string-name', doc.message.reference[i][keys[j]]);
+						xw.writeEndElement();
+						break;
+					
+					case 'journal-title':
+						xw.writeElementString('source', doc.message.reference[i][keys[j]]);
+						break;
+
+					case 'first-page':
+						xw.writeElementString('fpage', doc.message.reference[i][keys[j]]);
+						break;
+					
+					default:
+						break;
+				}
+			}
+		  }
+		  
+		  
+		
 		}
 
 		if (doc.message.reference[i].DOI) {
