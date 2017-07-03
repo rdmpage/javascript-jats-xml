@@ -4,272 +4,67 @@
   <front>
     <journal-meta>
       <journal-title-group>
-        <journal-title>PhytoKeys</journal-title>
+        <journal-title>菌物学报</journal-title>
       </journal-title-group>
-      <issn>1314-2003</issn>
-      <issn>1314-2011</issn>
+      <issn>1672-6472</issn>
     </journal-meta>
     <article-meta>
-      <article-id pub-id-type="doi">10.3897/phytokeys.61.7295</article-id>
+      <article-id pub-id-type="doi">10.13346/j.mycosystema.130069</article-id>
       <title-group>
-        <article-title>Rafflesia consueloae (Rafflesiaceae), the smallest among giants; a new species from Luzon Island, Philippines</article-title>
+        <article-title>牛肝菌属卷边组Boletus sect. Appendiculati物种的分子识别</article-title>
       </title-group>
       <contrib-group>
         <contrib contrib-type="author">
           <name>
-            <surname>Fernando</surname>
-            <given-names>Edwino S.</given-names>
+            <string-name>魏海龙</string-name>
           </name>
         </contrib>
         <contrib contrib-type="author">
           <name>
-            <surname>Galindon</surname>
-            <given-names>John Michael M.</given-names>
+            <string-name>李海波</string-name>
           </name>
         </contrib>
         <contrib contrib-type="author">
           <name>
-            <surname>Ong</surname>
-            <given-names>Perry S.</given-names>
+            <string-name>王丽玲</string-name>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <string-name>丁红梅</string-name>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <string-name>胡传久</string-name>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <string-name>曾凡清</string-name>
+          </name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <string-name>程俊文</string-name>
           </name>
         </contrib>
       </contrib-group>
       <pub-date>
-        <year>2016</year>
-        <month>2</month>
-        <day>25</day>
+        <year>2014</year>
       </pub-date>
-      <volume>61</volume>
-      <fpage>37</fpage>
-      <lpage>46</lpage>
+      <volume>33</volume>
+      <issue>2</issue>
+      <fpage>242</fpage>
+      <lpage>253</lpage>
+      <abstract xml:lang="en">
+        <p>Based on the sequences of internal transcribed spacer (ITS) of seven species in Boletus sect. Appendiculati, five pairs of specific ITS primers were designed and used for the amplification of ITS region in order to distinguish B. appendiculatus versus B. subappendiculatus, B. appendiculatus versus B. pseudoregius, B. roseoflavus versus B. appendiculatus, B. roseoflavus versus B. speciosus, and B. pseudoregius versus B. speciosus, respectively. The results of PCR analysis using the five specific ITS primers showed that the target band is amplified successfully from the species pairs, respectively, which could be used for the molecular recognition of these species. However, the molecular recognition of B. roseoflavus versus B. regius is not achieved for lacking specific ITS primers to be designed.</p>
+      </abstract>
+      <abstract xml:lang="zh">
+        <p>依据牛肝菌属卷边组Boletus sect. Appendiculati内7个物种的核糖体基因rDNA内转录间隔区（internal transcribed spacer，ITS）序列比对，设计5对ITS特异引物，分别用于卷边牛肝菌Boletus appendiculatus与亚卷边牛肝菌B. subappendiculatus、卷边牛肝菌与拟桃红牛肝菌B. pseudoregius、华靛牛肝菌B. roseoflavus与卷边牛肝菌B.?appendiculatus、华靛牛肝菌与华美牛肝菌B. speciosus、拟桃红牛肝菌与华美牛肝菌的相互识别。ITS区段的PCR扩增结果表明，5对ITS特异引物皆成功扩增出可用于辨别这些近缘物种的目的条带。但未能设计出ITS特异引物，以识别华靛牛肝菌与桃红牛肝菌B. regius两个近缘物种。</p>
+      </abstract>
     </article-meta>
   </front>
   <body />
-  <back>
-    <ref-list>
-      <ref id="7295_B1">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11646/phytotaxa.10.1.8" xlink:type="simple">doi:10.11646/phytotaxa.10.1.8</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B2">
-        <mixed-citation>
-          <person-group>
-            <string-name>Barcelona</string-name>
-          </person-group>
-          <year>2006</year>
-          <article-title>Rafflesia baletei, another new Rafflesia (Rafflesiaceae) from the Philippines.</article-title>
-          <source>Kew Bulletin</source>
-          <volume>61</volume>
-          <fpage>231</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B3">
-        <mixed-citation>
-          <person-group>
-            <string-name>Barcelona</string-name>
-          </person-group>
-          <year>2009a</year>
-          <article-title>Rafflesia aurantia (Rafflesiaceae): a new species from northern Luzon, Philippines.</article-title>
-          <source>Gardens’ Bulletin Singapore</source>
-          <volume>61</volume>
-          <fpage>17</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B4">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/4110994" xlink:type="simple">doi:10.2307/4110994</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B5">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11646/phytotaxa.24.1.2" xlink:type="simple">doi:10.11646/phytotaxa.24.1.2</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B6">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11646/phytotaxa.174.5.3" xlink:type="simple">doi:10.11646/phytotaxa.174.5.3</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B7">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3767/000651909x474122" xlink:type="simple">doi:10.3767/000651909x474122</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B8">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3767/000651908x608197" xlink:type="simple">doi:10.3767/000651908x608197</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B9">
-        <mixed-citation>
-          <person-group>
-            <string-name>Barcelona</string-name>
-          </person-group>
-          <year>2007</year>
-          <article-title>Rafflesia banahaw (Rafflesiaceae), a new species from Luzon, Philippines.</article-title>
-          <source>Blumea</source>
-          <volume>52</volume>
-          <fpage>345</fpage>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3767/000651907X609089" xlink:type="simple">doi:10.3767/000651907X609089</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B10">
-        <mixed-citation>
-          <person-group>
-            <string-name>Barcelona</string-name>
-          </person-group>
-          <year>2008b</year>
-          <article-title>The rediscovery of Rafflesia schadenbergiana Göpp. ex Hieron.</article-title>
-          <source>Flora Malesiana Bulletin</source>
-          <volume>14</volume>
-          <fpage>162</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B11">
-        <mixed-citation>
-          <person-group>
-            <string-name>Blanco</string-name>
-          </person-group>
-          <year>1845</year>
-          <source>Flora de Filipinas</source>
-          <fpage>1</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B12">
-        <mixed-citation>
-          <person-group>
-            <string-name>David</string-name>
-          </person-group>
-          <year>2011</year>
-          <source>Rafflesia of the Philippines: A Story of Adventure, Appetite and Affinity</source>
-          <fpage>1</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B13">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/2388307" xlink:type="simple">doi:10.2307/2388307</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B14">
-        <mixed-citation>
-          <person-group>
-            <string-name>Fernando</string-name>
-          </person-group>
-          <year>2005</year>
-          <article-title>The genus Rafflesia R.Br. (Rafflesiaceae) in the Philippines.</article-title>
-          <source>Asia Life Sciences</source>
-          <volume>14</volume>
-          <fpage>263</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B15">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.2307/4110994" xlink:type="simple">doi:10.2307/4110994</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B16">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1111/j.1744-7429.2000.tb00487.x" xlink:type="simple">doi:10.1111/j.1744-7429.2000.tb00487.x</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B17">
-        <mixed-citation>
-          <person-group>
-            <string-name>Hieronymus</string-name>
-          </person-group>
-          <year>1885</year>
-          <article-title>Über Rafflesia schadenbergiana (Göppert). Ein Beitrag zur Kenntnis der Cytinaceen. Breslau. In: Bulletin du Congrès International de Botanique et D’horticulture de St. Pétersbourg,﻿ 35–36. Also as: Über eine neue, von Dr. A. Schadenberg und O. Koch auf Süd-Mindanao entdeckte Art der Gattung Rafflesia.</article-title>
-          <source>Gartenflora</source>
-          <volume>34</volume>
-          <issue>1885</issue>
-          <fpage>3</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B18">
-        <mixed-citation>
-          <year>2012</year>
-          <source>IUCN Red List Categories and Criteria</source>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B19">
-        <mixed-citation>
-          <person-group>
-            <string-name>Kuijt</string-name>
-          </person-group>
-          <year>1969</year>
-          <source>The Biology of Parasitic Flowering Plants</source>
-          <fpage>1</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B20">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.3860/psci.v43i0.370" xlink:type="simple">doi:10.3860/psci.v43i0.370</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B21">
-        <mixed-citation>
-          <person-group>
-            <string-name>Meijer</string-name>
-          </person-group>
-          <year>1985</year>
-          <article-title>Saving the world’s largest flower.</article-title>
-          <source>National Geographic</source>
-          <volume>186</volume>
-          <issue>1</issue>
-          <fpage>136</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B22">
-        <mixed-citation>
-          <person-group>
-            <string-name>Meijer</string-name>
-          </person-group>
-          <year>1997</year>
-          <source>Flora Malesiana</source>
-          <volume>Vol. 13</volume>
-          <fpage>1</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B23">
-        <mixed-citation>
-          <person-group>
-            <string-name>Nais</string-name>
-          </person-group>
-          <year>2001</year>
-          <source>Rafflesia of the World</source>
-          <fpage>1</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B24">
-        <mixed-citation>
-          <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.11646/phytotaxa.131.1.6" xlink:type="simple">doi:10.11646/phytotaxa.131.1.6</ext-link>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B25">
-        <mixed-citation>
-          <person-group>
-            <string-name>Teijsmann</string-name>
-          </person-group>
-          <year>1850</year>
-          <article-title>Lands Plantentuin te Buitenzorg.</article-title>
-          <source>Natuurkundig Tijdschrift voor Nederlands Indië</source>
-          <volume>1</volume>
-          <fpage>430</fpage>
-        </mixed-citation>
-      </ref>
-      <ref id="7295_B26">
-        <mixed-citation>
-          <person-group>
-            <string-name>Teschemacher</string-name>
-          </person-group>
-          <year>1842</year>
-          <article-title>On a new species of Rafflesia from Manila.</article-title>
-          <source>Boston Journal of Natural History</source>
-          <volume>4</volume>
-          <fpage>63</fpage>
-        </mixed-citation>
-      </ref>
-    </ref-list>
-  </back>
+  <back />
 </article>

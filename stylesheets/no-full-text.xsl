@@ -117,8 +117,11 @@ tbody{
 					
 					<xsl:if test="//abstract">
 						<h2>Abstract</h2>
-						<xsl:value-of select="//abstract"/>
+						<!-- <xsl:value-of select="//abstract"/> -->
+						<xsl:apply-templates select="//abstract"/>
 					</xsl:if>
+					
+					
 					
 					<!-- this is BioStor specific -->
 					
@@ -172,6 +175,17 @@ tbody{
 			<!-- </body>
 		</html> -->
 	</xsl:template>
+	
+<xsl:template match="abstract">
+	<p>
+	<xsl:if test="@xml:lang">
+		<xsl:text>[</xsl:text>
+		<xsl:value-of select="@xml:lang" />
+		<xsl:text>]</xsl:text>
+	</xsl:if>
+	<xsl:value-of select="." />
+	</p>
+</xsl:template>	
 	
 <xsl:template match="article-id">
 	<xsl:choose>
