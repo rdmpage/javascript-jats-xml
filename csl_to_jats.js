@@ -145,7 +145,7 @@ function csl_to_jats(doc) {
 	  	}
 	  } else {
 		  xw.writeStartElement('abstract');
-		  xw.writeElementString('p', doc.message.abstract);
+		  xw.writeElementString('p', '<![CDATA[' + doc.message.abstract + ']]>');
 	  	  xw.writeEndElement();
 	  }
 	}
