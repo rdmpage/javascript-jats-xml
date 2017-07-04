@@ -4,67 +4,58 @@
   <front>
     <journal-meta>
       <journal-title-group>
-        <journal-title>菌物学报</journal-title>
+        <journal-title>Taiwania</journal-title>
       </journal-title-group>
-      <issn>1672-6472</issn>
+      <issn>0372-333X</issn>
     </journal-meta>
     <article-meta>
-      <article-id pub-id-type="doi">10.13346/j.mycosystema.130069</article-id>
+      <article-id pub-id-type="doi">10.6165/tai.2000.45(4).305</article-id>
       <title-group>
-        <article-title>牛肝菌属卷边组Boletus sect. Appendiculati物种的分子识别</article-title>
+        <article-title><![CDATA[Schismatoglottis kotoensis (Hayata) T. C. Huang, J. L. Hsiao & H. Y. Yeh (Araceae)]]></article-title>
       </title-group>
       <contrib-group>
         <contrib contrib-type="author">
           <name>
-            <string-name>魏海龙</string-name>
+            <surname>Huang</surname>
+            <given-names>Tseng-Chieng</given-names>
           </name>
         </contrib>
         <contrib contrib-type="author">
           <name>
-            <string-name>李海波</string-name>
+            <surname>Hsiao</surname>
+            <given-names>Jin-Long</given-names>
           </name>
         </contrib>
         <contrib contrib-type="author">
           <name>
-            <string-name>王丽玲</string-name>
-          </name>
-        </contrib>
-        <contrib contrib-type="author">
-          <name>
-            <string-name>丁红梅</string-name>
-          </name>
-        </contrib>
-        <contrib contrib-type="author">
-          <name>
-            <string-name>胡传久</string-name>
-          </name>
-        </contrib>
-        <contrib contrib-type="author">
-          <name>
-            <string-name>曾凡清</string-name>
-          </name>
-        </contrib>
-        <contrib contrib-type="author">
-          <name>
-            <string-name>程俊文</string-name>
+            <surname>Yeh</surname>
+            <given-names>Hong-Yih</given-names>
           </name>
         </contrib>
       </contrib-group>
       <pub-date>
-        <year>2014</year>
+        <year>2000</year>
       </pub-date>
-      <volume>33</volume>
-      <issue>2</issue>
-      <fpage>242</fpage>
-      <lpage>253</lpage>
-      <abstract xml:lang="en">
-        <p>Based on the sequences of internal transcribed spacer (ITS) of seven species in Boletus sect. Appendiculati, five pairs of specific ITS primers were designed and used for the amplification of ITS region in order to distinguish B. appendiculatus versus B. subappendiculatus, B. appendiculatus versus B. pseudoregius, B. roseoflavus versus B. appendiculatus, B. roseoflavus versus B. speciosus, and B. pseudoregius versus B. speciosus, respectively. The results of PCR analysis using the five specific ITS primers showed that the target band is amplified successfully from the species pairs, respectively, which could be used for the molecular recognition of these species. However, the molecular recognition of B. roseoflavus versus B. regius is not achieved for lacking specific ITS primers to be designed.</p>
-      </abstract>
-      <abstract xml:lang="zh">
-        <p>依据牛肝菌属卷边组Boletus sect. Appendiculati内7个物种的核糖体基因rDNA内转录间隔区（internal transcribed spacer，ITS）序列比对，设计5对ITS特异引物，分别用于卷边牛肝菌Boletus appendiculatus与亚卷边牛肝菌B. subappendiculatus、卷边牛肝菌与拟桃红牛肝菌B. pseudoregius、华靛牛肝菌B. roseoflavus与卷边牛肝菌B.?appendiculatus、华靛牛肝菌与华美牛肝菌B. speciosus、拟桃红牛肝菌与华美牛肝菌的相互识别。ITS区段的PCR扩增结果表明，5对ITS特异引物皆成功扩增出可用于辨别这些近缘物种的目的条带。但未能设计出ITS特异引物，以识别华靛牛肝菌与桃红牛肝菌B. regius两个近缘物种。</p>
+      <volume>45</volume>
+      <issue>4</issue>
+      <fpage>305</fpage>
+      <lpage>310</lpage>
+      <abstract>
+        <p><![CDATA[A new name, Schismatoglottis kotoensis (Hayata) T. C. Huang, A. Hsiao et H. Y. Yeh,. (Araceae) is proposed for the Flora of Taiwan. Photos of its habitat in nature and detailed line drawings of the floral parts are provided in addition to the description.]]></p>
       </abstract>
     </article-meta>
   </front>
-  <body />
+  <body>
+    <body>
+      <supplementary-material content-type="scanned-pages">
+        <graphic xlink:href="http://bionames.org/bionames-archive/documentcloud/pages/85e8b1d4c991a0fb07fc0ea23568d25160690001/1-small" xlink:role="1" xlink:title="1" />
+        <graphic xlink:href="http://bionames.org/bionames-archive/documentcloud/pages/85e8b1d4c991a0fb07fc0ea23568d25160690001/2-small" xlink:role="2" xlink:title="2" />
+        <graphic xlink:href="http://bionames.org/bionames-archive/documentcloud/pages/85e8b1d4c991a0fb07fc0ea23568d25160690001/3-small" xlink:role="3" xlink:title="3" />
+        <graphic xlink:href="http://bionames.org/bionames-archive/documentcloud/pages/85e8b1d4c991a0fb07fc0ea23568d25160690001/4-small" xlink:role="4" xlink:title="4" />
+        <graphic xlink:href="http://bionames.org/bionames-archive/documentcloud/pages/85e8b1d4c991a0fb07fc0ea23568d25160690001/5-small" xlink:role="5" xlink:title="5" />
+        <graphic xlink:href="http://bionames.org/bionames-archive/documentcloud/pages/85e8b1d4c991a0fb07fc0ea23568d25160690001/6-small" xlink:role="6" xlink:title="6" />
+      </supplementary-material>
+    </body>
+  </body>
   <back />
 </article>

@@ -60,11 +60,10 @@ function csl_to_jats(doc) {
 	if (doc.message.title) {
 
 	  if (Array.isArray(doc.message.title)) {
-		xw.writeElementString('article-title', doc.message.title[0]);
+		xw.writeElementString('article-title', '<![CDATA[' + doc.message.title[0] + ']]>');
 	  } else {
-		xw.writeElementString('article-title', doc.message.title);
+		xw.writeElementString('article-title', '<![CDATA[' + doc.message.title + ']]>');
 	  }
-
 	}
 	xw.writeEndElement();
 
