@@ -1,0 +1,122 @@
+body { background: #e0eff0; margin: 0; padding: 0; }
+body { font-family: 'Helvetica Neue', Arial,
+       sans-serif; font-weight: 300; font-size: 18px; }
+input { font-family: 'Helvetica Neue', Arial,
+       sans-serif; font-weight: 300; font-size: 16px; }
+
+.box { width: 500px; margin: 60px auto 10px auto; padding: 20px;
+              background: white; box-shadow: 0 1px 4px #BED1D4;
+              border-radius: 2px; }
+a { color: #11557C; }
+
+h1 { margin: 0;  
+	 color: #11557C; 
+	 font-weight: bold;
+}
+h2 { margin: 0; color: #11557C; }
+h3 { margin: 0; color: #11557C; }
+
+h1 a { 
+	text-decoration: none; 
+}
+
+h2 { font-weight: normal; font-size: 24px; }
+h3 { font-weight: normal; font-size: 16px; }
+
+.tagline { color: #888; font-style: italic; margin: 0 0 20px 0; font-size: 0.95em; }
+.link div { overflow: auto; font-size: 14px; white-space: pre;
+              padding: 4px 10px; margin: 5px 0; background: #E5EAF1; }
+              
+.info { 
+	text-align: center;
+	font-size: 14px;
+	margin-top: 10px; 
+}
+  
+#logo_div {
+	vertical-align:text-top;
+	height: 55px;
+	width: 45px;
+	float: left;
+	margin-right: 5px;
+}
+
+.h_logo {
+	height: 55px;
+} 
+              
+dt { font-weight: normal; }
+dd { font-size: 16px; }
+
+.help { text-align: right; height:60px; }
+
+.error { 
+	background: #e0eff0; 
+	padding: 3px 8px; 
+	color: #11557C;
+    font-size: 0.9em; 
+    border-radius: 2px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#error { 
+	display: none;
+	background: #e0eff0; 
+	padding: 3px 8px; 
+	color: #11557C;
+    font-size: 0.9em; 
+    border-radius: 2px; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+form {
+	width: 500px;
+	min-height: 72px;
+}
+
+.message { background: #e0eff0; padding: 3px 8px; color: #11557C;
+              font-size: 0.9em; border-radius: 2px; margin-bottom: 10px;}
+
+
+.code { background: #e0eff0; padding: 3px 8px; color: #11557C;
+              font-family:courier; font-size: 14px; border-radius: 2px; }
+              
+              
+              
+
+/*.meter-wrap{
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+#meter-wrap, #meter-value, #meter-text {
+    /* The width and height of your image */
+    width: 155px; height: 30px;
+}
+
+#meter-wrap, #meter-value {
+    background: #bdbdbd url(/static/meter-outline.png) top left no-repeat;
+}
+
+#meter-value {
+	background-color: #11557C;
+	width: 0%;
+}
+
+#meter-text {
+    position: absolute;
+    padding-top: 5px;
+	font-size: 0.9em; 
+    color: #fff;
+    text-align: center;
+}
+
+#powered_by { 
+   text-align: center; 
+   font-size: 0.7em;
+   margin: 1px auto 1px auto;
+}

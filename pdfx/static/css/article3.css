@@ -1,0 +1,418 @@
+/* main css for PDFX HTMLs */
+
+
+body {
+	/* background-color: #9d9d9d; */
+	font: 13px/16px arial, verdana, sans-serif;
+	text-align: center;
+	/*      color: #ccc; */
+	margin: 0;
+	padding: 0;
+}
+
+
+#article {
+	/* background: #595959; */
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 950px;
+	/*width: 868px; */
+	padding: 10px 0;
+	color: #333;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+
+#article-title {
+	
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin: 20px auto auto auto;
+	font-family: Times;
+	font-size: 2.5em;
+	border-top: 1px solid #ccc;
+	padding: 15px 0 10px 0;
+		
+	/* cannot put padding-top here, because it's 'inline' */
+}
+
+.h1-div, .h2-div, .h3-div {
+	font-family: Georgia;
+}
+
+.contrib-group {
+	font-family: Georgia;
+	font-size: 1.3em;
+	line-height: 150%;
+	width: 100%;
+	
+	margin: 10px auto 15px auto;	
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+#author-footnote {
+	font-family: Georgia;
+	margin: 10px auto 5px auto;
+	text-align: justify;
+	font-style: italic;
+	width: 80%;
+	color: #666;
+}
+
+#abstract {
+	position: relative;
+	width: 80%;
+	margin: 15px auto 0;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #222;
+	overflow-y: hidden;
+	text-align: justify;
+	line-height: 150%;
+	font-size: 1.3em;
+	
+}
+
+#abstract .summary {
+	font-family: Georgia;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+#abstract a {
+	color: #5a5a5a;
+}
+
+.front-matter-extra {
+	font-family: Georgia;
+	font-style:italic;
+	width: 85%;
+	text-align: justify;
+	margin: auto;
+}
+
+
+#article-head {
+	height: auto;
+	width: 85%;
+	position: relative;
+	background-color: #fff;
+	padding-top: 20px;
+	line-height: 1.1;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+/*#article-head span, #article-foot span {
+            display: none;
+        }*/
+
+/*.green #article-head {
+            background: url("images/article/head-blue.png") 0 0 no-repeat;
+        }*/
+#article-main {
+	background-color: #fff;
+	/* "!important" box-model hack for IE */
+	/*width: 850px !important; */
+	/*width: 880px;*/
+	padding: 20px 0;
+	margin: 0 10px 0 10px;
+	text-align: left;
+	position: relative;
+	border-bottom: 1px solid #505050;
+}
+
+body.rtl #article-main {
+	text-align: right;
+}
+
+#article-main a.inline-help {
+	text-decoration: none;
+	font-weight: inherit;
+}
+
+#article-main-content {
+	position: relative;
+	float: left;
+	width: 64%;
+	margin: 0 5px 0;
+	padding-left: 10px;
+	padding-right: 20px;
+
+	
+	border-right: 1px solid #CCCCCC;
+	text-align: justify;
+	
+    font-family: Georgia;
+    font-size: 1.3em;
+	line-height: 150%;
+}
+
+hr {
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+
+
+#article-sidebar {
+	position: relative;
+	float: right;
+	width: 30%;
+	margin: 0 5px 0 5px;
+	text-align: center; 
+}
+
+
+
+table.DoCO\:Table /* Le tableau en lui-même */
+{
+	/*width: 240px;*/
+	max-width: 250px;
+	font-family: Arial;
+	font-style: normal;
+	margin: 10px auto 10px auto;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding:5px;*/
+    /*border:1px solid #eee;*/
+    border: 1px outset black; /* Bordure du tableau avec effet 3D (outset) */
+    border-collapse: collapse; /* Colle les bordures entre elles */
+}
+
+table.DoCO\:Table .extra {
+	display: none;
+}
+
+img{border:none;}
+table.thumbs{ margin:0 auto;}
+table.thumbs tr {text-align:center;}
+table.thumbs td {text-align:center;vertical-align:middle;}
+table.thumbs td img{margin:0 auto;}
+a.option{padding:4px 10px;border:1px solid #101010;background:#202020;text-decoration:none;display:block;float:left;clear:left;margin-bottom:4px;cursor:pointer;color:#0098ff;}
+a.option:hover{background:#101010;}
+img.border{padding:5px;border:1px solid #eee;margin:3px;background-color:#ffffff;}
+
+h3.figures_and_tables
+{
+   text-align: center; /* Pour centrer le titre */
+   font-family: "Arial Black", Arial, Verdana, serif; 
+}
+caption.table /* Titre du tableau */
+{
+   margin: auto; /* Centre le titre du tableau */
+   font-family: Arial, Times, "Times New Roman", serif;
+   font-weight: bold;
+   font-size: 1em;
+   color: grey;
+   margin-bottom: 20px; /* Pour éviter que le titre ne soit trop collé au tableau en-dessous */
+}
+
+
+
+th.table /* Les cellules d'en-tête */
+{
+   height: auto; /*50px;*/
+   width: auto; /*250px;*/
+   border: 1px solid black;
+   background-color: silver;
+   color: black;
+   font-size: 0.9em;
+   font-family: Arial, "Arial Black", Times, "Times New Roman", serif;
+}
+
+th.filler /* Les cellules d'en-tête extra*/
+{
+   height: auto; /*50px;*/
+   width: auto; /*250px;*/
+   border: 1px solid black;
+   background-color: silver;
+   color: black;
+   font-size: 0.9em;
+   font-family: Arial, "Arial Black", Times, "Times New Roman", serif;
+}
+
+table.DoCO\:Table th:hover /* Les cellules d'en-tête */
+{	
+   text-decoration: underline;
+   cursor:pointer;
+}
+
+td.table /* Les cellules normales */
+{
+   height: auto; /*40px;*/
+   width: auto; /*250px;*/
+   border: 1px solid black;
+   background-color: white;
+   font-size: 0.8em;
+   font-family: "Trebuchet MS", Times, "Times New Roman", serif;
+   text-align: center; /* Tous les textes des cellules seront centrés*/
+   padding: 5px; /* Petite marge intérieure aux cellules pour éviter que le texte touche les bordures */
+}
+
+td.filler /* Les cellules extra */
+{
+   height: auto; /*40px;*/
+   width: auto; /*250px;*/
+   border: 1px solid black;
+   background-color: white;
+   font-size: 0.8em;
+   font-family: "Trebuchet MS", Times, "Times New Roman", serif;
+   text-align: center; /* Tous les textes des cellules seront centrés*/
+   padding: 5px; /* Petite marge intérieure aux cellules pour éviter que le texte touche les bordures */
+}
+
+.table.strange
+{
+   height: 40px;
+   width: 150px;
+   border: 1px solid black;
+   background-color: white;
+   color: grey;
+   font-family: "Trebuchet MS", Times, "Times New Roman", serif;
+   text-align: center;
+   padding: 5px;
+   border: 1px solid #ccc;
+}
+
+.sidebar-table .table {
+   
+}
+
+
+
+
+
+
+
+
+div.highslide-caption {
+	color: #000;
+}
+
+.sidebar-figure, .sidebar-table  {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.sidebar-caption {
+	margin-top: 10px; 
+	text-align: left;
+	line-height: 130%;
+	margin: auto auto 10px auto;
+	width: 90%;	
+	font-family: Verdana,Helvetica;
+}
+
+#article-sidebar img {
+	/*&float: right; */
+	border: 1px solid #888;
+	margin-bottom: 15px;
+	
+}
+
+
+
+
+
+
+.outsider {
+	font-family: Georgia;
+	color: #666;
+}
+
+
+
+
+
+#article-license {
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	position: relative;
+	font-weight: bold;
+	color: #000;
+}
+
+#article-license h2 {
+	margin: 0;
+	font-size: 1.46em;
+	/*padding-top: 20px;*/
+	line-height: 1.1;
+}
+
+#h1-div {
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	/*background:  url("images/article/header.png") 0 0 no-repeat;*/
+}
+
+#article-foot {
+	position: relative;
+	width: 850px;
+	padding: 10px 0;
+	margin: 0 auto;
+	color: #fff;
+	text-align: left;
+}
+
+body.rtl #article-foot {
+	text-align: right;
+}
+
+.pd #article-foot {
+	color: #333;
+	overflow-y: inherit;
+}
+
+#article-foot p {
+	margin: 0 20px;
+	padding: 0;
+}
+
+a { /*color: #fffc09;*/
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.help_panel {
+	display: none;
+}
+
+#help_publicity_rights,#help_endorsement,#help_citation_help,#help_who_is_affirmer,#help_disclaimer
+	{
+	visibility: hidden;
+	height: 0;
+}
+
+#help_publicity_rights_c>#help_publicity_rights,#help_endorsement_c>#help_endorsement,#help_citation_ehlp_c>#help_citation_help,#help_who_is_affirmer_c>#help_who_is_affirmer_c,#help_disclaimer_c>#help_disclaimer
+	{
+	height: auto;
+}
+
+ol.arabic-markers {
+	list-style-type: none;
+}

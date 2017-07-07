@@ -1,0 +1,2198 @@
+
+Medical History, 1985, 29: 1-32.
+
+THE NATURE OF PROVINCIAL MEDICAL
+
+PRACTICE IN EIGHTEENTH-CENTURY ENGLAND
+
+by
+
+IRVINE LOUDON*
+
+I
+
+When one looks at the history of the medical profession in eighteenth-century
+England, the striking feature is the extent to which historians have concentrated on
+the minority of famous and distinguished medical men, mostly in London, and how
+little is known of the much more numerous rank-and-file practitioners of provincial
+England. This paper is part of a study that attempts to redress the balance by an
+examination of the clinical practice, the social status, and the economic rewards of
+ordinary provincial medical men.
+
+The reason for their neglect is partly the obvious one that the famous tend to leave
+copious records, the obscure very few and those few that survive are usually scattered
+and incomplete. It is, nevertheless, possible, on the basis of such records as exist, to
+offer and test certain hypotheses; for example, that the surgeon-apothecary of the
+eighteenth century was first and foremost a businessman, and often a very successful
+one, motivated by a hard sense of commercialism; and that the divisions of medical
+men suggested by the variety of titles and designations found in the eighteenth
+century meant very little because the type of practice adopted by an individual was
+dictated most of all by the competition and opportunities for business in his chosen
+area of practice. It will also be suggested that eighteenth-century medical
+practitioners were employed on a large scale not just for the treatment of serious
+life-threatening illness, but for minor self-limiting conditions; and that they were
+employed in this way not solely by an upper class well able to pay for medical care,
+but by a wide range of social classes. Surgery, in particular, has been too often
+portrayed as an agonizing business of "heroic" and desperate capital operations;
+here it will be shown that such operations were rare events, and over ninety-five per
+cent of country surgical practice consisted of simple, but often effective, procedures.
+There also seems to be evidence that the first half of the century witnessed a
+significant rise in the prosperity of ordinary practitioners and that the second half
+was, in the words of Richard Smith junior, "The Golden Age of Physic".
+
+Most accounts of provincial practice in the eighteenth century suggest that the
+ordinary practitioners, the apothecaries and surgeon-apothecaries, advanced little if
+at all in competence or prosperity throughout the century. Such advances in medical
+knowledge as occurred in British medicine were largely confined to London and
+
+*Irvine Loudon, DM, FRCGP, Wellcome Unit for the History of Medicine, 47 Banbury Road, Oxford
+OX2 6PE.
+
+1
+
+Irvine Loudon
+
+Edinburgh. Here and there in the provinces a few exceptional practitioners stood
+head and shoulders above the rank and file. John Huxham and William Withering in
+physic, Charles White and William Hey of Leeds in surgery, and John Ferriar and
+John Haygarth in hygiene and public health provide a few examples. Most of these
+pioneers practised in the second half of the century, and most held appointments at
+hospitals or dispensaries where, through their posts as honorary physicians and
+surgeons, they were part of a new elite.
+
+Below this level, the rank-and-file provincial practitioners ("the unpretentious
+apothecaries-the quasi-irregulars")1 are often perceived as a group of ill-educated or
+even near-illiterate tradesmen, who kept shops and combined the sale of medicines
+with groceries and toilet articles. Their practice was based on a primitive knowledge
+of physic and pharmacy, surgical operations crudely carried out, and unskilled
+man-midwifery. The tendency for such men to combine the practice of medicine with
+another occupation is taken as evidence of the poverty of medical practice at this
+level. For those who see this as an accurate picture of eighteenth-century provincial
+practice, it follows that the evolution of such practitioners into prosperous
+respectable professional men did not occur until the nineteenth century, following
+the introduction of the Apothecaries' Act of 1815 and the appearance of the general
+practitioner.
+
+Recently, however, Holmes has put forward a very different thesis.2 In his opinion,
+the medical profession came into existence in the period between 1680 and 1730
+because of the rise of the surgeon-apothecary. For the first time, "the doctor truly
+arrives in English society".3 His claim is based on the breakdown of the tripartite
+system-due in part to the Rose case of 1704-and the increasing scope of medical
+practice signified by the emergence of the surgeon-apothecary; but most of all,
+perhaps, on the improved education of medical practitioners through attendance at
+the voluntary hospitals and the private medical schools.4 Moreover, Holmes claims
+that public recognition and the development amongst medical men of a sense of
+corporate identity played an important part in the "arrival" of the doctor for the
+people in general. In other words, Holmes sees the transition of medicine from a
+disparate ill-educated group of practitioners to a "medical profession" as a process
+that took place in the late seventeenth and early eighteenth centuries, in stark
+contrast to the more conventional view that these changes took place a century later.
+
+Thus there are many aspects of medicine in the eighteenth century that are still
+unresolved, and one of the most important is the extent of the market for medical
+care and how that market was satisfied. One of the key questions here is the relative
+contribution of the orthodox and the unorthodox practitioners-the regular
+
+'R. H. Shryock, The development of modern medicine, Madison, University of Wisconsin Press, 1979,
+p. 52.
+
+2G. Holmes, Augustan England: Professions, state and society, 1680-1730, London, Allen & Unwin,
+1982.
+
+'Ibid., p. 167
+
+4Holmes's emphasis on advances in medical training forms the weakest part of his thesis. Although there
+was an increasing tendency for rank-and-file practitioners to attend courses of instruction in hospitals and
+private medical schools or to go to Edinburgh, very few did so before 1730. Even by 1750, it was still a
+small minority who received such training. There was no substantial improvement in the education of
+medical practitioners before, at the earliest, the second half of the eighteenth century.
+
+2
+
+Provincial medical practice in eighteenth-century England
+
+practitioners on the one hand and, on the other, the irregulars, empirics, or quacks. It
+seems obvious at first sight that a large and thriving market for quackery would have
+tended to depress the general standard of medical care as well as the prosperity of
+regular practitioners; for we tend to see the situation in adversarial terms with two
+clearly distinguished and opposing groups of practitioners locked in bitter competition
+with each other. Any attempt to discover how many patients employed the orthodox
+medical men, how many the quacks, and how this varied with time and place, raises a
+number of questions which go beyond a matter of simple rivalry for a single market.
+
+For example, was the market, in social terms, the same for both kinds of
+practitioner? If so, was there one kind of quack for the rich and another for the poor,
+or did the same one tailor his approach according to the customer? To what extent
+were the services of the orthodox and the quack mutually exclusive? Did the public
+drift from one to the other, or (hedging their bets) utilize both at the same time? In
+attempting to answer such questions there is the obvious difficulty that quacks rarely
+left records of their practice. Another, less obvious, but equally serious difficulty, is
+the frequent impossibility of distinguishing between orthodoxy and heterodoxy in
+medical practice in the eighteenth century.
+
+Often, it is easy to identify the quacks or empirics because of their remarkable
+tendency to run true to form. Usually, they were itinerant, advertising their
+attendance in a certain town for a limited period, and tending to select the same
+diseases as their particular specialities. With surprising consistency, they claimed to
+cure some or all of a list of disorders, including eye diseases (especially blindness);
+ruptures or "broken bellies" (cured by medicines or a special apparatus); cancers
+(cured without operation); deafness (if the ear-drum was intact); and above all
+venereal disease, usually mentioned in some coy euphemism.5 Often, they entitled
+themselves "Dr" and sometimes added a medical degree, and they listed the famous
+or royal patients they claimed to have cured. All this was advertised in characteristic
+language.6 Our knowledge of this group, the blatant or obvious quacks, is based
+largely on their advertisements; but even here there are pitfalls. "Chevalier" John
+Taylor (1703-1772, MD Basle 1733, Liege and Cologne 1734), for example, trained
+at St Thomas's Hospital, London, and was an expert oculist. Yet he was an itinerant
+practitioner who chose in his advertisements to use in an extreme form the language
+of the charlatan.
+
+'For example, the following advertisement appeared in the Sherborne Mercury for Monday, 24
+September 1784:
+
+The afflicted who labour under any difficulty disorders or complaints, as well inward as outward,
+incident to the human body, are hereby acquainted that Doctor and Oculist Goergslenner, from
+his house No. 34 Queen Square Bristol, is arrived in the City of Exeter, where he intends to stay a
+considerable time, and from thence shall come to Plymouth. He cures most perfectly all the
+disorders in the sight and eyes, and likewise those who have lost their hearing and cures with
+fidelity all the degrees and symptoms of a certain disorder, whether inveterate or recent, or ever
+so bad, in a short time. Cures most sorts of ruptures (vulgarly called broken bellies) both in young
+and old people, with a particular medicine, and the most perfect and commodious trusses, made
+upon his new and much improved construction, without any steel or wood and, so easy to wear
+that the patient may undergo any fatigue therewith....
+
+6For an extensive account of eighteenth-century quackery, to which the author acknowledges his
+indebtedness, see Roy Porter, 'The language of quackery'; in press (1985), for publication in a volume to
+be edited by Roy Porter and Peter Burke.
+
+3
+
+Irvine Loudon
+
+If we dismiss Taylor as a perverse exception, it still remains true that practitioners
+in the eighteenth century were to some extent an amorphous group. The blatant
+quack stood out at one end of the spectrum. At the other, the orthodox practitioner
+could be identified by one or more of a number of criteria: by the possession of a
+medical degree if he was a physician; by honorary appointments at a hospital or
+dispensary; by the orthodoxy of his training, even if it was no more than a standard
+apprenticeship; and most of all by his methods and style of practice. Between these
+extremes, a grey area existed where differentiation into neat historical categories is
+impossible. This should cause no surprise. In the absence of formal training,
+examination, and licensing, the term "medically qualified" is often meaningless.
+
+These are some of the historical problems that form the background to this paper,
+which attempts to describe the clinical practice and social and economic status of the
+provincial medical practitioner of eighteenth-century England.
+
+II
+
+The evidence presented in this paper is based largely on manuscript sources in
+provincial record offices. Particular emphasis has been placed on a single ledger
+which belonged to an eighteenth-century practice in Wells, Somerset.7 The
+importance of this ledger lies in the exceptional quality and quantity of clinical notes
+which describe the routine of daily practice. Major and minor cases were recorded in
+unselected sequence. At the time this ledger was used-between 1757 and the early
+1760s-two practitioners were in partnership: Benjamin Pulsford, the senior
+partner, and William Pulsford, his nephew. The cases recorded in the ledger,
+however, were all those of William.
+
+In the early years of the eighteenth century, this practice was in the hands of
+Christopher Lucas (c. 1676-1756).' Lucas was both the surgical colleague and friend
+of Claver Morris (1659-1726), a physician at Wells known chiefly for the edited
+account of his diary published in 1934.9 Christopher Lucas's nephew Benjamin
+Pulsford (1716-84) was practising in Wells at least as early as 1742,10 but it is not
+known whether he was in partnership with his uncle or succeeded him in the practice.
+In either case, it was probably about 1756, following the death of Christopher Lucas,
+that Benjamin Pulsford, in his turn, took into partnership his nephew William
+Pulsford. The partnership is assumed from the evidence of the ledger. No partnership
+agreement survives nor evidence of William's apprenticeship or training. William
+died at the age of twenty-nine in July 1765.11 He was therefore in his early twenties
+
+7Somerset County Record Office, Taunton. Catologued as the ledger of Benjamin Pulsford (Ref.
+DD/FS Box 48).
+
+8Margaret Allen, 'Medical practice in eighteenth-century Wells', Somerset Historical Studies, 1969,
+25-35.
+
+9E. Hobhouse (editor), The diary of a West Country physician, London, Simpkin Marshall, 1934.
+"Based on the evidence of payment of a bill by overseers of the poor.
+
+"1A commemorative tablet in the cloisters of Wells Cathedral appears to record the date of death as 26
+July 1761. On very close inspection, it can be seen that the stone has been recut and originally the date was
+recorded as 26 July 1764. Both dates are incorrect, the true date of death being 26 July 1765, recorded in
+the register of births, deaths, and marriages, and preserved in the library of Wells Cathedral. The probable
+reason for the mistakes was that the stone was provided long after the death of William Pulsford, by Canon
+Pulsford of Wells, in the nineteenth century.
+
+4
+
+Provincial medical practice in eighteenth-century England
+
+when the entries were made in the ledger, while his uncle and senior partner was in
+his early forties. The later history of the Pulsfords is only marginally relevant and
+many details are incomplete."2
+
+William Pulsford died without issue; but Benjamin Pulsford had three sons, Lucas,
+James, and William. Lucas and James became surgeons and Lucas joined his father,
+living and practising from his father's house. Nothing is known of James except that
+he died young and apparently without issue. Lucas, who died in 1819 of apoplexy
+aged sixty-nine, and was described in the Gentleman's Magazine as "for many years
+an eminent surgeon" in the City of Wells, prospered, and his children rose above the
+level of the country surgeon: Frances (b. May 1783) married John Tudway, the
+Member of Parliament for Wells, and Charles Henry Pulsford (1782-1841) became
+Rector of Bumham and Canon of Wells. The non-medical son of Benjamin, the
+second William Pulsford in this family, may well have been an ironmonger,'3
+although described in legal documents as "Gent". One of William's five children
+became an army surgeon, serving as assistant surgeon to the 8th Regiment of Foot
+and full surgeon to the 1st Dragoons in the Peninsular war and at Waterloo. He died
+in 1819 in Manchester (the same year as his uncle and namesake, Lucas) and, as far
+as is known, was the last of this dynasty.
+
+Only one ledger has survived from the records of this practice, but it is clear that
+several were used simultaneously. In this ledger each entry began with the name of an
+individual or the head of a family. When an address was added, it was always
+somewhere outside the city of Wells, suggesting that the non-entry of an address
+indicated a patient living in Wells. In about one-third of cases, occupation or an
+indication of social status was added as well. Below these details a half or a third of a
+page was left for clinical notes. If the patient was new to the practice, or had not been
+seen for a long time, notes were made in the newest of the ledgers in use. If the patient
+or his family had been seen recently, their notes would (if space permitted) be added
+to the previous entry in an earlier ledger. This is important in so far as it makes it
+impossible to determine the number of new episodes of illness or of total
+consultations a year. Thus the surviving ledger was begun in February 1757 and a
+new one was started some time in 1758; but records of visits were added to the earlier
+entries in the surviving ledger as late as 1764.
+
+During the eleven months, 1 February to 31 December 1757, William Pulsford
+
+"2The main sources for constructing the details of the Pulsford family were:
+
+The register of births, deaths, and marriages of the Cathedral Church of St Andrew's, Wells; and
+sepulchralia in the Cathedral, for which the author gratefully acknowledges the help of Mr Colchester,
+archivist to Wells Cathedral.
+
+The following documents in Somerset County Record Office, Taunton:
+
+Will of Benjamin Pulsford (Ref. DD/TD 29/43; DD/FS Box 42 c. 648); DD/SAS SE23 c. 795).
+Will of William Pulsford (DD/SAS SE24 c. 795). Will of Lucas Pulsford (DD/FS Box 49 c. 648).
+Abstract of title deed, William Pulsford, 1816. Obituary of Lucas Pulsford, Gentleman's
+Magazine, 1819, 89(2): 92. Obituary of Benjamin Pulsford, Sherborne Mercury, 20 September
+1784.
+
+A. Peterkin and W. Johnstone, Roll of commissioned officers in the medical services of the British army
+1660-1960, edited by Sir Robert Drew, 2 vols., London, Wellcome Historical Medical Library, 1968.
+Bailey's British Directory, 1784. Universal British Directory, 1793-98. Samuel Foart Simmons, Medical
+Register, London, 1780. W. Phelps, The history and antiquities of Somersetshire, 1839, vol. 2.
+
+"Bailey's British Directory, 1784, includes under 'Wells, Somerset' "William Pulsford-Ironmonger".
+
+5
+
+Irvine Loudon
+
+recorded in this ledger attendance on 212 individuals or families for 334 separate
+episodes of illness. There were, on average, about three follow-up consultations for
+every episode. Assuming that half as many consultations during 1757 were recorded
+in another ledger which has not survived, it can be estimated that William Pulsford
+carried out at least 1500 consultations in the eleven months of 1757. Fees charged
+and payments received (not always the same) were recorded haphazardly, and
+usually payment was indicated by a pen-stroke through the whole entry.
+
+Medical men are notorious for impatient untidiness in their record-keeping. The
+ledger was no exception, particularly as far as fees and payments were concerned.
+Fortunately, however, William Pulsford appeared to take a delight in recording
+clinical detail in a memorable, sharp, and often pungent personal style. The evidence
+of William's authorship rests largely on the handwriting. There are three distinct
+hands, easily distinguished. One is that of a Thomas Ogden who, following the
+premature death of William, was brought in to play the part of accountant and
+estimate the monies owing to William's estate and to Benjamin Pulsford, the
+surviving partner, respectively. The vast majority of entries-all the case notes, as well
+as most of the entries concerning fees-are in one hand. It seems clear that it was the
+hand of the younger partner, William Pulsford; it was his ledger and his alone. The
+third hand, that of Benjamin Pulsford, consists of brief notes, all dating from the
+period after William's death and concerned solely with fees paid or unpaid. The
+reason is clear. William, who had been diligent in his clinical notes, was often careless
+in recording charges made or fees received. Therefore, Benjamin had the task of
+going through the ledger after William's death to note what was still owing to the
+practice, as it was common for bills to be paid not only several months, but often
+several years, late.14 Hence the numerous entries to the effect "Bill Pulsford said he
+was [or was not] paid for this". They provide the firmest evidence that William
+Pulsford was the owner of the ledger.
+
+The ledger is therefore the clinical and financial record of a young surgeon in
+country practice, keen, energetic, but relatively inexperienced. Margaret Allen15 in
+her account of the Pulsfords also concluded that William was the author of the ledger,
+but suggested that he acted as book-keeper, entering both his own and his uncle's
+cases. This is most unlikely. The nature of the entries shows clearly that the writer
+was describing things he had seen for himself and decisions he alone had made.
+Sometimes he and his uncle attended together (as, for example, when a major
+operation was performed) but otherwise there is never a hint that he is.describing the
+practice of the senior partner.
+
+III
+
+It is now widely recognized that the titles and designations of medical men in the
+eighteenth century often bore little relationship to the nature of their practice.'6 The
+
+"4For example, a shopkeeper and his wife and children treated for five episodes of illness in 1757, five
+more in 1758, and seven in 1759, paid their bill in July 1767.
+
+15Allen, op. cit., note 8 above.
+
+"6See, inter al: J.F. Kett, 'Provincial medical practice in England 1730-1815', J. Hist. Med., 1964, 19:
+17-29. And for an earlier period, but making this point with particular force about provincial practice:
+
+6
+
+Provincial medical practice in eighteenth-century England
+
+classical model of a pre-nineteenth-century profession divided hierarchically into
+three distinct groups of physicians, surgeons, and apothecaries, each adhering strictly
+to their rightful spheres of practice, had little application to provincial practice. To an
+increasing extent, one finds the commonly adopted designations of medical men
+were such as "surgeon, apothecary, and man-midwife", or even "physician and
+surgeon". There was nothing inherently illogical in such titles. Medicine was not,
+from the practical point of view, regarded as so immense that no individual could
+encompass the whole of it.
+
+The kinds of factors that determined the actual manner of practice cultivated by an
+individual were not only varied, but essentially opportunistic. These factors included,
+for instance, temperament and personal preference, family background and
+education, and apprenticeship, together with any other form of medical training. But
+the most telling factor was commercial opportunity. If there was no competition at
+all-if the practitioner was alone in his district-he was forced to practise all branches
+of medicine whether he was entitled physician, surgeon, or apothecary. His position
+was that of Robert Young, a naval surgeon in 1797, who remarked in his journal that,
+whatever his rank or title, the occupation of a naval surgeon was that of physician,
+surgeon, and apothecary rolled into one.'7 Most provincial practitioners practised to
+some extent most branches of medicine, but individual examples demonstrate the
+extent to which their choice was determined by competition.
+
+John Barr, for example, described as "a canny Scot", came south to Birmingham
+armed with both a surgical and a medical diploma from Edinburgh. Finding that
+physicians were thick on the ground in Birmingham he "kept his higher diploma in
+retentis", cultivated a practice amongst the Unitarians as surgeon and general
+practitioner, and made a fortune."8
+
+Richard Kay (1716-51) was an example of a practitioner who practised all
+branches of medicine to the fullest extent on the basis of an apprenticeship to his
+father, a pupilship to Mr Steade the apothecary to Guy's Hospital, and attendance
+while in London at a course of surgical lectures and two courses of midwifery under
+Smellie. For that period it was a comprehensive training, and it is interesting to find
+that Kay referred to himself on one occasion as a physician and on another as surgeon
+and physician.'9 Richard Smith junior (1772-1843) was a surgeon who undertook
+the care of all medical cases if patients chose to employ him, and regularly dispensed
+medicines from his house.20
+
+Thomas Baynton of Bristol (1761-1820) insisted on being called surgeon, like his
+father before him, but his practice embraced physic and a large amount of
+
+R. S. Roberts, 'The personnel and practice of medicine in Tudor and Stuart England. Part 1: The
+provinces', Med. Hist., 1962, 6: 363-382.
+
+"Surgeon's Journals, at the Public Record Office, Kew (Ref. HMSArdent, 1797-98, ADM 101 85/7).
+
+"Birmingham Record Office, Birmingham Public Library, Notes and Queries, 15, 22, and 29 June
+1870.
+
+"W. Brockbank and F. Kenworthy (editors), The diary of Richard Kay (1716-51) of Baldingstone near
+Bury. A Lancashire doctor, Manchester, Chetham Society, 1968, 16; and W. Brockbank and M. L. Kay,
+'Extractsfrom the diary of Richard Kay of Baldingstone, surgeon (1737-50)',Med. Hist., 1959, 13: 58-68.
+
+'0Bristol Infirmary biographical memoirs, vol. 2, pp. 152-153, memoirs of Richard Smith jun. Bristol
+Record Office, The Council House, Bristol.
+
+7
+
+Irvine Loudon
+
+midwifery-in fact, all the business he could obtain because he was a vain, smooth-
+tongued man, with an inordinate love of money, even for the eighteenth century.2'
+Mr Misters of Shipston-on-Stour in Worcestershire was also described as a
+"surgeon" but his records (1776-81) show that the vast majority of his cases were
+medical and most of his income was derived from the dispensing of drugs.22
+
+James Clegg of Chapel-en-le-Frith (1679-1755) was a Dissenting minister who
+undertook the practice of medicine after learning the rudiments of physic from a
+physician in Macclesfield. When threatened with prosecution in the spiritual courts
+for obtaining access to patients through his privileges as a minister, he bought an MD
+from Aberdeen in 1729 and became, by this process, a "legitimate" physician. Most
+of his practice was medical but he treated surgical cases when he had to and he
+practised pharmacy-that is, he dispensed medicines for his patients.23
+
+William Broderip of Bristol, with his carriage and coachman and his grand country
+house, was a prime example of a successful apothecary, although his vanity led him to
+adopt the title "Dr" and pretend to be a physician in the outlying districts.' From the
+manner in which they practised there was little difference between Clegg and
+Broderip. Both practised physic and pharmacy, but Broderip in his best years made by
+far the higher income.
+
+The Pulsfords provide an example of a practice in which, although many medical
+cases were treated, the emphasis was mainly surgical. The extent of midwifery in the
+practice is uncertain. Benjamin Pulsford contracted with the overseers of the In-
+parish of Wells to provide obstetric care for the poor, and also undertook some
+private cases. There is no evidence that William Pulsford undertook obstetrics, but
+there may have been a separate ledger for obstetrics which has not survived. The
+Medical Register for 1780 lists five surgeons and apothecaries in Wells in addition to
+the Pulsfords. There was also at least one physician-Dr Harington25-who is
+mentioned in the ledger. Thus competition in the field of physic was strong, and
+possibly in obstetrics as well, while the Pulsford practice was long-established and
+probably well recognized for its preference for surgery.
+
+Surgery in the eighteenth century was defined as the treatment of external diseases
+and all which required "manual interference". It included operations, the reduction of
+fractures and dislocations, the dressing of wounds and ulcers, the removal of teeth'and
+the opening of abscesses, and all eye and skin diseases. Surgeons also had a virtual
+monopoly in the treatment of venereal disease. Midwifery was not considered
+exclusively a surgical activity and was undertaken by some physicians, surgeons, and
+apothecaries as well as by the few who made it their chief activity as men-midwives or
+accoucheurs.
+
+"lIbid., vol. 2, pp. 1060-1080. See also, J. A. Nixon, 'Thomas Baynton 1761-1820', Proc. R. Soc. Med.,
+1914-15, 8: 95-102.
+
+22The account book of Thomas Misters of Shipston-on-Stour. Wellcome Institute Library, London
+(Ref. MS 3584).
+
+2'V. S. Doe, The diary of James Clegg of Chapel-en-Frith 1708-1755, 3 vols., Matlock, Derbyshire
+Record Society, 1978-81.
+
+24Bristol Infirmary biographical memoirs, op. cit., note 20 above, vol. 2, p. 157.
+
+25Henry Harington (1727-1816) MA Oxford 1752, MD 1762, established himself as a physician in
+Wells in 1753 and moved to Bath in 1771. He was a noted composer of music. On two occasions recorded
+in the Pulsford ledger he arranged for William Pulsford to sound a patient for suspected bladder stone; on
+neither was a stone present.
+
+8
+
+Provincial medical practice in eighteenth-century England
+
+IV
+
+The main results of an analysis of this ledger are shown in the accompanying tables.
+Tables 1 and 2 are based on an analysis of the whole ledger; the remainder are based
+on a sample consisting of all the cases recorded as having been seen in the year 1757.
+
+TABLE 1. OCCUPATION OR SOCIAL STATUS OF PATIENTS AS RECORDED IN THE
+
+WHOLE OF THE LEDGER FROM 1 FEBRUARY 1757 TO c. 1764
+
+"The Hon: Esq."
+Esq.
+
+Attorney
+
+Captain (army)
+Clergy
+Farmer
+
+Innkeeper
+Servant
+
+Servant Boy
+Gardener
+
+"Gardener at the Pallace"
+"Porter at the Pallace"
+Shoemaker
+Shopkeeper
+Apprentice
+
+Stocking-maker
+Mason
+
+Blacksmith
+
+1      "Serjeant" (army)
+1      Clerk
+
+3      Silversmith
+1      Carpenter
+1      Millwright
+12      Tanner
+
+7      Peruke-maker
+6      Glover
+
+3      Hatmaker
+
+1      Organ-builder
+1      Glazier
+1      Brazier
+
+5      Thatcher
+
+4      Wheelwright
+3      Stay-maker
+2      Pipe-maker
+2      Chandler
+2
+
+Total    73
+
+Source: The ledger of William Pulsford, Somerset County Record Office, Taunton, Somerset, accession
+
+no: DD/FS Box 48.
+
+TABLE 2. COUNTRY PATIENTS, LIVING ONE OR MORE MILES OUTSIDE WELLS.
+THE DISTANCE FROM THE CENTRE OF WELLS TO THEIR HOMES WHEN THEIR
+
+ADDRESS WAS RECORDED
+
+Distance
+
+1 to 2 miles
+2 to 3 miles
+3 to 4 miles
+4 to 5 miles
+5 to 6 miles
+6 to 7 miles
+7 to 8 miles
+8 to 9 miles
+
+9 to 10 miles
+
+Number of
+
+Patients
+
+16
+11
+13
+
+7
+4
+7
+6
+2
+1
+
+Total     67
+
+Source: as for Table 1.
+
+9
+
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+
+Irvine Loudon
+
+Table 1 shows the patients' occupations, which were recorded in about one-quarter
+of the cases. It shows a predominance of tradespeople rather than the gentry or the
+professions. It is probable that the upper levels of society in Wells would either have
+employed the physician, or, if a surgeon was required, would have employed the
+senior partner, Benjamin Pulsford, for his greater experience. In addition, the
+Pulsfords were appointed as parish surgeons to the In- and Out-parishes of Wells, the
+parishes of Wookey and Holcombe, and possibly other parishes as well. These
+appointments contributed a considerable amount to their income and suggest that in
+this area the old poor law system provided a reasonable standard of medical care for
+the poor.
+
+Table 2 demonstrates the distance some of the patients lived from the centre of
+Wells; but not all of them were necessarily visited at home. There is clear evidence
+that some attended at William Pulsford's house,26 and others stayed in Wells during a
+course of surgical treatment. On several occasions, there is a record of the overseers
+of the poor paying for a patient from an outlying area to be boarded in Wells for the
+purpose of receiving treatment. For example, at the request of the overseers of the
+poor for the parish of Holcombe: "We went to Holcombe to take off a leg for Mary
+Pearl on Acct. of the bones of the Foot having been for a long time Carious, but
+finding the woman able to be brought to Wells, defer'd the operation till the 21st
+when it was performed at Thos: Maynard's in Prison Row." Likewise, in November
+1759, an operation for fistula-in-ano was performed on the orders of the overseers in
+Wells: ". . . the man was an alien, but maintained during an illness soon after by the
+parish".
+
+Table 3 shows the 334 episodes of illness recorded in the ledger during 1757, but
+once again it must be emphasized that this was not the complete list for that year,
+since a number of cases were almost certainly recorded in a previous ledger. It
+provides, however, a representative sample. The diagnostic terms used in the table
+are, with few exceptions, those recorded by William Pulsford in the ledger. The
+exceptions are "skin eruptions" for some ill-defined skin conditions, and "dental
+disorders" for extractions and dental abscesses, etc. "Oedema" is an interpretation
+of a clinical description.
+
+There are two main features of this table. The first is the predominance of surgical
+cases; the second, the minor nature of many of the cases. Surgery in the pre-
+anaesthetic era is usually pictured as a series of grim and dreadful operations of
+unimaginable pain. As Porter recently described it: ". . . in the age of agony before
+antiseptics and anaesthetics, surgery was limited to simple, quick or desperate
+operations such as amputations, removing bladder stones and setting fractures".27
+Indeed, this view has sometimes been combined with the belief that our predecessors
+in this period were either less sensitive to pain or much more stoical than ourselves,
+accepting or ignoring minor complaints and only consulting surgeons as a last resort.
+The evidence of the Pulsford ledger provides no support for such a view; instead it
+provides a more prosaic picture. Most of William Pulsford's income was derived from
+
+"'Benjamin Pulsford in his will dated 1784 refers to the room in his house where he saw patients as his
+"surgery". This is, in the author's experience, the earliest such use of the word.
+
+"Roy Porter, English society in the eighteenth century, Harmondsworth, Penguin Books, 1982, p. 303.
+
+10
+
+Provincial medical practice in eighteenth-century England
+
+TABLE 3. THE DIAGNOSTIC GROUPS OF ALL CASES RECORDED IN HIS LEDGER
+BETWEEN 1 FEBRUARY 1757 AND 31 DECEMBER 1757, BY WILLIAM PULSFORD
+
+Accidents and injuries (see Tables 4 & 5)
+
+Sore throats, ulcerated throats, and ulcerated tonsils and quinsies
+Erysipelas
+Smallpox
+Fever
+
+Venereal Disease
+Skin eruptions
+The itch
+
+Herpes of the lip
+
+Sore legs (mostly ulcers of the legs)
+Boils and abscesses
+Abscess of the ear
+
+Soreness, induration, or abscess of the breast
+Whitlow
+
+Inflamed arm following venesection
+Fistula-in-ano
+
+Perianal abscess
+
+Inflammatory swellings
+
+Swellings of the neck including scrofula
+Dental disorders
+
+Ulcers of the mouth
+Hernia
+
+Phymosis and paraphymosis
+Hydrocoele
+Piles
+
+Corns on the feet
+Warts
+
+Ganglion
+
+Haematoma
+
+Suppression of the urine
+Sore eyes
+Albugo
+
+Pain in the limbs
+Caries of bone
+
+Incisted [sic] tumor of lip
+Cancer of breast
+Cancer of tongue
+Nose bleed
+
+Oedema, cause obscure
+
+Inoculation against smallpox
+
+Diagnosis obscure or uncertain
+
+91
+35
+
+5
+3
+2
+6
+7
+4
+3
+31
+25
+
+2
+7
+3
+3
+1
+2
+11
+
+9
+4
+12
+4
+2
+1
+1
+1
+1
+1
+2
+2
+14
+4
+9
+3
+1
+2
+1
+2
+1
+9
+7
+
+Total    334
+
+Glossary
+
+The itch-scabies.
+
+Phymosis and paraphymosis-inflammatory swelling of the foreskin.
+Hydrocoele-accumulation of fluid surrounding the testicle.
+
+Ganglion-cystic swelling arising from the tendon, usually on the back of the hand or wrist.
+Haematoma-a tumour consisting of an extravasation of blood.
+
+Albugo-a scar on the cornea following a corneal ulcer; smallpox was here a common cause.
+
+Source: as for Table 1.
+
+11
+
+Irvine Loudon
+
+the treatment of minor injuries, boils and abscesses, skin rashes, warts, whitlows,
+piles, and sore eyes. External sepsis of pyogenic tuberculous or syphilitic origin
+affecting the skin, lymph glands, or bones and joints, was common; and surgical care
+for minor complaints was sought not just by an effete gentry to whom a surgical fee
+would be immaterial, but by all social classes. Chronic infections and ulcers,
+especially the ubiquitous leg ulcers,28 required repeated attendances over weeks or
+months, with the compensation of providing a steady source of income. For example,
+Mr Salmon (status or occupation not recorded) was treated from February 1757 until
+October 1758 for a chronic suppuration with ulceration of the leg; and a Mr Bethy's
+daughter in 1757 "was near five months underhand [with] a sore on her inner
+ancle". Pulsford carried out a few amputations, but such major surgery alone would
+never have provided a living. Pulsford, and indeed most surgeons of the period,
+depended for their living on routine procedures that would, in most instances, now be
+carried out by the nurse of a general practice or a casualty department.29
+
+The common picture of the eighteenth-century surgeon frequently engaged in
+major operations should be modified. Instead, a picture should be substituted of a
+surgeon such as William Pulsford making his rounds on horseback with two large
+saddlebags containing ointments, lotions, bandages, and plasters, as well as
+instruments.30 In the periods between urgent calls, his time would be spent on the
+tedious and often smelly business of draining pus from infected wounds and abscesses
+and dressing chronically infected and suppurating lesions. William Chamberlaine was
+explicit on the realities of the surgical life when he warned the apprentice surgeon:
+
+Are you too fine a gentleman to think of contaminating your fingers by administering a clyster
+to a poor man, or a rich man, or a child dangerously ill when no nurse can be found that knows
+anything of the matter? This is a part of your profession that it is as necessary for you to know
+how to perform as it is to bleed or to dress a wound. Or are your olfactory nerves so delicate that
+you cannot avoid turning sick when dressing an old neglected ulcer; or when, in removing
+dressings, your nose is assailed with the effluvia from a carious bone? If you cannot bear these
+things, put Surgery out of your head and go and be apprentice to a Man Milliner or Perfumer.3"
+
+This is a memorable account of the true nature of surgery, and it has an important
+bearing on the social status of the surgeon. The physician, unless as a country doctor
+he had to treat all conditions, scarcely came into physical contact with his patient
+except to feel the pulse. He could, and usually did, stand aloof; his dignity depended
+on it. Surgery, on the other hand, was emphatically a manual craft, unsuitable for
+refined and delicate sensibilities. Although surgery contained a large element of
+
+28I. S. L. Loudon, 'Leg ulcers in the eighteenth and early nineteenth century', J. R. Coll. Gen. Practnrs,
+Part 1, 1981, 31: 263-273; Part 2, 1982, 32: 301-309.
+
+29A nurse was occasionally employed by William Pulsford, but usually only in the final period of healing.
+It is not known whether she was paid directly by the patient or by Pulsford.
+
+"0This was also true of hospital surgery in the eighteenth century. For example, out of 152 surgical
+in-patients admitted to the Nottingham General Hospital in 1795-97 under the care of Mr John Wright,
+honorary surgeon to the hospital, only four underwent major or "capital" operations. A large majority
+were admitted with ulcers and inflammations treated by local applications, dressings, diet, and bed-rest.
+University of Nottingham Library: manuscripts department. 'Patients' treatment book 1781-1801' (Ref.
+Uhg 0 1).
+
+"1William Chamberlaine, Tirocinium medicum: a dissertation on the duties of youth apprenticed to the
+medical profession, London, 1813.
+
+12
+
+Provincial medical practice in eighteenth-century England
+
+coarseness, its effectiveness lay not so much in the dramatic realm of so-called heroic
+surgery as in the simple non-operative measures. At this prosaic level the eighteenth-
+century surgeon could relieve and cure many common complaints. It is probably true
+to say that the intervention of the plain country surgeon like William Pulsford,
+exercising his skill with fractures, dislocations, abscesses, and toothache, achieved far
+more than the most wise and skilful physician. Campbell, the author of The London
+tradesman (1747), would have shared this view. He was frankly scornful of the
+effectiveness of physicians, but regarded the surgeons much more favourably. His
+description of the nature of surgical practice corresponds closely to the practice of
+William Pulsford, and he believed that "a properly qualified" surgeon could not only
+obtain a "lucrative employment", but, unlike the physician, deserved it. "An
+ingenious Surgeon, let him be cast on any Corner of the Earth, with but his case of
+Instruments in his Pocket, he may live where most other Professions would starve."32
+
+Probably the greatest part of William Pulsford's time was spent in the tedious
+treatment of chronic infective conditions, but the most common category-and the
+one in which the surgeon was able to offer most effective treatment-was accidents
+and injuries. These ranged from minor sprains to severe injuries, and the nature and
+cause of these is shown in Tables 4 and 5. Injuries associated with horses were
+common and often severe, emphasizing, like the evidence from the diaries of James
+Clegg and Richard Kay, that horse transport in the eighteenth century was far from
+safe. Accidents with farm implements were also common and one was fatal:
+
+October 12th 1757. Mr Giblet of Westhay
+
+Mr Giblet had the misfortune to receive a wound by a Scyth thro. the Caps.r Lig.t of the Knee:
+
+d   td e                       t
+
+Mr Rock of Glaston[bury] was empl. abt. three weeks after he recd. y Accidt. We saw him, laid
+
+open on a Sinus on the Side on the Thigh and made a counter opening on the side of the
+Pat.[ella]. He was in a bad low State and died a few days after.
+
+d
+
+vid. itin. Recd. in full 5. 0.0.
+
+[vid. itin. = seen on a "journey", i.e., on the round of visits.]
+
+The treatment of wounds and lacerations, a frequent occurrence in the practice of all
+surgeons, was a much-debated subject in the eighteenth and early nineteenth
+centuries. At the centre of the debate was the question whether it was safe to bring
+the edges of a wound together and encourage healing by primary intention, or
+whether the wound should be kept open and suppurating by the insertion of "tents"
+to allow slow painful healing from below by secondary intention, leaving an ugly scar.
+Broadly speaking, the end of the century saw the abandonment of the secondary
+method, leaving the question of how primary healing was to be encouraged. The
+alternatives were by stitching or by strips of plaster-the latter being known as the
+"dry suture". Stitching carried the extra risk of sepsis from the suture material,
+although it produced a neater result.33 It is interesting to find that William Pulsford in
+1757 not only favoured primary wound closure but used stitches with apparent
+
+32R. Campbell, The London tradesman, London, 1797.
+
+33L. Heister, A general system of surgery. trans. from the German, 7th Ed., London, 1760. John Bell,
+Discourses on the nature and cure of wounds, Edinburgh, 1795, and The principles of surgery, vol. 1,
+Edinburgh, 1801. John Hunter, A treatise on the blood, inflammation and gun-shot wounds, 2 vols.,
+London, 1812. (The work was completed in 1792.) Samuel Cooper,A dictionary of practical surgery, 7th
+Ed., London, 1838, has an excellent account of the varying views on the treatment of wounds.
+
+13
+
+Irvine Loudon
+
+success even in cases of inherent difficulty:
+
+July 7 1759 Robt Reed by St John's Bridge
+
+Cut his throat (being lunatick) but missed ye Large Vessels-I sewd it up & cured him soon.
+Charged a guinea only.
+
+Aug 7 1758 White, Shoemaker
+
+His son fell from a Nut-Tree and rip open ye Scrotum, so that one Testicle hung out, which I
+returned, stitchd up ye Scrotum and soon cured him.
+Sept 2 1758, Magor of Dinder
+
+Cut ye 1st phalanx of his Forefinger almost off wth an Hatchet, but using a suture we saved the
+Finger and he has ye use of it.
+
+TABLE 4. ACCIDENTS AND INJURIES
+
+Bruises and sprains
+
+slight                                     28
+severe                                     12
+Wounds and lacerations
+
+slight                                      8
+severe                                     10
+Head injuries                                 8
+
+(definite fractured skull)                (1)
+Fractures and dislocations                   18
+Burns                                         4
+Eye injuries                                  2
+Wasp sting                                    1
+
+Total      91
+Source: as for Table 1.
+
+TABLE 5. THE CAUSES OF ACCIDENTS AND INJURIES
+
+Not recorded                                 42
+Horses-falls while riding, or being kicked
+
+by horses                                  16
+Falls (from ladders, trees, etc.)            10
+Fighting                                      6
+Accidents with guns or gunpowder              5
+Dog-bite                                      2
+Accidents with:
+
+Hatchet                                     2
+Hay knife; scythe; tenterhook; millstone;
+
+fall of timber; glass; wasp sting; catgut flying into
+
+eye while mending musical instrument    1 each
+
+Total      91
+Source: as for Table 1.
+
+14
+
+Provincial medical practice in eighteenth-century England
+
+The treatment of accidents was the field in which William Pulsford appears to have
+worked- with most skill and confidence, the clinical notes showing a considerable
+knowledge of the pathology and treatment of the common fractures and dislocations;
+on this alone, were it necessary to do so, he could have justified his occupation to
+posterity.
+
+Major operations were rare; in fact there are only five recorded in the ledger; two
+amputations, two removals of a breast tumour, and one trephining in the case of a
+fractured skull. These amounted to about one per cent of the total number of cases
+recorded between 1757 and 1764. Once, he advised an operation for a hernia he
+believed to be strangulated, but the patient-wisely-refused, and recovered. On
+another occasion, he also met refusal:
+
+Mr Moon at Callow Hill
+
+He was brt here by Mr Gale having been thrown down by a Bull. There was a Small Wound on
+
+d     d                                d
+
+his head which I dress , but, c not prevail on him to be bled, as he seem greatly disordered in
+
+his senses by the Shock; the next day my Uncle being sent for down [sic] thought he felt a
+Fracture, but they wd not consent to have proper Care taken. NB This man lived but did not
+recover his Senses or Speech properly.
+
+Eye conditions were common and there are several entries referring to smallpox as
+a cause of loss of vision amongst children, as in the case of a daughter of an
+innkeeper:
+
+Took [her] in hand with an albugo after ye Smallpox. Mr Keate had been her surgeon for some
+time. After the use of an ophthalmic powder for some time, the chId went into the Country for a
+week and returned with only a depression where the Cicatrix was without any appearance of an
+albugo, but the eye soon after upon their omitting ye use of the powder grew cloudy.
+
+An albugo is a corneal scar, of which smallpox was one cause. The same child
+appears, two years later, in the ledger when her father "being in liquor he threw a
+board and cut [her] head in an ugly manner".
+
+Amongst the minority of medical cases treated by William Pulsford much the most
+common were sore throats, and it seems there was an epidemic of them in Wells in
+1757-59, which, with good reason, caused Pulsford to feel alarmed and helpless.
+These cases were described most often as sore throat or inflamed sore throat, but also
+on numerous occasions as ulcerated sore throat or ulcerated tonsils. The rash of
+scarlet fever was never recorded, and the clinical descriptions do not suggest
+diptheria in spite of one reference to "Dr Huxham's species" of sore throat.34
+Instead, the concurrence of erysipelas (once entered in the ledger as "St Anthony's
+fire of the face") suggest an epidemic streptococcal infection. The descriptions
+correspond to those of Fothergill, who described A sore throat attended with ulcers in
+London in 1748,35 and noted its continuation as an "epidemic sore throat in both
+children and adults" in 1755.36 Many of the cases were mild, but a minority provoked
+more alarm than any other condition. Serious cases occurred amongst adults as well
+as children. Mr Vincent, a blacksmith, was "almost suffocated by a sore throat" in
+
+34John Huxham, A dissertation on the malignant ulcerous sore throat, London, 1757.
+35John Fothergill, An account of the sore throat attended with ulcers, London, 1748.
+
+36John Fothergill, Gendeman's Magazine, 1755, 25(2): 343. Here the concurrence of sore throat and
+erysipelas was noted, similar to the outbreak in Wells in 1757-58.
+
+15
+
+Irvine Loudon
+
+June 1759. In May 1758, "Mrs Giles daughter had ye worst ulcerd Throat with ye most
+alarming symptoms I ever saw in any Person, who recovered." The infection spread
+through the Giles family. In October 1757, he wrote of Mrs Plympton of Wester
+Compton: "Took in hand her daughter wth an excessive bad ulcerd throat, Dr
+Huxham's species. There seemed to be but the least chance for Life, yet we recovered
+her."
+
+William Pulsford may have been alarmed because of a death, both tragic and
+unexpected, early in 1757. The patient, the wife of a stocking-maker, was named Mrs
+Poynting, and the note is quoted in full to demonstrate the quality of the clinical data
+in the ledger:
+
+Mrs Poynting sent hither about three o'clock in ye afternoon; I then found her complaining of a
+slight soreness of her Throat wth which she was seized wth a chill some time in the Morning. The
+Uvula was somewhat relax'd but there was not the least Appearence of Danger as she had no
+Fever. I sent her D. [decoction] Rubra, was called to her at One in ye Morning and found her to
+Appearence in an Hysterick Fit. She was convuls'd and her Pulse from being very strong, and
+uncommonly quick, ceasd at once, and she Dyed before I cd have been wth her two minutes. She
+was seven months gone w  child."
+
+And this was not the only fatality from a throat infection. In the same month,
+February 1757, Mr Savage of Priddy "who had an incapacity of Swallowing which
+seemed to proceed from some Disease of the Glands, as he spit up immense
+quantities of viscid phlegm" was treated with blisters and plasters while he stayed at
+an inn in Wells. He retumed home with "a blister for each arm and one for the throat
+... where he died a Day or two afterwards".
+
+To summarize the clinical practice of William Pulsford and emphasize the
+essentially mundane nature of country surgical practice in the eighteenth century, the
+following is a list of the new cases recorded in the ledger for the week commencing 6
+March 1757:
+
+A servant boy with inflamed tonsils; D.(decoction) rubra supplied.
+
+A chandler's wife with a "bad back" for which an embrocation was given.
+A child with a hernia, treated with a plaster.
+A woman given ointment for her piles.
+
+An apprentice with a "bad knee", plastered.
+A woman with a dental abscess.
+
+A silversmith with an inflamed arm, bled once and the arm dressed twice
+daily: cured in a fortnight.
+
+A millwright with an abscess of the ear treated with drops of balsam in spirit.
+An innkeeper's wife with a fractured fifth metacarpal.
+
+A visit to a sick woman at Coaxley on the order of the overseers of the poor;
+no diagnosis or treatment recorded.
+
+A man with a "slow fever" and stomach pain. "I cut him an issue and some
+days after ordered a blister."
+
+37While it is obviously impossible to be certain of the cause of death in this case there are
+features of the story which would fit an acute Haemophilus influenzae infection with epiglossitis
+and/or laryngeal obstruction, suggested by the short interval between onset and death, and the
+"relaxed" (? oedematous) uvula.
+
+16
+
+Provincial medical practice in eighteenth-century England
+
+A farmer's wife with an inflammation of the breast "dress' until it suppurated
+and broke".
+
+A girl with an inflamed throat "treated with D. Rubra and very soon recovered".
+Five deaths were recorded in the ledger. Two were from throat infections, one from
+(presumed) sepsis from a severe leg wound, and two others: a patient who had been
+catheterized several times for "suppression of urine" and was found dead on a
+routine call; and "Mrs Parsons [who] broke her thigh two thirds up at the age of 87. I
+reduced it and a strong callous formed; but the old woman grew so fond of her bed
+that she never got up much afterwards-mortified her back and died of old age."
+
+V
+
+The size of the fees charged by the Pulsfords was determined by a number of
+factors. For example, fees were higher for difficult and skilled procedures; more was
+charged for an amputation than for extracting a tooth. The more attendances, the
+larger the fee, and this, although obvious, was important because so many cases
+required frequent attendance over long periods. If the patient was visited at home,
+the greater the distance the larger the fee, although there was a tendency to charge a
+flat fee for most "journeys" rather than to calculate strictly according to distance.
+Outcome-that is, success or failure of treatment-had little effect on the size of the
+fee. Finally, the social and occupational status of the patient could influence the fee
+charged, but on the whole it is interesting how little effect this had. Where
+comparable cases are recorded in the ledger, there was generally little variation in the
+fee over a wide range of occupations. Substantially higher fees were usually charged
+only at the uppermost end of the social scale. For example, l Os. 6d. was the Pulsfords'
+standard charge for inoculation against smallpox; but the wife of the Hon. George
+Hamilton Esq. was charged four guineas. Conversely, fees were not lowered for
+treatment paid for by the overseers of the poor, or for the lower income groups who
+paid for themselves. Sarah Cole of Lytton, who was so circumstanced it was believed
+she was "on the parish", was treated for an oral infection arising from "rotten teeth"
+which had to be extracted. The overseers refused to pay, and William Pulsford
+charged her two guineas, insisting on payment by monthly instalments of 5s until it
+had all been paid.
+
+The interpretation of individual fees is difficult for two reasons. First, bills were
+often allowed to accumulate over months or years and the fees were not itemized, but
+recorded as a final total. For example, Farmer Hill of Hinton paid a bill of fifteen
+guineas in May 1759, which covered a whole series of visits since March 1757.
+Second, there was what might be called the "hidden economy": payment in goods
+rather than money. There is one clear example in the ledger where a part-payment
+was made in the form of a load of hay, and when William Pulsford "settled accounts"
+with Mr Vincent, his blacksmith, it seems likely they compared what they owed to
+each other and settled the difference. Richard Smith in Bristol recorded how in the
+1790s he was similarly paid in goods by a patient who was a woollen-draper.38 Such
+transactions would only be entered in the ledger occasionally and may have been
+
+38Bristol Infirmary biographical memoirs, op. cit., note 20 above, vol. 2, pp. 152-153.
+
+17
+
+Irvine Loudon
+
+more common than the records suggest.
+
+TABLE 6. FEES CHARGED AND RECEIVED BY WILLIAM PULSFORD FOR VARIOUS
+
+SURGICAL AND MEDICAL TREATMENTS. SELECTED EXAMPLES.
+
+Accidents and injuries                                                         Fee charged
+Bruised arm from being kicked by a horse                                           5s. Od.
+Bruised head from a fall from a horse                                             10s. 6d.
+A farmer treated for a fractured fibula                                           10s. 6d.
+Reduction of a dislocated shoulder                                                1 ls. 6d.
+Fractured clavicle from firing a gun                                              1 is. 6d.
+Farmer's wife: "cut artery, difficult to stop"                                     7s. 6d.
+Fractured skull; perforator used on cranium                                       15s. 6d.
+
+Bruised leg from a fall from a ladder                                                1 gn.
+Child: dislocated wrist from a fall from a tree necessitating three journeys       14 gns.
+"Ran nail into sole of foot: troublesome symptoms arose"                            2 gns.
+Millworker: "Top of finger almost cut off: sewed back on"                           5 gns.
+Gunshot wound to hand                                                               5 gns.
+Wound of thigh from scythe: operation, patient died                                 5 gns.
+A shoemaker's sons: for one, the stitching back of a ripped-open scrotum, and for the other,
+
+a broken thigh "cured without lameness"
+
+Charge for both                                                                  10 gns.
+Operations
+
+Child: haematoma of skull opened                                                   5s. Od.
+Gardener's child; abscess of neck opened                                           7s. 6d.
+Tumour in neck opened                                                             1Os. 6d.
+Farmer: abscess in groin opened                                                   1Os. 6d.
+Inoculation against smallpox:
+
+generally                                                                       1Os. 6d.
+occasionally                                                                1 gn to 4 gns.
+Abscess of breast opened                                                             1 gn
+Shoemaker's wife: removal of breast tumour                                         14 gns.
+Tumour (? T.B. glands) removed from neck                                       ?1 11s. 6d.
+"Took an uncommon substance" from a child's side                                    5 gns.
+Removal of breast tumour                                                            5 gns.
+An apprentice: fell, fractured skull, trephined and "ten pieces of bone removed"    5 gns.
+Amputation of leg (paid by overseers of the poor)                                   7 gns.
+
+Leg ulcers and sore legs
+
+Venesection and dressings for an inflamed leg                                      7s. 6d.
+Housemaid treated for leg ulcers                                                  1Os. 6d.
+"Cured a sore on the foot"                                                        1Os. 6d.
+Treatment of a "foul ulcer on the leg from a dog-bite"                               1 gn.
+"Ulcer on ancle" treated, "cured in 6 weeks"                                        2 gns.
+Farmer treated for 4 months for a "sore leg"                                        2 gns.
+"Ulcer on ancle" treated for nearly 5 months                                       24 gns.
+"Sinuous ulcer on leg"; operation to "cut integuments"; thirteen journeys          24 gns.
+Inflamed leg with ulceration, treated intermittently over 2 years and 6 months     14 gns.
+Miscellaneous conditions
+
+Embrocation supplied to a farmer                                                   5s. Od.
+"Strained shoulder" treated                                                        5s. Od.
+Child treated for tonsillitis                                                      7s. 6d.
+Farmer's wife, inflamed breast: 'numerous dressings"                               gs. Od.
+Child treated for many small abscesses following smallpox                         1Os. 6d.
+Albugo (corneal ulcer) following smallpox, treated with eye drops                 1Os. 6d.
+Woman treated for pains in the neck                                               1Os. 6d.
+"Phymosis and a gleet"                                                            10s. 6d.
+
+18
+
+Provincial medical practice in eighteenth-century England
+
+Miscellaneous conditions (contd.)                                         Fee charged
+Farmer treated (medically) for a hard tumour in the neck                       1 gn.
+A woman with gross oedema of the legs and abdomen "treated by scarification"-
+
+and two gallons discharged                                                  11 gns.
+A mason: "mortification of the sacrum, dressed twice a day"                   2 gns.
+An innkeeper's wife treated for "putrid mouth ulcers"                         2 gns.
+A peruke-maker: 8 minor episodes of illness in the family over a period of 3 years  ?3 16s. Od.
+An attorney: 12 minor episodes of illness in the family treated over a period of seven years  10 gns.
+Treatment paid for by the overseers of various parishes
+
+Sore finger                                                                   5s. Od.
+Widow with "violent pains in the limbs"                                     1QO. 6d.
+Quinsy opened and pus discharged                                            1QO. 6d.
+Treatment of multiple abscesses                                                1 gn.
+Treatment of large wound in the leg from a hatchet                           1i gns.
+Treatment of a fractured humerus                                              1J gns.
+Treatment of a fractured leg                                                  3 gns.
+Venereal disease treated by mercury                                           5 gns.
+Amputation of leg                                                             7 gns.
+Source: as in Table 1.
+
+The most common fee charged by the Pulsfords, and also with few exceptions the
+lowest fee, was 5s. This was demanded for treating a hat-maker for a sore throat; a
+young woman with "the itch"; a farmer's wife whose inflamed breast was treated
+with a plaster; for opening an abscess, or for extracting a tooth. This minimum fee for
+a minor procedure represented perhaps half if not the whole of a week's wages for a
+hat-maker; medical care was not cheap. Only once did Pulsford record that he
+treated someone "gratis".39 Further examples of the fees charged are shown in Table
+6, but in spite of the quantity of financial data, it is impossible to be certain of William
+Pulsford's income. Following his death, an entry was made in the back of the ledger
+to the effect that ?453 19s.2d. was owed to William's estate and ?458 15s.0d. to
+Benjamin Pulsford. The basis of these calculations is uncertain. Probably, they refer
+to the total sums owing to the partnership at William's death; some had been owing
+for years. A further difficulty in estimating the profits of the partnership concerns the
+dispensing of medicines. Medical treatments are mentioned in passing in the clinical
+notes in the ledger but there are no prescriptions, no quantities supplied, and no
+charges specifically for medicines. It is certain that William Pulsford supplied
+medicines such as his almost routine "D.Rubra" for sore throats, and likely that
+there was a separate prescription book which included charges apart from those
+entered in the ledger. These charges could have formed a substantial addition to the
+practice income. Even if the probability of a separate prescription book is ignored,
+together with any "hidden" income in the form of goods, it seems likely that William
+Pulsford earned at least ?400 a year.
+
+If this estimate is correct, Pulsford earned his substantial income not from a highly
+specialized practice amongst the rich, scattered over a large area, but for the most
+part from ordinary simple surgical procedures in a practice of farmers, shopkeepers,
+and craftsmen living in, or close to, Wells. Moreover, he was in competition with at
+
+3On another occasion it was noted that the patient was "poor" and there was no indication of a fee
+charged or received. This patient may also have been treated "gratis".
+
+19
+
+Irvine Loudon
+
+least one physician, and at least two (and probably more) surgeon-apothecaries in
+the area. This provides the evidence of a substantial market for medical care and a
+willingness to pay Pulsford's substantial fees in preference to home remedies or less
+expensive unorthodox practitioners-although, no doubt, these were employed as
+well.40 Moreover, the comparison, in terms of fees and income, between William
+Pulsford and Claver Morris is most revealing.
+
+Claver Morris (1659-1726) was a graduate of Oxford University (MA 1682, MB
+1685, MD 1691) and an extra-licentiate (1683) of the Royal College of Physicians of
+London.4" After a period in Salisbury, he moved to Wells where he remained in
+practice as a physician during the first quarter of the eighteenth century. His patients
+included a high proportion of the gentry and the rich, not only throughout Somerset,
+but also in Gloucestershire, Wiltshire, Devon, and Dorset. His impeccable
+qualifications and the social standing of his patients were those of a well-known and
+sought-after provincial physician of high repute. His house in the Liberty in Wells
+was larger and grander than Benjamin Pulsford's house at 5 New Street; but his fees
+and income were considerably lower than those of the Pulsfords. Claver Morris
+charged the poor 2s. 6d., the small tradespeople 5s., the substantial tradespeople 1Os.
+6d., and the gentry one guinea. It is estimated that his income from his practice was
+between ?100 and ?150 up to 1710 and then between ?200 and ?300 a year. Here we
+have the unexpected finding that the fees and the annual income of the well-known
+physician with a practice amongst the gentry and the aristocracy were substantially
+lower than those of the young surgeon, although there was only a gap of thirty years
+between the end of Claver Morris's practice and the beginning of the Pulsfords'.
+
+VI
+
+The contrast between the incomes of Claver Morris and William Pulsford may
+have been due partly to the number of patients seen. William Pulsford was busy and
+most of his patients were local, while Claver Morris travelled long distances.
+Nevertheless, one would have expected the sought-after physician to the rich to have
+charged substantially higher fees than the young local country surgeon; instead, the
+fees were much the same. This suggests three possibilities. First, that the Pulsfords'
+fees were due to inflation during the intervening period. This can be dismissed,
+because there is no evidence of a significant rise in the cost of living between 1700
+and 1760 in England in general or Somerset in particular, and certainly not to the
+extent of the difference between the two incomes.42 Second, there is the possibility
+that either Morris or Pulsford were atypical practitioners; there is no evidence that
+
+'William Pulsford tended to be equally scornful of the failures of other orthodox practitioners in his
+neighbourhood and the treatments he described as "old-women's remedies", used by the patients
+themselves or on the advice of friends or neighbours. Otherwise, there are no references in the ledger to
+unorthodox practitioners.
+
+4"E. Hobhouse (editor), The diary of a West Country physician, London, Simpkin Marshall, 1934.
+
+42Gladys Bradford, 'Social and economic history [of Somerset]', in Victoria County History of
+Somerset, London, Constable, 1911, vol. 2, part 1, pp. 267-337. J. E. Williams, 'The British standard of
+living, 1750-1850', Econ. Hist. Rev., 1966, 2nd series, 19: 581-589. B. R. Mitchell and Phyllis Deane,
+Abstract of British historical statistics, Cambridge University Press, 1962. E. W. Gilboy, 'The cost of living
+and real wages in eighteenth-century England', in Arthur J. Taylor (editor) The standard of living in
+Britain in the Industrial Revolution, London, Methuen, 1975, ch. 1.
+
+20
+
+Provincial medical practice in eighteenth-century England
+
+they were. The third possibility is a general rise in medical fees between the early
+years of the eighteenth century and the time when William Pulsford started in
+practice. There is some evidence for such a change but uncertainty about the time
+when it occurred. But there is support for the more general proposition that the fees
+charged and incomes earned by provincial medical practitioners were substantially
+higher in the second half of the eighteenth century than in the first. For example,
+there is a marked difference between two bills submitted by Somerset practitioners in
+1737 and 1779 respectively. They were bills to two women who suffered similar
+conditions, both prolonged and both requiring numerous visits, surgical dressings,
+and medicines. The first, in 1737, amounted to a total of ?10 7s.4d. and visits (about
+130) were charged at about Ls. each.43 The later bill amounted to ?44 3s.Od. and
+included fifty-two visits at 5s. each." Of course, the differences between these two
+bills may have reflected no more than differences between the patients'
+circumstances or between the habits and reputations of the practitioners. But there is
+other more comprehensive evidence.
+
+An example is provided by a medical practitioner's day-book for the period
+1703-10.45 The name of the practitioner is unknown, but he practised near Leeds in
+Yorkshire. The day-book shows a type of practice that corresponds to the stereotype
+of the country apothecary, dispensing medicines from a shop. Examples of his notes
+are sl4own in Table 7. Medicines were dispensed on the basis of uroscopy and
+symptoms described either by the patient or by relatives or friends. In only about two
+per cent of cases was the patient visited, and when that occurred the addresses
+suggest that visits were confined largely to the well-off. Throughout the day-book,
+the fees, compared to those of surgeon-apothecaries in the second half of the century,
+were very low. Moreover, this practitioner regularly recorded each 1 January his
+income for the previous year. Between 1703 and 1710, this ranged from ?68 19s.9d.
+to ?105 18s.5d. Approximately four-fifths of his income came from the sale of
+medicines and one-fifth from small-scale farming, mostly the sale of cattle. Another
+apothecary's notebook for 1667-1715 (provenance uncertain) shows prices similar
+to the Leeds apothecary and an annual income rising gradually from ?143 p.a. in
+1697 to ?266 in 1716.46
+
+Confirmation of the increased prosperity of medical practice in the mid-eighteenth
+century is provided by the anonymous author of A general description of all trades
+(1747), where the trade of the apothecary is described as a "very genteel business
+and has been in great vogue of late years. . .". Some apothecaries "... . practise
+Surgery, Man-Midwifery and many times officiate as Physicians, especially in the
+
+,, 47
+
+Country, and often become Men of Large Practice and eminent in their way. . .".
+
+To what extent is this increased prosperity confirmed by an examination of medical
+
+43Somerset County Record Office, Taunton (Ref. DD.L.2.Misc/4 Box 154).
+44Ibid. (Ref. DD/DP. 23. OB4).
+
+45Medical practitioner's day-book, 1703-10. The library of the Royal College of General Practitioners,
+London.
+
+"Catalogued as: Personal memoranda and notes of accounts for physic and treatment of patients
+1667-1715, probably compiled by John Chaplin of Wareham probably the son of Rev. Thomas Chaplin.
+Dorset County Record Office, Dorchester (Ref: PH 1).
+
+47A general description of all trades, London, 1747.
+
+21
+
+Irvine Loudon
+
+TABLE 7. EXAMPLES OF ENTRIES TAKEN FROM THE DAY-BOOK OF A MEDICAL
+
+PRACTITIONER NEAR LEEDS, YORKSHIRE, BETWEEN 1703 AND 1710.
+
+? s. d.
+"It. Mrs Hawksworth, pain back and body", ointment prescribed                 0  0   4
+"It: urin: John Booth, Rawden, foul rotten water, pain in breast, cough",
+
+medicines dispensed                                                         0   2 10
+"It: urin: Jeremy Garth son Bolton, high colour, aguish fever, pain in head",
+
+medicines dispensed                                                         0  0   6
+"It: urin: James Pearson wife Denholm, lingering slow fever, pain in head",
+
+medicines dispensed                                                         0   1 0
+"It: urin: Richard Brook son Cleckheaton, age 24, pale colour, stomach clog'd, pain in
+
+breast", medicines dispensed                                                0  0   4
+"It: to John Clapham, Ottley, cough consumptive like, brest stopt", medicines dispensed  0  2  6
+"It: urin: Young woman age 17 years, pale colour, epileptick fits feared",
+
+elixir prescribed                                                           0  0   4
+"It: visit to Mrs Langley Priestly Greekn, Rheumatism, pain in back and body",
+
+medicines dispensed                                                         0 15   4
+"It: visit to John Walker Ganthrop Hall, cough, consumption feared",
+
+medicine dispensed                                                          0  7   0
+"It: visit to Mr Stead son, Baylock, surfet, cough, consumptive", medicine dispensed  0  5  0
+"It: to Daniel Hanniway, Sorwoodhouse, cough, stopping in brest, vomiting of bile,
+
+water", medicine dispensed                                                  0   0  6
+"It: visit to his son there age 22 years, cough, surfet, consumptive like",
+
+medicines dispensed                                                         0   2  0
+M. Received for Medicines contained in the former Note Book & in this from
+
+January 1st 1702/3 to January 1st 1703/4, ?56.18.1 & from other goods ?13.14.8d
+
+being in all the sum of-                                                   70 12   9
+
+Source: Medical notebook donated to the Royal College of General Practitioners by Dr Jameson. Library
+
+of the College.
+
+records of this period? The most frequent records of medical practice are
+practitioners' bills. Some are private bills; many are bills from parish surgeons to
+overseers of the poor. A number of these were examined and certain commonly
+recurring items were selected for comparison-the cost of two common types of
+medicine (mixtures and draughts) and the cost of journeys or visits. These, with the
+average cost of all the medicines prescribed, were abstracted from the bills and a
+selection of the results of this exercise is shown in Table 8.
+
+TABLE 8. EXAMPLES OF FEES CHARGED BY MEDICAL PRACTITIONERS IN THE
+
+EIGHTEENTH AND EARLY NINETEENTH CENTURY IN TERMS OF AN AVERAGE FEE
+FOR MEDICINES, THE FEE FOR MIXTURES, DRAUGHTS AND FOR JOURNEYS OR VISITS,
+TAKEN FROM BILLS TO PRIVATE PATIENTS AND TO OVERSEERS OF THE POOR IN
+
+VARIOUS PARTS OF ENGLAND.
+
+Reference                                     Average   Fee       Fee       Fee
+to                                           fee for    for       for       for
+
+source    Date       Source                   medicines mixtures  draughts  journeys
+Private medical bills
+
+1.       1697       Mrs Tudway, Somersetshire ls. Od.  is. Od.   ls. 6d.
+2.       1703-10    Charges of a Yorkshire
+
+practitioner near Leeds  4s.-Js. Od.                2s. Od.
+3.       1712       Mrs Tudway, Somerset    is. 2d.    is. 4d.   is. 6d.
+4.       1735       Alexander Popham         8d.
+
+5.       1737       Mrs Luttrell, Somerset   9d.                           is. Od.
+
+22
+
+Provincial medical practice in eighteenth-century England
+
+Average
+fee for
+
+medicines
+
+Source
+
+Mr Dickinson, Somerset   is. Od.
+Thomas Carew, Somerset   ls. Od.
+Thomas Carew, Somerset   2s. 9d.
+Mr Talbot, Bedfordshire  2s. Od.
+Charges of Mr Misters,
+
+surgeon at Shipston-on-
+
+Stour, Warwickshire    2s. ld.
+Charges of William Elmhirst
+
+of Yorkshire           2s. Od.
+Mrs Sandford, Somerset   2s. 6d.
+Mrs Blackall, Somerset   2s. Od.
+
+William Carr of Leeds    is. 6d.-2s.
+Mr Gibbs, Somerset
+
+Fees charged by Mr Tuson,
+
+apothecary, Northants  3s. 2d.
+
+Fee
+for
+
+mixtures
+
+Fee
+for
+
+draughts
+
+is. Od.        is. Od.
+is. 6d.        2s. 6d.
+
+is. Od.
+
+is. 6d.
+is. Od.
+ls. Od.
+
+is. 6d.
+
+is. 9d.
+2s. 6d.
+2s. 6d.
+2s. 3d.
+3s. 6d.
+
+Bill submitted by parish surgeons to overseers of the poor
+
+Parish of Bridewater,
+
+Somerset                9d.
+Parish of Bishop's Hull,
+
+Somerset                7d.
+Parish of Broomfield,
+
+Somerset
+
+Parish of Hutton, Somerset 2s. Od.
+Parish of Brington,
+
+Northants               is. 9d.
+Parish of Badgworth,
+
+Somerset                 ls. 9d.
+Parish of Babcary, Somerset
+Parish of Charlton
+
+Mackerell, Somerset     2s. 3d.
+Parish of Caddington, Herts 2s. 3d.
+Parish of Easton-in-
+
+Gordano, Somerset       2s. 6d.
+
+8d.
+6d.
+
+8d.
+
+is. 6d.         is. Od.
+
+8d.
+
+2s. 4d.     Ss. Od.
+2s. Od.     2s. 6d.
+
+2s. Od.     2s. 6d.
+
+2s. 6d.
+is. 6d.     5s. Od.
+
+2s. 6d.       is. Od.       2s. 6d.
+
+SCRO = Somerset County Record Office
+
+NCRO = Northamptonshire County Record Office
+BCRO = Bedfordshire County Record Office
+
+SCRO DD/TB Box 16
+
+Notebook of a Leeds practitioner
+SCRO DD/TD Box 16
+
+SCRO DD/TB Box 13. 8
+
+SCRO DDL.2 Misc/4 Bx 154
+SCRO DD/DN 206
+
+SCRO DD/TB Box 10
+
+SCRO DD/TB Box 14. 20
+BRCO CRT 110/27
+
+Wellcome MS 3584, Wellcome Institute Library
+Sheffield Public Library FH/13 63398
+
+23
+
+Overseers' bills
+
+17. SCRO DB. bw. 2323
+
+18. SCRO D/P/ b. hl. 18/2/11
+19. SCRO D.P.broo. 13/2/3
+
+20. SCRO D.P.Hut. 13/2/1-3
+21. NCRO 49/P. 151
+
+22. SCRO D/P/Badg. 13/2/4,5
+23. SCRO D/P Bab. 13/2/1
+
+24. SCRO D.P. Cha. Ma. 13/2/1,2
+25. BCRO DDP 35/12/2
+
+26. SCRO D.P. E.in.G. 13/2/2
+
+Reference
+to
+
+source
+
+Date
+
+Private medical bills (cont.)
+
+6.
+7.
+8.
+9.
+10.
+
+1745-48
+1742
+1754
+1759
+
+1766-71
+
+11.
+12.
+13.
+14.
+15.
+16.
+
+Fee
+for
+
+journeys
+
+1Os. 6d.
+2s. 6d.
+
+2s.-7s.
+5s. Od.
+
+1768-73
+1772-79
+1782
+
+1788-1800
+1801
+1818
+
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+
+25.
+26.
+
+1725
+1746
+
+1767-70
+1768
+1784
+
+1786
+1786
+
+1792-93
+1799
+1819
+
+Sources:
+
+Abbreviations:
+
+Private patients' bills
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+
+Irvine Loudon
+
+Table 8 (cont.)
+
+Private patients' bills
+
+12. SCRO DD/DP.23.OB.4
+
+13. SCRO DD/TB Box 15/11,12
+
+14. Wellcome MS (uncatalogued) Wellcome Institute Library
+15. SCRO D/P/Chedz 13/10/4. s341
+16. NCRO CA 242
+
+Other examples are provided by overseers' bills for other forms of medical and
+surgical care. Overseers were required to be sternly economical with parish money;
+they could, and sometimes did, refuse to pay charges which seemed excessive. Yet,
+with few exceptions, they did not object to fees charged by parish surgeons
+equivalent to the charges made to private patients. For example, the overseers of the
+parish of South Cadbury in 1775 paid the parish surgeon 15s.6d. for one journey and
+"setting a lad's collar bone"-the simplest of all fractures to deal with.48 In 1771, Mr
+Bryant was paid by the overseers of the parish of Broomfield, ?8 19s.0d. for "laying
+open and curing an Imposthumation", and in 1770 they paid three guineas for the
+reduction of a fractured thigh.49 In 1746, however, the fee paid by the overseers of
+the parish of Bishop's Hull in Somerset for opening and curing a large abscess in the
+head-which required a series of visits-was only lOs.6d.5? The contracts when the
+surgeon was paid by salary often show a similar difference. In Bedfordshire in 1729,
+John Sharpe, apothecary, contracted with the overseers of the poor at Eaton Socon
+to supply all care to the poor (including medicines) for ?5 for a period of fifteen
+months. In contrast, Walter Borlase, parish surgeon in 1790 to Ampthill, was paid
+eleven guineas a year for a similar contract.5" The parish surgeons of Stour (Stower)
+Provost in Dorset were paid a retaining salary for all treatment except midwifery,
+smallpox, and broken bones. In 1786 the salary was five guineas p.a.; in 1787, ?8;
+and by 1803 it was twelve guineas. As the population of the parish in 1801 was only
+604, these salaries must have been easily earned.52 This evidence suggests that the
+fees charged by provincial practitioners increased around 1740-50 and then, from
+1750 until the early nineteenth century, remained level, with the exception of fees to
+parish surgeons which often rose sharply in the early nineteenth century. The
+prosperity of practitioners depended not just on the fees they could charge, but also
+on the number of patients per practitioner and the amount of medicine and other
+forms of care those patients could be persuaded to accept. Rough estimates of
+doctor/population ratios can occasionally be made in the eighteenth century, but
+accurate estimates are generally impossible before the census of 1841. As for the
+quantities of medicine provided, these, in the eighteenth century, were often
+astonishing. The "Golden Age of Physic" was based on the sale of vast quantities of
+medicine, much of it made up in small individual bottles or packages, each charged
+individually to maximize profits.
+
+48Somerset County Record Office (Ref: D. P. Cad. S.13/2/4).
+49Ibid. (Ref: D.P. Broo. 13/2/3).
+"0Ibid. (Ref: b/p/b.hl. 13/2/1 1).
+
+"Bedfordshire County Record Office (Ref: DDP 5/12/4 & P/30/8/1).
+"Dorset County Record Office (Ref: P3541OV4,5).
+
+24
+
+Provincial medical practice in eighteenth-century England
+
+For example, at the end of 1754, the medical attendant to the Carews of
+Crowcombe Court, Somerset, presented his bill for the year.53 This one family had
+been supplied in 1754 with medicine, delivered daily including Sundays except for a
+few gaps here and there, totalling 687 items plus seven bleedings and two blisters.
+The bill (twenty-three closely written foolscap pages) came to ?154 5s. 7id., of which
+?50 was carried forward from a previous unpaid bill. By comparison, the same family
+in 1737 paid ?41 6s.6d. for about 450 items of medicine.5 Other bills for medicine
+supplied to private patients in Somerset confirm the large quantities provided.
+
+Richard Smith junior in Bristol furnished vivid evidence of the profits to be made
+from the dispensing of medicine until the appearance of the dispensing chemists
+brought the golden age to an abrupt halt. Smith, as a young man, "had a patient
+bequeathed to me by Mr Alland who frequently took day and night (for if he was
+awake he took a draught) six or seven bottles-my apprentice regularly made up and
+ready two or three packets",55 and his aunt took some mysterious pills on certain days
+"her regular banyon or blackwood days" and paid her apothecary ?30 to ?40 every
+Christmas.56 Certain medicines containing musk or oil of cinnamon were used for
+"grandees", and these were charged at 10s.6d., of which at least lOs. was profit. A
+family called the Greenlys at Clifton "could not move without a regular supply of
+physic-they took with them to Weymouth 200 'tonic draughts' and one thousand
+pills of various descriptions--as there were no pill machines in those days Lassall [the
+
+"157
+
+apothecary's apprentice] told Smith he was 'sick to death with the rolling of them'.
+
+The upper and middle classes, at least, were great medicine-takers in the eighteenth
+century, not only for illness, real or imagined, but for the prevention of disease or the
+general belief that medicines improved their health. In addition, "there were
+abundance of people who, every spring and fall, lost blood and were disciplined for a
+fortnight or three weeks".58 Others required an issue to be made and kept open
+(sometimes for months or even years), imagining themselves ill if it was not kept
+discharging.59 The sale of medicine, however, held pride of place, outstripping the
+surgeon's bleeding, blisters, and issues.
+
+In this respect, the purchase of medicines and medical care was a part of the
+commercial boom in eighteenth-century England. Recently, a number of historians
+have drawn attention to the birth of the consumer society and the "consumer
+revolution" of the third quarter of the eighteenth century.60 The impression of a rise
+in prosperity of medical practitioners dating from 1740-50 coincides with evidence
+of a rapidly expanding market economy from the mid-century. Farmers and
+
+51Somerset County Record Office, Bill for Mr Bernard Baine to Thos. Carew Esq. 1754 (Ref. DD/TB
+Box 14/20).
+
+"Ibid. (Ref. DD/TB Box 13/8).
+
+"5Bristol Infirmary biographical memoirs, op. cit., note 20 above, vol. 2, p. 153.
+5"Ibid., p. 154.
+
+57Ibid., pp. 155 and 156.
+5"Ibid., p. 154.
+
+5"An issue was an incision through the skin (usually on the upper arm, back, or thigh) kept open and
+discharging by the insertion into the wound of a variety of small objects. It was supposed to act as an exit or
+drain for acrid humours in the blood. There is a good discussion of issues in Samuel Cooper, Dictionary of
+practical surgery, 7th ed., London, 1838.
+
+60See particularly N. McKendrick, J. Brewer, and J. H. Plumb, The birth of a consumer society, London,
+Europa 1982; and Porter, op. cit., note 27 above, ch. 5: 'Getting and spending'.
+
+25
+
+Irvine Loudon
+
+manufacturers of the kind found in Wells thrived as never before, and medical
+practitioners cashed in on this market. From the point of view of the costs of starting
+in business and basic costs of materials, there were few occupations so profitable as
+that of the surgeon-apothecary. As Campbell remarked in 1747 of the apothecary:
+"There is no Branch of Business, in which a Man requires less Money to set him up
+than this very profitable trade.... His profits are unconceivable. ..."
+
+Adam Smith's well-known defence of the apothecary in 1776 must have
+gladdened the hearts of medical practitioners at a time when they were beginning to
+be criticized for their fees: "The skill of an apothecary is a much nicer and more
+delicate matter than that of any artificer whatsoever. . .", and though he should sell
+his drugs at a profit of a thousand per cent, ". . . this may frequently be no more than
+the reasonable wages of his labour charged, in the only way he can charge them, upon
+the price of his drugs. The greater part of the apparent profit is wages disguised in the
+garb of profit."6" Adam Smith suggested that the apothecary in a market town could
+earn an income of ?400-?500 a year, which is in line with the estimated income of the
+Pulsfords in the 1750s.
+
+Nearly all the examples in this paper have been drawn from the South of England.
+Income levels may have been lower in the North. William Elmhirst in Yorkshire, for
+example, is estimated to have earned about ?250 a year from medical practice;62 and
+it should be mentioned in passing that the fees earned by country surgeons in
+Scotland were very much lower than those in England. In fact, the poverty of country
+practice in Scotland was proverbial in the nineteenth century as well as the
+eighteenth.63 In England, however, the income of the country practitioner often
+compared favourably with that of other trades and professions. For example, Joseph
+Massie's estimates of income for 1759-60 were ?100 p.a. for the superior clergy, and
+?50 p.a. for the inferior; ?100 p.a. for persons professing the law; and ?150 for the
+richest farmers.64 Possibly, the estimates for law and the church are on the low side.
+The legal profession became increasingly prosperous through the growth of non-
+litigious business, and Holmes suggests ?1 00-?200 as the income of minor clergy and
+?250 at least for the middle ranks.65
+
+The successful medical practitioner could look for extra sources outside the fees
+for private practice. In particular, medical care provided by the parish under the
+
+"'Adam Smith, Wealth of nations, London, 1776.
+
+6"The Elmhirst ledger, Sheffield Public Library, local collection, (accession no: FH/13 63398). See also,
+E. M. Sigsworth and P. Swan, 'An eighteenth-century surgeon and apothecary: William Elmhirst (1721-
+73)', Med. Hist., 1982, 26: 191-198.
+
+63The account-book of James Steedman of Kinross dating from 1758 (the library of the Wellcome
+Institute for the History of Medicine, London, MS 4702) demonstrates the low fees charged; and another
+fine example can be found in the bill to a Writer in Lanark in 1759 in John Glaister, Dr Smellie and his
+contemporaries, Glasgow, James Maclehose, 1894, pp. 16-17. See also, Sir Walter Scott, The surgeon's
+daughter, new ed., London, George Routledge, 1831 (first published in 1827): "There is no creature in
+Scotland that works harder and is more poorly requited than the country doctor, unless perhaps, it be his
+horse." The hero of this novel, the surgeon Gideon Grey, was said to travel 5,000 miles a year on
+horseback and earn less than ?200 p.a. Gideon Grey was based on a true Scottish practitioner, Dr
+Clarkson of Selkirk, and the detail is accurate.
+
+64Peter Mathias, 'The social structure in the eighteenth century: a calculation by Joseph Massie', Econ.
+Hist. Rev., 1957-58, 2nd series, 10(1): 30-45.
+
+6'Holmes, op. cit., note 2 above, pp. 93-96.
+
+26
+
+Provincial medical practice in eighteenth-century England
+
+"old" poor law provided a reasonable standard of care for the poor and often a
+substantial income to the practitioners, particularly when the records show clearly
+that many practitioners held appointments at several parishes, as, indeed the
+Pulsfords did.66 The poor law records of payment to practitioners in various counties
+tend to support the conclusions of Lane, whose extensive work on poor law surgeons
+in Warwickshire in the eighteenth century suggested that ". . . in the half century
+before 1800 ... medical attention for the regular and occasional poor ... was not
+appreciably worse than other villagers enjoyed".67 Indeed, it may have been better.
+The lowest fee charged by William Pulsford was 5s. In the South and West of
+England in 1768, Arthur Young found that the pay per week of a day labourer varied
+from 4s.6d. to lOs. (briefly, in the harvest) and was, on average, 5s. a week.68 It would
+have been difficult or impossible for a labourer in Wells to have employed Pulsford's
+services, even for the slightest of illnesses. A correspondent wrote in 1787: "The
+apothecaries in the country charge so high for their attendance and medicines that a
+poor distressed hardworking man (if he is a few weeks in illness) dreads the
+consequences of employing them, as if he survives the illness he knows it will be an
+additional drawback in his labour (for perhaps several years) to get clear of the
+apothecary."69 It is no accident therefore that the growth of the Friendly Societies in
+the second half of the eighteenth century was spectacular. In Taunton, for example,
+the first was established in 1751; by 1796, there were 114.70 These societies not only
+helped the poor in sickness, they provided another source of income for medical
+practitioners. There are a few scattered references in the Pulsford ledger to payments
+by "the clubb". But later, in the 1790s, a practitioner from Towcester, a Mr Sabin,
+derived a substantial income from club practice, particularly the "Bear Club".7"
+
+So far in this paper, obstetrics has scarcely been mentioned. Although for reasons
+of space, clinical practice cannot be discussed, some mention should be made of the
+economic aspects of the practice of man-midwifery. Some practitioners undertook
+obstetrics because there was no one else in their area to do so; others used it as a
+means of becoming established, and gave it up as soon as they could; and some
+persisted with it from the enjoyment of exercising an acquired skill.72 Very few did it
+for profit. "I know of no surgeon", wrote Richard Smith, "who would not willingly
+have given up attending midwifery cases provided he could retain the family in other
+
+"In Bedfordshire, for example, Mr MacGrath of Biggleswade was, in 1811, the parish surgeon to seven
+parishes. The smallest with a population of eighty-eight paid him ?4 4s.0d. a year; the largest (which he
+shared with another surgeon) had a population of 1,895 and MacGrath's share was ?22 10s.0d. a year. For
+attending the poor of all seven parishes (total population 3,429) he earned, in 1811, ?106 5s.0d.
+Bedfordshire County Record Office, Bedford. The Whitbread Correspondence (Ref. W/773).
+
+"Joan Lane, 'The provincial practitioner and his services to the poor, 1750-1800', Bull. Soc. soc. Hist.
+Med., 1981, 28: 10-14.
+
+"Arthur Young, A six weeks tour through the southern counties of England and Wales, London, 1768.
+
+"Correspondence of the 2nd Earl of Hardwicke. Letter from Joseph Pawsey (1787). British Library,
+Add. MS 35,694. (Transcript in Bedford County Record Office, ref: CRT 100/27/3 (II), p. 132.)
+
+70Margaret Fuller, West country friendly societies, University of Reading, Museum of English Rural
+Life, 1964.
+
+"Northampton County Record Office, Mr Sabin, prescription book 1797-98 (Ref. YZ 1770).
+
+"'For example, John Padmore Noble, surgeon to Bristol Infirmary from 1777-1812: "Undoubtedly his
+forte was man-midwifery and, feeling himself so completely at home in this branch might give him a
+pleasure which balanced in his mind its privations and inconveniences." Bristol Infirmary biographical
+memoirs, op. cit., note 20 above, vol. 2, p. 840.
+
+27
+
+Irvine Loudon
+
+respects.... I do not speak of the Metropolis...."      Smith was right; outside
+London (an important exception) obstetrics was poorly paid in terms of the time
+involved and the enormous mental and physical strain of prolonged and anxious
+attendance where the outcome was so uncertain.74 The unprofitable nature of
+man-midwifery is shown by the records of Danvers Ward, a Bristol surgeon who,
+failing in several attempts to become elected to the Infirmary, cultivated faute de
+mieux a large obstetric practice. He made the memorable claim of having in one year
+".... put to bed two hundred and forty six women, of which number twenty were
+confined in the space of one week".75 He may have boasted, for recently I found his
+accounts for 1787.76 In that year, he delivered 121 women. No payment was
+recorded for fifteen, half a guinea for seventy-seven, one guinea for fifteen, two
+guineas for twelve, and three guineas for two. In the same year, he recorded 161
+consultations for other conditions. These were not usually defined, but they included
+fractures, dislocations, bleedings, and tooth extractions. As a whole, the other
+consultations would have been much less arduous than obstetrics; yet the average fee
+for midwifery cases was 14.4 shillings, and for the non-obstetric, 14.3 shillings,77
+although as a well-known man-midwife in Bristol, Ward probably commanded high
+fees for his services. At all events, for the time and effort involved, medicine and
+surgery were much more profitable than midwifery, provided the practitioner could
+be fully employed in them.
+
+Sometimes, medicine in the eighteenth century is described as an occupation in
+which the elite of physicians and surgeons could make a fortune, while the rank and
+file struggled desperately against a distrustful public and an army of successful
+quacks. The evidence here suggests, on the contrary, that there was an
+extraordinarily favourable market to be exploited by surgeon-apothecaries imbued
+with a lively spirit of hard commercialism during the second half of the eighteenth
+century. Subsequent changes are beyond the period of this paper, but evidence
+presented previously suggests that there was a sharp decline in the income of the
+successors to the apothecaries and surgeon-apothecaries-the general
+practitioners-during the first half of the nineteenth century; and that this decline
+was due mainly to three factors, the increased cost of medical education, competition
+from dispensing druggists, and the over-production of medical practitioners
+following the Apothecaries' Act of 1815.78
+
+Thus, there is no support for the common view that the prosperity of the rank-and-
+file practitioners of medicine steadily increased from the eighteenth into the
+
+"Ibid., vol. 2, p. 157.
+
+74The memoirs of Richard Paxton who practised in Maldon, Essex, c.1750-90, provide vivid examples
+of the grim reality of man-midwifery as practised in the country in the eighteenth century. Library of the
+Wellcome Institute, London, MS 3820.
+
+"Bristol Infirmary biographical memoirs, op. cit., note 20 above, vol. 4, pp. 48-50.
+
+7The cash-book of Danvers Ward of Bristol, 1786-7. Gloucester County Record Office (Ref: D 1928,
+A3).
+
+"Dr John McCulloch of Liverpool, who delivered, between 1797 and 1810, 2900 women, charged
+closely similar fees to those of Danvers Ward. The average fee recorded was 15.3 shillings. I am grateful to
+Mr Paul Laxton of the Department of Geography, Liverpool University, for providing this information
+and allowing me to publish these results of his research.
+
+78Irvine Loudon, 'A doctor's cash-book: the economy of general practice in the 1830s', Med. Hist.,
+1983, 27: 249-268.
+
+28
+
+Provincial medical practice in eighteenth-century England
+
+nineteenth century together with the improved status and education of the general
+practitioner. The opposite seems to be the case. If the practitioners of the second half
+of the eighteenth century were better off than their nineteenth-century successors,
+what was their standing in society? What, in particular, was the position of the
+Pulsford family in Wells?
+
+VII
+
+Benjamin Pulsford was a man of considerable property. He inherited a landed
+estate from his uncle, Christopher Lucas (see Part I), bought property in both the In-
+and the Out-parish of Wells and the parish of Croscombe, and purchased from Lord
+Waldegrave land in Woodford. He also owned a fourth share of a lead mine. The
+property in hi$ house, which he divided amongst his sons in his will, included
+furniture, pictures, "useful" and "omamental" china, books on "physick and
+surgery", "the skeleton in my surgery", pistols and at least three sporting guns, one
+of them silver-mounted. He also bequeathed his horses to his sons. Three close
+friends are remembered in his will, one being a partner in the lead mine. Two are
+simply described as "Gentlemen" and the third was the Reverend John Prowse of
+Camerton.79
+
+Although little is known of the social standing of the Pulsfords, one is left with the
+impression that they were literate but not learned men, more interested in field
+sports and farming than religion, philosophy, or the arts. They were businessmen,
+able and willing to command high fees for their skills, and as a consequence they were
+prosperous.
+
+Wells in the eighteenth century was predominantly a market town, dependent on
+agriculture and the clothing industry, particularly stocking-making. The uplands of
+the Mendips were unenclosed until the 1770s, but the lowlands were richly
+cultivated. In 1801, the population of Wells was 4,505. It is generally supposed that
+the population had altered little and had been in the region of 4,000 to 5,000 at least
+for a hundred years previously.80 The surrounding villages visited by the Pulsfords
+cannot have contributed an extra population of more than, at most, another 5,000-
+7,500. Yet, in 1780, this population supported seven surgeon-apothecaries
+(including two Pulsfords-Benjamin and Lucas) and at least one physician.81 Even if
+some of these practitioners spent much of their time in additional occupations such as
+farming there must have been a thriving market for orthodox medical care. And
+there is no reason to believe that in this respect Wells was exceptional. Taking into
+account all the social and economic data discussed above, can the practice of the
+Pulsfords and their contemporaries be described as a trade or craft, or should it be
+seen as a clear example of a profession, albeit in the early stages of development?
+
+The trade versus profession debate is a recurrent and popular preoccupation of
+social historians.82 Few would dissent from the view that there was not, by any
+
+79Somerset County Record Office (Ref. DD/TD. 29/43; DD/FS Box 42, c 648; DD/SAS SE 23, c 795).
+"Rev. John Collinson, The history of Somersetshire, vol. 3, London, 1791. Phelps, op. cit., note 12
+above. Robin Atthill (editor), Mendip, a new study, Newton Abbott and London, David & Charles, 1976.
+Victoria County History, op. cit., note 42 above.
+
+"1Samuel Foart Simmons, Medical Register, 1780.
+
+82A. M. Carr-Saunders and P. A. Wilson, The professions, London, Frank Cass, 1964 (originally
+
+29
+
+Irvine Loudon
+
+important criteria, a unified medical profession before the nineteenth century.
+Likewise, most would agree that physicians, collectively, displayed some at least of
+the accepted features of a profession. The difficulty arises in attempting to assign an
+agreed status-an acceptable labe-to the country surgeons and apothecaries,
+without falling back on a process of backwards extrapolation from their nineteenth-
+century successors. Freidson, for example, singled out autonomy as the key feature
+of the professions in the sense of the right of an occupation to control its own work.
+Moreover, that autonomy is seen as a privilege conferred by society. In theory,
+physicians in the eighteenth century possessed such privileges and powers, at least at
+the level of their London College, and attempted, however weakly, to enforce their
+monopoly through the legal powers they possessed. But the lower ranks of medical
+men were subject to no formal education, no examination, and no licensing. They
+were not, in the sense intended by Freidson, an autonomous group, granted (by
+society) the power and right to control their own affairs. The Society of
+Apothecaries, the Company of Barber-Surgeons, and even more its successor after
+1745 the Company of Surgeons, might have been expected to be the bodies through
+which autonomy could be exerted. But, to the provincial practitioners, they were
+distant corporations in London to which they owed no loyalty and which had no
+interest in the welfare, education, or standards of practice of the provincial
+practitioner.
+
+Apart from autonomy, the criteria by which an occupation may be granted the
+status of a profession include public recognition, a sense of service, an ethical code
+enforced by the threat of expulsion from the profession, the setting and maintaining
+of standards of education and practice, a sense of corporate identity and with this
+what is called "professional pride". To some, professionalization is no more than a
+conspiracy to establish a monopoly, cloaked in the disguise of altruistic concern for
+the welfare of patients or clients. But to many historians involved in the trade v.
+profession debates, the most attractive argument in the long run seems to be that a
+profession is neither more nor less than a full-time occupation of high status. The
+attractiveness of this argument is its simplicity. But in reality, it only shifts the
+problem of definition from the word "profession" to the words "of high status". In
+the end, this may be merely a circular argument: that an occupation has a high status
+because it is, or looks like, one of the professions. Whichever of these criteria for the
+definition of a profession is chosen, none seems to apply decisively to the provincial
+surgeon-apothecary as described in this paper. Perhaps in the end we should appeal
+to the contemporary description of the occupation. How did the surgeon-
+apothecaries of the eighteenth century describe themselves? For it may be argued
+that the use of the term "profession" by the surgeon-apothecary is prima facie
+evidence of professional status. However, it is found that they referred to their
+
+published 1933). W. J. Reader, Professional men, Weidenfeld & Nicolson, London, 1966. E. Freidson,
+Profession of medicine, New York, Harper & Row, 1970. J. L. Berlant, Profession and monopoly. A study
+of medicine in the United States and Great Britain, Berkeley, Los Angeles, and London, University of
+California Press, 1975. Ivan Waddington, 'Competition and monopoly in Britain, the campaign for
+medical registration in Britain', Amsterdams Sociologisch Tijdschrift, No. 2, October 1979: 288-321.
+
+For a recent and cogent review of the debate, see Margaret Pelling, 'Medical practice in the early
+modem period: trade or profession?', Bull. Soc. soc. Hist. Med., 1983, 32: 27-30.
+
+30
+
+Provincial medical practice in eighteenth-century England
+
+occupation much more often as a trade or a business. Richard Smith junior in his
+extensive biographical memoirs used the terms "being in a good line of business" or
+"setting up in business" repeatedly.83 Campbell and the author of A general
+description of all trades in 1747 both distinguish clearly between the professions of
+Divinity, the Law, and Physic and the business or trade of the surgeon and the
+apothecary.8' Yet a young practitioner who "set up in business" was likely to say he
+did so in order to "practise his profession". There is no inconsistency here. In the
+transitional state of medicine during the latter half of the eighteenth century the
+distinction was uncertain and unimportant. Only in legal documents was there a
+necessity to be decisive. The attorney who drew up a partnership agreement between
+two Northampton practitioners in 1780, neatly hedged his bets when he wrote that
+the partners agreed "to join together in the said several professions trades or
+businesses of Surgery Midwifery and pharmacy".85 Faced with such evidence, the
+debate set in the adversarial terms of either a trade or a profession may be
+inappropriate, for it presupposes a sharp divide where none existed. The alternative
+is to remain on the fence and say that the lower ranks of the profession came
+somewhere between the tradesman and the professional gentleman. The navy placed
+their surgeons in just such a position-neither on the upper nor the lower deck, but
+midway with the Master and the Purser as warrant officers of wardroom rank, while
+the junior surgeons lived in the gun-room. It was not until the nineteenth century,
+after the reforms of 1805, that their status was raised by the granting of the privilege
+of a uniform, and the naval surgeon was required to wear a "Captain's undress
+uniform with a standup collar". The physician was distinguished by gold lace on his
+sleeves, to emphasize that the gap still existed now that the surgeon could lay claim to
+the status of an officer and a gentleman.86
+
+VIII
+
+This account of provincial practice in the eighteenth century began with two
+contrary views. The first, a sort of mild Hogarthian caricature, pictured a generally
+primitive level of medical practice deserving no more than the description of a trade.
+The second was the more recent thesis of Holmes, who sees a marked advance of the
+rank-and-file practitioners towards the status of professional men as something that
+occurred between 1680 and 1730. The first view clearly underestimates the level of
+clinical skills and of prosperity in the eighteenth century. As for the second, the
+evidence suggests that the changes that Holmes described as occurring before 1730
+took place at a later period. The increased prosperity and standing of medical
+practitioners, and more especially the improvements in medical education, were
+essentially features of the second half of the eighteenth century, even if there are
+hints of such changes here and there before 1740. Medical education based on the
+London hospitals and private courses of lectures had scarcely begun before 1750 and
+
+83Bristol Infirmary biographical memoirs, op. cit., note 20 above.
+"See notes 32 and 47 above.
+
+"Northampton County Record Office, Partnership agreement-undated (Ref. YZ 6070).
+
+"Christopher Lloyd and Jack L. S. Coulter, Medicine and the Navy, vol. 3: 1714-1815, London, E & S
+Livingstone, 1961.
+
+31
+
+Irvine Loudon
+
+only became a thriving industry in the last quarter of the century, continuing into the
+nineteenth. It then became an over-productive industry leading to bitter competition
+between the general practitioners of the 1830s, '40s, and '50s. If those men looked
+back in envy at their predecessors, who can blame them? By comparison, the second
+half of the eighteenth century must have appeared as a golden period for medical
+practitioners.
+
+ACKNOWLEDGEMENTS
+
+This paper is part of a study of the origin of the general practitioner and medical reform 1750-1850. The
+author is a Wellcome Research Fellow and acknowledges with gratitude the support of the Trust. He
+would like to thank Margaret Pelling and Jonathan Barry for valuable advice, and the staff of the Somerset
+County Record Office in Taunton for their help with manuscripts.
+
+32

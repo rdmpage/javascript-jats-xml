@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="pdfx" type="pdfxType" />
+  
+  <xsd:complexType name="pdfxType">
+    <xsd:sequence>
+      <xsd:element name="meta" type="metaType" />
+      <xsd:element name="article" type="articleType" />
+    </xsd:sequence>
+    <xsd:attribute name="xsi" type="xsd:string" />
+    <xsd:attribute name="noNamespaceSchemaLocation" type="xsd:string" />
+  </xsd:complexType>
+  
+  <xsd:complexType name="metaType">
+    <xsd:sequence>
+      <xsd:element name="job" type="xsd:string" />    
+      <xsd:element name="base_name" type="xsd:string" />
+      <xsd:element name="warning" minOccurs="0" maxOccurs="unbounded" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:complexType name="articleType">
+    <xsd:sequence>
+      <xsd:element name="front" type="frontType" />
+      <xsd:element name="body" type="bodyType" />
+    </xsd:sequence>
+    <xsd:attribute name="xsi" type="xsd:string" />
+    <xsd:attribute name="noNamespaceSchemaLocation" type="xsd:string" />
+  </xsd:complexType>
+
+  <xsd:complexType name="frontType">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="title-group" type="title-groupType" />
+      <xsd:element name="contrib-group" type="contrib-groupType" />
+      <xsd:element name="outsider" type="mixedType" />
+      <xsd:element name="footnote" type="mixedType" />
+      <xsd:element name="abstract" type="mixedType" />
+      <xsd:element name="region" type="mixedType" />
+    </xsd:choice>
+    <xsd:attribute name="class" type="xsd:string" />
+  </xsd:complexType>
+    
+  <xsd:complexType name="bodyType">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="section" type="sectionType" />
+      <xsd:element name="region" type="mixedType" />
+      <xsd:element name="disp-formula" type="dispFormulaType" />
+      <xsd:element name="outsider" type="mixedType" />
+    </xsd:choice>
+    <xsd:attribute name="class" type="xsd:string" />
+  </xsd:complexType>
+  
+  <xsd:complexType name="sectionType">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element name="h1" type="mixedType" />
+      <xsd:element name="h2" type="mixedType" />
+      <xsd:element name="h3" type="mixedType" />
+      <xsd:element name="h4" type="mixedType" />
+      <xsd:element name="h5" type="mixedType" />
+      <xsd:element name="region" type="mixedType" />
+      <xsd:element name="disp-formula" type="dispFormulaType" />
+      <xsd:element name="outsider" type="mixedType" />
+      <xsd:element name="ref-list" type="ref-listType" />
+      <xsd:element name="section" type="sectionType" />
+    </xsd:choice>
+    <xsd:attribute name="class" type="xsd:string" />
+  </xsd:complexType>
+
+  <xsd:complexType name="contrib-groupType" mixed="true">
+	<xsd:sequence maxOccurs="unbounded">
+	  <xsd:element name="contrib" type="contribType" />
+	</xsd:sequence>
+	<xsd:attribute name="id" type="xsd:int" />
+	<xsd:attribute name="type" type="xsd:string" />
+	<xsd:attribute name="class" type="xsd:string" />
+	<xsd:attribute name="page" type="xsd:int" />
+	<xsd:attribute name="column" type="xsd:int" />
+  </xsd:complexType>
+  
+  <xsd:complexType name="contribType">
+    <xsd:sequence>
+      <xsd:element name="name" type="mixedType" />
+      <xsd:element name="aff" minOccurs="0" maxOccurs="unbounded" type="mixedType" />
+    </xsd:sequence>
+    <xsd:attribute name="contrib-type" type="xsd:string" />
+  </xsd:complexType>
+  
+  <xsd:complexType name="title-groupType">
+    <xsd:sequence maxOccurs="unbounded">
+      <xsd:element name="article-title" type="mixedType" />
+    </xsd:sequence>
+  </xsd:complexType>
+
+  <xsd:complexType name="ext-linkType">
+    <xsd:complexContent>
+      <xsd:extension base="mixedType">
+        <xsd:attribute name="ext-link-type" type="xsd:string" />
+        <xsd:attribute name="href" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+    
+  <xsd:complexType name="xrefType">
+    <xsd:complexContent>
+      <xsd:extension base="mixedType">
+        <xsd:attribute name="ref-type" type="xsd:string" />
+        <xsd:attribute name="rid" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+
+  <xsd:complexType name="markerType">
+	<xsd:attribute name="type" type="xsd:string"/>
+	<xsd:attribute name="number" type="xsd:int"/>
+  </xsd:complexType>
+  
+  <xsd:complexType name="tableContentType">
+    <xsd:sequence maxOccurs="unbounded">
+	  <xsd:element name="table" type="tableType" />
+	</xsd:sequence>
+  </xsd:complexType>  
+  
+  <xsd:complexType name="tableType">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+	  <xsd:element name="thead" type="tableSectionType" />
+	  <xsd:element name="tbody" type="tableSectionType" />
+	  <xsd:element name="tfoot" type="tableSectionType" />
+	</xsd:choice>
+	<xsd:attribute name="number" type="xsd:string"/>
+	<xsd:attribute name="id" type="xsd:string" />
+	<xsd:attribute name="type" type="xsd:string" />
+	<xsd:attribute name="class" type="xsd:string" />
+	<xsd:attribute name="page" type="xsd:int" />
+	<xsd:attribute name="column" type="xsd:int" />
+  </xsd:complexType>    
+  
+  <xsd:complexType name="tableSectionType">
+    <xsd:sequence minOccurs="0" maxOccurs="unbounded">
+	  <xsd:element name="tr" type="hdNestedType" />
+	</xsd:sequence>
+	<xsd:attribute name="number" type="xsd:int"/>
+	<xsd:attribute name="id" type="xsd:string" />
+	<xsd:attribute name="type" type="xsd:string" />
+	<xsd:attribute name="class" type="xsd:string" />
+	<xsd:attribute name="page" type="xsd:int" />
+	<xsd:attribute name="column" type="xsd:int" />
+  </xsd:complexType>    
+  
+  <xsd:complexType name="hdNestedType">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+	  <xsd:element name="th" type="mixedType" />
+	  <xsd:element name="td" type="mixedType" />
+	</xsd:choice>
+	<xsd:attribute name="class" type="xsd:string" />
+  </xsd:complexType>    
+  
+  <xsd:complexType name="imageType">
+	<xsd:attribute name="src" type="xsd:string" />
+	<xsd:attribute name="thmb" type="xsd:string" />
+    <xsd:attribute name="class" type="xsd:string" />
+  </xsd:complexType> 
+  
+  <xsd:complexType name="dispFormulaType">
+    <xsd:sequence maxOccurs="unbounded">
+	  <xsd:element name="label" type="mixedType" />
+	  <xsd:element name="content" type="mixedType" />
+	</xsd:sequence>
+	<xsd:attribute name="class" type="xsd:string" /> 
+  </xsd:complexType>  
+  
+  <xsd:complexType name="ref-listType">
+    <xsd:sequence maxOccurs="unbounded">
+      <xsd:element name="ref" type="refType" />
+    </xsd:sequence>
+    <xsd:attribute name="class" type="xsd:string" />
+  </xsd:complexType>
+  
+  <xsd:complexType name="refType">
+    <xsd:complexContent>
+      <xsd:extension base="mixedType">
+        <xsd:attribute name="rid" type="xsd:string" />
+        <xsd:attribute name="doi" type="xsd:string" />
+        <xsd:attribute name="alt_doi" type="xsd:string" />
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  
+  <xsd:complexType name="mixedType" mixed="true">
+	  <xsd:choice minOccurs="0" maxOccurs="unbounded">
+		<xsd:element name="region" type="mixedType" />
+		<xsd:element name="disp-formula" type="dispFormulaType" />
+		<xsd:element name="annotation" type="mixedType" />
+		<xsd:element name="aff" type="mixedType" />
+		<xsd:element name="email" type="mixedType" />
+		<xsd:element name="ext-link" type="ext-linkType" />
+		<xsd:element name="xref" type="xrefType" />
+		<xsd:element name="marker" type="markerType" />
+		<xsd:element name="caption" type="mixedType" />
+		<xsd:element name="content" type="tableContentType" />
+		<xsd:element name="image" type="imageType" />
+      <xsd:element name="s" type="mixedType" />
+	  </xsd:choice>
+	  <xsd:attribute name="id" type="xsd:string" />
+	  <xsd:attribute name="sid" type="xsd:string" />
+	  <xsd:attribute name="type" type="xsd:string" />
+	  <xsd:attribute name="class" type="xsd:string" />
+	  <xsd:attribute name="page" type="xsd:int" />
+	  <xsd:attribute name="column" type="xsd:int" />
+	  <xsd:attribute name="confidence" type="xsd:string" />
+  </xsd:complexType>
+   
+</xsd:schema>
