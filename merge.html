@@ -37,7 +37,7 @@ Merge.prototype.AddRecord = function(record, confidence)
 	this.num_records = this.records.length;
 }
 
-//--------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
 Merge.prototype.AddValue = function(record_number, key, value) {
 	if (this.unique_values[key]) {
 		if (this.unique_values[key].indexOf(value) == -1) {
@@ -49,19 +49,21 @@ Merge.prototype.AddValue = function(record_number, key, value) {
 	
 }
 
-//--------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
 Merge.prototype.ValuePosition = function(key, value) {
 	return this.unique_values[key].indexOf(value);
 }
 
-//--------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
 Merge.prototype.AddKeys = function(keys) {
 	for (var i in keys) {
 		this.keys.push(keys[i]);
 	}
 }
 
-//--------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
+// If a key is an ordered list (e.g., "author") then add it to the list of ordered keys
+// so we can generate key-0, key-1, etc. and delete it from list of single-valued keys
 Merge.prototype.AddOrderedKey = function(key) {
 
 	this.ordered_keys.push(key);
@@ -74,7 +76,7 @@ Merge.prototype.AddOrderedKey = function(key) {
 }
 
 
-//--------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
 Merge.prototype.Dump = function() 
 {
 	console.log("keys=" + JSON.stringify(this.keys));
@@ -86,7 +88,7 @@ Merge.prototype.Dump = function()
 	console.log("consensus=" + JSON.stringify(this.consensus, null, 2));
 }
 
-//--------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
 Merge.prototype.Process = function() {
 
 	// make sure we have some keys
@@ -125,7 +127,7 @@ Merge.prototype.Process = function() {
 	// get values and uniques
 	for (var record_number = 0; record_number < this.num_records; record_number++) {
 		
-		// Regular keys for single-valued keys --------------------------------------------
+		// Regular keys for single-valued keys -------------------------------------------
 		for (var i in this.keys) {
 		
 			if (!this.kv[this.keys[i]]) {
@@ -141,7 +143,7 @@ Merge.prototype.Process = function() {
 			}
 		}
 		
-		// Keys that are lists of things (can be arrays or objects in Javascript) ---------
+		// Keys that are lists of things (can be arrays or objects in Javascript) --------
 		for (var i in this.ordered_keys) {
 			var key = this.ordered_keys[i];
 			
@@ -181,7 +183,8 @@ Merge.prototype.Process = function() {
 	}	
 }
 
-//--------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
+// Create binary vectors for each key 
 Merge.prototype.Vectors = function() {
 
 	// Create vectors
@@ -236,7 +239,9 @@ Merge.prototype.Vectors = function() {
 	}
 }
 
-//--------------------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------
+// Compute probabilities for each observed value and add most probable value to
+// consensus
 Merge.prototype.Belief = function() {
 
   // convert vectors  to beliefs
@@ -261,6 +266,7 @@ Merge.prototype.Belief = function() {
 						b[k] = (1 - this.confidence[record_number]) / (n - 1);
 					}
 				}
+				
 				console.log("b " + this.keys[i] + "=" + JSON.stringify(b));
 				
 				if (belief.length == 0) {
@@ -305,9 +311,6 @@ Merge.prototype.Belief = function() {
 		} else {
 			this.consensus[key] = best_value;
 		}
- 		
- 		
- 		
 	  }
 	}
 	
@@ -315,8 +318,8 @@ Merge.prototype.Belief = function() {
 
 }
 
-//--------------------------------------------------------------------------------------------------
-// Simply things by flattening records
+//----------------------------------------------------------------------------------------
+// Simplify things by flattening records, need to do this for CSL records
 function flatten(message) {
 	for (var i in message) {
 		switch (i) {
@@ -366,8 +369,6 @@ function flatten(message) {
 						}
 					}
 					values.push(value);	
-					
-								
 				}
 				delete message[i];
 				message[i] = values;
@@ -408,7 +409,7 @@ function unflatten(message) {
 					message['issued']['date-parts'] = [];
 					message['issued']['date-parts'].push([]);				
 				}
-				message['issued']['date-parts'][0] = message[i];
+				message['issued']['date-parts'][0][0] = message[i];
 				delete message[i];			
 				break;
 
@@ -418,7 +419,7 @@ function unflatten(message) {
 					message['issued']['date-parts'] = [];
 					message['issued']['date-parts'].push([]);				
 				}
-				message['issued']['date-parts'][1] = message[i];
+				message['issued']['date-parts'][0][1] = message[i];
 				delete message[i];
 				break;
 
@@ -428,7 +429,7 @@ function unflatten(message) {
 					message['issued']['date-parts'] = [];
 					message['issued']['date-parts'].push([]);				
 				}
-				message['issued']['date-parts'][2] = message[i];
+				message['issued']['date-parts'][0][2] = message[i];
 				delete message[i];
 				break;
 
