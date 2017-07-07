@@ -1,0 +1,435 @@
+<html>
+	<head>
+		<title>CSL JSON to n-triples</title>
+		<meta charset="UTF-8"/>
+		<style>
+		td { border: 1px solid red; }
+		</style>
+	</head>
+<body>
+
+<h1>Merge multiple CSL records into a single reference with confidence values(!)</h1>
+
+<script>
+// CrossRef
+	var doc1 = {"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2017,5,27]],"date-time":"2017-05-27T06:30:29Z","timestamp":1495866629671},"reference-count":0,"publisher":"FapUNIFESP (SciELO)","issue":"4","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":["Pap. Avulsos Zool. (S\ufffdo Paulo)"],"published-print":{"date-parts":[[2006,1,1]]},"DOI":"10.1590\/s0031-10492006000400001","type":"journal-article","created":{"date-parts":[[2006,9,21]],"date-time":"2006-09-21T15:04:58Z","timestamp":1158851098000},"source":"Crossref","is-referenced-by-count":0,"title":["<![CDATA[<B>Notas e descri\ufffd\ufffdes de novos t\ufffdxons em Cerambycinae Neotropicais (Coleoptera, Cerambycidae)<\/B>]]>"],"prefix":"10.1590","volume":"47","author":[{"given":"Dilma S.","family":"Napp","affiliation":[]},{"given":"Ubirajara R.","family":"Martins","affiliation":[]}],"member":"530","container-title":["Pap\ufffdis Avulsos de Zoologia (S\ufffdo Paulo)"],"original-title":[],"deposited":{"date-parts":[[2016,12,15]],"date-time":"2016-12-15T09:25:25Z","timestamp":1481793925000},"score":1.0,"subtitle":[],"short-title":[],"issued":{"date-parts":[[2006,1,1]]},"references-count":0,"alternative-id":["S0031-10492006000400001"],"URL":"http:\/\/dx.doi.org\/10.1590\/s0031-10492006000400001","relation":{},"ISSN":["0031-1049"],"issn-type":[{"value":"0031-1049","type":"print"}],"subject":["Animal Science and Zoology"]}};
+
+// microcitation
+doc2 = {"message": {"id":"ITEM-1","title":"Notas e descri\u00e7\u00f5es de novos t\u00e1xons em Cerambycinae Neotropicais (Coleoptera, Cerambycidae)","multi":{"_key":{"title":{"pt":"Notas e descri\u00e7\u00f5es de novos t\u00e1xons em Cerambycinae Neotropicais (Coleoptera, Cerambycidae)"},"abstract":{"pt":"Notas e descri\u00e7\u00f5es de novos t\u00e1xons em Cerambycinae Neotropicais (Coleoptera, Cerambycidae). Novos t\u00e1xons descritos em Ectenessini: Ectenessidia metallica sp. nov. (Brasil: Distrito Federal); em Compsocerini: Upindauara gen. nov., esp\u00e9cie-tipo U. bella sp. nov., (Brasil: Rond\u00f4nia) e Goatacara gen. nov., esp\u00e9cie-tipo G. boliviana sp. nov. (Bol\u00edvia: Santa Cruz); em Heteropsini: Amoaba gen. nov, esp\u00e9cie-tipo, A. plumosa sp. nov. do Equador (Pichincha) e Chrysoprasis rubricollis sp. nov. do Panam\u00e1 (Panam\u00e1). Em Rhopalophorini, Cycnoderus (C.) expeditus Chevrolat, 1859 \u00e9 redescrita e assinalada para o Equador (Loja), Cycnoderus (C.) intinctus (Pascoe, 1866) comb. nov. \u00e9 revalidada e Gurubira apicalis (Fuchs, 1966) comb. nov., redescrita e ilustrada.","en":"Notes and descriptions of new taxa of Neotropical Cerambycinae (Coleoptera, Cerambycidae). New taxa described: in Ectenessini: Ectenessidia metallica sp. nov. from Brazil (Distrito Federal); in Compsocerini: Upindauara gen. nov., type species U. bella sp. nov. from Brazil (Rond\u00f4nia) and Goatacara gen. nov., type species, G. boliviana sp. nov. from Bolivia (Santa Cruz); in Heteropsini: Amoaba gen. nov., type species A. plumosa sp. nov. from Ecuador (Pichincha); Chrysoprasis rubricollis sp. nov. from Panama (Panama); in Rhopalophorini, Cycnoderus (C.) expeditus Chevrolat, 1859 is redescribed and recorded from Ecuador (Loja), Cycnoderus (C.) intinctus (Pascoe, 1866) comb. nov. is reinstated and Gurubira apicalis (Fuchs, 1966), comb. nov. is redescribed and illustrated."}}},"type":"article-journal","issued":{"date-parts":[[2006]]},"author":[{"given":"Dilma Solange","family":"Napp"},{"given":"Ubirajara R.","family":"Martins"}],"container-title":"Pap\u00e9is Avulsos de Zoologia (S\u00e3o Paulo)","volume":"46","issue":"4","page":"31-42","ISSN":["0031-1049"],"DOI":"10.1590\/S0031-10492006000400001","URL":"http:\/\/www.scielo.br\/scielo.php?script=sci_abstract&pid=S0031-10492006000400001&lng=en&nrm=iso&tlng=pt","PDF":"http:\/\/www.scielo.br\/pdf\/paz\/v46n4\/04.pdf"}  };
+
+// cited by http://www.scielo.br/scielo.php?pid=S0101-81752007000300031&script=sci_arttext
+// NAPP, D.S. & U.R. MARTINS. 2006. Notas e descrições de novos táxons em Cerambycinae neotropicais (Coleoptera, Cerambycidae). Papéis Avulsos de Zoologia 46 (4): 31-42.  
+doc3 = {"message": { "title":"Notas e descrições de novos táxons em Cerambycinae neotropicais (Coleoptera, Cerambycidae)", "issued":{"date-parts":[[2005]]}, "container-title":"Papéis Avulsos de Zoologia", "volume": "46", "issue": "4", "page": "31-42"    }};
+
+// wikispecies
+doc4 = {"message": 
+{
+    "status": "ok",
+    "unstructured": "Dilma Solange Napp & Ubirajara Ribeiro Martins de Souza 2006: Notas e descrições de novos táxons em Cerambycinae neotropicais (Coleoptera, Cerambycidae). Papéis Avulsos de Zoologia 46(4): 31–42. full article (). ,_2006 reference page find all Wikispecies pages which cite this reference",
+    "author": [
+        {
+            "literal": "Napp, D.S.",
+            "WIKISPECIES": "Dilma Solange Napp"
+        },
+        {
+            "literal": "Martins, U.R.",
+            "WIKISPECIES": "Ubirajara Ribeiro Martins de Souza"
+        }
+    ],
+    "alternative-id": [
+        "Napp_%26_Martins,_2006"
+    ],
+    "volume": "46",
+    "issue": "4",
+    "page": "31-42",
+    "ISSN": [
+        "0031-1049"
+    ],
+    "title": "Notas e descrições de novos táxons em Cerambycinae neotropicais (Coleoptera, Cerambycidae)",
+    "PDF": "http://www.scielo.br/pdf/paz/v46n4/04.pdf",
+    "WIKISPECIES": "Template:Napp_%26_Martins,_2006",
+    "issued": {
+        "date-parts": [
+            [
+                2006
+            ]
+        ]
+    },
+    "container-title": "Papéis Avulsos de Zoologia",
+    "type": "article-journal"
+}
+};
+
+// output
+
+//----------------------------------------------------------------------------------------
+//that's how it gets checked in angular framework
+function isObject(obj) {
+  return obj !== null && typeof obj === 'object';
+}
+
+var values = {};
+
+var unique_values = {};
+
+
+
+//----------------------------------------------------------------------------------------
+function add_value(unique_values, key, value) {
+	if (unique_values[key]) {
+		if (unique_values[key].indexOf(value) == -1) {
+			unique_values[key].push(value);
+		}
+	}
+	return unique_values;
+}
+
+//----------------------------------------------------------------------------------------
+function find_value(unique_values, key, value) {
+	return unique_values[key].indexOf(value);
+}
+
+var keys = ['title', 'DOI', 'issued-year', 'issued-month', 'issued-day', 'publisher', 'type', 'volume', 'issue', 'page'];	
+
+//----------------------------------------------------------------------------------------
+function output(doc, doc_number) {
+
+	
+	
+	for (var i in keys) {
+		if (!values[keys[i]]) {
+        	values[keys[i]] = [];            		
+        }	
+        values[keys[i]][doc_number] = null;
+        
+		if (!unique_values[keys[i]]) {
+        	unique_values[keys[i]] = [];            		
+        }	
+	}
+
+    for (var i in doc.message) {
+    
+    
+    
+      switch (i) {
+      
+      	case 'multi':
+      		for (var j in doc.message[i]._key) {
+      			switch (j) {
+      			
+      				case 'title':
+      				case 'abstract':	
+      					for (var k in doc.message[i]._key[j]) {
+      						console.log(j + ' ' + k + ' ' + doc.message[i]._key[j][k]);
+      					}
+      					break;
+      					
+      				default:
+      					break;
+      			}
+      		}
+      		break;
+      
+      /*
+      	case 'issued':
+      		values[i][doc_number] = doc.message[i]['date-parts'][0];
+      		break;
+      */
+      
+      	// a set of "consensus terms" that we care about"
+      	case 'DOI':
+			values[i][doc_number] = doc.message[i].toLowerCase();
+            add_value(unique_values, i, doc.message[i].toLowerCase());      	
+      		break;
+      		
+      	case 'issued':
+      		// "issued":{"date-parts":[[2006]]}
+      		
+      		var n = doc.message[i]['date-parts'][0].length;
+      		
+      		if (n >= 1) {
+      			var year = doc.message[i]['date-parts'][0][0];
+      			values['issued-year'][doc_number] = year;
+      			add_value(unique_values, 'issued-year', year);
+      		}
+
+      		if (n >= 2) {
+      			var month = doc.message[i]['date-parts'][0][1];
+      			values['issued-month'][doc_number] = month;
+      			add_value(unique_values, 'issued-month', month);
+      		}
+
+      		if (n == 3) {
+      			var day = doc.message[i]['date-parts'][0][2];
+      			values['issued-day'][doc_number] = day;
+      			add_value(unique_values, 'issued-day', day);
+      		}
+      		
+      		
+      		break;
+      	
+      	case 'type':
+      	
+      	case 'author':
+      	case 'title':
+      	
+      	case 'publisher':
+      	case 'container-title':
+      	case 'volume':
+      	case 'issue':
+      	case 'page':
+      	
+      	
+      	
+      	case 'URL':
+      	case 'ISSN':
+      	
+      	
+      	
+      	
+      	
+      	
+          if (Array.isArray(doc.message[i])) {
+            for (var j in doc.message[i]) {
+            	if (isObject(doc.message[i][j])) {
+            		console.log (i + ',' + j + ' ' + JSON.stringify(doc.message[i][j]));            	
+            	} else {            
+            		console.log (i + ',' + j + ' ' + doc.message[i][j]);
+            		
+					if (!values[i]) {
+            			values[i] = [];            		
+            		}
+            		
+            		values[i][doc_number] = doc.message[i][j];   
+            		
+            		add_value(unique_values, i, doc.message[i][j]);         		
+            	}
+            }
+          } else {
+          	if (isObject(doc.message[i])) {
+            		console.log (i + ' ' + JSON.stringify(doc.message[i])); 
+            		
+            		if (!values[i]) {
+            			values[i] = [];            		
+            		}
+            		
+            		values[i][doc_number] = doc.message[i];
+            		           	
+            } else {            
+            		console.log (i + ' ' + doc.message[i]);
+            		
+            		if (!values[i]) {
+            			values[i] = [];            		
+            		}
+            		
+            		values[i][doc_number] = doc.message[i];
+            		
+            		add_value(unique_values, i, doc.message[i]);
+            }
+          }
+      	 break;
+      	 
+		default:  
+			break;    	 
+      }
+    }
+    
+   
+      
+ }
+ 
+ 
+ // 1. build list of values for each key,
+ output(doc1, 0);
+ output(doc2, 1);
+output(doc3, 2);
+output(doc4, 3);
+
+console.log("Raw values");
+ console.log (JSON.stringify(values, null, 2)); 
+ 
+ 
+ console.log("Unique values");
+  console.log (JSON.stringify(unique_values, null, 2)); 
+ 
+ // confidence values for each document (based on its source)
+ var confidence = [0.8, 0.9, 0.6, 0.7]; 
+  
+  // vectors for each term 
+  
+  // This is a vector of (0,1) where "1" indicates the position in the list of 
+  // unique_values  of the value for the current key the current document 
+  var vectors = {};
+  
+   var consensus = {};
+  
+  
+  for (var i in keys) {
+  	vectors[keys[i]] = [];  	
+  	}
+  
+  var num_docs = 4;
+ 
+  for (var i in keys) {
+ 	for (doc_number = 0; doc_number < num_docs; doc_number++) {  	
+  		var value = values[keys[i]][doc_number];
+  		var n = unique_values[keys[i]].length;
+  		 		
+  		switch (n) {
+  		
+  			case 0:
+  				// no data
+  				//delete vectors[keys[i]];
+  				break;
+  				
+  			/*
+  			case 1:
+	  			// accept unique value
+	  			delete vectors[keys[i]];
+  				break;
+  			*/	
+  			default:
+  				// we have multiple values
+				var vector = [];
+				for (var j = 0; j < n; j++) {
+					vector[j] = 0;
+				}
+		
+				var pos = -1;
+				switch (keys[i]) {
+				
+					case 'DOI':
+						if (value) {
+							pos =  find_value(unique_values, keys[i], value.toLowerCase());
+						}
+						break;
+						
+					
+		
+					default:
+						if (value) {
+							pos =  find_value(unique_values, keys[i], value);
+						}
+						break;
+				}
+		
+				if (pos != -1) {
+					vector[pos] = 1;
+					vectors[keys[i]][doc_number] = vector;
+				} else {
+					vectors[keys[i]][doc_number] = null;
+				}
+				break;
+		}
+  	}
+  }
+  
+  console.log("vectors");
+   console.log (JSON.stringify(vectors, null, 2)); 
+  
+  // based on vectors and confidence, compute the best values
+  
+ 
+  
+  // convert vector  to beliefs
+  for (var i in keys) {
+  	if (vectors[keys[i]]) {
+	  	console.log(keys[i], JSON.stringify(vectors[keys[i]]));	
+	  	
+	  	var belief = [];
+	  	
+	  	// compute beliefs
+ 		for (doc_number = 0; doc_number < num_docs; doc_number++) { 
+ 			
+ 			if (vectors[keys[i]][doc_number]) {
+			
+				var b = [];
+			
+				var n = vectors[keys[i]][doc_number].length;
+				for (var k = 0; k < n; k++) {
+					if (vectors[keys[i]][doc_number][k] == 1) {
+						b[k] = confidence[doc_number];
+					} else {
+						b[k] = (1 - confidence[doc_number]) / (n - 1);
+					}
+				}
+				console.log(keys[i], JSON.stringify(b));
+				
+				if (belief.length == 0) {
+					belief = b;
+				} else {
+					var sum = 0.0;
+					for (var x = 0; x < b.length; x++) {
+						belief[x] = belief[x] * b[x];
+						sum += belief[x];
+					
+					}
+					for (var x = 0; x < b.length; x++) {
+						belief[x] = belief[x]/sum;
+					}
+					
+				}
+			} 		
+ 		 
+ 		}
+ 		
+ 		console.log("belief " + ' '+ keys[i] + ' ' + JSON.stringify(belief));
+ 		
+ 		var v = '';
+ 		var max = 0;
+ 		
+ 		for (var x = 0; x < belief.length; x++) {
+ 			if (belief[x] > max) {
+ 				max = belief[x];
+ 				v = unique_values[keys[i]][x];
+			}
+		}
+		console.log("best=" + ' '+ keys[i] + ' "' + v + '"');
+		
+		switch (keys[i]) {
+			case 'issued-year':
+			case 'issued-month':
+			case 'issued-day':
+				if (!consensus.issued) {
+					consensus.issued = {};
+					consensus.issued['date-parts'] = [];
+					consensus.issued['date-parts'].push([]);
+				}
+				switch (keys[i]) {
+					case 'issued-year':
+						consensus.issued['date-parts'][0][0] = v;
+						break;
+					case 'issued-month':
+						consensus.issued['date-parts'][0][1] = v;
+						break;
+					case 'issued-day':
+						consensus.issued['date-parts'][0][2] = v;
+						break;
+					default:
+						break;									
+				}
+				break;
+			default:
+				consensus[keys[i]] = v;
+				break;
+		}
+		
+ 		
+
+	}
+  }  
+  
+  console.log (JSON.stringify(consensus, null, 2)); 
+  
+  // combine
+  
+ 
+ // ok, we need distinct values, a mapping between document number and value, a confidence
+ // score for each document, then we compute metadata for consensus object.
+	
+	</script>		
+			
+
+</div>
+</body>
+</html>			

@@ -1,0 +1,559 @@
+<html>
+	<head>
+		<title>Merge</title>
+		<meta charset="UTF-8"/>
+	</head>
+<body>
+
+<h1>Merge values from multiple records with confidence values(!)</h1>
+
+<script>
+
+
+function Merge() {
+	this.records = [];
+	this.confidence = [];
+	
+	this.kv = {};
+	this.unique_values = {};
+	
+	this.keys = [];
+	this.ordered_keys = [];
+	
+	this.num_records = 0;
+	
+	this.vectors = {};
+	
+	this.consensus = {};
+
+}
+
+//--------------------------------------------------------------------------------------------------
+Merge.prototype.AddRecord = function(record, confidence) 
+{
+	this.records.push(record);
+	this.confidence.push(confidence);
+	
+	this.num_records = this.records.length;
+}
+
+//--------------------------------------------------------------------------------------------------
+Merge.prototype.AddValue = function(record_number, key, value) {
+	if (this.unique_values[key]) {
+		if (this.unique_values[key].indexOf(value) == -1) {
+			this.unique_values[key].push(value);
+		}
+	}
+	
+	this.kv[key][record_number] = value;
+	
+}
+
+//--------------------------------------------------------------------------------------------------
+Merge.prototype.ValuePosition = function(key, value) {
+	return this.unique_values[key].indexOf(value);
+}
+
+//--------------------------------------------------------------------------------------------------
+Merge.prototype.AddKeys = function(keys) {
+	for (var i in keys) {
+		this.keys.push(keys[i]);
+	}
+}
+
+//--------------------------------------------------------------------------------------------------
+Merge.prototype.AddOrderedKey = function(key) {
+
+	this.ordered_keys.push(key);
+
+	var index = this.keys.indexOf(key);
+ 
+    if (index > -1) {
+       this.keys.splice(index, 1);
+    }
+}
+
+
+//--------------------------------------------------------------------------------------------------
+Merge.prototype.Dump = function() 
+{
+	console.log("keys=" + JSON.stringify(this.keys));
+	console.log("ordered_keys=" + JSON.stringify(this.ordered_keys));
+//	console.log(JSON.stringify(this.records, null, 2));
+	console.log("kv=" + JSON.stringify(this.kv, null, 2));
+	console.log("unique=" + JSON.stringify(this.unique_values, null, 2));
+	console.log("vectors=" + JSON.stringify(this.vectors, null, 2));
+	console.log("consensus=" + JSON.stringify(this.consensus, null, 2));
+}
+
+//--------------------------------------------------------------------------------------------------
+Merge.prototype.Process = function() {
+
+	// make sure we have some keys
+	if (this.keys.length == 0) {
+		for (var i in this.records[0]) {
+			this.keys.push(i);
+		}
+	}
+	
+	// Convert ordered keys to keys
+	for (var i in this.ordered_keys) {   
+		var max = 0;
+		var prefix = this.ordered_keys[i];
+		for (var record_number = 0; record_number < this.num_records; record_number++) {
+			if (this.records[record_number][prefix]) {
+				max = Math.max(this.records[record_number][prefix].length);
+			}
+		}
+		
+		for (j = 0; j < max; j++) {
+			this.keys.push(prefix + '-' + j);
+		}
+	}
+	
+	
+	
+	// Initialise
+	// unique values for regular keys
+	for (var i in this.keys) {   
+		     
+		if (!this.unique_values[this.keys[i]]) {
+        	this.unique_values[this.keys[i]] = [];            		
+        }	
+	}
+	
+	// get values and uniques
+	for (var record_number = 0; record_number < this.num_records; record_number++) {
+		
+		// Regular keys for single-valued keys --------------------------------------------
+		for (var i in this.keys) {
+		
+			if (!this.kv[this.keys[i]]) {
+        		this.kv[this.keys[i]] = [];            		
+        	}	
+        	this.kv[this.keys[i]][record_number] = null;
+		
+		
+			if (this.records[record_number][this.keys[i]]) {
+				console.log(this.records[record_number][this.keys[i]]);
+				
+				this.AddValue(record_number, this.keys[i], this.records[record_number][this.keys[i]]);
+			}
+		}
+		
+		// Keys that are lists of things (can be arrays or objects in Javascript) ---------
+		for (var i in this.ordered_keys) {
+			var key = this.ordered_keys[i];
+			
+			if (this.records[record_number][key]) {
+			
+				// Do we have an array or an object?
+				if (Array.isArray(this.records[record_number][key])) {
+					for (var j in this.records[record_number][key]) {
+						console.log(key + j);
+					
+						var subkey = key + '-' + j;
+						if (!this.unique_values[subkey]) {
+							this.unique_values[subkey] = [];            		
+						}	            
+						this.AddValue(record_number, subkey, this.records[record_number][key][j]);
+					
+					}
+				} else {
+					if (isObject(this.records[record_number][key])) {
+						for (var j in this.records[record_number][key]) {
+							console.log(key + j);
+						
+							var subkey = key + '-' + j;
+						
+							if (!this.unique_values[subkey]) {
+								this.unique_values[subkey] = [];            		
+							}	  
+						
+							this.AddValue(record_number, subkey, this.records[record_number][key][j]);          		
+						
+						}
+					}
+				 }
+			}
+
+		}		
+	}	
+}
+
+//--------------------------------------------------------------------------------------------------
+Merge.prototype.Vectors = function() {
+
+	// Create vectors
+	for (var i in this. keys) {
+  		this.vectors[this.keys[i]] = [];  	
+  	}
+  	
+  	// Go through values and build vectors for each key for which we have competing values
+  	for (var i in this.keys) {  
+		for (var record_number = 0; record_number < this.num_records; record_number++) {
+		
+			var value 		= this.kv[this.keys[i]][record_number];
+  			var num_values 	= this.unique_values[this.keys[i]].length;
+  			
+			switch (num_values) {
+	
+				case 0:
+					// no data
+					delete this.vectors[this.keys[i]];
+					break;
+			
+		
+				case 1:
+					// accept unique value
+					delete this.vectors[this.keys[i]];
+					this.consensus[this.keys[i]] = this.unique_values[this.keys[i]][0];
+					break;
+			
+				default:
+					// we have multiple values
+					var vector = [];
+					for (var j = 0; j < num_values; j++) {
+						vector[j] = 0;
+					}
+	
+					var pos = -1;
+					if (value) {
+						pos = this.ValuePosition(this.keys[i], value);
+					}
+	
+					if (pos != -1) {
+						vector[pos] = 1;
+						this.vectors[this.keys[i]][record_number] = vector;
+					} else {
+						this.vectors[this.keys[i]][record_number] = null;
+					}
+					break;
+			}
+  					
+		
+		}
+	}
+}
+
+//--------------------------------------------------------------------------------------------------
+Merge.prototype.Belief = function() {
+
+  // convert vectors  to beliefs
+  for (var i in this.keys) {
+  	if (this.vectors[this.keys[i]]) {
+	  	console.log(this.keys[i], JSON.stringify(this.vectors[this.keys[i]]));	
+	  	
+	  	var belief = [];
+	  	
+	  	// compute beliefs
+ 		for (record_number = 0; record_number < this.num_records; record_number++) { 
+ 			
+ 			if (this.vectors[this.keys[i]][record_number]) {
+			
+				var b = [];
+			
+				var n = this.vectors[this.keys[i]][record_number].length;
+				for (var k = 0; k < n; k++) {
+					if (this.vectors[this.keys[i]][record_number][k] == 1) {
+						b[k] = this.confidence[record_number];
+					} else {
+						b[k] = (1 - this.confidence[record_number]) / (n - 1);
+					}
+				}
+				console.log("b " + this.keys[i] + "=" + JSON.stringify(b));
+				
+				if (belief.length == 0) {
+					belief = b;
+				} else {
+					var sum = 0.0;
+					for (var k = 0; k < b.length; k++) {
+						belief[k] = belief[k] * b[k];
+						sum += belief[k];
+					
+					}
+					for (var k = 0; k < b.length; k++) {
+						belief[k] = belief[k]/sum;
+					}
+					
+				}
+			} 		
+ 		 
+ 		}
+ 	  	
+ 		console.log("belief " + ' '+ this.keys[i] + ' ' + JSON.stringify(belief));
+ 		
+		var best_value = '';
+		var max_prob = 0;
+	
+		for (var k = 0; k < belief.length; k++) {
+			if (belief[k] > max_prob) {
+				max_prob = belief[k];
+				best_value = this.unique_values[this.keys[i]][k];
+			}
+		}
+		console.log("best=" + ' '+ this.keys[i] + ' "' + best_value + '"');
+		
+		// add to consensus
+		var key = this.keys[i];
+		var m = key.match(/(.*)-(\d+)$/);
+		if (m) {
+			if (!this.consensus[m[1]]) {
+				this.consensus[m[1]] = [];
+			}
+			this.consensus[m[1]][m[2]] = best_value;
+		} else {
+			this.consensus[key] = best_value;
+		}
+ 		
+ 		
+ 		
+	  }
+	}
+	
+	
+
+}
+
+//--------------------------------------------------------------------------------------------------
+// Simply things by flattening records
+function flatten(message) {
+	for (var i in message) {
+		switch (i) {
+			case 'container-title':
+			case 'title':
+				if (Array.isArray(message[i])) {
+					var value = message[i][0];
+					delete message[i];
+					message[i] = value;
+				}
+				break;
+				
+			case 'issued':
+				if (message[i]['date-parts']) {
+					var n = message[i]['date-parts'][0].length;
+			
+					if (n >= 1) {
+						message['issued-year'] = message[i]['date-parts'][0][0];
+					}
+
+					if (n >= 2) {
+						message['issued-month'] = message[i]['date-parts'][0][1];
+					}
+
+					if (n >= 3) {
+						message['issued-day'] = message[i]['date-parts'][0][2];
+					}
+					delete message[i];
+					
+				}
+				break;
+				
+			case 'author':
+				var values = [];
+				console.log(JSON.stringify(message[i]));
+				for (var j in message[i]) {
+					var value = '';
+					console.log(JSON.stringify(message[i][j]));
+					if (message[i][j].literal) {
+						value = message[i][j].literal;
+					} else {
+						if (message[i][j].given) {
+							value = message[i][j].given;;
+						}
+						if (message[i][j].family) {
+							value += ' ' + message[i][j].family;
+						}
+					}
+					values.push(value);	
+					
+								
+				}
+				delete message[i];
+				message[i] = values;
+				
+				break;
+		
+			default:
+				break;
+		}
+	
+	}
+	
+	//console.log(JSON.stringify(message, null, 2));
+	//exit();
+
+	return message;
+}
+
+// to do: restore strings to objects where appropriate
+function unflatten(message) {
+	for (var i in message) {
+		switch (i) {
+		
+			case 'author':
+				var authors = [];
+				for (var j in message[i]) {
+					var author = {};
+					author.literal = message[i][j];
+					authors.push(author);
+				}
+				delete message[i];
+				message[i] = authors;
+				break;
+		
+			case 'issued-year':
+				if (!message['issued']) {
+					message['issued'] = {};
+					message['issued']['date-parts'] = [];
+					message['issued']['date-parts'].push([]);				
+				}
+				message['issued']['date-parts'][0] = message[i];
+				delete message[i];			
+				break;
+
+			case 'issued-month':
+				if (!message['issued']) {
+					message['issued'] = {};
+					message['issued']['date-parts'] = [];
+					message['issued']['date-parts'].push([]);				
+				}
+				message['issued']['date-parts'][1] = message[i];
+				delete message[i];
+				break;
+
+			case 'issued-day':
+				if (!message['issued']) {
+					message['issued'] = {};
+					message['issued']['date-parts'] = [];
+					message['issued']['date-parts'].push([]);				
+				}
+				message['issued']['date-parts'][2] = message[i];
+				delete message[i];
+				break;
+
+			default:
+				break;
+
+		}
+	}
+	
+	return message;	
+
+}
+
+//--------------------------------------------------------------------------------------------------
+
+
+var doc1 = {"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2017,5,27]],"date-time":"2017-05-27T06:30:29Z","timestamp":1495866629671},"reference-count":0,"publisher":"FapUNIFESP (SciELO)","issue":"4","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":["Pap. Avulsos Zool. (S\ufffdo Paulo)"],"published-print":{"date-parts":[[2006,1,1]]},"DOI":"10.1590\/s0031-10492006000400001","type":"journal-article","created":{"date-parts":[[2006,9,21]],"date-time":"2006-09-21T15:04:58Z","timestamp":1158851098000},"source":"Crossref","is-referenced-by-count":0,"title":["<![CDATA[<B>Notas e descri\ufffd\ufffdes de novos t\ufffdxons em Cerambycinae Neotropicais (Coleoptera, Cerambycidae)<\/B>]]>"],"prefix":"10.1590","volume":"47","author":[{"given":"Dilma S.","family":"Napp","affiliation":[]},{"given":"Ubirajara R.","family":"Martins","affiliation":[]}],"member":"530","container-title":["Pap\ufffdis Avulsos de Zoologia (S\ufffdo Paulo)"],"original-title":[],"deposited":{"date-parts":[[2016,12,15]],"date-time":"2016-12-15T09:25:25Z","timestamp":1481793925000},"score":1.0,"subtitle":[],"short-title":[],"issued":{"date-parts":[[2006,1,1]]},"references-count":0,"alternative-id":["S0031-10492006000400001"],"URL":"http:\/\/dx.doi.org\/10.1590\/s0031-10492006000400001","relation":{},"ISSN":["0031-1049"],"issn-type":[{"value":"0031-1049","type":"print"}],"subject":["Animal Science and Zoology"]}};
+
+
+// cited by http://www.scielo.br/scielo.php?pid=S0101-81752007000300031&script=sci_arttext
+// NAPP, D.S. & U.R. MARTINS. 2006. Notas e descrições de novos táxons em Cerambycinae neotropicais (Coleoptera, Cerambycidae). Papéis Avulsos de Zoologia 46 (4): 31-42.  
+doc3 = {"message": { "title":"Notas e descrições de novos táxons em Cerambycinae neotropicais (Coleoptera, Cerambycidae)", "issued":{"date-parts":[[2005]]}, "container-title":"Papéis Avulsos de Zoologia", "volume": "46", "issue": "4", "page": "31-42"    }};
+
+// wikispecies
+doc4 = {"message": 
+{
+    "status": "ok",
+    "unstructured": "Dilma Solange Napp & Ubirajara Ribeiro Martins de Souza 2006: Notas e descrições de novos táxons em Cerambycinae neotropicais (Coleoptera, Cerambycidae). Papéis Avulsos de Zoologia 46(4): 31–42. full article (). ,_2006 reference page find all Wikispecies pages which cite this reference",
+    "author": [
+        {
+            "literal": "Napp, D.S.",
+            "WIKISPECIES": "Dilma Solange Napp"
+        },
+        {
+            "literal": "Martins, U.R.",
+            "WIKISPECIES": "Ubirajara Ribeiro Martins de Souza"
+        }
+    ],
+    "alternative-id": [
+        "Napp_%26_Martins,_2006"
+    ],
+    "volume": "46",
+    "issue": "4",
+    "page": "31-42",
+    "ISSN": [
+        "0031-1049"
+    ],
+    "title": "Notas e descrições de novos táxons em Cerambycinae neotropicais (Coleoptera, Cerambycidae)",
+    "PDF": "http://www.scielo.br/pdf/paz/v46n4/04.pdf",
+    "WIKISPECIES": "Template:Napp_%26_Martins,_2006",
+    "issued": {
+        "date-parts": [
+            [
+                2006
+            ]
+        ]
+    },
+    "container-title": "Papéis Avulsos de Zoologia",
+    "type": "article-journal"
+}
+};
+
+/*
+doc1 = {"status":"ok","message-type":"work","message-version":"1.0.0","message":{"indexed":{"date-parts":[[2017,5,24]],"date-time":"2017-05-24T17:44:09Z","timestamp":1495647849084},"reference-count":0,"publisher":"PERSEE Program","issue":"8","content-domain":{"domain":[],"crossmark-restriction":false},"short-container-title":["linly"],"published-print":{"date-parts":[[1953]]},"DOI":"10.3406\/linly.1953.7591","type":"journal-article","created":{"date-parts":[[2016,10,11]],"date-time":"2016-10-11T17:20:23Z","timestamp":1476206423000},"page":"203-209","source":"Crossref","is-referenced-by-count":1,"title":["Descriptions de nouvelles esp\u00e8ces de Pyrales de la faune Malgache (Ins. L\u00e9pid.)"],"prefix":"10.3406","volume":"22","author":[{"given":"Pierre","family":"Viette","affiliation":[]}],"member":"2000","container-title":["Bulletin mensuel de la Soci\u00e9t\u00e9 linn\u00e9enne de Lyon"],"original-title":[],"deposited":{"date-parts":[[2016,10,11]],"date-time":"2016-10-11T17:20:23Z","timestamp":1476206423000},"score":1.0,"subtitle":[],"short-title":[],"issued":{"date-parts":[[1953]]},"references-count":0,"URL":"http:\/\/dx.doi.org\/10.3406\/linly.1953.7591","relation":{},"ISSN":["0366-1326"],"issn-type":[{"value":"0366-1326","type":"print"}]}};
+doc2 = {
+    "status": "ok",
+    "source": "Wikispecies",
+    "unstructured": "Viette, P.E.L., 1953: Descriptions de nouvelles espèces de Pyrales de la faune Malgache (Insecta: Lepidoptera)., Bulletin Mensuel de la Société Linnéenne de Lyon 22 (8): 203–209.",
+    "author": [
+        {
+            "literal": "Viette, P.E.L."
+        }
+    ],
+    "volume": "22",
+    "issue": "8",
+    "page": "203-209",
+    "title": "Descriptions de nouvelles espèces de Pyrales de la faune Malgache (Insecta: Lepidoptera).,",
+    "issued": {
+        "date-parts": [
+            [
+                1953, 2
+            ]
+        ]
+    },
+    "container-title": "Bulletin Mensuel de la Société Linnéenne de Lyon",
+    "type": "article-journal"
+};
+*/
+
+var M = new Merge();
+
+
+//M.AddRecord( { title: "title", volume: 20, author: [ { literal: "Napp, D.S." } , { literal: "Martins, U.R."}] } );
+//M.AddRecord( { title: "title", volume: 21, author: [ { literal: "Napp, D.S." } , { literal: "Martins, U.R."}] } );
+
+//M.AddRecord( { title: "title", volume: 20, author: [ "Napp, D.S.","Martins, U.R."] }, 0.9 );
+//M.AddRecord( { title: "title 2", volume: 21, author: [ "Napp, D. S.","Martins, U."] }, 0.7 );
+//M.AddRecord( { title: "title 2", volume: 21, author: [ "Napp, D.","Martins, U."] }, 0.9 );
+
+
+M.AddRecord( flatten(doc1.message), 0.9 );
+//M.AddRecord( flatten(doc2), 0.7 );
+M.AddRecord( flatten(doc3.message), 0.9 );
+M.AddRecord( flatten(doc4.message), 0.9 );
+
+//M.AddKeys(['title', 'volume', 'author']);
+
+M.AddKeys(['title', 'author', 'container-title', 'volume', 'issue', 'page', 
+	'DOI', 'issued-year', 'issued-month', 'issued-day',
+	'type', 'abstract']);
+	
+M.AddOrderedKey('author');
+
+M.Process();
+M.Vectors();
+M.Belief();
+
+M.Dump();
+
+var consensus = unflatten(M.consensus);
+console.log(JSON.stringify(consensus, null, 2));
+
+	</script>		
+			
+
+</div>
+</body>
+</html>			
