@@ -1,0 +1,173 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2018-05-08T03:32:22Z",
+      "timestamp": 1525750342345
+    },
+    "reference-count": 11,
+    "publisher": "Universidad Nacional Autonoma de Mexico",
+    "issue": "4",
+    "license": [
+      {
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              12,
+              1
+            ]
+          ],
+          "date-time": "2013-12-01T00:00:00Z",
+          "timestamp": 1385856000000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              10,
+              9
+            ]
+          ],
+          "date-time": "2015-10-09T00:00:00Z",
+          "timestamp": 1444348800000
+        },
+        "delay-in-days": 677,
+        "content-version": "vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Revista Mexicana de Biodiversidad"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.7550/rmb.32503",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          3
+        ]
+      ],
+      "date-time": "2013-12-03T16:26:18Z",
+      "timestamp": 1386087978000
+    },
+    "page": "1082-1089",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Dos especies nuevas de la familia Rubiaceae de la sierra de los Tuxtlas, Veracruz, México"
+    ],
+    "prefix": "10.22201",
+    "volume": "84",
+    "author": [
+      {
+        "given": "Alejandro",
+        "family": "Torres-Montúfar",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Helga",
+        "family": "Ochoterena",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "9467",
+    "container-title": [
+      "Revista Mexicana de Biodiversidad"
+    ],
+    "original-title": [],
+    "language": "es",
+    "link": [
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S1870345313729385?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S1870345313729385?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          5
+        ]
+      ],
+      "date-time": "2018-03-05T17:47:05Z",
+      "timestamp": 1520272025000
+    },
+    "score": 1,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12
+        ]
+      ]
+    },
+    "references-count": 11,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            12
+          ]
+        ]
+      },
+      "issue": "4"
+    },
+    "alternative-id": [
+      "S1870345313729385"
+    ],
+    "URL": "http://dx.doi.org/10.7550/rmb.32503",
+    "relation": {},
+    "ISSN": [
+      "1870-3453"
+    ],
+    "issn-type": [
+      {
+        "value": "1870-3453",
+        "type": "print"
+      }
+    ]
+  }
+}
