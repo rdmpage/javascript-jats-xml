@@ -113,12 +113,15 @@
 	<div style="float:left;padding:20px;">
 		<img width="100" style="border:1px solid rgb(192,192,192);">
 			<xsl:attribute name="src">
-			<!--
+			<!-- Code specific to this example -->
 				<xsl:text>Med_Hist_1985_Jan_29(1)_1-32/</xsl:text>
 				<xsl:value-of select="substring-before(@xlink:href, '.tif')" /> 
 				<xsl:text>.gif</xsl:text>
-			-->
+			<!--  End of example-specific code -->
+			
+			<!-- generic code 
 			<xsl:value-of select="@xlink:href" /> 
+			-->
 			</xsl:attribute>
 		</img>
 		<div style="text-align:center">
