@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 /Users/rpage/Development/grobid-0.5.3/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<encodingDesc>
+			<appInfo>
+				<application version="0.5.3" ident="GROBID" when="2018-12-13T16:46+0000">
+					<ref target="https://github.com/kermitt2/grobid">GROBID - A machine learning software for extracting information from scholarly documents</ref>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A new species of Zenopsis (Zeiformes: Zeidae) from the South China Sea, East China Sea and off Western Australia</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2006">2006</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Tetsuji</forename><surname>Nakabo</surname></persName>
+							<email>nakabo@inet.museum.kyoto-u.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Kyoto University Museum</orgName>
+								<orgName type="institution" key="instit2">Kyoto University</orgName>
+								<address>
+									<postCode>606-8501</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Dianne</forename><forename type="middle">J</forename><surname>Bray</surname></persName>
+							<email>dbray@museum.vic.gov.au</email>
+							<affiliation key="aff1">
+								<orgName type="department">Museum Victoria</orgName>
+								<address>
+									<postBox>GPO Box 666</postBox>
+									<postCode>3001</postCode>
+									<settlement>Melbourne</settlement>
+									<region>Victoria</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">Umeyoshi</forename><surname>Yamada</surname></persName>
+							<affiliation key="aff2">
+								<address>
+									<postCode>851-2102</postCode>
+									<settlement>Hamada, Togitsu, Nishisonogi</settlement>
+									<region>Nagasaki Prefecture</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A new species of Zenopsis (Zeiformes: Zeidae) from the South China Sea, East China Sea and off Western Australia</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Memoirs of Museum Victoria</title>
+						<imprint>
+							<biblScope unit="volume">63</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<biblScope unit="page" from="1447" to="2554"/>
+							<date type="published" when="2006">2006</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Zeidae</term>
+					<term>Zenopsis</term>
+					<term>new species</term>
+					<term>South China Sea</term>
+					<term>Western Australia</term>
+				</keywords>
+			</textClass>
+			<abstract>
+				<p>Nakabo T., Bray D.J. and Yamada U. 2006. A new species of Zenopsis (Zeiformes: Zeidae) from the South China Sea, East China Sea and off Western Australia. Memoirs of Museum Victoria 63(1): 91-96. Zenopsis stabilispinosa sp. nov. is described from the South China Sea, East China Sea and off Western Australia. It differs from other species of Zenopsis in having the third anal-fi n spine fused to its pterygiophore, seven dorsal-fi n spines, a short pelvic fi n in adults, and 32 (13+19) vertebrae. A key to the species of Zenopsis is provided.</p>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The species of Zenopsis are characterized by having a deep strongly compressed silvery body, scales absent from the body except along the lateral line, concave dorsal head profi le, enlarged bucklers along most of the spinous dorsal-fi n base and along the soft dorsal-and anal-fi n bases, three anal-fi n spines, six pelvic-fi n elements, and narrow infraorbitals. Three species of Zenopsis are currently recognized: Z. nebulosa <ref type="bibr" target="#b8">Temminck and Schlegel, 1845</ref><ref type="bibr">, Z. conchifer Lowe, 1852</ref><ref type="bibr">and Z. oblonga Parin, 1989</ref>. During surveys of demersal fi shes in the South China Sea and off Western Australia, ten specimens of Zenopsis which differ signifi cantly from these three Zenopsis species were collected. They are described herein as a new species.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Material and methods</head><p>Museum abbreviations follow <ref type="bibr" target="#b4">Leviton et al., 1985</ref>, with the exception of the following: SNFR -Seikai National Fisheries Research Institute. Counts and measurements <ref type="table" target="#tab_4">(Tables 1 and 2)</ref> follow <ref type="bibr" target="#b6">Nakabo, 2002a</ref>. Vertebral numbers and anal-fi n pterygiophore confi gurations were obtained from radiographs.</p><p>Zenopsis stabilispinosa sp. nov.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figures 1-3A, 4, Tables 1-2</head><p>Zenopsis sp. nov. <ref type="bibr">Bray, 1983: 106</ref>  <ref type="bibr">CSIRO RV Southern Surveyor, 24 Jan, 1991;</ref><ref type="bibr">AMS I.31147-002 (3, 80.4-104.5 mm SL)</ref>, off North-west Cape, Western Australia, 21º44.5'S, 113º52.5'E, 290-320 m, J. R. Paxton, CSIRO RV Southern Surveyor, 24 Jan, 1991; ASIZ P.0057609, off Donggang, Pintung, Taiwan, 22 28 12 N, 120 25 48 E, K. T. <ref type="bibr">Shao, 8 Oct, 1985</ref>; ASIZ P.0060011, fi sh market, Dahsi, Ylian, Taiwan, 24 57 00 N, 121 52 48 E, B. H. <ref type="bibr">Gao, 10 Aug, 1997.</ref> Diagnosis. Zenopsis stabilispinosa differs from its congeners in the following combination of characters: dorsal fi n with 7 spines; anal fi n with fi rst 2 spines movable and 3rd spine immovable, fused with its pterygiophore; pelvic fi n short, 1.69-1.79 in HL, in adult specimens greater than 300 mm SL; bony bucklers along bases of spinous and soft-rayed portions of dorsal fi n 3-4+5-6; bucklers along ventral body margin anterior to pelvic fi n and between pelvic-and anal-fi n origins, and along anal-fi n base 5-6+6-7+5-6 and vertebrae 32 (13 abdominal + 19 caudal).</p><p>Description. (values for paratypes in parentheses if different from holotype). Dorsal fi n VII, 26; anal fi n III, 23; pectoral fi n rays 12 <ref type="bibr">(12)</ref><ref type="bibr">(13)</ref>; gill rakers 3+9 (3-4+8-10); dorsal bucklers   4+6 (3-4+5-6); ventral bucklers 6+6+5 (5-6+6-7+5-6); vertebrae 13+19. Body deep, strongly compressed, scales absent except along lateral line. Head strongly compressed, dorsal profi le slightly concave. Nostrils located just before eye; anterior nostril rounded, posterior nostril oblong. Mouth large, strongly oblique; upper jaw extremely protrusible. Teeth in upper jaw in 2 separate bands; anterior band with 3 irregular rows of small caniform teeth, inner teeth larger than outer ones; posterior band very narrow, long with minute caniform teeth. Lower jaw with 2 irregular rows of small caniform teeth; 2 teeth on inner row of anteriormost part larger than other teeth. Vomer with 1 small caniform tooth on right side, 2 small caniform teeth on left side (with 0-3 caniform teeth on right side, 0-7 on left side; mode 2 on both sides). Palatine toothless. Tongue thick, long and pointed. Gill-rakers on 1st gill-arch short. Pseudobranchiae welldeveloped. Lateral line arched below spinous portion of dorsal fi n, following midline axis of body from below anterior one-third of soft dorsal fi n, to caudal-fi n base. Caudal peduncle moderately long, narrow. Dorsal-fi n origin vertically to almost vertically above posterior tip of operculum; anterior dorsal-fi n spines long with fi lamentous membranes; soft dorsal fi n convex, rays increasing in length to 18th ray. Anal fi n origin near vertical through notch between spinous and soft-rayed portions of dorsal fi n; 1st and 2nd anal-fi n spines small, movable, 3rd spine immovable (fused with pterygiophore); 2nd and 3rd anal-fi n spines and 1st anal-fi n ray connected by membrane; soft anal fi n convex, rays increasing in length to about 16th ray. Pectoral fi n rounded, reaching to vertical below bases of 4th and 5th dorsalfi n spines. Pelvic fi n relatively short, 1.69 in HL (1.79 in paratype 324.4 mm SL, but somewhat longer, 0.98-1.26 in HL, in juvenile paratypes 80.4-206.1 mm SL), origin anterior to vertical through pectoral-fi n base, fi n not reaching anus when depressed (extending to anus in paratypes less than 105 mm SL). Caudal fi n slightly emarginate. 4 (3-4) bony bucklers along base of spinous dorsal fi n and 6 (5-6) bony bucklers along soft dorsal-fi n base; each buckler with a dorsal spine. 6 (5-6) bony bucklers anterior to pelvicfi n base. 6 (6-7) bony bucklers with posterior spine between origins of pelvic and anal fi ns. Bucklers absent from base of anal-fi n spines. 6 (5-6) bony bucklers, each with a vertical spine, along base of soft anal fi n.</p><p>Colour when fresh. Body silver (with many dark spots in juvenile paratypes less than 105 mm SL). Dorsal margin of head and body dark-brown from snout to caudal peduncle. Spinous dorsal fi n with a transverse broad dark-brown band on membrane; soft dorsal fi n dusky distally, white basally. Anal fi n dusky distally, white basally. Pectoral fi n pale basally, dusky distally, with a small dark-brown spot dorsally on fi n base. Pelvic fi n with 4 irregular black bands (6-7 dark bands in juvenile paratypes less than 105 mm SL). Caudal fi n with dark semicircular mark on base and broad dark band on posterior margin.</p><p>Etymology. The specifi c name, stabilispinosa, refers to the fused anal-fi n spine.</p><p>We recommend that the standard name for this species be the Fixed-spine Mirror Dory.   Dorsal bony bucklers* 4 + 6 3-4 + 5-6 5-7 + 6-7 2-3 + 5 6-7 + 8-9</p><note type="other">Pectoral fi n 1 2 1 2 -1 3 1 2 -1 3 1 2 1 1 -1 3 Pelvic fi n 6 6 6 6 6 Gill rakers (upper + lower) 3 + 9 3-4 + 8-10 3-4 + 7-9 2-</note><p>Ventral bony bucklers** 6 + 6 + 5 5-6 + 6-7 + 5-6 5-6 + 7-9 + 8-10 1-3 + 6-8 + 5-6 2-3 + 7-8 + 9-11 * along spinous and soft dorsal-fi n bases **anterior to pelvic fi n + between pelvic fi n and anal fi n + along anal-fi n base <ref type="table">Table 1</ref>. Selected meristics for species of Zenopsis</p><p>Relationships. Zenopsis stabilispinosa differs from Z. nebulosa, Z. conchifer and Z. oblonga in having the fi rst two anal-fi n spines movable and a third fused to the pterygiophore (versus three movable anal-fi n spines in the other three species; in some specimens of Z. conchifer the third anal-fi n spine is more or less fi xed, but is not fused with the pterygiophore, fi g. 3C). As the movable third anal-fi n spine is based on the second anal pterygiophore in the latter three species (fi g. 3B), it is likely that the spine-like posterior process projecting from the third anal pterygiophore of Z. stabilispinosa represents the third anal-fi n spine fused to its pterygiophore (fi g. 3A). Fused anal-fi n spines have previously been reported in two other zeiform families: family Parazenidae -Cyttopsis rosea Lowe, 1843, and family Cyttidae -Cyttus novaezelandiae Arthur, 1885 and C. traversi Hutton, 1872 <ref type="bibr" target="#b1">(Bray, 1983</ref><ref type="bibr" target="#b2">, Heemstra, 1980</ref><ref type="bibr" target="#b9">, Tyler et al., 2003</ref>. Zenopsis stabilispinosa also differs from its congeners in having seven dorsal-fi n spines (versus eight to ten dorsal-fi n spines), 19 caudal vertebrae (versus 22-23 caudal vertebrae) and a smaller pelvic fi n, 1.69-1.79 in HL in specimens greater than 300 mm SL of Z. stabilispinosa (versus almost the same as or more than HL in other species).</p><p>Zenopsis stabilispinosa is similar to Z. nebulosa in having fi ve to six ventral bony bucklers anterior to the pelvic fi n (versus two to three bucklers in Z. conchifer and Z. oblonga). Zenopsis stabilispinosa and Z. conchifer resemble Z. conchifer in lacking ventral bony bucklers along the anal-fi n spines (versus having one to two ventral bony bucklers in Z. nebulosa and Z. oblonga).</p><p>Remarks. Opinion differs regarding whether the fi rst pelvic-fi n element in Zenopsis is a spine or a ray. Here, we follow <ref type="bibr" target="#b9">Tyler et al., 2003</ref> in regarding the fi rst pelvic-fi n element as a ray because it is completely divided throughout its entire length, despite being neither segmented nor branched.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key to the species of Zenopsis</head><p>1a) Dorsal-fi n spines 7; 3rd anal-fi n spine immovable (fused to pterygiophore); caudal vertebrae 19 Z. stabilispinosa sp. nov. 1b) Dorsal-fi n spines 8-10; 3rd anal-fi n spine movable (not fused to pterygiophore); caudal vertebrae 21-23 2 2a) Bony bucklers along spinous portion of dorsal-fi n base 1-3; bucklers absent from base of anal-fi n spines Z. conchifer 2b) Bony bucklers along spinous dorsal-fi n base 5-7; 1-2 bony bucklers along base of anal-fi n spines 3 3a) Bony bucklers on ventral margin anterior to pelvic-fi n base 5-6 Z. nebulosa 3b) Bony bucklers on ventral margin anterior to pelvic-fi n base 2-3 Z. oblonga    </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparative material examined</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Zenopsis stabilispinosa sp. nov. Holotype, FAKU 64803 (307.2 mm SL).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Diagrammatic fi gure (A), and teeth on jaws and vomer (B) of the holotype of Zenopsis stabilispinosa sp. nov., FAKU 64803.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Diagrammatic fi gures of anal-fi n pterygiophores and spines of 3 species of Zenopsis: A, Z. stabilispinosa, holotype, FAKU 64803 (307.2 mm SL); B, Z. nebulosa, FAKU 64805 (379 mm SL); C, Z. conchifer, RUSI 14070 (135.5 mm SL). Scales indicate 10 mm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Diagrammatic fi gure of a juvenile of Zenopsis stabilispinosa, AMS I.31147-002 (80.4 mm SL), paratype.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4" validated="false"><head>Table 2 . Measurements of Zenopsis stabilispinosa sp. nov. Measurements are in mm; proportions (% SL) in parentheses.</head><label>2</label><figDesc></figDesc><table>Holotype 
+
+</table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>We thank the staff of the Japan Marine Fishery Resource Research Center (JAMARC) for donating the specimens of Z. stabilispinosa to FAKU for this study. We are grateful to T. Irie and H. Horikawa, Fisheries Research Agency, J. R. Paxton and J. M. Leis, Australian Museum, Sydney and K.T. Shao, Academia Sinica, Taipei, for the loan of specimens of Z. stabilispinosa, and to P. C. Heemstra for loaning the specimens of Z. conchifer. Lastly, we thank J. C. Tyler (USNM) for critically reviewing the manuscript.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Notes on New Zealand fi shes</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">W</forename><surname>Arthur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transactions of the New Zealand Institute</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="160" to="172" />
+			<date type="published" when="1884" />
+		</imprint>
+	</monogr>
+	<note>Pl. 14</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Revision of the fi sh family Zeidae</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">D</forename><forename type="middle">J</forename><surname>Bray</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">184</biblScope>
+			<pubPlace>Sydney, Australia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>School of Biological Sciences, Macquarie University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Unpublished Masterʼs thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A revision of the zeid fi shes (Zeiformes: Zeidae) of South Africa</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">C</forename><surname>Heemstra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ichthyological Bulletin</title>
+		<imprint>
+			<biblScope unit="issue">41</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Fishes of New Zealand. Catalogue with diagnoses of the species. Colonial Museum and Geological Survey Department</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">F</forename><forename type="middle">W</forename><surname>Hutton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fishes New Zealand: 1-93 + 95-133, Pls</title>
+		<imprint>
+			<date type="published" when="1872" />
+			<biblScope unit="page" from="1" to="12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Standards in herpetology and ichthyology. Part 1. Standard symbolic codes for institutional resource collections in herpetology and ichthyology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><forename type="middle">E</forename><surname>Leviton</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">H</forename><surname>Gibbs</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">E</forename><surname>Heal</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">E</forename><surname>Dawson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Copeia</title>
+		<imprint>
+			<biblScope unit="volume">1985</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="802" to="832" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">An account of fi shes discovered or observed in Madeira since the year 1842</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><forename type="middle">T</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Zoological Society of London 1850</title>
+		<meeting>the Zoological Society of London 1850</meeting>
+		<imprint>
+			<date type="published" when="1852" />
+			<biblScope unit="page" from="247" to="253" />
+		</imprint>
+	</monogr>
+	<note>pt 18</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Introduction to Ichthyology</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">T</forename><surname>Nakabo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fishes of Japan with pictorial keys to the species</title>
+		<editor>Nakabo, T.</editor>
+		<meeting><address><addrLine>Tokyo</addrLine></address></meeting>
+		<imprint>
+			<publisher>Tokai University Press</publisher>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note>English edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Zenopsis oblonga sp. nov. (Zeidae, Osteichthyes) from the Nuska Ridge</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">N</forename><forename type="middle">V</forename><surname>Parin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Zoologicheskii Zhurnal</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="150" to="153" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+	<note>in Russian with English summary</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Pls. 1-143 + A, in: Fauna Japonica, sive descriptio animalium quae in itinere per Japoniam suscepto annis 1823-30 collegit</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">C</forename><forename type="middle">J</forename><surname>Temminck</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">H</forename><surname>Schlegel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pisces, Parts</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="113" to="172" />
+			<date type="published" when="1845" />
+		</imprint>
+	</monogr>
+	<note>notis observationibus et adumbrationibus illustravit P. F. de Siebold</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Phylogeny of the genera and families of zeiform fi shes, with comments on their relationships with tetraodontiforms and caproids</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">C</forename><surname>Tyler</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">B</forename><surname>O&amp;apos;toole</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">R</forename><surname>Winterbottom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Smithsonian Contributions to Zoology. 618: i-iv</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="110" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Species composition and checklist of the demersal ichthyofauna of the continental slope off Western Australia (20-35ºS)</title>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">P</forename><forename type="middle">R</forename><surname>Last</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">M</forename><forename type="middle">F</forename><surname>Gomon</surname></persName>
+		</author>
+		<author>
+			<persName xmlns="http://www.tei-c.org/ns/1.0"><forename type="first">J</forename><forename type="middle">R</forename><surname>Paxton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Records of the Western Australian Museum</title>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="135" to="155" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -6,9 +6,6 @@
 <xsl:template match="/">
 	<body style="font-family:sans-serif">
 	<div>
-	<div style="float:right;width:200px;">
-		<!-- <h2>Formats</h2> -->
-	</div>
 	<div style="width:800px;">
 	
 	<p style="font-size:80%">
@@ -86,7 +83,9 @@
 	<xsl:value-of select="//abstract" />
 	<h2>Full text</h2>
 	<p>
-	Full text is available as a scanned copy of the original print version. Get a printable copy (PDF file) of the <u>complete article</u>, or click on a page image below to browse page by page. Links are also available for <a href="#reference-sec">Selected References</a>.
+	Full text is available as a scanned copy of the original print version. 
+	Get a printable copy (PDF file) of the <u>complete article</u>, or click on a page image below to browse page by page. 
+	Links are also available for <a href="#reference-sec">Selected References</a>.
 	</p>
 	<div>
 		<xsl:apply-templates select="//supplementary-material/graphic"/>
@@ -95,6 +94,32 @@
 	<h2>Images in this article</h2>
 	<h2 id="reference-sec">Selected references</h2>
 	<xsl:apply-templates select="//back"/>
+	<h2>Associated Data</h2>
+	
+	
+	<xsl:if test="//supplementary-material">
+		<xsl:for-each select="//supplementary-material/graphic">
+		<div style="width:800px;padding-bottom:20px;">
+			<img width="100%">
+			<xsl:attribute name="src">
+			
+			<!-- Code specific to this example -->
+				<xsl:text>Med_Hist_1985_Jan_29(1)_1-32/</xsl:text>
+				<xsl:value-of select="substring-before(@xlink:href, '.tif')" /> 
+				<xsl:text>.tif</xsl:text>
+			<!--  End of example-specific code -->
+			
+			<!-- generic code 
+			<xsl:value-of select="@xlink:href" /> 
+			-->
+			</xsl:attribute>
+		</img>	
+		</div>	
+		</xsl:for-each>
+	
+	</xsl:if>
+	
+	
 	</div>
 	</div>
 	</body>
@@ -109,10 +134,30 @@
 		<xsl:value-of select="surname" />
 </xsl:template>
 
+<xsl:template match="graphic">
+	<div style="width:400px;">
+		<img width="400" style="border:1px solid rgb(192,192,192);">
+			<xsl:attribute name="src">
+			
+			<!-- Code specific to this example -->
+				<xsl:text>Med_Hist_1985_Jan_29(1)_1-32/</xsl:text>
+				<xsl:value-of select="substring-before(@xlink:href, '.tif')" /> 
+				<xsl:text>.gif</xsl:text>
+			<!--  End of example-specific code -->
+			
+			<!-- generic code 
+			<xsl:value-of select="@xlink:href" /> 
+			-->
+			</xsl:attribute>
+		</img>
+	</div>
+</xsl:template>
+
 <xsl:template match="//supplementary-material/graphic">
 	<div style="float:left;padding:20px;">
 		<img width="100" style="border:1px solid rgb(192,192,192);">
 			<xsl:attribute name="src">
+			
 			<!-- Code specific to this example -->
 				<xsl:text>Med_Hist_1985_Jan_29(1)_1-32/</xsl:text>
 				<xsl:value-of select="substring-before(@xlink:href, '.tif')" /> 
