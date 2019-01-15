@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v2.3 20070202//EN" "journalpublishing.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article" dtd-version="2.3">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">plants</journal-id>
+      <journal-title>Plants</journal-title>
+      <abbrev-journal-title abbrev-type="publisher">Plants</abbrev-journal-title>
+      <abbrev-journal-title abbrev-type="pubmed">Plants</abbrev-journal-title>
+      <issn pub-type="epub">2223-7747</issn>
+      <publisher>
+        <publisher-name>MDPI</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.3390/plants5020023</article-id>
+      <article-id pub-id-type="publisher-id">plants-05-00023</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Two New <italic>Nepenthes</italic> Species from the Philippines and an Emended Description of <italic>Nepenthes ramos</italic></article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gronemeyer</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <xref rid="af1-plants-05-00023" ref-type="aff">1</xref>
+          <xref rid="c1-plants-05-00023" ref-type="corresp">*</xref>
+          <xref rid="fn1-plants-05-00023" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Suarez</surname>
+            <given-names>Wally</given-names>
+          </name>
+          <xref rid="af2-plants-05-00023" ref-type="aff">2</xref>
+          <xref rid="fn1-plants-05-00023" ref-type="fn">&#x2020;</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nuytemans</surname>
+            <given-names>Herman</given-names>
+          </name>
+          <xref rid="af3-plants-05-00023" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Calaramo</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <xref rid="af4-plants-05-00023" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wistuba</surname>
+            <given-names>Andreas</given-names>
+          </name>
+          <xref rid="af5-plants-05-00023" ref-type="aff">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mey</surname>
+            <given-names>Fran&#xE7;ois S.</given-names>
+          </name>
+          <xref rid="af6-plants-05-00023" ref-type="aff">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Amoroso</surname>
+            <given-names>Victor B.</given-names>
+          </name>
+          <xref rid="af7-plants-05-00023" ref-type="aff">7</xref>
+        </contrib>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Eleftheriou</surname>
+            <given-names>Eleftherios P.</given-names>
+          </name>
+          <role>Academic Editor</role>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-plants-05-00023"><label>1</label>Institute of Molecular Genetics and Cell Biology, Ulm University, 89081 Ulm, Germany</aff>
+      <aff id="af2-plants-05-00023"><label>2</label>0309 Purok 1C, Barangay Longos, Kalayaan, Laguna 4020, Philippines</aff>
+      <aff id="af3-plants-05-00023"><label>3</label>Grotstraat 68, B-2990 Wuustwezel, Belgium</aff>
+      <aff id="af4-plants-05-00023"><label>4</label>Ecotourism Park and Botanic Gardens, Northwestern University, Laoag City 2900, Philippines</aff>
+      <aff id="af5-plants-05-00023"><label>5</label>Friedhofweg 4, 88437 Maselheim, Germany</aff>
+      <aff id="af6-plants-05-00023"><label>6</label>3 Rue Fre&#x301;de&#x301;ric Chopin, 59320 Haubourdin, France</aff>
+      <aff id="af7-plants-05-00023"><label>7</label>Center for Biodiversity Research and Extension in Mindanao (CEBREM), Central Mindanao University, University Town, Musuan 8710, Philippines</aff>
+      <author-notes>
+        <corresp id="c1-plants-05-00023"><label>*</label>Correspondence: <email>thomas.gronemeyer@uni-ulm.de</email>; Tel.: +49-731-503-6316; Fax: +49-731-503-6302</corresp>
+        <fn id="fn1-plants-05-00023">
+          <label>&#x2020;</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>06</day>
+        <month>05</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">        <month>06</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>2</issue>
+      <elocation-id>23</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>02</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>04</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>&#xA9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license>
+          <p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC-BY) license (http://creativecommons.org/licenses/by/4.0/).</p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>With 50 species of the genus <italic>Nepenthes</italic> L. currently described from the Philippines, it is without doubt that the country, along with the islands of Sumatra (Indonesia) and Borneo (Indonesia, Malaysia, Brunei), should be considered the center of diversity of the genus. In this work, we describe two new species. One species, <italic>N. aenigma</italic> <italic>sp. nov</italic>., is from Ilocos Norte province on Luzon Island and has the&#x2014;for <italic>Nepenthes</italic>&#x2014;unusual ecological preference to grow in dense vegetation in deep shade. The other new species is from Mount Hamiguitan in Davao Oriental province on Mindanao Island. With this new entry, Mount Hamiguitan is now home to four endemic species (<italic>N. peltata</italic>, <italic>N. micramphora</italic>, <italic>N. hamiguitanensis</italic>, <italic>N. justinae sp. nov</italic>.). Furthermore, we provide an emended description of <italic>N. ramos</italic> based on field data. <italic>Nepenthes kurata</italic> is synonymized here with <italic>N. ramos</italic>.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>carnivorous pitcher plants</kwd>
+        <kwd><italic>Nepenthes</italic></kwd>
+        <kwd>Ilocos Norte</kwd>
+        <kwd>Mount Hamiguitan</kwd>
+        <kwd>Philippines</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1-plants-05-00023" sec-type="intro">
+      <title>1. Introduction</title>
+      <p>The past few years have seen the description of several new <italic>Nepenthes</italic> species from the Philippines, thanks largely to expeditions undertaken in the last decade ([<xref ref-type="bibr" rid="B1-plants-05-00023">1</xref>,<xref ref-type="bibr" rid="B2-plants-05-00023">2</xref>] and references therein). Most of the species described were from the islands of Palawan and Mindanao, which perhaps reflected how little was known about the <italic>Nepenthes</italic> flora of the Philippine archipelago. The other large island, Luzon, has mainly been passed over, first and foremost due to the long-standing belief that only two species exist there viz. <italic>N. alata</italic> and <italic>N. ventricosa</italic>, despite the presence of many habitats and substrate types suitable for <italic>Nepenthes</italic>. However, recent years have witnessed a number of new species descriptions, most of them exclusively based on herbarium material collected over a span of several decades [<xref ref-type="bibr" rid="B3-plants-05-00023">3</xref>,<xref ref-type="bibr" rid="B4-plants-05-00023">4</xref>,<xref ref-type="bibr" rid="B5-plants-05-00023">5</xref>,<xref ref-type="bibr" rid="B6-plants-05-00023">6</xref>,<xref ref-type="bibr" rid="B7-plants-05-00023">7</xref>,<xref ref-type="bibr" rid="B8-plants-05-00023">8</xref>,<xref ref-type="bibr" rid="B9-plants-05-00023">9</xref>,<xref ref-type="bibr" rid="B10-plants-05-00023">10</xref>]. Importantly, the taxonomic concept of <italic>N. alata</italic> was revised. Based on this concept, <italic>N. alata</italic> is a pubescent species with one-flowered partial peduncles, which is restricted to Luzon. The resurrected <italic>N. graciliflora</italic> is the glabrous counterpart with a wider distribution [<xref ref-type="bibr" rid="B3-plants-05-00023">3</xref>].</p>
+      <p>In 2013, Martin Cheek and Matthew Jebb described <italic>N. alzapan</italic> from material collected by Maximo Ramos and Gregorio Eda&#xF1;o on Mt. Alzapan, Tayabas (now Quirino) in June 1925 [<xref ref-type="bibr" rid="B4-plants-05-00023">4</xref>], and <italic>N. ultra</italic> from specimens collected by Ridsdale in Zambales in 1986 [<xref ref-type="bibr" rid="B5-plants-05-00023">5</xref>]. Furthermore, they resurrected <italic>N. blancoi</italic> as <italic>N. abalata</italic> [<xref ref-type="bibr" rid="B6-plants-05-00023">6</xref>]. While the herbarium material of <italic>N. alzapan</italic> and the recently described <italic>N. barcelonae</italic> [<xref ref-type="bibr" rid="B7-plants-05-00023">7</xref>] display clear characteristics enabling them to be recognized as distinct species, several new taxa from the Visayas and particularly Mindanao were diagnosed based on minor morphological characteristics (pitcher shape, lid shape and size, shape of the indumentum, <italic>etc.</italic>) that make identification in the field rather difficult. The description of <italic>N. ramos</italic> [<xref ref-type="bibr" rid="B8-plants-05-00023">8</xref>] is one of the most comprehensive of the new species on Mindanao, as the sheets contain both pitchers and flowers. <italic>Nepenthes ramos</italic> differs from <italic>N. alata</italic> and <italic>N. graciliflora</italic> in having two-flowered partial peduncles. Some other descriptions of species from Mindanao like those of <italic>N. kurata</italic>, <italic>N. extincta</italic> or <italic>N. cid</italic> are based on incomplete herbarium specimens lacking flowers or even characteristical pitchers that allow the identification of the respective species in the field. Intermediate pitchers that are only formed for a brief period of time (<italic>N. extincta</italic>) or (presumably) juvenile pitchers (<italic>N. cid</italic>) were considered instead [<xref ref-type="bibr" rid="B9-plants-05-00023">9</xref>,<xref ref-type="bibr" rid="B10-plants-05-00023">10</xref>]. The ecology of the respective localities was not assessed based on field data.</p>
+      <p>We provide in the herein presented work an emended description of <italic>N. ramos</italic>. Based on data recorded in the field, we show that <italic>N. ramos</italic> is a very variable species and synonymize <italic>N. kurata</italic> under it as the characteristics that were used to describe this species fell in the natural variability of <italic>N. ramos</italic>.</p>
+      <p>Furthermore, we describe two new species based on field research, namely <italic>N. aenigma</italic>, a new species from Luzon, and <italic>N. justinae</italic> from the world heritage site Mount Hamiguitan (Mindanao).</p>
+    </sec>
+    <sec id="sec2-plants-05-00023" sec-type="results">
+      <title>2. Results</title>
+      <sec id="sec2dot1-plants-05-00023">
+        <title>2.1. A New Pitcher Plant Species from Luzon</title>
+        <sec id="sec2dot1dot1-plants-05-00023">
+          <title>2.1.1. Taxonomic Description of <italic>Nepenthes aenigma</italic></title>
+		  <list list-type="simple">
+          <list-item><p><bold><italic>Nepenthes aenigma</italic></bold> Nuytemans, W. Suarez, Calaramo, <italic>sp. nov.</italic></p></list-item>
+		  </list>
+		  <list list-type="simple">
+           <list-item><p>Type:</p></list-item>
+          </list>
+          <p>Philippines, Luzon, Ilocos Norte, 17.06.2009, <italic>M.</italic> <italic>Calaramo,</italic> holotype Calaramo2288 (female flower) (HNUL, isotype HNUL)</p>
+          <p>Additional material examined:</p>
+          <p>Calaramo2270 (male flower) (24.6.2011, <italic>M. Calaramo</italic>) (HNUL)
+		  <list list-type="simple">
+           <list-item><p>Diagnosis:</p></list-item>
+          </list></p>  
+          <p>Differs from <italic>Nepenthes ventricosa</italic> Blanco in having cylindrical, winged and dimorphic pitchers, linear to elliptic lamina and 2-flowered partial peduncles (<italic>N. ventricosa</italic>: pitchers waisted at the middle, wings reduced to ridges, long and narrow lamina, inflorescense with 1-flowered partial peduncles).</p>
+          <p><italic>Nepenthes aenigma</italic> was previously documented as an incompletely diagnosed taxon under the name <italic>N. sp. &#x201C;Luzon&#x201D;</italic> [<xref ref-type="bibr" rid="B11-plants-05-00023">11</xref>].
+		  <list list-type="simple">
+           <list-item><p>Description:</p></list-item>
+          </list></p>  
+          <p>A terrestrial, climbing vine. S<italic>tems</italic> up to 5 m long, glabrous, terete to triangular in transection, 5 to 6 mm in diameter; internodes are up to 5 cm in length. There are dormant buds situated 3 to 5 mm above each leaf base. The vining stems produce short stems formed above the ground, which produce traps nested or buried in leaf litter. Aged stems eventually die off at the tips but the growing point is taken up by aerial shoots which sprout from the aforementioned dormant buds and which grow rapidly and produce traps. One of the photographs originally taken from these plants, taken at the time of the discovery of the species, clearly shows this behavior [<xref ref-type="bibr" rid="B11-plants-05-00023">11</xref>].</p>
+          <p><italic>Leaves</italic> are sessile, linear to ensiform with rounded to acute apices. They are up to 19 cm long by 5.4 cm wide and with 3 to 4 nerves on either side of the midrib; bases are strongly decurrent to the stems where they form narrow wings.</p>
+          <p><italic>Lower pitchers</italic> are unknown. <italic>Intermediate pitchers</italic> originate abruptly from the tendril, which is at the side or the rear of the pitcher. Tendrils are 35 cm long, uncoiled and approx. 2 mm in diameter. The intermediate pitchers are barrel-shaped though the profile is slightly more elongated on those that are not buried in leaf litter. They are entirely cylindrical in transection and without a hip. They are 11.7&#x2013;15.9 cm high by 4.1&#x2013;6 cm in diameter. Wings are 4.5 mm wide with fringes often branched and measuring up to 4.85 mm long. The pitcher opening is circular and oblique to an angle of about 40 degrees when viewed from the sides. The lid is 41&#x2013;48 mm long by 37&#x2013;41 mm wide and has a cordate base. Lid glands are oblong, without borders and arranged in a V-like manner. The peristome is rounded in transection, up to 7 mm wide from the front of the mouth to 8.5 mm in breadth near the lid. Beneath the lid, the peristome is appressed to form a short neck. Peristome ribs are 0.5 mm high and spaced 0.8 mm apart. Inner edges of ribs end in downward pointing teeth up to 0.8 mm long from those near the lid but shorter elsewhere. Outer peristome margins are curved and slightly crenellated. The spur is 2.5 mm long and bifid at the tips.</p>
+          <p><italic>Upper pitchers</italic> originate rather abruptly from the tendrils but less so than those in intermediate pitchers; they are cylindrical and slightly curved forward with the bases widely infundibular; 7.1 to 11 cm high by about 3 cm wide near the pitcher mouth. The peristome is somewhat flattened, 4.7 mm wide and broadening to 6.2 mm near the lid. Peristome ribs are 0.5 mm high and spaced 0.7 mm apart. Inner margins bear barely discernible teeth; outer margins are only moderately curled and only sparsely crenellated. The pitcher opening is circular and oblique to 30 degrees from the horizontal. The lid is oblong with cordate base, hardly keeled beneath, lacks an appendage and is 29 mm long and 25 mm wide. Lid glands are more numerous near the lid base, crateriform but very tiny. Wings are 2.4 mm wide with filaments up to 2.9 mm long, end abruptly at &#x2154; to &#x215E; of the pitcher length and as such do not reach the pitcher mouth. Higher up, the wings are reduced to narrow ridges. Sometimes, these wings are not symmetrical, one wing being markedly longer than the other one on the same pitcher. The spur is simple and 1.8 mm long. Tendrils are twice coiled.</p>
+          <p>The <italic>inflorescence</italic> develops from the axils, sub-terminal on stem. The male inflorescences measure 15&#x2013;30 cm with mostly two-flowered partial peduncles. It is pubescent with flowers 6&#x2013;9 mm in diameter; the pedicel is 6&#x2013;8 mm long. Four tepals are present with elliptic apex and acute bases to 5 mm long; staminal column 4&#x2013;5 mm long. Female flowers have an elliptic corolla, with bases and apices acute. Four pistils are present with fused apices, being white in color. The infructescence is unknown.</p>
+          <p><italic>Indumentum</italic> is not significantly present; the plant is mostly glabrous, but short (0.35 mm), brown hairs are found on undeveloped traps and their subtending tendrils. In opened pitchers, indumentum is confined to the spur.</p>
+          <p>The color of the stems is bright green to dark reddish; the leaves are green with green midribs adaxially, green to red abaxially. Intermediate pitchers are pale green with elongated vertical dark red spots that often coalesce into larger blotches and which are densest underneath the lid. Lids are pale green with numerous tiny red spots that are mostly distributed on the margins. The peristome is cream to reddish, less commonly dark red, on those traps that form on the ground but is green with dark red suffusion on aerial pitchers. Upper pitchers are entirely green. Tendrils of intermediate pitchers are colored red, and green on the upper traps.</p>
+          <p>The morphological characteristics of <italic>N. aenigma</italic> and its related species are summarized in <xref ref-type="table" rid="plants-05-00023-t001">Table 1</xref>. <xref ref-type="fig" rid="plants-05-00023-f001">Figure 1</xref> shows a botanical illustration of <italic>N. aenigma</italic>. Photos of the species at the type locality are shown in <xref ref-type="fig" rid="plants-05-00023-f002">Figure 2</xref>.
+		  <list list-type="simple">
+           <list-item><p>Etymology:</p></list-item>
+          </list></p>
+          <p>The specific epithet is derived from the Latin word <italic>aenigma</italic>, which means &#x201D;puzzling&#x201D;, a reference to the very unusual ecological preferences of this new taxon. (see <xref ref-type="sec" rid="sec2dot1dot2-plants-05-00023">Section 2.1.2</xref> and <xref ref-type="sec" rid="sec3-plants-05-00023">Section 3</xref>).</p>
+        </sec>
+        <sec id="sec2dot1dot2-plants-05-00023">
+          <title>2.1.2. Distribution and Ecology</title>
+          <p><italic>Nepenthes aenigma</italic> is so far only known from three sites on two mountains in Ilocos Norte Province, island of Luzon. Site 1 and 2 are only some 100 m apart on the same mountain, with unfragmented surrounding vegetation. Site 3 is located on another mountain 10 km apart.</p>
+          <p><italic>Nepenthes aenigma</italic> grows terrestrially in leaf litter at altitudes <italic>ca.</italic> 1200 m a.s.l. in deep shade in windswept ravines. The vegetation where the observed populations occur consists mostly of dense stands of bamboo, interspersed with various species of rattan and <italic>Pandanus</italic>. The vining plants have been seen to scramble and climb over these often spiny plants (<xref ref-type="fig" rid="plants-05-00023-f002">Figure 2</xref>D), but were not seen to direct their growing tips and reach for brighter light. A mossy forest formation is absent despite the elevation in which this new <italic>Nepenthes</italic> occurs. This new taxon grows sympatrically with <italic>N. ventricosa</italic>, at least on Site 1, but separated by a narrow band of altitude, the latter often growing at slightly higher elevations. The plants from Site 2 have not been observed to grow sympatrically with other <italic>Nepenthes</italic> species. The single plant from Site 3 may be a representative of a larger population still awaiting discovery, and its flowering period is so far unknown. The mountain range in which these two species occur is quite extensive; the Northwesterniana Expeditions led by MC in the past years have tried to fill our gap in the knowledge of our plants in the area, but a sizable portion of the range remains little explored. Prey contents of the pitchers consisted mostly of ants, although unidentified spiders and roaches in advanced stages of decomposition were also noted. The traps also hosted unidentified mosquito larvae.</p>
+        </sec>
+        <sec id="sec2dot1dot3-plants-05-00023">
+          <title>2.1.3. Conservation Notes</title>
+          <p>Only five plants were observed on Site 1 in 2013, all of which were in their vining stages. The plants are extremely difficult to locate due to their preference for dense vegetation, and the two mountains on which they have been found are seldom climbed, even by locals or mountaineers. Even so, we are reluctant to reveal the name of the peaks as an added precaution against poaching.</p>
+          <p>All plants from Site 1 observed in 2015 were males, and no seedling plants were observed, even in 2013. This fact, coupled with the very low population density perhaps points to a natural extinction of this species on this site. Site 2 consisted of two very small populations, and Site 3 yielded a single plant.</p>
+          <p>Based from the very low number of plants found, it is easy to assess <italic>N. aenigma</italic> as &#x201C;Critically Endangered&#x201D; (CR) under IUCN [<xref ref-type="bibr" rid="B13-plants-05-00023">13</xref>], but it should be noted that all plants from the three known sites are not in any way threatened by poaching or habitat disturbances. Pending further population studies of this species, we recommend that <italic>N. aenigma</italic> be deemed &#x201C;Data Deficient&#x201D; (DD) with regards to its conservation status.</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot2-plants-05-00023">
+        <title>2.2. Another Endemic Species of Pitcher Plant from Mount Hamiguitan (Mindanao Island)</title>
+        <sec id="sec2dot2dot1-plants-05-00023">
+          <title>2.2.1. Taxonomic Description of <italic>Nepenthes justinae</italic></title>
+		  <list list-type="simple">
+            <list-item><p><bold><italic>Nepenthes justinae</italic></bold> Gronem., Wistuba, Mey, V.B.Amoroso, <italic>sp. nov</italic>.</p></list-item>
+          </list>
+		  <list list-type="simple">
+            <list-item><p>Type:</p></list-item>
+          </list>
+		  <list list-type="simple">
+            <list-item><p>Philippines, Mindanao Island, Mount Hamiguitan, 17.08.2004, <italic>V.B. Amoroso,</italic> holotype</p></list-item>
+           <list-item><p>CMUH00003606 (CMUH).</p></list-item>
+           <list-item><p>Other material examined:</p></list-item>
+           <list-item><p>CMUH00003607 (CMUH) (17.08.2004, <italic>V. B. Amoroso</italic>) (Paratype)</p></list-item>
+           <list-item><p>ULM-22538, ULM-22539 (ULM) (18.2.2015, <italic>T. Gronemeyer</italic>, from a cultivated plant grown from seed).</p></list-item>
+		   </list>
+		  <list list-type="simple">
+            <list-item><p>Diagnosis:</p></list-item>
+		   </list>
+          <p>Differs from <italic>Nepenthes mindanaoensis</italic> Sh.Kurata in having lower pitchers with a bulbous lower &#x2154; and slightly infundibulate upper &#x2153; (<italic>N. mindanaoensis</italic>: overall slender, cylindrical lower pitchers with a bulbous bottom). Lid of the upper pitchers with appendage (<italic>N. mindanaoensis</italic>: no appendage).
+		  <list list-type="simple">
+            <list-item><p>Description:</p></list-item>
+		   </list></p>
+          <p>Th<italic>e stem</italic> is up to 4 m long, cylindrical in transection, 5&#x2013;8 mm in diameter. The average internode length is 6 cm (might be longer in climbing stems).</p>
+          <p><italic>Leaves</italic> of the climbing stem are elliptic to ovate, 18 cm long and 11 cm wide, with 3 equally distributed longitudinal veins on each side of the midrib and numerous pinnate veins running obliquely towards the leaf margins. The apex of the lamina is acute, the base attenuate and forming a sessile, narrowly winged petiole of 6 cm in length. Pitchers are on tendrils being up to 21 cm long. The tendrils are curled and are covered with short, brown hairs, about 1 mm long.</p>
+          <p><italic>Lower pitchers</italic> are bulbous in the lower &#x2154; and slightly infundibulate in the upper &#x2153;. They are 9 cm long and 2.5 cm wide in the upper half and 3.5 cm wide in the lower half. The pitcher narrows slightly towards the opening. Wings run down the front of the trap, fringed with filaments up to 3 mm long and 2 mm apart. The pitcher opening is distinctively oblique, up to 2 cm wide and acuminates towards the lid. The peristome is slightly flattened, up to 0.5 cm wide, not crenelated and densely lined with ribs having very small conspicuous teeth at the margin. The peristome is elongated into a neck towards the lid, which is cordate and 1.5 &#xD7; 2 cm wide. Nectar glands are monomorphic and large with the largest glands located in a cluster distally to the midline, smaller glands cover approx. 60% of the lid surface. A keel, 3 mm wide, is present on the underside of the lid. The spur is 3 mm long and bifid at the tip but not completely branched.</p>
+          <p>The exterior of the lower pitchers is creamy-yellow, with narrow purple blotches. The interior of the pitcher is uniformly greenish-white and sometimes lined with angular blotches of purple. The peristome is dark red and unevenly yellow striped. The whole surface of the lower pitchers is covered with dense, very short brown hairs.</p>
+          <p><italic>Upper pitchers</italic> are 17 cm long and 3.5 cm wide in the upper &#x2154; and 4 cm wide in the lower &#x2153;. The lower &#x2153; is separated by a distinct rim from the upper &#x2154; of the pitcher. The pitcher narrows slightly towards the middle section before it widens towards the oblique pitcher opening; the latter being 2.5 cm wide. Wings run down the front of the trap, fringed with filaments up to 3 mm long and 4 mm apart. The wings are sometimes reduced to ribs. The peristome is slightly flattened, up to 1 cm wide, elongated into a short collar and densely lined with ribs having no visible teeth at the margin. The lid is cordate and 3 &#xD7; 4 cm wide. A rounded appendage of 3 mm on a keel is present; the spur is 4 mm long, unbranched but is occasionally bifid at the tip. The nectar gland distribution, coloration and indumentum are consistent with the lower pitchers.</p>
+          <p>The <italic>female</italic> <italic>inflorescence</italic> is a panicle composed of a 40 cm-long scape and an additional 25 cm rachis. The partial peduncles are 2-flowered and 12 mm long. The pedicels are 10 mm long bearing flowers with 4 mm wide tepals. The male inflorescence is unknown.</p>
+          <p><italic>Note:</italic> The given dimensions are based on the holotype specimen and of the specimens at ULM. The dimensions of the pitchers may be larger in all respects. At the type locality upper pitchers up to 25 cm large have been recorded. Dimensions of the female inflorescence were recorded from the specimen at ULM as the holotype does not contain inflorescences.</p>
+          <p><italic>Nepenthes justinae</italic> is illustrated in <xref ref-type="fig" rid="plants-05-00023-f003">Figure 3</xref> and <xref ref-type="fig" rid="plants-05-00023-f004">Figure 4</xref>.</p>
+          <p>The morphological features that separate <italic>N. justinae</italic> from <italic>N. mindanaoensis</italic> are summarized in <xref ref-type="table" rid="plants-05-00023-t002">Table 2</xref>.
+		  <list list-type="simple">
+             <list-item><p>Etymology:</p></list-item>
+          </list></p>
+          <p>The specific epithet honors Justina Yu, the mayor of the municipality of San Isidro, Davao Oriental Province, Mindanao Island. Due to Justina Yu&#x2019;s support and dedication, the Mount Hamiguitan Wild Life Sanctuary became a protected national park and was declared a UNESCO World Heritage Site in 2014.
+		  <list list-type="simple">
+             <list-item><p>Similarities to other species:</p></list-item>
+          </list></p>
+          <p><italic>Nepenthes justinae</italic> belongs morphologically to the <italic>N. alata</italic> group of species. It differs from all of the species of the <italic>N. alata</italic> group in having distinct bulbous lower pitchers. The only other species from the Philippines with bulbous lower pitchers is <italic>N. talaandig</italic> [<xref ref-type="bibr" rid="B2-plants-05-00023">2</xref>]. <italic>Nepenthes justinae</italic> can be distinguished from <italic>N. talaandig</italic> in having lower pitchers lacking a crenellated peristome and in having upper pitchers with a distinct rim that separates the lower &#x2153; from the upper &#x2154; of the pitcher. The lower pitchers of <italic>N. talaandig</italic> have a crenellated peristome and the upper pitchers lack the distinct rim and are overall more slender than the ones of <italic>N. justinae</italic>. The spur of <italic>N. justinae</italic> is not branched (vs. branched in <italic>N. talaandig</italic>). Furthermore, <italic>N. talaandig</italic> is currently known only from the Pantaron range which is located about 200 kilometres north of Mt. Hamiguitan.</p>
+        </sec>
+        <sec id="sec2dot2dot2-plants-05-00023">
+          <title>2.2.2. Distribution and Ecology</title>
+          <p>The species is only known from Mt. Hamiguitan.</p>
+          <p><italic>Nepenthes justinae</italic> grows both terrestrially in ultramafic soils and as an epiphyte. The stem usually climbs and scrambles through surrounding vegetation and into the canopy of trees and shrubs. On the Mt. Hamiguitan range, the species grows predominantly in montane forest that covers the summit area of Mt. Hamiguitan (1200 m&#x2013;1620 m). Scattered specimens have also been recorded growing in ultramafic soils in the pygmy forest at about 1000 m (TG, AW, pers. observation).</p>
+          <p><italic>Nepenthes justinae</italic> grows sympatrically with <italic>N. peltata</italic> and <italic>N. micramphora</italic> in the pygmy forest and with <italic>N. hamiguitanensis</italic> in upper montane forest. Hybrids with possible <italic>N. justinae</italic> parentage have been recorded (TG, AW, pers. observation).</p>
+        </sec>
+        <sec id="sec2dot2dot3-plants-05-00023">
+          <title>2.2.3. Conservation Notes</title>
+          <p>The Mt. Hamiguitan Range Wild Life Sanctuary was declared a national park in 2003 and a UNESCO World Heritage site in 2014. The national park is a protected area and strong measures have been implemented to prevent unauthorized entrance in the park or poaching. Thus, all <italic>Nepenthes</italic> species of Mt. Hamiguitan are safe from habitat destruction due to surface mining or agriculture for as long as the national park persists and the protective measures are enforced. However, the exact population size of <italic>N. justinae</italic> cannot be estimated since many plants grow epiphytically in tall montane forest trees. As <italic>N. justinae</italic> is endemic to Mt. Hamiguitan, it is assessed here as vulnerable (VU) applying the IUCN Redlist criteria [<xref ref-type="bibr" rid="B13-plants-05-00023">13</xref>].</p>
+        </sec>
+      </sec>
+      <sec id="sec2dot3-plants-05-00023">
+        <title>2.3. An Emended Description of Nepenthes ramos Based on Field Data</title>
+        <sec id="sec2dot3dot1-plants-05-00023">
+          <title>2.3.1. Emended Taxonomic Description of <italic>N. ramos</italic> and Synonymization of <italic>N. kurata</italic></title>
+          <list list-type="simple">
+            <list-item><p><bold><italic>Nepenthes ramos</italic></bold> Jebb and Cheek</p></list-item>
+            <list-item><p><italic>Nepenthes</italic> <italic>kurata</italic> Jebb and Cheek, European Journal of Taxonomy (2013), 69: 6 <italic>syn. nov.</italic></p></list-item>
+		  </list>
+		  <list list-type="simple">
+            <list-item><p>Holotype: Philippines, Mindanao Island, April 1919, <italic>Ramos and Palacios s.n.</italic>, K34500 (K)</p></list-item>
+          </list>
+          <list list-type="simple">
+            <list-item><p>Material examined:</p></list-item>
+          </list>
+		  <list list-type="simple">
+            <list-item><p>Philippines, Camiguin Island, Mount Hibok-Hibok, 23.9.2014, <italic>T. Gronemeyer</italic>, CMUH00009782 (CMUH)</p></list-item>
+            <list-item><p>Philippines, Mindanao Island, Misamis Occidental province, Mt. Malindang, North Peak, Brgy.</p></list-item>
+            <list-item><p>Lake Duminagat, 28.12.2001, <italic>Guiller Opiso and Subanen</italic>, CMUH13153 (CMUH)</p></list-item>
+            <list-item><p>Philippines, Mindanao, Surigao del Norte Province, Mt. Masay, 12.5.2015, <italic>T. Gronemeyer s.n.,</italic></p></list-item>
+            <list-item><p>ULM-22541 (ULM) (from a cultivated plant grown from seed)</p></list-item>
+            <list-item><p>Material not examined:</p></list-item>
+            <list-item><p>Philippines, Mindanao Island, April 1919, <italic>Ramos and Palacios</italic>, K34500 (K; type)</p></list-item>
+            <list-item><p>Philippines, Mindanao Island, Mount Malindang, May 1906, <italic>Mearns and Hutchinson 4632</italic> (K)</p></list-item>
+            <list-item><p>At the time of writing, these specimens were not made accessible upon request.</p></list-item>
+		  </list>
+          <p><italic>Upper pitchers</italic> are in average 16 cm long and 3&#x2013;3.5 cm wide at the base and the apex. They are constricted midway to 2.5 cm and sometimes slightly dilated towards the apex. The pitcher opening is up to 3.5 cm wide. Wings run down the front of the trap, fringed with filaments up to 3 mm long. The fringed wings are usually only developed in the upper &#x2154; to &#xBC; of the trap; otherwise wings are reduced to ribs. Wings may also be reduced to ribs throughout. The peristome is 3 mm wide, cylindrical and slightly flattened near the lid. Teeth are barely visible. The lid is ovate to orbicular (broadest at middle), sometimes slightly domed and in average 4 cm wide. In exceptional cases the lid is unusually large and extends the pitcher opening. An appendage of 2 mm on a keel is sometimes present but is mostly reduced to the keel, which is 7&#x2013;10 mm long and 1&#x2013;2 mm high. The spur is 9 mm long and unbranched.</p>
+          <p>The <italic>flowers</italic> have predominantly 2-flowered partial peduncles but on one inflorescence also 1-flowered peduncles can occasionally be found. Fruits are about 2.5 cm long.</p>
+          <p>The pitcher coloration is very variable; ranging from uniformly pale green over speckled (reddish-brown blotches on green ground) to entirely red.</p>
+          <p>In all other respects, the observed plants were consistent with the description given by Jebb and Cheek [<xref ref-type="bibr" rid="B8-plants-05-00023">8</xref>].</p>
+          <p><italic>Note. Nepenthes ramos</italic> is a very variable species. The dimensions given above are only an average and were taken on representative plants on the volcano Mt. Hibok-Hibok (Camiguin island) that were subsequently cut for the herbarium specimens. Fully functional upper pitchers being only 5 cm long were observed (TG, pers. observation); the largest pitchers measured more than 20 cm. Lower pitchers were not recorded.</p>
+          <p>The population on Mt. Hibok-Hibok is extensive and comprises dozends if not hundreds of individuals. The habitat is undisturbed since the last eruption of the volcano that took place 65 years ago.</p>
+          <p>Morphological characteristics to distinguish <italic>N. kurata</italic> as distinct species from <italic>N. ramos</italic> are the lid size and shape, the shape and presence of fringed wings and the pitcher constriction. However, these elements are highly variable in <italic>N. ramos</italic> and thus it is impossible to distinguish <italic>N. kurata</italic> from this species in the field.</p>
+          <p>Consequently, the two species are synonymized here. The respective relevant diagnostic characters are summarized in <xref ref-type="table" rid="plants-05-00023-t003">Table 3</xref>. <xref ref-type="fig" rid="plants-05-00023-f005">Figure 5</xref> illustrates the diversity of <italic>N. ramos</italic>. Further photos of <italic>N. ramos</italic> from Mt. Malindang and Mt. Timpoong (Camiguin island) are available online [<xref ref-type="bibr" rid="B15-plants-05-00023">15</xref>].</p>
+        </sec>
+        <sec id="sec2dot3dot2-plants-05-00023">
+          <title>2.3.2. Ecology and Distribution</title>
+          <p><italic>Nepenthes ramos</italic> occupies a wide range of habitats. It can be found in open habitats on volcanic soils as well as in dense forests. The vining stem mostly climbs and scrambles through the surrounding vegetation. Usually the plants grow in dense surrounding vegetation and start to climb at a very early stage. All observed plants grew terrestrially but it is likely that the species is also capable of growing on tree branches. The taxon is widespread on Mindanao and the neighboring islands.</p>
+        </sec>
+        <sec id="sec2dot3dot3-plants-05-00023">
+          <title>2.3.3. Conservation Notes</title>
+          <p>The distribution of <italic>N. ramos</italic> is widespread on Mindanao and some adjacent islands. While some habitats are periled by surface mining and agriculture (Diuata Mountains in Surigao del Norte province), others lie in protected areas or national parks (Mt. Hibok-Hibok, Mt. Malindang). It is unlikely that this species will become extinct in the near future but loss of diversity due to habitat destruction is of serious concern. <italic>Nepenthes ramos</italic> is here assessed as &#x201C;Near Threatened&#x201D; (NT) under IUCN Redlist criteria [<xref ref-type="bibr" rid="B13-plants-05-00023">13</xref>].</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="sec3-plants-05-00023" sec-type="discussion">
+      <title>3. Discussion</title>
+      <p><italic>Nepenthes aenigma</italic> morphologically falls within a Philippine group revolving around <italic>N. ventricosa</italic>, which in turn is included into Danser&#x2019;s rather loosely defined <italic>Insignes</italic> group, but is unusual in having only three to four longitudinal leaf nerves, and consistently branched fringe elements. Another remarkable trait is the predilection of the intermediate pitchers to be buried in leaf litter, an adaptation commonly interpreted in the genus as a means to more easily trap roving invertebrate prey. This <italic>Nepenthes</italic> is one of the very few species within the genus that is not known to produce lower pitchers.</p>
+      <p>The accidental discovery of this new species reveals a hitherto unknown adaptation in <italic>Nepenthes</italic>, that is, a propensity to grow in dense shade. <italic>Nepenthes rhombicaulis</italic>, <italic>N. hirsuta</italic> and especially <italic>N. ampullaria</italic> have been noted to grow in shaded localities [<xref ref-type="bibr" rid="B12-plants-05-00023">12</xref>] but the new taxon is unusual in favoring deeply shaded spots overgrown with vegetation. In contrast to all known species within the genus, etiolation due to shade has not been noted, and healthy and large traps are still produced even on situations where light does not appear to penetrate, irrespective of the time of day. The behavior can be interpreted as an adaptation to the very windy and rainy habitat where it grows, but its ecological preferences appear to be the most extreme known so far in any <italic>Nepenthes</italic>. This raises the odds that other <italic>Nepenthes</italic> with similar ecological predilection may still be found elsewhere.</p>
+      <p><italic>Nepenthes aenigma</italic> is the third <italic>Nepenthes</italic> to have been described from the province of Ilocos Norte, after <italic>N. alata</italic> and <italic>N. ventricosa</italic> were described by Spanish friar Manuel Blanco in 1837 from plants found in Vintar.</p>
+      <p>Similar to <italic>N. aenigma</italic>, the herein newly described <italic>N. justinae</italic> has a very narrow distribution. However, <italic>N. justinae</italic> morphologically belongs to the large <italic>N. alata</italic> group of species. <italic>Nepenthes justinae</italic> is the fourth endemic <italic>Nepenthes</italic> of Mt. Hamiguitan beside <italic>N. peltata</italic>, <italic>N. micramphora</italic> and <italic>N. hamiguitanensis</italic>. This finding decorates Mt. Hamiguitan with the highest number of single-mountain endemic pitcher plants.</p>
+      <p>Both <italic>N. aenigma</italic> and <italic>N. justinae</italic> are described in this work based on field data that should allow for a reliable identification of these species in the field.</p>
+      <p>Many other species described recently were differentiated from each other only by minor characteristics and often only based on few if not only one (dried) specimen [<xref ref-type="bibr" rid="B3-plants-05-00023">3</xref>,<xref ref-type="bibr" rid="B4-plants-05-00023">4</xref>,<xref ref-type="bibr" rid="B5-plants-05-00023">5</xref>,<xref ref-type="bibr" rid="B6-plants-05-00023">6</xref>,<xref ref-type="bibr" rid="B8-plants-05-00023">8</xref>,<xref ref-type="bibr" rid="B9-plants-05-00023">9</xref>,<xref ref-type="bibr" rid="B10-plants-05-00023">10</xref>]. However, a certain degree of variability can always been recorded when observing pitcher plants in their natural habitat and hybridization is always a concern. <italic>Nepenthes extincta</italic> (Surigao del Norte province, Mindanao Island) may serve as an example for this concern: The species was described based on a single incomplete herbarium specimen that was found on ultramafic soils near the municipality of Claver [<xref ref-type="bibr" rid="B10-plants-05-00023">10</xref>]. The holotype contains only intermediate pitchers and no flowers. According to the species description, <italic>N. extincta</italic> differs from <italic>N. mindanaoensis</italic> in &#x201C;the pitchers lacking fringed wings, the lid base truncate, the indumentum of the midrib of dense minute grey-white stellate hairs&#x201C; [<xref ref-type="bibr" rid="B10-plants-05-00023">10</xref>]. <italic>Nepenthes mindanaoensis</italic> grows sympatrically with <italic>N. merrilliana</italic> (the latter having upper pitchers lacking fringed wings) on ultramafic soils on the adjacent Dinagat Island. The two species hybridize freely (TG, AW, pers. observation). As the latter two species are known to grow also in the vicinity of the <italic>N. extincta</italic> <italic>locus classicus</italic> (Stewart McPherson, pers. communication) in NE Mindanao, one cannot exclude that the single known <italic>N. extincta</italic> specimen represents a <italic>N. merrilliana x mindanaoensis</italic> hybrid.</p>
+      <p><italic>Nepenthes ramos</italic> was described based on herbarium specimens of adult plants including flowers [<xref ref-type="bibr" rid="B8-plants-05-00023">8</xref>]. However, this material is only composed of a few individual adult plants. Our emended description underscores that the observation of only few individuals may not be sufficient to cover the full diversity of a taxon. Instead, the growth habit and ecology of each species provide useful characters that should also be considered. For example, on Mount Hibok-Hibok (Camiguin island), a nice diversification pattern of <italic>N. ramos</italic> can be observed that contradicts some of the known &#x201C;stable&#x201D; characters that were used in the past to separate <italic>Nepenthes</italic> taxa from each other.</p>
+      <p>Mount Hibok-Hibok is an active volcano; the last major eruption dates back to 1951. In this pelean eruption, the whole crater was completely destroyed and the slopes of the mountain were devastated by lava- and pyroclastic flows and landslides. Vegetation settled again in the years after, suggesting that the whole population of <italic>N. ramos</italic> in the Mt. Hibok-Hibok crater originates from a few seeds that were transported to the mountain.</p>
+      <p>If several individual dried specimens from Mt. Hibok-Hibok would have been considered for species description, one could easily separate each of these into a distinct species on its own. Only careful study of the plants <italic>in situ</italic> and considering the ecological history of the mountain revealed that only one single species exhibiting a great variability is present on Mt. Hibok-Hibok.</p>
+      <p>The characteristics that separate <italic>N. kurata</italic> from <italic>N. ramos</italic> are minor and fall in the variability of the latter species. Maybe other closely related species from the Visayas that have not yet been studied in the field (like <italic>N. leyte</italic> or <italic>N. negros)</italic> likewise represent <italic>N. ramos.</italic> However, as the authors did not conduct field research on the Visayas, <italic>N. leyte</italic> and <italic>N. negros</italic> are retained here as distinct species.</p>
+    </sec>
+    <sec id="sec4-plants-05-00023">
+      <title>4. Material and Methods </title>
+      <p>Field research in Ilocos Norte Province, Luzon, was conducted in April 2002 (HN), June 2007 (MC), June 2011 (MC), April 2013 (WS) and May 2015 (HN, WS, MC).</p>
+      <p>Field research at Mt. Hamiguitan was carried out during August 2004 (VBA), July 2008 (TG) and January 2010 (TG, AW).</p>
+      <p>Field research on Dinagat Island was carried out during September 2007 (TG), January 2010 (AW, TG) and August 2012 (AW).</p>
+      <p>Field observations of <italic>N. ramos</italic> were made at the following locations: 
+	  <list list-type="simple">
+      <list-item><p>Mt. Hibok-Hibok, Camiguin Island (September 2007, August 2011 and September 2014) (TG)</p></list-item>
+      <list-item><p>Mt. Masay, Surigao del Norte Province, Mindanao (September 2007 and July 2008) (TG)</p></list-item>
+	  <list-item><p>Pantaron Range, San Fernando area, Bukidnon Province, Mindanao (July 2008) (TG)</p></list-item>
+      <list-item><p>Mt. Malindang, Misamis Occidental Province, Mindanao (December 2001) (VBA)</p></list-item>
+      </list></p>
+      <p>Plant material was collected under permits granted to MC and VBA.</p>
+      <p>Cropped plant material was processed using standard methods at the herbarium of the Central Mindanao University in Valencia, the herbarium of North-Western University in Laoag and the herbarium of the Botanical Garden Ulm.</p>
+      <p>Photographs were made from suitable, representative plant specimens <italic>in situ</italic> or from cultivated plants grown from seed. Measurements were taken using a graded ruler or a digital caliper.</p>
+    </sec>
+    <sec id="sec5-plants-05-00023" sec-type="conclusions">
+      <title>5. Conclusions </title>
+      <p>Two new taxa of carnivorous pitcher plants, <italic>N. aenigma</italic> and <italic>N. justinae</italic> are presented and formally described here. Furthermore, an emended description of <italic>N. ramos</italic> based on field data is provided which includes the synonymization of <italic>N. kurata</italic>.</p>
+      <p>In the discussion, the authors point out the urgent need of solid data recorded in the field for the description of new taxa, especially when only minor characters are used for the separation of species.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>Fulgent Coritico (CMUH) and Ilse Silberbauer-Gottsberger (ULM) are acknowledged for technical assistance with the herbarium specimens. Cristopher Nulo Salem is acknowledged for assistance during the exploration of Mount Hibok-Hibok. All local guides are acknowledged for making the exploration of the different mountains possible. DENRs X and XI provided gratuitous access permits. Fran&#xE7;ois S. Mey likes to thank Mark Rouse for providing additional <italic>in situ</italic> photographs of <italic>N. justinae</italic> and <italic>N. mindanaoensis</italic> and an anonymous friend for helpful criticism and advice about <italic>Nepenthes</italic> taxonomy and biodiversity in the Philippines. Eline Nuytemans kindly made the botanical illustration of <italic>N. aenigma.</italic> David Marwinski provided linguistic proofreading.</p>
+    </ack>
+    <notes>
+      <title>Author Contributions</title>
+      <p>Thomas Gronemeyer, Wally Suarez, Herman Nuytemans, Michael J. Calaramo, Andreas Wistuba and Victor B. Amoroso conducted the field research. Thomas Gronemeyer, Wally Suarez and Herman Nuytemans wrote the manuscript. Francois S. Mey, Andreas Wistuba and Victor B. Amoroso helped to analyze the data and improved the manuscript.</p>
+    </notes>
+    <notes>
+      <title>Conflicts of Interest</title>
+      <p>The authors declare no conflict of interest.</p>
+    </notes>
+    <ref-list>
+      <title>References</title>
+      <ref id="B1-plants-05-00023">
+        <label>1.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robinson</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Fleischmann</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Mcpherson</surname>
+              <given-names>S.R.</given-names>
+            </name>
+            <name>
+              <surname>Heinrich</surname>
+              <given-names>V.B.</given-names>
+            </name>
+            <name>
+              <surname>Gironella</surname>
+              <given-names>E.P.</given-names>
+            </name>
+            <name>
+              <surname>Pe&#xF1;a</surname>
+              <given-names>C.Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>A spectacular new species of <italic>Nepenthes</italic> L. (Nepenthaceae) pitcher plant from central Palawan, Philippines</article-title>
+          <source>Bot. J. Linn. Soc.</source>
+          <year>2009</year>
+          <volume>159</volume>
+          <fpage>195</fpage>
+          <lpage>202</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1095-8339.2008.00942.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2-plants-05-00023">
+        <label>2.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gronemeyer</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Coritico</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Wistuba</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Marwinski</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gieray</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Micheler</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Mey</surname>
+              <given-names>F.S.</given-names>
+            </name>
+            <name>
+              <surname>Amoroso</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Four new species of <italic>Nepenthes</italic> L. (Nepenthaceae) from the central mountains of Mindanao, Philippines</article-title>
+          <source>Plants</source>
+          <year>2014</year>
+          <volume>3</volume>
+          <fpage>284</fpage>
+          <lpage>303</lpage>
+          <pub-id pub-id-type="doi">10.3390/plants3020284</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3-plants-05-00023">
+        <label>3.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jebb</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Typification and redelimitation of Nepenthes alata with notes on the N. alata group, and N. negros sp. nov. from the Philippines</article-title>
+          <source>Nordic J. Bot.</source>
+          <year>2013</year>
+          <volume>31</volume>
+          <fpage>616</fpage>
+          <lpage>622</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1756-1051.2012.00099.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4-plants-05-00023">
+        <label>4.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jebb</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nepenthes alzapan (Nepenthaceae), a new species from Luzon, Philippines</article-title>
+          <source>Phytotaxa</source>
+          <year>2013</year>
+          <volume>100</volume>
+          <fpage>57</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="doi">10.11646/phytotaxa.100.1.6</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5-plants-05-00023">
+        <label>5.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jebb</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Nepenthes ultra</italic> (<italic>Nepenthaceae.</italic>), a new species from Luzon, Philippines</article-title>
+          <source>Blumea</source>
+          <year>2013</year>
+          <volume>58</volume>
+          <fpage>241</fpage>
+          <lpage>244</lpage>
+          <pub-id pub-id-type="doi">10.3767/000651913X675124</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6-plants-05-00023">
+        <label>6.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jebb</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and typification of Nepenthes blancoi, with <italic>N. abalata</italic> sp. nov. from the western Visayas, Philippines</article-title>
+          <source>Nordic J. Bot.</source>
+          <year>2013</year>
+          <volume>31</volume>
+          <fpage>151</fpage>
+          <lpage>156</lpage>
+          <pub-id pub-id-type="doi">10.1111/j.1756-1051.2012.00012.x</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7-plants-05-00023">
+        <label>7.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tandang</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Pelser</surname>
+              <given-names>P.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nepenthes barcelonae (Nepenthaceae), a new species from Luzon, Philippines</article-title>
+          <source>Phytotaxa</source>
+          <year>2015</year>
+          <volume>222</volume>
+          <fpage>145</fpage>
+          <lpage>150</lpage>
+          <pub-id pub-id-type="doi">10.11646/phytotaxa.222.2.7</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8-plants-05-00023">
+        <label>8.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jebb</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>Nepenthes ramos</italic> (Nepenthaceae), a new species from Mindanao, Philippines</article-title>
+          <source>Willdenowia</source>
+          <year>2013</year>
+          <volume>43</volume>
+          <fpage>107</fpage>
+          <lpage>111</lpage>
+          <pub-id pub-id-type="doi">10.3372/wi.43.43112</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9-plants-05-00023">
+        <label>9.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jebb</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The <italic>Nepenthes micramphora</italic> (Nepenthaceae) group, with two new species from Mindanao, Philippines</article-title>
+          <source>Phytotaxa</source>
+          <year>2013</year>
+          <volume>151</volume>
+          <fpage>25</fpage>
+          <lpage>34</lpage>
+          <pub-id pub-id-type="doi">10.11646/phytotaxa.151.1.2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10-plants-05-00023">
+        <label>10.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Jebb</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recircumscription of the Nepenthes alata group (Caryophyllales: Nepenthaceae), in the Philippines, with four new species</article-title>
+          <source>Eur. J. Taxon.</source>
+          <year>2013</year>
+          <volume>69</volume>
+          <fpage>1</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.5852/ejt.2013.69</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11-plants-05-00023">
+        <label>11.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McPherson</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <source>New Nepenthes Vol. 1</source>
+          <edition>1st ed.</edition>
+          <publisher-name>Redfern Natural History, GB</publisher-name>
+          <publisher-loc>Poole, UK</publisher-loc>
+          <year>2012</year>
+          <fpage>457</fpage>
+          <lpage>459</lpage>
+        </citation>
+      </ref>
+      <ref id="B12-plants-05-00023">
+        <label>12.</label>
+        <citation citation-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McPherson</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <source>Pitcher Plants of the Old World</source>
+          <edition>1st ed.</edition>
+          <publisher-name>Redfern Natural History, GB</publisher-name>
+          <publisher-loc>Poole, UK</publisher-loc>
+          <year>2009</year>
+        </citation>
+      </ref>
+      <ref id="B13-plants-05-00023">
+        <label>13.</label>
+        <citation citation-type="web">
+		  <person-group person-group-type="author">
+           <collab>IUCN</collab>
+          </person-group>
+          <article-title>The IUCN Red List of Threatened Species</article-title>
+		  <comment>Version 2013.2</comment>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.iucnredlist.org" ext-link-type="uri">http://www.iucnredlist.org</ext-link></comment>
+          <access-date>(accessed on 21 November 2013)</access-date>
+        </citation>
+      </ref>
+      <ref id="B14-plants-05-00023">
+        <label>14.</label>
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kurata</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two new species of Nepenthes from Sumatra (Indonesia) and Mindanao (Philippines)</article-title>
+          <source>J. Insectivorous Plant. Soc.</source>
+          <year>2001</year>
+          <volume>52</volume>
+          <fpage>30</fpage>
+          <lpage>34</lpage>
+        </citation>
+      </ref>
+      <ref id="B15-plants-05-00023">
+        <label>15.</label>
+        <citation citation-type="web">
+          <article-title>Co&#x2019;s Digital Flora of the Philippines</article-title>
+          <comment>Available online: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.facebook.com/groups/philippineplants/" ext-link-type="uri">https://www.facebook.com/groups/philippineplants/</ext-link></comment>
+          <access-date>(accessed on 28 March 2013)</access-date>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig id="plants-05-00023-f001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <p>Botanical illustration of <italic>N. aenigma</italic>. (<bold>a</bold>) stem with leaves; (<bold>b</bold>) climbing stem with dormant bud; (<bold>c</bold>) intermediate pitcher; (<bold>d</bold>) column and outer rim peristome of intermediate pitcher; (<bold>e</bold>) lid of intermediate pitcher, lower surface; (<bold>f</bold>) inner edge of intermediate pitcher peristome; (<bold>g</bold>) upper pitcher; (<bold>h</bold>) lid of upper pitcher, lower surface; (<bold>i</bold>) female flowers. Drawing by Eline Nuytemans.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-05-00023-g001.tif"/>
+      </fig>
+      <fig id="plants-05-00023-f002" position="float">
+        <label>Figure 2</label>
+        <caption>
+          <p>Photographs of <italic>N. aenigma</italic> at the type locality. (<bold>A</bold>, <bold>B</bold>) intermediate pitchers; (<bold>C</bold>) upper pitchers; (<bold>D</bold>) climbing stem with withered male inflorescence. Photos by Herman Nuytemans and Wally Suarez.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-05-00023-g002.tif"/>
+      </fig>
+      <fig id="plants-05-00023-f003" position="float">
+        <label>Figure 3</label>
+        <caption>
+          <p>Botanical illustration of <italic>N. justinae.</italic> (<bold>a</bold>) climbing stem with upper pitcher, close up of keel appendage and emerging inflorescence; (<bold>b</bold>) lower side of the upper pitcher lid with glands distribution; (<bold>c</bold>) upper side of upper pitcher lid with unbranched spur; (<bold>d</bold>) female inflorescence; (<bold>e</bold>) partial peduncle with female flowers; (<bold>f</bold>) lower pitcher. Drawing by Fran&#xE7;ois Sockhom Mey.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-05-00023-g003.tif"/>
+      </fig>
+      <fig id="plants-05-00023-f004" position="float">
+        <label>Figure 4</label>
+        <caption>
+          <p>Photographs of <italic>N. justinae</italic>. (<bold>A</bold>) lower pitcher; (<bold>B</bold>) upper pitchers. Photos by Andreas Wistuba and Thomas Gronemeyer</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-05-00023-g004.tif"/>
+      </fig>
+      <fig id="plants-05-00023-f005" position="float">
+        <label>Figure 5</label>
+        <caption>
+          <p>Photographs of <italic>N. ramos</italic> taken on Mt. Hibok-Hibok (Camiguin Island). (<bold>A</bold>, <bold>B</bold>) pitchers with fringed wings; (<bold>C</bold>, <bold>D</bold>) pitchers with reduced or absent fringed wings. Note the variability of the lid size and shape. Photos by Thomas Gronemyer.</p>
+        </caption>
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="plants-05-00023-g005.tif"/>
+      </fig>
+      <table-wrap id="plants-05-00023-t001" position="float">
+        <object-id pub-id-type="pii">plants-05-00023-t001_Table 1</object-id>
+        <label>Table 1</label>
+        <caption>
+          <p>Major characteristics separating <italic>N. aenigma</italic> from <italic>N. ventricosa</italic> and <italic>N. burkei</italic>. Data of <italic>N. ventricosa</italic> <italic>and N. burkei</italic> were taken from [<xref ref-type="bibr" rid="B12-plants-05-00023">12</xref>].</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>Nepenthes ventricosa</italic></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>Nepenthes burkei</italic></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>Nepenthes aenigma</italic></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Growing habit and habitat</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Terrestrial, epiphytic or lithophytic. In bright to shady conditions.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Terrestrial or epiphytic. In bright to shady conditions.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Terrestrial in deep shade.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lamina</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Long and narrow, length-breadth ratio &#xB1;6.4:1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Long and narrow, length-breadth ratio &#xB1;6:1</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Shorter and broader, length-breadth ratio &#xB1;3.5:1</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lower pitchers</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Absent on mature plants</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Absent on mature plants</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Absent on mature plants</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Comparison intermediate and upper pitchers</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Monomorphic</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Monomorphic</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Strongly dimorphic</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pitcher shape</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Strongly narrowed in the middle, forming a distinct waist.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Slightly narrowed in the middle or cylindrical.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Cylindrical with widely infundibular base in upper pitcher</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pitcher opening</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Horizontal to slightly oblique</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Strongly oblique</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Intermediate between <italic>N. ventricosa</italic> and <italic>N. burkei</italic></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Wings</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Reduced to ridges or not apparent</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Reduced to ridges or not apparent</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Prominent on all pitchers</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Peristome</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Up to 2 cm wide with teeth up to 1 mm long</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Up to 3 cm wide with teeth up to 2 mm long</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Less than 1 cm wide with teeth less than 1 mm long</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Inflorescence</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1-flowered partial peduncles</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">1-flowered partial peduncles</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">2-flowered partial peduncles</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="plants-05-00023-t002" position="float">
+        <object-id pub-id-type="pii">plants-05-00023-t002_Table 2</object-id>
+        <label>Table 2</label>
+        <caption>
+          <p>Major characteristics separating <italic>N. justinae</italic> from <italic>N. mindanaoensis</italic>. Data from <italic>N. mindanoensis</italic> were taken from [<xref ref-type="bibr" rid="B14-plants-05-00023">14</xref>].</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>Nepenthes justinae</italic></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>Nepenthes mindanaoensis</italic></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lower pitchers</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Bulbous in the lower &#x2154;, slightly infundibulate in the upper &#x2153;.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Obovate or subglobose in the lower &#xBC;, otherwise cylindrical</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Upper pitchers</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Strongly dimorphic</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Overall shape similar than the lower pitchers</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Pitcher opening</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Strongly oblique (lower pitcher)</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Slightly oblique</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Nectar glands</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Monomorphic</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Dimorphic</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Appendage</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Present in upper pitchers</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Absent</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+      <table-wrap id="plants-05-00023-t003" position="float">
+        <object-id pub-id-type="pii">plants-05-00023-t003_Table 3</object-id>
+        <label>Table 3</label>
+        <caption>
+          <p>Diagnostic characteristics of <italic>N. ramos</italic>, <italic>N. kurata</italic> and <italic>N. mindanaoensis</italic>. Note that all characteristics of <italic>N. kurata</italic> correspond with those of <italic>N. ramos</italic>.</p>
+        </caption>
+        <table>
+          <thead>
+            <tr>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"> </th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>Nepenthes ramos emend.</italic></th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>Nepenthes kurata</italic> [<xref ref-type="bibr" rid="B10-plants-05-00023">10</xref>]</th>
+              <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin"><italic>Nepenthes mindanaoensis</italic> [<xref ref-type="bibr" rid="B14-plants-05-00023">14</xref>]</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Upper pitchers</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Mostly equally wide at base and apex, sometimes slightly dilated towards the apex. Constricted in the middle to various extent.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Slightly dilated towards the apex. Constricted in the middle.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Obovate or subglobose in the lower &#xBC;, otherwise cylindrical.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Fringed wings</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Present in the upper &#x2154; to &#xBC; of the trap or reduced to ribs.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Present in the upper &#x2153; to &#xBC; of the trap.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Present on the whole length of the pitcher.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Lid</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Smaller, as large as or larger than the pitcher opening. Ovate to orbicular, sometimes domed.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Smaller than the pitcher opening. Ovate. </td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">About as large as the pitcher opening. Orbicular.</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Nectar glands</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Dimorphic</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Dimorphic</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Dimorphic</td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Appendage</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Present (2 mm) or reduced to keel.</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Modestly developed, 1&#x2013;2 mm</td>
+              <td align="center" valign="middle" style="border-bottom:solid thin">Absent</td>
+            </tr>
+          </tbody>
+        </table>
+      </table-wrap>
+    </sec>
+  </back>
+</article>
